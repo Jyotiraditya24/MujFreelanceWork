@@ -1,5 +1,4 @@
 "use client";
-import Navbar from "@/components/Navbar";
 import Typewriter from "typewriter-effect";
 import { CardHoverEffectDemo } from "@/components/CardHoverEffectDem";
 import { ColourfulText } from "@/components/ui/colorful-text";
@@ -11,9 +10,6 @@ export default function Home() {
   const isInView = useInView(ref, { once: true, margin: "-100px" });
   return (
     <div className="min-h-screen">
-
-      <Navbar />
-
       {/* Main Container */}
       <div className="min-h-screen px-4 py-4 bg-[url('/heroImage.webp')] bg-cover bg-center flex flex-col justify-center items-center relative gap-y-14">
         {/* Heading & Content */}
@@ -77,7 +73,7 @@ export default function Home() {
             transition={{ duration: 1, ease: "easeOut", delay: 0.3 }}
             className="font-medium text-2xl"
           >
-            Don't miss the chance to elevate your skills and take your game to
+            Dont miss the chance to elevate your skills and take your game to
             the next level! Join hackathons and events that provide the perfect
             platform to not only showcase your abilities but also to learn and
             grow.

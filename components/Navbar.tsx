@@ -12,7 +12,7 @@ const navItems = [
 const Navbar = () => {
   return (
     <nav className="fixed top-5 left-1/2 -translate-x-1/2 bg-white shadow-md py-2 px-10 flex justify-center gap-x-10 items-center rounded-2xl w-max z-50 border border-t border-black">
-      <div className="text-xl font-bold font-serif">MujTopper</div>
+      <Link href={"/"} className="text-xl font-bold font-serif">MujTopper</Link>
       <div className="flex gap-x-6">
         {navItems.map((item) => (
           <Link
