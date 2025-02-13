@@ -1,4 +1,5 @@
 "use client";
+
 import { cn } from "@/lib/util";
 import Image from "next/image";
 import React, { useState } from "react";
@@ -10,7 +11,12 @@ export const Card = React.memo(
     hovered,
     setHovered,
   }: {
-    card: any;
+    card: {
+      title: string;
+      src: string;
+      href: string;
+      onClick: () => void;
+    };
     index: number;
     hovered: number | null;
     setHovered: React.Dispatch<React.SetStateAction<number | null>>;
@@ -18,8 +24,9 @@ export const Card = React.memo(
     <div
       onMouseEnter={() => setHovered(index)}
       onMouseLeave={() => setHovered(null)}
+      onClick={card.onClick} // Attach the onClick handler here
       className={cn(
-        "rounded-lg relative bg-gray-100 dark:bg-neutral-900 overflow-hidden h-60 md:h-30 w-full transition-all duration-300 ease-out",
+        "rounded-lg relative bg-gray-100 dark:bg-neutral-900 overflow-hidden h-60 md:h-30 w-full transition-all duration-300 ease-out cursor-pointer",
         hovered !== null && hovered !== index && "blur-sm scale-[0.98]"
       )}
     >
@@ -44,17 +51,18 @@ export const Card = React.memo(
 );
 
 Card.displayName = "Card";
-
-type Card = {
+type CardProps = {
   title: string;
   src: string;
+  href: string;
+  onClick: () => void;
 };
 
-export function FocusCards({ cards }: { cards: Card[] }) {
+export function FocusCards({ cards }: { cards: CardProps[] }) {
   const [hovered, setHovered] = useState<number | null>(null);
 
   return (
-    <div className="grid grid-cols-1 md:grid-cols-4 gap-10 max-w-7xl mx-auto md:p-8 w-full border border-black rounded-xl ">
+    <div className="grid grid-cols-1 md:grid-cols-4 gap-10 max-w-7xl mx-auto md:p-8 w-full border border-black rounded-xl">
       {cards.map((card, index) => (
         <Card
           key={card.title}

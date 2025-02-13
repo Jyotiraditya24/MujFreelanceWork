@@ -1,38 +1,63 @@
+"use client";
+
 import AnimatedHeader from "@/components/AnimatedHeader";
 import { FocusCards } from "@/components/ui/focus-cards";
+import { useRouter } from "next/navigation";
+import { useEffect, useState } from "react";
 
-export default async function ({
+export default function Page({
   params,
 }: {
   params: Promise<{ yearBranch: string }>;
 }) {
-  const { yearBranch } = await params;
+  const router = useRouter();
+  const [yearBranch, setYearBranch] = useState("");
+
+  useEffect(() => {
+    async function fetchParams() {
+      const { yearBranch } = await params;
+      setYearBranch(yearBranch);
+    }
+    fetchParams();
+  }, [params]);
+
   const cards = [
     {
       title: "Information Technology",
       src: "/IT_Branch.png",
+      href: "IT",
+      onClick: () => router.push(`/branch/${yearBranch}/subjects/IT`),
     },
     {
       title: "Data Science",
       src: "/DataScienceBranch.png",
+      href: "DSE",
+      onClick: () => router.push(`/branch/${yearBranch}/subjects/DSE`),
     },
     {
       title: "Computer Science",
       src: "/CSE_CORE_Branch.png",
+      href: "CSE",
+      onClick: () => router.push(`/branch/${yearBranch}/subjects/CSE`),
     },
     {
-      title: "Camping is for pros",
+      title: "Internet of Things",
       src: "/IOT_Branch.png",
+      href: "IOT",
+      onClick: () => router.push(`/branch/${yearBranch}/subjects/IOT`),
     },
     {
       title: "Computer & Communication Engineering",
       src: "/CCE_Branch.png",
+      href: "CCE",
+      onClick: () => router.push(`/branch/${yearBranch}/subjects/CCE`),
     },
   ];
+
   return (
     <div className="min-h-screen px-4 py-4 bg-[url('/heroImage.webp')] bg-cover bg-center">
       <div className="flex flex-col gap-y-6 mt-20 p-10">
-        <AnimatedHeader title={yearBranch ?? ""} />
+        <AnimatedHeader title={yearBranch} />
         <FocusCards cards={cards} />
       </div>
     </div>

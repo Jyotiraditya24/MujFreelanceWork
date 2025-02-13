@@ -10,7 +10,7 @@ export default function AnimatedHeader({ title }: { title: string }) {
       transition={{ duration: 0.5 }}
     >
       <h1 className="font-extrabold text-4xl text-center text-blue-600">
-        Select one of the branches: {title}
+        Select one of the branches: {title} Year
       </h1>
     </motion.div>
   );
