@@ -1,44 +1,26 @@
 "use client";
 import Navbar from "@/components/Navbar";
 import Typewriter from "typewriter-effect";
-import { motion } from "framer-motion";
 import { CardHoverEffectDemo } from "@/components/CardHoverEffectDem";
+import { ColourfulText } from "@/components/ui/colorful-text";
+import { motion, useInView } from "framer-motion";
+import { useRef } from "react";
 
 export default function Home() {
+  const ref = useRef(null);
+  const isInView = useInView(ref, { once: true, margin: "-100px" });
   return (
     <div className="min-h-screen">
-      {/* Navbar */}
+
       <Navbar />
 
       {/* Main Container */}
       <div className="min-h-screen px-4 py-4 bg-[url('/heroImage.webp')] bg-cover bg-center flex flex-col justify-center items-center relative gap-y-14">
-        {/* 🎨 Animated Gradient Background */}
-        <div className="absolute inset-0 flex justify-center items-center">
-          <motion.div
-            className="relative left-[120px] w-[500px] h-[500px] rounded-full blur-3xl opacity-90 mix-blend-overlay"
-            animate={{
-              background: [
-                "radial-gradient(circle, rgba(255,0,0,0.6), rgba(0,255,0,0.6), rgba(0,0,255,0.6))",
-                "radial-gradient(circle, rgba(255,165,0,0.6), rgba(0,191,255,0.6), rgba(75,0,130,0.6))",
-                "radial-gradient(circle, rgba(255,215,0,0.6), rgba(30,144,255,0.6), rgba(138,43,226,0.6))",
-              ],
-              scale: [1, 1.3, 1],
-              rotate: [0, 180, 360],
-              opacity: [0.8, 1, 0.8],
-            }}
-            transition={{
-              duration: 6,
-              repeat: Infinity,
-              ease: "easeInOut",
-            }}
-          ></motion.div>
-        </div>
-
         {/* Heading & Content */}
         <div className="z-10 flex flex-col gap-y-2 text-center">
           {/* ✅ Normal Text (No Gradient) */}
           <h1 className="text-[70px] font-bold leading-[84px] font-sans tracking-tight text-black">
-            MUJTOPPERS - MORE THAN
+            <ColourfulText text="MUJ TOPPERS" /> MORE THAN
           </h1>
 
           <h1 className="text-[70px] font-light leading-[84px] font-serif italic tracking-tight text-black">
@@ -64,7 +46,7 @@ export default function Home() {
         </div>
 
         <div className="max-w-[800px] text-lg leading-relaxed font-medium text-gray-800 text-center">
-          <p>
+          <p className="font-medium text-2xl">
             MUJ toppers is built to make your college life easier—Axis, PYQs,
             toppers’ notes, study tips, food delivery, and cab booking all in
             one place, powered by a passionate mix who have been through it. We
@@ -74,9 +56,36 @@ export default function Home() {
         </div>
       </div>
 
-      {/* Extra space */}
-      <div>
-        <CardHoverEffectDemo />
+      {/* 2nd Main */}
+      <div ref={ref} className="flex flex-col justify-center">
+        <div className="max-w-4xl mx-auto flex flex-col gap-y-4">
+          <motion.h1
+            initial={{ opacity: 0, y: 20 }}
+            animate={isInView ? { opacity: 1, y: 0 } : {}}
+            transition={{ duration: 0.8, ease: "easeOut" }}
+            className="text-4xl font-light leading-[50px] font-serif italic tracking-tight 
+            text-transparent bg-clip-text text-center
+            bg-gradient-to-r from-yellow-300 via-yellow-400 to-yellow-500"
+          >
+            Unleash Your Potential by Participating in
+            <div className="text-center">Events & Hackathons</div>
+          </motion.h1>
+
+          <motion.p
+            initial={{ opacity: 0, y: 20 }}
+            animate={isInView ? { opacity: 1, y: 0 } : {}}
+            transition={{ duration: 1, ease: "easeOut", delay: 0.3 }}
+            className="font-medium text-2xl"
+          >
+            Don't miss the chance to elevate your skills and take your game to
+            the next level! Join hackathons and events that provide the perfect
+            platform to not only showcase your abilities but also to learn and
+            grow.
+          </motion.p>
+        </div>
+        <div className="w-full flex justify-center">
+          <CardHoverEffectDemo />
+        </div>
       </div>
     </div>
   );
