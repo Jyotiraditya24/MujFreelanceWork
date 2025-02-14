@@ -20,12 +20,12 @@ export default function Home() {
             <ColourfulText text="MUJ TOPPERS" /> MORE THAN
           </h1>
 
-          <h1 className="text-[70px] font-light leading-[84px] font-serif italic tracking-tight text-black">
+          <h1 className="text-[70px] font-light leading-[84px] font-serif tracking-tight text-black">
             NOTES, IT’S A LIFESTYLE
           </h1>
 
           {/* Typewriter Effect (No Gradient) */}
-          <div className="text-[70px] font-light leading-[84px] font-serif italic tracking-tight text-black">
+          <div className="text-[70px] font-light leading-[84px] font-serif tracking-tight text-black">
             <Typewriter
               options={{
                 strings: [
@@ -43,7 +43,7 @@ export default function Home() {
         </div>
 
         <div className="max-w-[800px] text-lg leading-relaxed font-medium text-gray-800 text-center">
-          <p className="font-medium text-2xl">
+          <p className="font-medium text-2xl nunito-className">
             MUJ toppers is built to make your college life easier—Axis, PYQs,
             toppers’ notes, study tips, food delivery, and cab booking all in
             one place, powered by a passionate mix who have been through it. We

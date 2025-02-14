@@ -12,19 +12,23 @@ const navItems = [
 const Navbar = () => {
   return (
     <nav className="fixed top-5 left-1/2 -translate-x-1/2 bg-white shadow-md py-2 px-10 flex justify-center gap-x-10 items-center rounded-2xl w-max z-50 border border-t border-black">
-      <Link href={"/"} className="text-xl font-bold font-serif">MujTopper</Link>
+      <Link
+        href={"/"}
+        className="text-md font-bold font-serif nunito-className"
+      >
+        MUJTOPPER
+      </Link>
       <div className="flex gap-x-6">
         {navItems.map((item) => (
           <Link
             href={item.href}
             key={item.label}
-            className="text-gray-700 hover:text-black font-serif"
+            className={`text-gray-700 hover:text-black nunito-className`}
           >
             {item.label}
           </Link>
         ))}
       </div>
-      <button className="bg-yellow-200 text-black px-4 py-2 rounded-2xl">Sign in</button>
     </nav>
   );
 };
