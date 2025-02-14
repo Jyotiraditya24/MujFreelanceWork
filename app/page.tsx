@@ -4,6 +4,7 @@ import { CardHoverEffectDemo } from "@/components/CardHoverEffectDem";
 import { ColourfulText } from "@/components/ui/colorful-text";
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
+import { HeroParallaxDemo } from "@/components/HeroParallaxDemo";
 
 export default function Home() {
   const ref = useRef(null);
@@ -51,7 +52,6 @@ export default function Home() {
           </p>
         </div>
       </div>
-
       {/* 2nd Main */}
       <div ref={ref} className="flex flex-col justify-center">
         <div className="max-w-4xl mx-auto flex flex-col gap-y-4">
@@ -83,6 +83,7 @@ export default function Home() {
           <CardHoverEffectDemo />
         </div>
       </div>
+      <HeroParallaxDemo />
     </div>
   );
 }
