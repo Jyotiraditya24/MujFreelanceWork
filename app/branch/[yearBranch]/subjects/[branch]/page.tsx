@@ -11,7 +11,6 @@ export default async function SubjectPage({
     IT: {
       second: ["Economics", "Data Com", "CSA", "OOP", "RDBMS"],
       third: ["FDS", "SE", "DAA", "CN", "AI/ML", "ACD", "CIS"],
-      fourth: ["Economics", "Data Com", "CSA", "OOP"],
     },
     CSE: {
       second: [
@@ -25,7 +24,6 @@ export default async function SubjectPage({
         "RDBMS",
       ],
       third: ["AISC", "DAA", "ACD", "CN", "SE", "ISS", "Data Science & ML"],
-      fourth: ["Economics", "Data Com", "CSA", "OOP"],
     },
     PhysicsCycle: {
       first: ["EMM", "EP", "CM", "BFE", "MATLAB", "COI", "UHV", "EVS"],
@@ -80,6 +78,47 @@ export default async function SubjectPage({
         "AI/ML",
         "Wireless Communication",
         "ACD",
+      ],
+    },
+    IOT: {
+      second: [
+        "EM-3",
+        "DDCA",
+        "Data Com",
+        "DSA",
+        "OOP",
+        "Economics",
+        "EM-4",
+        "OS",
+        "RDBMS",
+        "Web Tech",
+        "ACD",
+      ],
+      third: [
+        "DAA",
+        "AI/ML",
+        "Sensors and Microcontroller",
+        "IOT Architecture & Its Protocols",
+        "SE",
+        "CIS",
+        "IOT Design",
+        "Deep Learning",
+        "CN",
+      ],
+    },
+    AIML: {
+
+      third: [
+        "Soft Computing Methods",
+        "DAA",
+        "CN",
+        "FDS",
+        "Game Theory",
+        "ML",
+        "CV",
+        "NLP",
+        "Data Mining",
+        "Fundamentals of Automobile Engineering",
       ],
     },
   };

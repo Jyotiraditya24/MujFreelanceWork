@@ -67,6 +67,12 @@ export default function Page({
        href: "CCE",
        onClick: () => router.push(`/branch/${yearBranch}/subjects/CCE`),
      },
+     {
+       title: "Aritifical Intelligence & Machine Learning",
+       src: "/AIML_Branch.png",
+       href: "AIML",
+       onClick: () => router.push(`/branch/${yearBranch}/subjects/AIML`),
+     },
    ];
 
   return (
