@@ -1,5 +1,3 @@
-import CardWithSelect from "@/components/CardSelectComponeny";
-import { SelectDemo } from "@/components/SelectDemo";
 import { WobbleCardDemo } from "@/components/WobbleCardDemo";
 
 export default function OrderFood() {
