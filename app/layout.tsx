@@ -30,7 +30,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${nunito.className} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${nunito.className} antialiased bg-gray-200/50`}
       >
         <Navbar />
         {children}

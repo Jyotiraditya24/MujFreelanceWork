@@ -1,3 +1,5 @@
+import CardWithSelect from "@/components/CardSelectComponeny";
+
 export default async function SubjectPage({
   params,
 }: {
@@ -107,7 +109,6 @@ export default async function SubjectPage({
       ],
     },
     AIML: {
-
       third: [
         "Soft Computing Methods",
         "DAA",
@@ -130,9 +131,9 @@ export default async function SubjectPage({
   const renderSubjects = (subjects: string[] | undefined) => {
     if (!subjects) return <div>No subjects found</div>;
     return (
-      <div className="flex flex-col gap-y-6 mt-20 p-10 text-black">
+      <div className="flex flex-row flex-wrap gap-y-6 mt-20 p-10 text-black justify-between">
         {subjects.map((subject) => (
-          <div key={subject}>{subject}</div>
+          <CardWithSelect key={subject}></CardWithSelect>
         ))}
       </div>
     );

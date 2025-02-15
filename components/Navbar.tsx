@@ -5,7 +5,7 @@ const navItems = [
   { label: "Material", href: "/material" },
   { label: "Enterprise", href: "/enterprise" },
   { label: "Pricing", href: "/pricing" },
-  { label: "Docs", href: "/docs" },
+  { label: "Order", href: "/order" },
   { label: "Contact Sales", href: "/contact-sales" },
 ];
 
@@ -29,6 +29,7 @@ const Navbar = () => {
           </Link>
         ))}
       </div>
+   
     </nav>
   );
 };
