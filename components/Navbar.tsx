@@ -23,13 +23,12 @@ const Navbar = () => {
           <Link
             href={item.href}
             key={item.label}
-            className={`text-gray-700 hover:text-black nunito-className`}
+            className={`text-gray-700 nunito-className  border border-black px-2 py-1 rounded-2xl hover:bg-black hover:text-white transition-all`}
           >
             {item.label}
           </Link>
         ))}
       </div>
-   
     </nav>
   );
 };

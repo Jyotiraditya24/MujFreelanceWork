@@ -5,6 +5,7 @@ import { ColourfulText } from "@/components/ui/colorful-text";
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 import { HeroParallaxDemo } from "@/components/HeroParallaxDemo";
+import { InfiniteMovingCardsDemo } from "@/components/InfiniteMovingCardsDemo";
 
 export default function Home() {
   const ref = useRef(null);
@@ -52,6 +53,14 @@ export default function Home() {
           </p>
         </div>
       </div>
+
+      <div className="flex flex-col items-center justify-center py-10 h-[600px]">
+        <h1 className="text-[70px] font-light font-serif tracking-tight text-black">
+          NOTES, IT’S A LIFESTYLE
+        </h1>
+        <InfiniteMovingCardsDemo />
+      </div>
+
       {/* 2nd Main */}
       <div ref={ref} className="flex flex-col justify-center">
         <div className="max-w-4xl mx-auto flex flex-col gap-y-4">
