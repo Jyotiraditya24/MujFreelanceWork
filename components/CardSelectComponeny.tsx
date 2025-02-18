@@ -14,7 +14,9 @@ import {
 export default function CardWithSelect() {
   const handleSelection = (value: string) => {
     if (value === "apple") {
-      window.open("https://drive.google.com/your-apple-link", "_blank");
+      window.open(
+        "https://drive.google.com/file/d/1kGeEDFDuECsxvdYFg221sVJfbDcg9psb/view?usp=sharing"
+      );
     }
   };
 

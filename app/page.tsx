@@ -55,8 +55,8 @@ export default function Home() {
       </div>
 
       <div className="flex flex-col items-center justify-center py-10 h-[600px]">
-        <h1 className="text-[70px] font-light font-serif tracking-tight text-black">
-          NOTES, IT’S A LIFESTYLE
+        <h1 className="text-[32px] font-light font-serif tracking-tight text-black">
+          More Than Just Notes – MUJ Life, Sorted!
         </h1>
         <InfiniteMovingCardsDemo />
       </div>
@@ -72,8 +72,8 @@ export default function Home() {
             text-transparent bg-clip-text text-center
             bg-gradient-to-r from-yellow-300 via-yellow-400 to-yellow-500"
           >
-            Unleash Your Potential by Participating in
-            <div className="text-center">Events & Hackathons</div>
+            Your College Journey, Simplified: Study, Eat & Chill
+            <div className="text-center">We’ve Got You Covered!</div>
           </motion.h1>
 
           <motion.p
@@ -82,17 +82,16 @@ export default function Home() {
             transition={{ duration: 1, ease: "easeOut", delay: 0.3 }}
             className="font-medium text-2xl"
           >
-            Dont miss the chance to elevate your skills and take your game to
-            the next level! Join hackathons and events that provide the perfect
-            platform to not only showcase your abilities but also to learn and
-            grow.
+            College life is hectic, but we make it effortless. Whether you need
+            toppers’ notes, PYQs, food delivery, or cab booking, we ensure you
+            focus on what matters while we handle the rest. Just study, relax,
+            and enjoy your college life
           </motion.p>
         </div>
         <div className="w-full flex justify-center">
           <CardHoverEffectDemo />
         </div>
       </div>
-      <HeroParallaxDemo />
     </div>
   );
 }

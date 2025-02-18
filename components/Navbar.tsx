@@ -1,9 +1,9 @@
 import Link from "next/link";
 
 const navItems = [
-  { label: "Home", href: "/home" },
+  { label: "Home", href: "/" },
   { label: "Material", href: "/material" },
-  { label: "About", href: "/enterprise" },
+  { label: "About", href: "/about" },
   { label: "Pricing", href: "/pricing" },
   { label: "Order", href: "/order" },
   { label: "Contact Sales", href: "/contact-sales" },
