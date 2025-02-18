@@ -5,6 +5,7 @@ import { ColourfulText } from "@/components/ui/colorful-text";
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 import { InfiniteMovingCardsDemo } from "@/components/InfiniteMovingCardsDemo";
+import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
 
 export default function Home() {
   const ref = useRef(null);
@@ -36,7 +37,10 @@ export default function Home() {
             transition={{ duration: 0.9, ease: "easeOut", delay: 0.2 }}
             className="text-[60px] font-bold leading-[84px] tracking-tight text-black"
           >
-            MORE THAN NOTES, IT’S A LIFESTYLE
+            <TextGenerateEffect
+              words="MORE THAN NOTES, IT’S A LIFESTYLE"
+              className="text-[60px] font-bold leading-[84px] tracking-tight text-black"
+            />
           </motion.h1>
 
           {/* Typewriter Effect */}
@@ -88,17 +92,49 @@ export default function Home() {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, amount: 0.2 }}
         transition={{ duration: 1, ease: "easeOut" }}
-        className="flex flex-col items-center justify-center py-10 h-[700px]"
+        className="flex flex-col gap-y-10 items-center justify-center h-[400px] my-10"
       >
         <motion.h1
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
+          initial="hidden"
+          whileInView="visible"
           viewport={{ once: true }}
-          transition={{ duration: 0.8, ease: "easeOut" }}
-          className="text-[42px] font-bold tracking-tight text-black text-transparent bg-clip-text text-center
-          bg-gradient-to-r from-yellow-300 via-yellow-400 to-yellow-500"
+          className="text-[42px] font-bold tracking-tight text-black text-transparent bg-clip-text 
+    bg-gradient-to-r from-[#ffbd59] via-[#ff914d] to-[#ff6a00] flex"
         >
-          More Than Just Notes – MUJ Life, Sorted!
+          {Array.from("More Than Just Notes – MUJ Life, Sorted!").map(
+            (letter, index) => (
+              <motion.span
+                key={index}
+                variants={{
+                  hidden: {
+                    opacity: 0,
+                    y: 20,
+                    rotate: -10,
+                    filter: "blur(5px)",
+                  },
+                  visible: {
+                    opacity: 1,
+                    y: [20, -10, 0], // Bounce effect
+                    rotate: [0, 5, -5, 0], // Slight rotation
+                    filter: ["blur(5px)", "blur(0px)"], // Blur in effect
+                    color: ["#ffbd59", "#ff914d", "#ff6a00"], // Color shift
+                    textShadow: [
+                      "0px 0px 10px rgba(255, 189, 89, 0.8)",
+                      "0px 0px 5px rgba(255, 189, 89, 0.5)",
+                      "none",
+                    ], // Glow effect
+                    transition: {
+                      duration: 0.8,
+                      ease: "easeOut",
+                      delay: index * 0.05, // Stagger effect for each letter
+                    },
+                  },
+                }}
+              >
+                {letter === " " ? "\u00A0" : letter}
+              </motion.span>
+            )
+          )}
         </motion.h1>
         <InfiniteMovingCardsDemo />
       </motion.div>

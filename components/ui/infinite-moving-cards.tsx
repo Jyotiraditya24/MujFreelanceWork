@@ -97,8 +97,14 @@ export const InfiniteMovingCards = ({
                 aria-hidden="true"
                 className="user-select-none -z-1 pointer-events-none absolute -left-0.5 -top-0.5 h-[calc(100%_+_4px)] w-[calc(100%_+_4px)]"
               ></div>
-              <div className="relative w-full h-72">
-                <Image src={item.image} alt="" fill className="object-cover rounded-lg" />
+              <div className="relative w-full h-72 rounded-lg overflow-hidden">
+                <Image
+                  src={item.image}
+                  alt=""
+                  width={500}
+                  height={500}
+                  className="object-contain rounded-lg"
+                />
               </div>
             </blockquote>
           </li>
