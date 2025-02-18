@@ -4,7 +4,6 @@ import { CardHoverEffectDemo } from "@/components/CardHoverEffectDem";
 import { ColourfulText } from "@/components/ui/colorful-text";
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
-import { HeroParallaxDemo } from "@/components/HeroParallaxDemo";
 import { InfiniteMovingCardsDemo } from "@/components/InfiniteMovingCardsDemo";
 
 export default function Home() {
