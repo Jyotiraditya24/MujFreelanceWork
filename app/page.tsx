@@ -15,23 +15,36 @@ export default function Home() {
       <div className="min-h-screen px-4 py-4 bg-[url('/heroImage.webp')] bg-cover bg-center flex flex-col justify-center items-center relative gap-y-14">
         {/* Heading & Content */}
         <div className="z-10 flex flex-col gap-y-2 text-center">
-          {/* ✅ Normal Text (No Gradient) */}
-          <h1 className="text-[70px] font-bold leading-[84px] font-sans tracking-tight text-black">
-            <ColourfulText text="MUJ TOPPERS" /> MORE THAN
-          </h1>
+          {/* MUJ TOPPERS - Moves from top to bottom */}
+          <motion.h1
+            initial={{ opacity: 0, y: -50 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, ease: "easeOut" }}
+            className="text-[74px] font-bold leading-[84px] tracking-tight text-black"
+          >
+            <ColourfulText text="MUJ TOPPERS" />
+          </motion.h1>
 
-          <h1 className="text-[70px] font-light leading-[84px] font-serif tracking-tight text-black">
-            NOTES, IT’S A LIFESTYLE
-          </h1>
+          <motion.h1
+            initial={{ opacity: 0, y: -50 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.9, ease: "easeOut", delay: 0.2 }}
+            className="text-[60px] font-bold leading-[84px] tracking-tight text-black "
+          >
+            MORE THAN NOTES, IT’S A LIFESTYLE
+          </motion.h1>
 
           {/* Typewriter Effect (No Gradient) */}
-          <div className="text-[70px] font-light leading-[84px] font-serif tracking-tight text-black">
+          <div className="text-[70px] font-light leading-[84px] tracking-tight text-black">
             <Typewriter
               options={{
                 strings: [
-                  "Hello World!",
                   "Welcome to MUJTOPPERS!",
                   "Notes, It’s a Lifestyle!",
+                  "Updated PYQs",
+                  "Exams",
+                  "Lab Tips",
+                  "Muj Topper has it all",
                 ],
                 autoStart: true,
                 loop: true,
@@ -42,21 +55,34 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="max-w-[800px] text-lg leading-relaxed font-medium text-gray-800 text-center">
-          <p className="font-medium text-2xl nunito-className">
-            MUJ toppers is built to make your college life easier—Axis, PYQs,
+        {/* Paragraph - Moves from bottom to top */}
+        <motion.div
+          initial={{ opacity: 0, y: 50 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1, ease: "easeOut", delay: 0.4 }}
+          className="max-w-[900px] text-lg leading-relaxed font-medium text-gray-800 text-center"
+        >
+          <p className="font-bold text-3xl">
+            MUJ toppers is built to make your college life easier Access, PYQs,
             toppers’ notes, study tips, food delivery, and cab booking all in
             one place, powered by a passionate mix who have been through it. We
-            ensure you have everything you need to excel—both inside and outside
+            ensure you have everything you need to excel both inside and outside
             the classroom.
           </p>
-        </div>
+        </motion.div>
       </div>
 
       <div className="flex flex-col items-center justify-center py-10 h-[600px]">
-        <h1 className="text-[32px] font-light font-serif tracking-tight text-black">
+        <motion.h1
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.8, ease: "easeOut" }}
+          className="text-[32px] font-light font-serif tracking-tight text-black text-transparent bg-clip-text text-center
+            bg-gradient-to-r from-yellow-300 via-yellow-400 to-yellow-500"
+        >
           More Than Just Notes – MUJ Life, Sorted!
-        </h1>
+        </motion.h1>
         <InfiniteMovingCardsDemo />
       </div>
 
