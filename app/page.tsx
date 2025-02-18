@@ -6,6 +6,7 @@ import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 import { InfiniteMovingCardsDemo } from "@/components/InfiniteMovingCardsDemo";
 import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
+import CardGrid from "@/components/CardGrid";
 
 export default function Home() {
   const ref = useRef(null);
@@ -148,7 +149,7 @@ export default function Home() {
         transition={{ duration: 1, ease: "easeOut" }}
         className="flex flex-col justify-center"
       >
-        <div className="max-w-4xl mx-auto flex flex-col gap-y-4">
+        <div className="max-w-6xl mx-auto flex flex-col gap-y-4">
           <motion.h1
             initial={{ opacity: 0, y: 30 }}
             animate={isInView ? { opacity: 1, y: 0 } : {}}
@@ -178,9 +179,8 @@ export default function Home() {
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 1, ease: "easeOut" }}
-          className="w-full flex justify-center"
         >
-          <CardHoverEffectDemo />
+          <CardGrid />
         </motion.div>
       </motion.div>
     </div>
