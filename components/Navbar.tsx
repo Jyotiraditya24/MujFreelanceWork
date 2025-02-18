@@ -1,4 +1,8 @@
+"use client";
+
+import { cn } from "@/lib/util";
 import Link from "next/link";
+import { useEffect, useState } from "react";
 
 const navItems = [
   { label: "Home", href: "/" },
@@ -10,8 +14,23 @@ const navItems = [
 ];
 
 const Navbar = () => {
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY > 50); // Adjust transparency when scrolled 50px down
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
   return (
-    <nav className="fixed top-5 left-1/2 -translate-x-1/2 bg-white shadow-md py-2 px-10 flex justify-center gap-x-10 items-center rounded-2xl w-max z-50 border border-t border-black">
+    <nav
+      className={cn(
+        "fixed top-5 left-1/2 -translate-x-1/2 bg-white shadow-md py-3 px-10 flex justify-center gap-x-10 items-center rounded-2xl w-max z-50 border border-t border-black transition-all",
+        isScrolled && "bg-opacity-80 backdrop-blur-md"
+      )}
+    >
       <Link href={"/"} className="text-md font-bold">
         MUJTOPPER
       </Link>

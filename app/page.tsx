@@ -1,12 +1,12 @@
 "use client";
 import Typewriter from "typewriter-effect";
-import { CardHoverEffectDemo } from "@/components/CardHoverEffectDem";
 import { ColourfulText } from "@/components/ui/colorful-text";
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 import { InfiniteMovingCardsDemo } from "@/components/InfiniteMovingCardsDemo";
 import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
 import CardGrid from "@/components/CardGrid";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   const ref = useRef(null);
@@ -179,10 +179,12 @@ export default function Home() {
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 1, ease: "easeOut" }}
+          className="py-10 mb-24"
         >
           <CardGrid />
         </motion.div>
       </motion.div>
+      <Footer />
     </div>
   );
 }
