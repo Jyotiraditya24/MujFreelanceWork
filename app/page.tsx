@@ -9,13 +9,18 @@ import { InfiniteMovingCardsDemo } from "@/components/InfiniteMovingCardsDemo";
 export default function Home() {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: "-100px" });
+
   return (
     <div className="min-h-screen">
-      {/* Main Container */}
-      <div className="min-h-screen px-4 py-4 bg-[url('/heroImage.webp')] bg-cover bg-center flex flex-col justify-center items-center relative gap-y-14">
-        {/* Heading & Content */}
+      {/* 🚀 Hero Section */}
+      <motion.div
+        initial={{ opacity: 0, y: -80 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1, ease: "easeOut" }}
+        className="min-h-screen px-4 py-4 bg-[url('/heroImage.webp')] bg-cover bg-center flex flex-col justify-center items-center relative gap-y-14"
+      >
+        {/* Animated Heading */}
         <div className="z-10 flex flex-col gap-y-2 text-center">
-          {/* MUJ TOPPERS - Moves from top to bottom */}
           <motion.h1
             initial={{ opacity: 0, y: -50 }}
             animate={{ opacity: 1, y: 0 }}
@@ -29,13 +34,18 @@ export default function Home() {
             initial={{ opacity: 0, y: -50 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.9, ease: "easeOut", delay: 0.2 }}
-            className="text-[60px] font-bold leading-[84px] tracking-tight text-black "
+            className="text-[60px] font-bold leading-[84px] tracking-tight text-black"
           >
             MORE THAN NOTES, IT’S A LIFESTYLE
           </motion.h1>
 
-          {/* Typewriter Effect (No Gradient) */}
-          <div className="text-[70px] font-light leading-[84px] tracking-tight text-black">
+          {/* Typewriter Effect */}
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1, ease: "easeOut", delay: 0.5 }}
+            className="text-[70px] font-light leading-[84px] tracking-tight text-black"
+          >
             <Typewriter
               options={{
                 strings: [
@@ -52,45 +62,59 @@ export default function Home() {
                 deleteSpeed: 30,
               }}
             />
-          </div>
+          </motion.div>
         </div>
 
-        {/* Paragraph - Moves from bottom to top */}
+        {/* Animated Paragraph */}
         <motion.div
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1, ease: "easeOut", delay: 0.4 }}
+          transition={{ duration: 1.2, ease: "easeOut", delay: 0.6 }}
           className="max-w-[900px] text-lg leading-relaxed font-medium text-gray-800 text-center"
         >
-          <p className="font-bold text-3xl">
-            MUJ toppers is built to make your college life easier Access, PYQs,
+          <p className="font-medium text-2xl text-center">
+            MUJ toppers is built to make your college life easier—Access, PYQs,
             toppers’ notes, study tips, food delivery, and cab booking all in
             one place, powered by a passionate mix who have been through it. We
-            ensure you have everything you need to excel both inside and outside
+            ensure you have everything you need to excel—both inside and outside
             the classroom.
           </p>
         </motion.div>
-      </div>
+      </motion.div>
 
-      <div className="flex flex-col items-center justify-center py-10 h-[600px]">
+      {/* 🚀 Infinite Moving Cards Section */}
+      <motion.div
+        initial={{ opacity: 0, y: 100 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true, amount: 0.2 }}
+        transition={{ duration: 1, ease: "easeOut" }}
+        className="flex flex-col items-center justify-center py-10 h-[700px]"
+      >
         <motion.h1
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8, ease: "easeOut" }}
-          className="text-[32px] font-light font-serif tracking-tight text-black text-transparent bg-clip-text text-center
-            bg-gradient-to-r from-yellow-300 via-yellow-400 to-yellow-500"
+          className="text-[42px] font-bold tracking-tight text-black text-transparent bg-clip-text text-center
+          bg-gradient-to-r from-yellow-300 via-yellow-400 to-yellow-500"
         >
           More Than Just Notes – MUJ Life, Sorted!
         </motion.h1>
         <InfiniteMovingCardsDemo />
-      </div>
+      </motion.div>
 
-      {/* 2nd Main */}
-      <div ref={ref} className="flex flex-col justify-center">
+      {/* 🚀 3rd Section - "Your College Journey" */}
+      <motion.div
+        ref={ref}
+        initial={{ opacity: 0, y: 80 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true, amount: 0.2 }}
+        transition={{ duration: 1, ease: "easeOut" }}
+        className="flex flex-col justify-center"
+      >
         <div className="max-w-4xl mx-auto flex flex-col gap-y-4">
           <motion.h1
-            initial={{ opacity: 0, y: 20 }}
+            initial={{ opacity: 0, y: 30 }}
             animate={isInView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.8, ease: "easeOut" }}
             className="text-4xl font-light leading-[50px] font-serif italic tracking-tight 
@@ -102,7 +126,7 @@ export default function Home() {
           </motion.h1>
 
           <motion.p
-            initial={{ opacity: 0, y: 20 }}
+            initial={{ opacity: 0, y: 40 }}
             animate={isInView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 1, ease: "easeOut", delay: 0.3 }}
             className="font-medium text-2xl"
@@ -110,13 +134,19 @@ export default function Home() {
             College life is hectic, but we make it effortless. Whether you need
             toppers’ notes, PYQs, food delivery, or cab booking, we ensure you
             focus on what matters while we handle the rest. Just study, relax,
-            and enjoy your college life
+            and enjoy your college life.
           </motion.p>
         </div>
-        <div className="w-full flex justify-center">
+        <motion.div
+          initial={{ opacity: 0, scale: 0.9 }}
+          whileInView={{ opacity: 1, scale: 1 }}
+          viewport={{ once: true }}
+          transition={{ duration: 1, ease: "easeOut" }}
+          className="w-full flex justify-center"
+        >
           <CardHoverEffectDemo />
-        </div>
-      </div>
+        </motion.div>
+      </motion.div>
     </div>
   );
 }
