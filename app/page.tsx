@@ -140,23 +140,14 @@ export default function Home() {
         <InfiniteMovingCardsDemo />
       </motion.div>
 
-      {/* 🚀 3rd Section - "Your College Journey" */}
-      <motion.div
-        ref={ref}
-        initial={{ opacity: 0, y: 80 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true, amount: 0.2 }}
-        transition={{ duration: 1, ease: "easeOut" }}
-        className="flex flex-col justify-center"
-      >
+      <motion.div ref={ref} className="flex flex-col justify-center">
         <div className="max-w-6xl mx-auto flex flex-col gap-y-4">
           <motion.h1
             initial={{ opacity: 0, y: 30 }}
             animate={isInView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.8, ease: "easeOut" }}
-            className="text-4xl font-light leading-[50px] font-serif italic tracking-tight 
-            text-transparent bg-clip-text text-center
-            bg-gradient-to-r from-yellow-300 via-yellow-400 to-yellow-500"
+            className="text-4xl font-bold leading-[50px] tracking-tight text-transparent bg-clip-text 
+  bg-gradient-to-r from-[#ffbd59] via-[#ff914d] to-[#ff6a00] text-center"
           >
             Your College Journey, Simplified: Study, Eat & Chill
             <div className="text-center">We’ve Got You Covered!</div>
@@ -164,7 +155,7 @@ export default function Home() {
 
           <motion.p
             initial={{ opacity: 0, y: 40 }}
-            animate={isInView ? { opacity: 1, y: 0 } : {}}
+            animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 40 }}
             transition={{ duration: 1, ease: "easeOut", delay: 0.3 }}
             className="font-medium text-2xl"
           >
@@ -176,12 +167,13 @@ export default function Home() {
         </div>
         <motion.div
           initial={{ opacity: 0, scale: 0.9 }}
-          whileInView={{ opacity: 1, scale: 1 }}
-          viewport={{ once: true }}
+          animate={
+            isInView ? { opacity: 1, scale: 1 } : { opacity: 0, scale: 0.9 }
+          }
           transition={{ duration: 1, ease: "easeOut" }}
           className="py-10 mb-24"
         >
-          <CardGrid />
+          <CardGrid /> {/* card grid used here */}
         </motion.div>
       </motion.div>
       <Footer />
