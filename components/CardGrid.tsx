@@ -20,10 +20,6 @@ const CardGrid = () => {
       transition={{ duration: 2 }}
       className="py-20 min-h-screen"
     >
-      <h1 className="text-center text-gray-800 text-5xl font-semibold mb-12 tracking-wide">
-        Choose Your Path
-      </h1>
-
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10 px-6 max-w-6xl mx-auto">
         {cards.map((card, index) => {
           // Define animation direction based on position

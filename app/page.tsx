@@ -99,7 +99,7 @@ export default function Home() {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true }}
-          className="text-[42px] font-bold tracking-tight text-black text-transparent bg-clip-text 
+          className="text-5xl font-bold tracking-tight text-black text-transparent bg-clip-text 
     bg-gradient-to-r from-[#ffbd59] via-[#ff914d] to-[#ff6a00] flex"
         >
           {Array.from("More Than Just Notes – MUJ Life, Sorted!").map(
@@ -141,28 +141,50 @@ export default function Home() {
       </motion.div>
 
       <motion.div ref={ref} className="flex flex-col justify-center">
-        <div className="max-w-6xl mx-auto flex flex-col gap-y-4">
+        <div className="max-w-6xl mx-auto flex flex-col gap-y-16">
           <motion.h1
             initial={{ opacity: 0, y: 30 }}
             animate={isInView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.8, ease: "easeOut" }}
-            className="text-4xl font-bold leading-[50px] tracking-tight text-transparent bg-clip-text 
+            className="text-5xl font-bold leading-[50px] tracking-tight text-transparent bg-clip-text 
   bg-gradient-to-r from-[#ffbd59] via-[#ff914d] to-[#ff6a00] text-center"
           >
             Your College Journey, Simplified: Study, Eat & Chill
             <div className="text-center">We’ve Got You Covered!</div>
           </motion.h1>
-
           <motion.p
             initial={{ opacity: 0, y: 40 }}
-            animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 40 }}
+            animate={isInView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 1, ease: "easeOut", delay: 0.3 }}
-            className="font-medium text-2xl"
+            className="font-medium text-2xl md:text-3xl text-gray-900 text-center leading-loose max-w-5xl mx-auto"
           >
-            College life is hectic, but we make it effortless. Whether you need
-            toppers’ notes, PYQs, food delivery, or cab booking, we ensure you
-            focus on what matters while we handle the rest. Just study, relax,
-            and enjoy your college life.
+            <motion.span
+              initial={{ filter: "blur(8px)", opacity: 0 }}
+              animate={{ filter: "blur(0px)", opacity: 1 }}
+              transition={{ duration: 1.5, ease: "easeOut" }}
+              className="bg-gradient-to-r from-[#ffbd59] via-[#ff914d] to-[#ff6a00] bg-clip-text text-transparent font-extrabold"
+            >
+              College life is hectic,
+            </motion.span>
+            but we make it effortless.
+            <motion.span
+              initial={{ scale: 0.9, opacity: 0 }}
+              animate={{ scale: 1, opacity: 1 }}
+              transition={{ duration: 1, ease: "easeOut", delay: 0.5 }}
+              className="text-[#ff6a00] font-semibold"
+            >
+              Whether you need toppers’ notes, PYQs, food delivery, or cab
+              booking,
+            </motion.span>
+            we ensure you focus on what matters while we handle the rest.
+            <motion.span
+              initial={{ scale: 0.95, opacity: 0 }}
+              animate={{ scale: 1, opacity: 1 }}
+              transition={{ duration: 0.8, ease: "easeInOut", delay: 0.6 }}
+              className="text-[#ff914d] font-bold italic"
+            >
+             {" "} Just study, relax, and enjoy your college life.
+            </motion.span>
           </motion.p>
         </div>
         <motion.div
