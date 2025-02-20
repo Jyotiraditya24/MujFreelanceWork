@@ -183,7 +183,8 @@ export default function Home() {
               transition={{ duration: 0.8, ease: "easeInOut", delay: 0.6 }}
               className="text-[#ff914d] font-bold italic"
             >
-             {" "} Just study, relax, and enjoy your college life.
+              {" "}
+              Just study, relax, and enjoy your college life.
             </motion.span>
           </motion.p>
         </div>
@@ -198,6 +199,154 @@ export default function Home() {
           <CardGrid /> {/* card grid used here */}
         </motion.div>
       </motion.div>
+
+      {/* ADDITONAL SECTION 1*/}
+      <motion.div
+        className="py-16"
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        viewport={{ once: true }}
+        transition={{ duration: 1 }}
+      >
+        <div className="max-w-6xl mx-auto text-center">
+          <motion.h2
+            className="text-4xl font-bold text-gray-800 mb-8"
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+          >
+            Get In Touch
+          </motion.h2>
+          <p className="text-xl text-gray-700 mb-8">
+            Have questions or need assistance? Reach out to us and we’ll be
+            happy to help!
+          </p>
+          <motion.a
+            href="mailto:contact@mujtoppers.com"
+            className="inline-block px-8 py-4 bg-[#ff6a00] text-white font-bold rounded-lg shadow-lg hover:bg-[#ff914d] transition-all"
+            initial={{ opacity: 0, scale: 0.9 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.8 }}
+          >
+            Contact Us
+          </motion.a>
+        </div>
+      </motion.div>
+
+      {/* ADDTIONAL SECTION 2 */}
+      <motion.div
+        className="py-16"
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        viewport={{ once: true }}
+        transition={{ duration: 1 }}
+      >
+        <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-8">
+          <div className="md:w-1/2">
+            <motion.img
+              src="/about-us.jpg"
+              alt="About Us"
+              className="rounded-lg shadow-lg"
+              initial={{ opacity: 0, x: -50 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 1 }}
+            />
+          </div>
+          <div className="md:w-1/2 text-center md:text-left">
+            <motion.h2
+              className="text-4xl font-bold text-gray-800 mb-4"
+              initial={{ opacity: 0, x: 50 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 1 }}
+            >
+              About Us
+            </motion.h2>
+            <p className="text-gray-700 text-xl leading-relaxed">
+              We are a dedicated team on a mission to simplify college life by
+              offering comprehensive resources, curated study materials, and a
+              range of services designed to help students excel.
+            </p>
+          </div>
+        </div>
+      </motion.div>
+
+      {/* ADDITIONAL SECTION 3 */}
+      <motion.div
+        className="py-16"
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        viewport={{ once: true }}
+        transition={{ duration: 1 }}
+      >
+        <div className="max-w-6xl mx-auto text-center">
+          <motion.h2
+            className="text-4xl font-bold text-gray-800 mb-8"
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+          >
+            Testimonials
+          </motion.h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div className="bg-gray-100 p-6 rounded-lg shadow-lg">
+              <p className="text-gray-700 italic mb-4">
+                "This platform revolutionized my study routine and made exam
+                prep so much easier!"
+              </p>
+              <h4 className="text-xl font-bold text-gray-900">- Ananya</h4>
+            </div>
+            <div className="bg-gray-100 p-6 rounded-lg shadow-lg">
+              <p className="text-gray-700 italic mb-4">
+                "I found everything I needed in one place. Highly recommended
+                for every student!"
+              </p>
+              <h4 className="text-xl font-bold text-gray-900">- Rohit</h4>
+            </div>
+          </div>
+        </div>
+      </motion.div>
+
+      {/* ADDITIONAL SECTION 4 */}
+
+      <motion.div
+        className="py-16 "
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        viewport={{ once: true }}
+        transition={{ duration: 1 }}
+      >
+        <div className="max-w-6xl mx-auto text-center">
+          <motion.h2
+            className="text-4xl font-bold text-gray-800 mb-8"
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+          >
+            Our Services
+          </motion.h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="bg-white p-6 rounded-lg shadow-lg">
+              <h3 className="text-2xl font-semibold mb-2">PYQs</h3>
+              <p className="text-gray-600">
+                Access previous years’ question papers quickly and easily.
+              </p>
+            </div>
+            <div className="bg-white p-6 rounded-lg shadow-lg">
+              <h3 className="text-2xl font-semibold mb-2">Toppers’ Notes</h3>
+              <p className="text-gray-600">
+                Quality notes curated by toppers to help you excel.
+              </p>
+            </div>
+            <div className="bg-white p-6 rounded-lg shadow-lg">
+              <h3 className="text-2xl font-semibold mb-2">Study Tips</h3>
+              <p className="text-gray-600">
+                Effective strategies and tips for successful studying.
+              </p>
+            </div>
+          </div>
+        </div>
+      </motion.div>
+
       <Footer />
     </div>
   );

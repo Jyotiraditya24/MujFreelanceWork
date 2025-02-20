@@ -3,10 +3,10 @@ import { useRouter } from "next/navigation";
 import { motion } from "framer-motion";
 
 const cards = [
-  { title: "1st Year", link: "/branch/first", image: "/CCE_Branch.png" },
-  { title: "2nd Year", link: "/branch/second", image: "/CCE_Branch.png" },
-  { title: "3rd Year", link: "/branch/third", image: "/CCE_Branch.png" },
-  { title: "4th Year", link: "/branch/fourth", image: "/CCE_Branch.png" },
+  { title: "1st Year", link: "/branch/first", image: "/first_year.png" },
+  { title: "2nd Year", link: "/branch/fourth", image: "/fourth_year.png" },
+  { title: "3rd Year", link: "/branch/third", image: "/third_year.png" },
+  { title: "4th Year", link: "/branch/second", image: "/second_year.png" },
 ];
 
 const CardGrid = () => {
