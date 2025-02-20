@@ -1,4 +1,4 @@
-import CardWithSelect from "@/components/CardSelectComponeny";
+import CardWithSelect from "@/components/CardSelectComponent";
 
 export default async function SubjectPage({
   params,

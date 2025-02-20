@@ -58,7 +58,7 @@ export default function CardWithSelect({
         <SelectContent className="bg-white border border-gray-200 rounded-lg shadow-md">
           <SelectGroup>
             <SelectItem value="pyq">📜 PYQ (Past Year Papers)</SelectItem>
-            <SelectItem value="notes">📖 Toppers' Notes</SelectItem>
+            <SelectItem value="notes">📖 Toppers Notes</SelectItem>
             <SelectItem value="playlist">🎥 Video Playlist</SelectItem>
           </SelectGroup>
         </SelectContent>
