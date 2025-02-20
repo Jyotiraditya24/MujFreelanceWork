@@ -290,15 +290,15 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="bg-gray-100 p-6 rounded-lg shadow-lg">
               <p className="text-gray-700 italic mb-4">
-                "This platform revolutionized my study routine and made exam
-                prep so much easier!"
+                This platform revolutionized my study routine and made exam
+                prep so much easier!
               </p>
               <h4 className="text-xl font-bold text-gray-900">- Ananya</h4>
             </div>
             <div className="bg-gray-100 p-6 rounded-lg shadow-lg">
               <p className="text-gray-700 italic mb-4">
-                "I found everything I needed in one place. Highly recommended
-                for every student!"
+                I found everything I needed in one place. Highly recommended
+                for every student!
               </p>
               <h4 className="text-xl font-bold text-gray-900">- Rohit</h4>
             </div>

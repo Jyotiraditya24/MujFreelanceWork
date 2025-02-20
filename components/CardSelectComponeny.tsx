@@ -21,11 +21,17 @@ export default function CardWithSelect() {
   };
 
   return (
-    <div className="w-72 bg-white shadow-lg rounded-xl p-4 flex flex-col items-center border">
+    <div className="w-72 bg-white shadow-xl rounded-2xl p-5 flex flex-col items-center border border-gray-200">
+      {/* Title Section */}
+      <h2 className="text-xl font-bold text-gray-800 text-center">
+        Physics Cycle
+      </h2>
+      <div className="w-16 border-b-2 border-gray-300 mt-1 mb-3"></div>
+
       {/* Image Section */}
-      <div className="w-full h-40 relative">
+      <div className="w-full h-40 relative overflow-hidden rounded-lg shadow-sm">
         <Image
-          src="/Physics_Cycle.png" // Replace with your actual image path
+          src="/Physics_Cycle.png"
           alt="Card Image"
           layout="fill"
           objectFit="cover"
@@ -36,12 +42,12 @@ export default function CardWithSelect() {
       {/* Select Option */}
       <div className="mt-4 w-full">
         <Select onValueChange={handleSelection}>
-          <SelectTrigger className="w-full border-gray-300">
+          <SelectTrigger className="w-full border-gray-300 rounded-lg shadow-sm">
             <SelectValue placeholder="Select an Option" />
           </SelectTrigger>
           <SelectContent>
             <SelectGroup>
-              <SelectLabel>Fruits</SelectLabel>
+              <SelectLabel>Resources</SelectLabel>
               <SelectItem value="apple">PYQ</SelectItem>
               <SelectItem value="banana">Toppers Note</SelectItem>
               <SelectItem value="blueberry">PlayList</SelectItem>
