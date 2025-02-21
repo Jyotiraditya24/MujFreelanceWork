@@ -10,7 +10,7 @@ const navItems = [
   { label: "Order", href: "/order" },
   { label: "Exam Tip 69", href: "/examTip" },
   { label: "About Us", href: "/about" },
-  { label: "After Exams", href: "/contact-sales" },
+  { label: "After Exams", href: "/afterExams" },
 ];
 
 const Navbar = () => {
