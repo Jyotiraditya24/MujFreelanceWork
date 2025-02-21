@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 export default function ExamTips69() {
   return (
@@ -166,10 +167,12 @@ export default function ExamTips69() {
               transition={{ duration: 0.7 }}
               whileHover={{ scale: 1.05, rotate: 2 }}
             >
-              <img
+              <Image
                 src="/images/topmate.jpg" // Replace with your mentor image path
                 alt="Topmate Mentor"
                 className="rounded-full w-48 h-48 object-cover mx-auto"
+                width={192}
+                height={192}
               />
             </motion.div>
             <motion.div
@@ -180,10 +183,10 @@ export default function ExamTips69() {
               transition={{ duration: 0.7 }}
             >
               <p className="text-xl text-gray-700">
-                Hi, I’m Alex – your Topmate mentor. Having navigated the
-                challenges of exam stress myself, I’m here to offer guidance,
-                answer your questions, and provide the support you need to
-                succeed. Let’s crush those exams together! 💥
+                Hi, {`I’m `} Alex your Topmate mentor. Having navigated the
+                challenges of exam stress myself,{` I’m`} here to offer
+                guidance, answer your questions, and provide the support you
+                need to succeed. {`Let’s`} crush those exams together! 💥
               </p>
               <div className="mt-4 text-center md:text-left">
                 <motion.button
@@ -210,7 +213,7 @@ export default function ExamTips69() {
           <h2 className="text-3xl font-semibold mb-4">Conclusion 🎉</h2>
           <p className="text-lg text-gray-700 leading-relaxed">
             With well-planned strategies, these bonus tips, and the guidance of
-            your Topmate mentor, you’re set to tackle your exams with
+            your Topmate mentor, {`you’re `}set to tackle your exams with
             confidence. Stay focused, keep practicing, and remember that your
             hard work will pay off. Good luck and ace your exams! 🍀
           </p>
