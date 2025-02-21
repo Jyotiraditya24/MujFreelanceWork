@@ -6,7 +6,6 @@ import { useRef } from "react";
 import { InfiniteMovingCardsDemo } from "@/components/InfiniteMovingCardsDemo";
 import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
 import CardGrid from "@/components/CardGrid";
-import Footer from "@/components/Footer";
 
 export default function Home() {
   const ref = useRef(null);
@@ -244,7 +243,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-8">
           <div className="md:w-1/2">
             <motion.img
-              src="/about-us.jpg"
+              src="/About_US.webp"
               alt="About Us"
               className="rounded-lg shadow-lg"
               initial={{ opacity: 0, x: -50 }}
@@ -290,15 +289,15 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="bg-gray-100 p-6 rounded-lg shadow-lg">
               <p className="text-gray-700 italic mb-4">
-                This platform revolutionized my study routine and made exam
-                prep so much easier!
+                This platform revolutionized my study routine and made exam prep
+                so much easier!
               </p>
               <h4 className="text-xl font-bold text-gray-900">- Ananya</h4>
             </div>
             <div className="bg-gray-100 p-6 rounded-lg shadow-lg">
               <p className="text-gray-700 italic mb-4">
-                I found everything I needed in one place. Highly recommended
-                for every student!
+                I found everything I needed in one place. Highly recommended for
+                every student!
               </p>
               <h4 className="text-xl font-bold text-gray-900">- Rohit</h4>
             </div>
@@ -346,8 +345,6 @@ export default function Home() {
           </div>
         </div>
       </motion.div>
-
-      <Footer />
     </div>
   );
 }
