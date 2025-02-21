@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 
 const navItems = [
   { label: "Home", href: "/" },
-  { label: "Material", href: "/material" },
+  { label: "Material", href: "#material" }, // Change href to a hash
   { label: "Order", href: "/order" },
   { label: "Exam Tip 69", href: "/examTip" },
   { label: "About Us", href: "/about" },
@@ -24,6 +24,24 @@ const Navbar = () => {
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
+
+  const handleSmoothScroll = (
+    e: React.MouseEvent<HTMLAnchorElement>,
+    href: string
+  ) => {
+    if (href.startsWith("#")) {
+      e.preventDefault();
+      const targetId = href.substring(1);
+      const targetElement = document.getElementById(targetId);
+      if (targetElement) {
+        window.scrollTo({
+          top: targetElement.offsetTop - 50, // Adjust offset if navbar overlaps
+          behavior: "smooth",
+        });
+      }
+    }
+  };
+
   return (
     <nav
       className={cn(
@@ -39,7 +57,8 @@ const Navbar = () => {
           <Link
             href={item.href}
             key={item.label}
-            className={`text-black font-bold  px-2 py-1 rounded-2xl hover:bg-black hover:text-white transition-all`}
+            className={`text-black font-bold px-4 py-2 rounded-2xl hover:bg-black hover:text-white transition-all`}
+            onClick={(e) => handleSmoothScroll(e, item.href)}
           >
             {item.label}
           </Link>

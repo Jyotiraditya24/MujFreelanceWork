@@ -24,7 +24,7 @@ export default async function SubjectPage({
       first: [
         {
           name: "Engineering Materials & Mechanics",
-          image: "/EMM.webp",
+          image: "/EMM.png",
           pyqLink:
             "https://drive.google.com/drive/folders/1w54A2Vd87DQtFwEoUuy8m0nX9rANb4RA?usp=drive_link",
           notesLink:
@@ -33,7 +33,7 @@ export default async function SubjectPage({
         },
         {
           name: "Biology For Engineers",
-          image: "/BFE.webp",
+          image: "/Biology.png",
           pyqLink:
             "https://drive.google.com/drive/folders/1kNkblB1RDznXNJmehDohPTvMGckCHAfY?usp=drive_link",
           notesLink:
@@ -42,7 +42,7 @@ export default async function SubjectPage({
         },
         {
           name: "Engineering Physics",
-          image: "/EP.webp",
+          image: "/Physics.png",
           pyqLink:
             "https://drive.google.com/drive/folders/1cdiHPynlmRHmneEPs7P6EV1DB7wzQGsh?usp=drive_link",
           notesLink:
@@ -51,7 +51,7 @@ export default async function SubjectPage({
         },
         {
           name: "Computational Mathematics",
-          image: "/CM.webp",
+          image: "/C&M.png",
           pyqLink:
             "https://drive.google.com/drive/folders/1wE3l2pM-frCwyFS8DaRIW13-XCbmnAmv?usp=drive_link",
           notesLink:
@@ -60,7 +60,7 @@ export default async function SubjectPage({
         },
         {
           name: "MATLAB",
-          image: "/MATLAB.webp",
+          image: "/MATLAB.png",
           pyqLink:
             "https://drive.google.com/drive/folders/1d75bxh_L7JvAKNheNZ3c6YOeqikO1CTB?usp=drive_link",
           notesLink:
@@ -73,7 +73,7 @@ export default async function SubjectPage({
       first: [
         {
           name: "Calculus & Matrices",
-          image: "/EMM.webp",
+          image: "/C&M.png",
           pyqLink:
             "https://drive.google.com/drive/folders/1Pr_H4-fb_80Jo6Du96qIIpa6FIVEDTNm?usp=drive_link",
           notesLink:
@@ -82,7 +82,7 @@ export default async function SubjectPage({
         },
         {
           name: "Electrical & Electronics System",
-          image: "/EMM.webp",
+          image: "/EMM.png",
           pyqLink:
             "https://drive.google.com/drive/folders/1T2KhOCchylff1UyLZ2jyipmGmHtDx1Sd?usp=drive_link",
           notesLink:
@@ -91,7 +91,7 @@ export default async function SubjectPage({
         },
         {
           name: "Engineering Chemistry",
-          image: "/EMM.webp",
+          image: "/Chemistry.png",
           pyqLink:
             "https://drive.google.com/drive/folders/1pP4zpZHNyD9Zp1peFPRYePpMXvwEWZCV?usp=drive_link",
           notesLink:
@@ -100,7 +100,7 @@ export default async function SubjectPage({
         },
         {
           name: "Problem Solving using Computers",
-          image: "/EMM.webp",
+          image: "/PSUC.png",
           pyqLink:
             "https://drive.google.com/drive/folders/14E0SRP4X0EbccxY9jMo44E7_zlUEARJb?usp=drive_link",
           notesLink:
@@ -109,7 +109,7 @@ export default async function SubjectPage({
         },
         {
           name: "Technical Writing Clinic",
-          image: "/images/technical_writing.jpg",
+          image: "/TWC.png",
           pyqLink:
             "https://drive.google.com/drive/folders/1Ka7AT18HKHu_WjIBSoloGI_9VHm-ar5t?usp=drive_link",
           notesLink:

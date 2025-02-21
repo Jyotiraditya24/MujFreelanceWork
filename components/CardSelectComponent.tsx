@@ -23,13 +23,19 @@ export default function CardWithSelect({
   notesLink: string;
   playlistLink: string;
 }) {
+  const [selectedValue, setSelectedValue] = React.useState<string | null>(null);
+
   const handleSelection = (value: string) => {
     const links: Record<string, string> = {
       pyq: pyqLink,
       notes: notesLink,
       playlist: playlistLink,
     };
-    if (links[value]) window.open(links[value], "_blank");
+
+    if (links[value]) {
+      window.open(links[value], "_blank");
+      setSelectedValue(null); // Reset selection so the same option can be selected again
+    }
   };
 
   return (
@@ -51,8 +57,20 @@ export default function CardWithSelect({
       </div>
 
       {/* Select Option */}
-      <Select onValueChange={handleSelection}>
-        <SelectTrigger className="w-full border-gray-300 rounded-lg bg-gray-50 shadow-sm hover:bg-gray-100 focus:ring-2 focus:ring-blue-500">
+      <Select
+        onValueChange={(value) => {
+          handleSelection(value);
+        }}
+        value={selectedValue ?? ""}
+      >
+        <SelectTrigger
+          className="w-full border-gray-300 rounded-lg bg-gray-50 shadow-sm hover:bg-gray-100 focus:ring-2 focus:ring-blue-500"
+          onClick={() => {
+            if (selectedValue) {
+              handleSelection(selectedValue);
+            }
+          }}
+        >
           <SelectValue placeholder="📚 Select a Resource" />
         </SelectTrigger>
         <SelectContent className="bg-white border border-gray-200 rounded-lg shadow-md">

@@ -40,7 +40,7 @@ export default function ExamTips69() {
           <p className="text-lg text-gray-700">
             Feeling overwhelmed by exam stress? 😰 Welcome to{" "}
             <strong>Exam Tips 69</strong> – your ultimate guide to exam success!
-            Here, you'll find proven strategies, bonus tips, and personalized
+            Here,{` you'll `}find proven strategies, bonus tips, and personalized
             mentorship to help you ace your exams. 🎯
           </p>
         </motion.section>
@@ -219,12 +219,6 @@ export default function ExamTips69() {
           </p>
         </motion.section>
       </main>
-
-      <footer className="bg-gray-200 py-4 mt-16">
-        <p className="text-center text-gray-600">
-          © 2025 MUJTOPPER. All Rights Reserved.
-        </p>
-      </footer>
     </div>
   );
 }

@@ -194,6 +194,7 @@ export default function Home() {
           }
           transition={{ duration: 1, ease: "easeOut" }}
           className="py-10 mb-24"
+          id="material"
         >
           <CardGrid /> {/* card grid used here */}
         </motion.div>
