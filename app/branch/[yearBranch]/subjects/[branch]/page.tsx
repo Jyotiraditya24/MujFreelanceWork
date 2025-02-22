@@ -200,42 +200,42 @@ export default async function SubjectPage({
       ],
       third: [
         {
-          name: "FDS",
+          name: "Foundation of Data Science",
           image: "/3_IT/FDS.png",
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
         },
         {
-          name: "SE",
+          name: "Software Engineering",
           image: "/3_IT/SE.png",
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
         },
         {
-          name: "DAA",
+          name: "Design and Analysis of Algorithms",
           image: "/3_CCE/DAA.png",
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
         },
         {
-          name: "CN",
+          name: "Computer Networks",
           image: "/3_IT/CN.png",
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
         },
         {
-          name: "AI/ML",
+          name: "Artificial Intelligence and Machine Learning",
           image: "/3_IT/AI_ML.png",
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
         },
         {
-          name: "ACD",
+          name: "Automata & Compiler Design",
           image: "/3_IT/ACD.png",
           pyqLink: "",
           notesLink: "",
@@ -297,28 +297,28 @@ export default async function SubjectPage({
           playlistLink: "",
         },
         {
-          name: "DAA",
+          name: "Design & Analysis of Algorithms",
           image: "/3_CSE/DAA.png",
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
         },
         {
-          name: "ACD",
+          name: "Automata & Compiler Design",
           image: "/3_CSE/ACD.png",
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
         },
         {
-          name: "CN",
+          name: "Computer Networks",
           image: "/3_CSE/CN.png",
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
         },
         {
-          name: "SE",
+          name: "Software Engineering",
           image: "/3_CSE/SE.png",
           pyqLink: "",
           notesLink: "",
@@ -453,7 +453,7 @@ export default async function SubjectPage({
           name: "Wirless Communication",
           image: "/3_CCE/WC.png",
           pyqLink: "",
-          notesLink: "",  
+          notesLink: "",
           playlistLink: "",
         },
         {
@@ -461,8 +461,8 @@ export default async function SubjectPage({
           image: "/3_CCE/AL_ML.png",
           pyqLink: "",
           notesLink: "",
-          playlistLink: "", 
-        }
+          playlistLink: "",
+        },
       ],
     },
     AIML: {
@@ -990,17 +990,23 @@ export default async function SubjectPage({
   ) => {
     if (!subjects) return <div>No subjects found</div>;
     return (
-      <div className="flex flex-row flex-wrap gap-y-6 mt-20 p-10 text-black justify-between">
-        {subjects.map(({ name, image, pyqLink, notesLink, playlistLink }) => (
-          <CardWithSelect
-            key={name}
-            subjectName={name}
-            subjectImage={image}
-            pyqLink={pyqLink}
-            notesLink={notesLink}
-            playlistLink={playlistLink}
-          />
-        ))}
+      <div className="min-h-screen px-4 py-4  bg-cover bg-center mt-12">
+        <div
+          className="p-10 text-black 
+                  grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 
+                  gap-6"
+        >
+          {subjects.map(({ name, image, pyqLink, notesLink, playlistLink }) => (
+            <CardWithSelect
+              key={name}
+              subjectName={name}
+              subjectImage={image}
+              pyqLink={pyqLink}
+              notesLink={notesLink}
+              playlistLink={playlistLink}
+            />
+          ))}
+        </div>
       </div>
     );
   };

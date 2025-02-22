@@ -1,4 +1,5 @@
 "use client";
+
 import * as React from "react";
 import Image from "next/image";
 import {
@@ -10,6 +11,14 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 
+/**
+ * Props:
+ * - subjectName: string (name of the subject to display)
+ * - subjectImage: string (URL to the subject image)
+ * - pyqLink: string
+ * - notesLink: string
+ * - playlistLink: string
+ */
 export default function CardWithSelect({
   subjectName,
   subjectImage,
@@ -31,17 +40,29 @@ export default function CardWithSelect({
       notes: notesLink,
       playlist: playlistLink,
     };
-
     if (links[value]) {
       window.open(links[value], "_blank");
-      setSelectedValue(null); // Reset selection so the same option can be selected again
+      setSelectedValue(null); // Reset selection so user can select the same option again
     }
   };
 
   return (
-    <div className="w-80 bg-white shadow-lg rounded-xl p-6 flex flex-col items-center border border-gray-300 transition-transform transform hover:scale-105 duration-200">
-      {/* Image Section with Overlay */}
-      <div className="w-full h-44 relative overflow-hidden rounded-xl shadow-md mb-4">
+    <div className="group relative w-72 cursor-pointer border border-gray-300 rounded-xl bg-white p-4 shadow-md overflow-hidden transform transition-transform duration-300 hover:scale-[1.02]">
+      {/* Subject Name Header with Animated Underline triggered on card hover */}
+      <h2
+        className="
+          text-center text-xl font-semibold mb-3 text-gray-800 
+          relative inline-block
+          after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:bg-black after:w-full 
+          after:scale-x-0 after:origin-right after:transition-transform after:duration-300
+          group-hover:after:scale-x-100 group-hover:after:origin-left
+        "
+      >
+        {subjectName}
+      </h2>
+
+      {/* Image Section (Rounded + Border) */}
+      <div className="relative w-full h-40 mb-4 rounded-xl border border-gray-300 shadow-sm overflow-hidden">
         <Image
           src={subjectImage}
           alt={subjectName}
@@ -49,31 +70,17 @@ export default function CardWithSelect({
           objectFit="cover"
           className="rounded-xl"
         />
-        <div className="absolute top-0 left-0 w-full h-full flex items-center justify-center bg-black bg-opacity-50 rounded-xl">
-          <h2 className="text-lg font-semibold text-white text-center">
-            {subjectName}
-          </h2>
-        </div>
       </div>
 
-      {/* Select Option */}
+      {/* Resource Selector */}
       <Select
-        onValueChange={(value) => {
-          handleSelection(value);
-        }}
+        onValueChange={(value) => handleSelection(value)}
         value={selectedValue ?? ""}
       >
-        <SelectTrigger
-          className="w-full border-gray-300 rounded-lg bg-gray-50 shadow-sm hover:bg-gray-100 focus:ring-2 focus:ring-blue-500"
-          onClick={() => {
-            if (selectedValue) {
-              handleSelection(selectedValue);
-            }
-          }}
-        >
+        <SelectTrigger className="w-full border border-gray-300 rounded-md bg-gray-50 shadow-sm hover:bg-gray-100 focus:ring-2 focus:ring-blue-500">
           <SelectValue placeholder="📚 Select a Resource" />
         </SelectTrigger>
-        <SelectContent className="bg-white border border-gray-200 rounded-lg shadow-md">
+        <SelectContent className="bg-white border border-gray-200 rounded-md shadow-lg">
           <SelectGroup>
             <SelectItem value="pyq">📜 PYQ (Past Year Papers)</SelectItem>
             <SelectItem value="notes">📖 Toppers Notes</SelectItem>
