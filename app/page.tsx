@@ -9,8 +9,6 @@ import CardGrid from "@/components/CardGrid";
 
 export default function Home() {
   const ref = useRef(null);
-  // Remove once: true here so that the in-view detection re-triggers
-  const isInView = useInView(ref, { margin: "-100px" });
 
   return (
     <div className="min-h-screen">
