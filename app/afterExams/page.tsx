@@ -17,29 +17,32 @@ type Item = {
 const cafes: Item[] = [
   {
     name: "Tapri Central",
-    image: "/images/tapri-central.jpg",
+    image:
+      "https://b.zmtcdn.com/data/pictures/2/101212/18a8a6d5a56434d02ef5915da77b19b8.jpg",
     desc: "A beloved rooftop café offering great chai and stunning views of the Pink City.",
     link: "https://www.zomato.com/jaipur/tapri-central-c-scheme",
     isBest: true,
   },
   {
-    name: "Curious Life Coffee Roasters",
-    image: "/images/curious-life.jpg",
-    desc: "Renowned for its specialty coffee and organic vibes, perfect for a relaxed afternoon.",
-    link: "https://www.zomato.com/jaipur/curious-life-coffee-roasters",
+    name: "The Magnolia-Coffee & InBetween",
+    image:
+      "https://b.zmtcdn.com/data/pictures/1/20288821/23adafdfc950d1bbdc94759e03a85bb0.jpeg",
+    desc: "",
+    link: "https://www.zomato.com/jaipur/the-magnolia-coffee-inbetween-malviya-nagar/order",
     isBest: true,
   },
   {
     name: "Bar Palladio",
-    image: "/images/bar-palladio.jpg",
+    image:
+      "https://b.zmtcdn.com/data/reviews_photos/43d/1fea3f1bd6ff47b5588948daad38243d_1608207604.jpg",
     desc: "A chic Italian café with lavish interiors serving delicious pasta and cocktails.",
-    link: "https://www.zomato.com/jaipur/bar-palladio",
+    link: "https://www.zomato.com/jaipur/bar-palladio-jaipur-narayan-singh-circle",
   },
   {
     name: "Anokhi Café",
     image: "/images/anokhi-cafe.jpg",
     desc: "A cozy spot focusing on organic ingredients and a relaxed, homely ambiance.",
-    link: "https://www.zomato.com/jaipur/anokhi-cafe",
+    link: "https://www.zomato.com/jaipur/anokhi-cafe-c-scheme",
     isBest: true,
   },
   {
@@ -56,9 +59,10 @@ const cafes: Item[] = [
   },
   {
     name: "Zolocrust",
-    image: "/images/zolocrust.jpg",
+    image:
+      "https://b.zmtcdn.com/data/pictures/8/18209498/77af894341893ff6ca5c336567ee9cb4.jpg",
     desc: "A trendy hangout serving gourmet pizzas, desserts, and artisan breads.",
-    link: "https://www.zomato.com/jaipur/zolocrust",
+    link: "https://www.zomato.com/jaipur/zolocrust-hotel-clarks-amer-malviya-nagar/order",
     isBest: true,
   },
   {
@@ -69,11 +73,13 @@ const cafes: Item[] = [
   },
   {
     name: "Cafe Bae",
-    image: "/images/cafe-bae.jpg",
+    image:
+      "https://b.zmtcdn.com/data/reviews_photos/61f/0e626192d3405b19e1e8bb4e86b4461f_1479994438.jpg",
     desc: "A stylish café perfect for a romantic date, offering creative menu options and a cozy vibe.",
-    link: "https://www.zomato.com/jaipur/cafe-bae",
+    link: "https://www.zomato.com/jaipur/caf%C3%A9-bae-bais-godam/order",
     isBest: true,
   },
+
   {
     name: "Nothing Before Coffee",
     image: "/images/nothing-before-coffee.jpg",
@@ -81,7 +87,6 @@ const cafes: Item[] = [
     link: "https://www.zomato.com/jaipur/nothing-before-coffee",
   },
 ];
-
 
 // Curated Data: Top 20 Tourist Spots in Jaipur
 const touristSpots: Item[] = [
@@ -151,7 +156,6 @@ const touristSpots: Item[] = [
   },
 ];
 
-
 // Curated Data: Best Activities in Jaipur
 const activities: Item[] = [
   {
@@ -219,7 +223,6 @@ const activities: Item[] = [
     isBest: true,
   },
 ];
-
 
 // Tab Buttons Component
 function TabButton({
@@ -292,7 +295,7 @@ export default function AfterExamsPage() {
   }
 
   return (
-    <div className="pt-24 min-h-screen bg-gray-100 px-4 md:px-10">
+    <div className="py-24 min-h-screen bg-gray-100 px-4 md:px-10 ">
       {/* Top Tab Bar */}
       <div className="max-w-5xl mx-auto mb-6 flex justify-center gap-4">
         <TabButton

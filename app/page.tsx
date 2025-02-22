@@ -1,4 +1,5 @@
 "use client";
+
 import Typewriter from "typewriter-effect";
 import { ColourfulText } from "@/components/ui/colorful-text";
 import { motion } from "framer-motion";
@@ -11,22 +12,23 @@ export default function Home() {
   const ref = useRef(null);
 
   return (
-    <div className="min-h-screen">
+    // 1. Add `overflow-x-hidden` to clip any content that extends horizontally
+    <div className="min-h-screen overflow-x-hidden">
       {/* 🚀 Hero Section */}
       <motion.div
         initial={{ opacity: 0, y: -80 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1, ease: "easeOut" }}
-        className="min-h-screen px-4 py-4 bg-[url('/heroImage.webp')] bg-cover bg-center flex flex-col justify-center items-center relative gap-y-14"
+        className="min-h-screen px-4 py-4 bg-[url('/heroImage.webp')] bg-cover bg-center flex flex-col justify-center items-center relative gap-y-10"
       >
         {/* Animated Heading */}
         <div className="z-10 flex flex-col gap-y-2 text-center">
           <motion.h1
             initial={{ opacity: 0, y: -50 }}
             whileInView={{ opacity: 1, y: 0 }}
-            // Remove once: true if it was set here so it re-triggers
             transition={{ duration: 0.8, ease: "easeOut" }}
-            className="text-[74px] font-bold leading-[84px] tracking-tight text-black"
+            className="font-bold leading-tight tracking-tight text-black 
+                       text-4xl sm:text-6xl md:text-[74px]"
           >
             <ColourfulText text="MUJ TOPPERS" />
           </motion.h1>
@@ -35,11 +37,12 @@ export default function Home() {
             initial={{ opacity: 0, y: -50 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.9, ease: "easeOut", delay: 0.2 }}
-            className="text-[60px] font-bold leading-[84px] tracking-tight text-black"
+            className="font-bold leading-tight tracking-tight text-black 
+                       text-3xl sm:text-5xl md:text-[60px]"
           >
             <TextGenerateEffect
               words="MORE THAN NOTES, IT’S A LIFESTYLE"
-              className="text-[60px] font-bold leading-[84px] tracking-tight text-black"
+              className="font-bold leading-tight tracking-tight text-black"
             />
           </motion.h1>
 
@@ -48,7 +51,8 @@ export default function Home() {
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, ease: "easeOut", delay: 0.5 }}
-            className="text-[70px] font-light leading-[84px] tracking-tight text-black"
+            className="font-light leading-tight tracking-tight text-black 
+                       text-2xl sm:text-4xl md:text-5xl"
           >
             <Typewriter
               options={{
@@ -73,12 +77,11 @@ export default function Home() {
         <motion.div
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
-          // Set viewport without once: true so it re-triggers on scroll
           viewport={{ amount: 0.2 }}
           transition={{ duration: 1.2, ease: "easeOut", delay: 0.6 }}
-          className="max-w-[900px] text-lg leading-relaxed font-medium text-gray-800 text-center"
+          className="max-w-[900px] text-lg leading-relaxed font-medium text-gray-800 text-center px-4"
         >
-          <p className="font-medium text-2xl text-center">
+          <p className="font-medium text-base sm:text-xl md:text-2xl">
             MUJ toppers is built to make your college life easier—Access, PYQs,
             toppers’ notes, study tips, food delivery, and cab booking all in
             one place, powered by a passionate mix who have been through it. We
@@ -94,14 +97,15 @@ export default function Home() {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: false, amount: 0.2 }}
         transition={{ duration: 1, ease: "easeOut" }}
-        className="flex flex-col gap-y-10 items-center justify-center h-[400px] my-10"
+        className="flex flex-col gap-y-8 items-center justify-center my-10 px-4"
       >
         <motion.h1
           initial="hidden"
           whileInView="visible"
           viewport={{ once: false }}
-          className="text-5xl font-bold tracking-tight text-black text-transparent bg-clip-text 
-            bg-gradient-to-r from-[#ffbd59] via-[#ff914d] to-[#ff6a00] flex"
+          className="font-bold tracking-tight text-transparent bg-clip-text 
+                     bg-gradient-to-r from-[#ffbd59] via-[#ff914d] to-[#ff6a00]
+                     text-2xl sm:text-4xl md:text-5xl flex flex-wrap justify-center"
         >
           {Array.from("More Than Just Notes – MUJ Life, Sorted!").map(
             (letter, index) => (
@@ -132,37 +136,73 @@ export default function Home() {
                     },
                   },
                 }}
+                className="whitespace-pre"
               >
                 {letter === " " ? "\u00A0" : letter}
               </motion.span>
             )
           )}
         </motion.h1>
-        <InfiniteMovingCardsDemo />
       </motion.div>
 
-      {/* Other sections updated similarly – ensuring viewport once is false */}
-      <motion.div ref={ref} className="flex flex-col justify-center">
+      <div className="px-4">
+        <InfiniteMovingCardsDemo />
+      </div>
+
+      {/* Additional sections below */}
+      <motion.div ref={ref} className="flex flex-col justify-center px-4">
         <div className="max-w-6xl mx-auto flex flex-col gap-y-16">
           <motion.h1
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: false }}
             transition={{ duration: 0.8, ease: "easeOut" }}
-            className="text-5xl font-bold leading-[50px] tracking-tight text-transparent bg-clip-text 
-              bg-gradient-to-r from-[#ffbd59] via-[#ff914d] to-[#ff6a00] text-center"
+            className="text-center font-bold leading-tight tracking-tight 
+                       text-transparent bg-clip-text bg-gradient-to-r
+                       from-[#ffbd59] via-[#ff914d] to-[#ff6a00]
+                       text-2xl sm:text-4xl md:text-5xl"
           >
             Your College Journey, Simplified: Study, Eat & Chill
-            <div className="text-center">We’ve Got You Covered!</div>
+            <div className="text-center text-sm sm:text-base md:text-lg">
+              We’ve Got You Covered!
+            </div>
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, y: 40 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: false }}
             transition={{ duration: 1, ease: "easeOut", delay: 0.3 }}
-            className="font-medium text-2xl md:text-3xl text-gray-900 text-center leading-loose max-w-5xl mx-auto"
+            className="font-medium text-base sm:text-xl md:text-2xl text-gray-900 text-center leading-loose max-w-5xl mx-auto"
           >
-            {/* ...content omitted for brevity */}
+            <motion.span
+              initial={{ filter: "blur(8px)", opacity: 0 }}
+              whileInView={{ filter: "blur(0px)", opacity: 1 }}
+              transition={{ duration: 1.5, ease: "easeOut" }}
+              className="bg-gradient-to-r from-[#ffbd59] via-[#ff914d] to-[#ff6a00] bg-clip-text text-transparent font-extrabold"
+            >
+              College life is hectic,
+            </motion.span>{" "}
+            but we make it effortless.
+            <motion.span
+              initial={{ scale: 0.9, opacity: 0 }}
+              whileInView={{ scale: 1, opacity: 1 }}
+              transition={{ duration: 1, ease: "easeOut", delay: 0.5 }}
+              className="text-[#ff6a00] font-semibold"
+            >
+              {" "}
+              Whether you need toppers’ notes, PYQs, food delivery, or cab
+              booking,
+            </motion.span>{" "}
+            we ensure you focus on what matters while we handle the rest.
+            <motion.span
+              initial={{ scale: 0.95, opacity: 0 }}
+              whileInView={{ scale: 1, opacity: 1 }}
+              transition={{ duration: 0.8, ease: "easeInOut", delay: 0.6 }}
+              className="text-[#ff914d] font-bold italic"
+            >
+              {" "}
+              Just study, relax, and enjoy your college life.
+            </motion.span>
           </motion.p>
         </div>
         <motion.div
@@ -177,9 +217,9 @@ export default function Home() {
         </motion.div>
       </motion.div>
 
-      {/* ADDITONAL SECTION 1*/}
+      {/* ADDITIONAL SECTION 1 - Get In Touch */}
       <motion.div
-        className="py-16"
+        className="py-16 px-4"
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         viewport={{ once: true }}
@@ -187,20 +227,20 @@ export default function Home() {
       >
         <div className="max-w-6xl mx-auto text-center">
           <motion.h2
-            className="text-4xl font-bold text-gray-800 mb-8"
+            className="text-3xl md:text-4xl font-bold text-gray-800 mb-8"
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
             Get In Touch
           </motion.h2>
-          <p className="text-xl text-gray-700 mb-8">
+          <p className="text-base md:text-xl text-gray-700 mb-8">
             Have questions or need assistance? Reach out to us and we’ll be
             happy to help!
           </p>
           <motion.a
             href="mailto:contact@mujtoppers.com"
-            className="inline-block px-8 py-4 bg-[#ff6a00] text-white font-bold rounded-lg shadow-lg hover:bg-[#ff914d] transition-all"
+            className="inline-block px-6 py-3 bg-[#ff6a00] text-white font-bold rounded-lg shadow-lg hover:bg-[#ff914d] transition-all"
             initial={{ opacity: 0, scale: 0.9 }}
             whileInView={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8 }}
@@ -210,20 +250,20 @@ export default function Home() {
         </div>
       </motion.div>
 
-      {/* ADDTIONAL SECTION 2 */}
+      {/* ADDITIONAL SECTION 2 - About Us */}
       <motion.div
-        className="py-16"
+        className="py-16 px-4"
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         viewport={{ once: true }}
         transition={{ duration: 1 }}
       >
-        <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-8">
+        <div className="max-w-6xl mx-auto flex flex-col gap-8 md:flex-row items-center">
           <div className="md:w-1/2">
             <motion.img
               src="/About_US.webp"
               alt="About Us"
-              className="rounded-lg shadow-lg"
+              className="rounded-lg shadow-lg w-full"
               initial={{ opacity: 0, x: -50 }}
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 1 }}
@@ -231,14 +271,14 @@ export default function Home() {
           </div>
           <div className="md:w-1/2 text-center md:text-left">
             <motion.h2
-              className="text-4xl font-bold text-gray-800 mb-4"
+              className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-800 mb-4"
               initial={{ opacity: 0, x: 50 }}
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 1 }}
             >
               About Us
             </motion.h2>
-            <p className="text-gray-700 text-xl leading-relaxed">
+            <p className="text-gray-700 text-base sm:text-lg md:text-xl leading-relaxed">
               We are a dedicated team on a mission to simplify college life by
               offering comprehensive resources, curated study materials, and a
               range of services designed to help students excel.
@@ -247,9 +287,9 @@ export default function Home() {
         </div>
       </motion.div>
 
-      {/* ADDITIONAL SECTION 3 */}
+      {/* ADDITIONAL SECTION 3 - Testimonials */}
       <motion.div
-        className="py-16"
+        className="py-16 px-4"
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         viewport={{ once: true }}
@@ -257,7 +297,7 @@ export default function Home() {
       >
         <div className="max-w-6xl mx-auto text-center">
           <motion.h2
-            className="text-4xl font-bold text-gray-800 mb-8"
+            className="text-3xl md:text-4xl font-bold text-gray-800 mb-8"
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
@@ -283,10 +323,9 @@ export default function Home() {
         </div>
       </motion.div>
 
-      {/* ADDITIONAL SECTION 4 */}
-
+      {/* ADDITIONAL SECTION 4 - Our Services */}
       <motion.div
-        className="py-16 "
+        className="py-16 px-4"
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         viewport={{ once: true }}
@@ -294,7 +333,7 @@ export default function Home() {
       >
         <div className="max-w-6xl mx-auto text-center">
           <motion.h2
-            className="text-4xl font-bold text-gray-800 mb-8"
+            className="text-3xl md:text-4xl font-bold text-gray-800 mb-8"
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
