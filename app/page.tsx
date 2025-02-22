@@ -1,7 +1,7 @@
 "use client";
 import Typewriter from "typewriter-effect";
 import { ColourfulText } from "@/components/ui/colorful-text";
-import { motion, useInView } from "framer-motion";
+import { motion } from "framer-motion";
 import { useRef } from "react";
 import { InfiniteMovingCardsDemo } from "@/components/InfiniteMovingCardsDemo";
 import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
