@@ -40,8 +40,8 @@ export default function ExamTips69() {
           <p className="text-lg text-gray-700">
             Feeling overwhelmed by exam stress? 😰 Welcome to{" "}
             <strong>Exam Tips 69</strong> – your ultimate guide to exam success!
-            Here,{` you'll `}find proven strategies, bonus tips, and personalized
-            mentorship to help you ace your exams. 🎯
+            Here,{` you'll `}find proven strategies, bonus tips, and
+            personalized mentorship to help you ace your exams. 🎯
           </p>
         </motion.section>
 
@@ -168,7 +168,7 @@ export default function ExamTips69() {
               whileHover={{ scale: 1.05, rotate: 2 }}
             >
               <Image
-                src="/images/topmate.jpg" // Replace with your mentor image path
+                src="https://topmate.io/_next/image?url=https%3A%2F%2Ftopmate-staging.s3.amazonaws.com%2Fsz4YwqyzcdgBwwuZse1GE7.png&w=640&q=90&dpl=dpl_96ee2ow3YF3keRoPRyNBch6QNDu4" // Replace with your mentor image path
                 alt="Topmate Mentor"
                 className="rounded-full w-48 h-48 object-cover mx-auto"
                 width={192}
@@ -183,16 +183,21 @@ export default function ExamTips69() {
               transition={{ duration: 0.7 }}
             >
               <p className="text-xl text-gray-700">
-                Hi, {`I’m `} Alex your Topmate mentor. Having navigated the
-                challenges of exam stress myself,{` I’m`} here to offer
-                guidance, answer your questions, and provide the support you
-                need to succeed. {`Let’s`} crush those exams together! 💥
+                Hello, I'm Swatantra! {`I’ve`} transformed my college journey
+                from a 6 GPA to a 10 GPA, and {`I’m`} here to help you unlock
+                your full potential. Book a 1:1 session with me to master
+                productivity, excel in college life, and create your own success
               </p>
               <div className="mt-4 text-center md:text-left">
                 <motion.button
                   className="bg-blue-600 text-white py-2 px-6 rounded hover:bg-blue-700 transition duration-300"
                   whileHover={{ scale: 1.1 }}
                   whileTap={{ scale: 0.95 }}
+                  onClick={() =>
+                    window.open(
+                      "https://topmate.io/swatantra_choudhary/1402171"
+                    )
+                  }
                 >
                   Connect with Me 🤝
                 </motion.button>

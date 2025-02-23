@@ -21,6 +21,18 @@ const nextConfig: NextConfig = {
         port: "",
         pathname: "/**",
       },
+      {
+        protocol: "https",
+        hostname: "content-tourist.rajasthan.gov.in",
+        port: "",
+        pathname: "/**",
+      },
+      {
+        protocol: "https",
+        hostname: "topmate.io",
+        port: "",
+        pathname: "/**",
+      },
     ],
   },
 };

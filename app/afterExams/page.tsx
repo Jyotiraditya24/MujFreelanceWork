@@ -39,10 +39,11 @@ const cafes: Item[] = [
     link: "https://www.zomato.com/jaipur/bar-palladio-jaipur-narayan-singh-circle",
   },
   {
-    name: "Anokhi Café",
-    image: "/images/anokhi-cafe.jpg",
+    name: "The Swinton House",
+    image:
+      "https://b.zmtcdn.com/data/pictures/7/20984257/d654350598e85f20d68e24776a689888.jpg",
     desc: "A cozy spot focusing on organic ingredients and a relaxed, homely ambiance.",
-    link: "https://www.zomato.com/jaipur/anokhi-cafe-c-scheme",
+    link: "https://www.zomato.com/jaipur/the-swinton-house-mi-road/info",
     isBest: true,
   },
   {
@@ -92,16 +93,18 @@ const cafes: Item[] = [
 const touristSpots: Item[] = [
   {
     name: "Amber Fort",
-    image: "/images/amber-fort.jpg",
+    image:
+      "https://content-tourist.rajasthan.gov.in/uploads/amber_fort_2e768658bb.jpg",
     desc: "A UNESCO World Heritage Site and an iconic fort with breathtaking views of Maota Lake.",
-    link: "https://www.tripadvisor.com/Attraction_Review-g304555-d317412-Reviews-Amber_Fort-Jaipur_Jaipur_District_Rajasthan.html",
+    link: "https://obms-tourist.rajasthan.gov.in/place-details/Amber-Fort",
     isBest: true,
   },
   {
     name: "Hawa Mahal",
-    image: "/images/hawa-mahal.jpg",
+    image:
+      "https://content-tourist.rajasthan.gov.in/uploads/thumbnail_Hawa_Mahal_d73b5e3bac_e2cce540a1.png",
     desc: "Known as the Palace of Winds, featuring 953 intricately carved windows that keep the breeze flowing.",
-    link: "https://www.tripadvisor.com/Attraction_Review-g304555-d317413-Reviews-Hawa_Mahal-Jaipur_Jaipur_District_Rajasthan.html",
+    link: "https://obms-tourist.rajasthan.gov.in/place-details/Hawa-mahal",
     isBest: true,
   },
   {
@@ -124,9 +127,10 @@ const touristSpots: Item[] = [
   },
   {
     name: "Nahargarh Fort",
-    image: "/images/nahargarh-fort.jpg",
+    image:
+      "https://content-tourist.rajasthan.gov.in/uploads/nahargarh_fort_0dbb0b7d49.jpg",
     desc: "Offers panoramic views of Jaipur and is a popular spot for sunset photography and evening outings.",
-    link: "https://www.tripadvisor.com/Attraction_Review-g304555-d317417-Reviews-Nahargarh_Fort-Jaipur_Jaipur_District_Rajasthan.html",
+    link: "https://obms-tourist.rajasthan.gov.in/place-details/Nahagarh-Fort",
     isBest: true,
   },
   {
@@ -295,9 +299,9 @@ export default function AfterExamsPage() {
   }
 
   return (
-    <div className="py-24 min-h-screen bg-gray-100 px-4 md:px-10 ">
+    <div className="py-24 min-h-screen bg-gray-100 px-4 md:px-10">
       {/* Top Tab Bar */}
-      <div className="max-w-5xl mx-auto mb-6 flex justify-center gap-4">
+      <div className="max-w-5xl mx-auto mb-6 flex justify-center gap-4 py-8">
         <TabButton
           label="Cafés & Restaurants"
           active={activeTab === "cafes"}
