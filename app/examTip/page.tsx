@@ -183,7 +183,7 @@ export default function ExamTips69() {
               transition={{ duration: 0.7 }}
             >
               <p className="text-xl text-gray-700">
-                Hello, I'm Swatantra! {`I’ve`} transformed my college journey
+                Hello, {`I'm`} Swatantra! {`I’ve`} transformed my college journey
                 from a 6 GPA to a 10 GPA, and {`I’m`} here to help you unlock
                 your full potential. Book a 1:1 session with me to master
                 productivity, excel in college life, and create your own success
