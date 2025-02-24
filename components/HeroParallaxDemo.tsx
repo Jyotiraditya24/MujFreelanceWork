@@ -8,59 +8,50 @@ export function HeroParallaxDemo() {
 export const products = [
   {
     title: "Moonbeam",
-    link: "https://gomoonbeam.com",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/moonbeam.png",
+    link: "/AboutUsCards/1.png",
+    thumbnail: "/AboutUsCards/1.png",
   },
   {
     title: "Cursor",
     link: "https://cursor.so",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/cursor.png",
+    thumbnail: "/AboutUsCards/2.png",
   },
   {
     title: "Rogue",
     link: "https://userogue.com",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/rogue.png",
+    thumbnail: "/AboutUsCards/3.png",
   },
 
   {
     title: "Editorially",
     link: "https://editorially.org",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/editorially.png",
+    thumbnail: "/AboutUsCards/4.png",
   },
   {
     title: "Editrix AI",
     link: "https://editrix.ai",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/editrix.png",
+    thumbnail: "/AboutUsCards/5.png",
   },
   {
     title: "Pixel Perfect",
     link: "https://app.pixelperfect.quest",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/pixelperfect.png",
+    thumbnail: "/AboutUsCards/6.png",
   },
 
   {
     title: "Algochurn",
     link: "https://algochurn.com",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/algochurn.png",
+    thumbnail: "/AboutUsCards/7.png",
   },
   {
     title: "Aceternity UI",
     link: "https://ui.aceternity.com",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/aceternityui.png",
+    thumbnail: "/AboutUsCards/8.png",
   },
   {
     title: "Tailwind Master Kit",
     link: "https://tailwindmasterkit.com",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/tailwindmasterkit.png",
+    thumbnail: "/AboutUsCards/9.png",
   },
   {
     title: "SmartBridge",
@@ -82,21 +73,18 @@ export const products = [
       "https://aceternity.com/images/products/thumbnails/new/cremedigital.png",
   },
   {
-    title: "Golden Bells Academy",
-    link: "https://goldenbellsacademy.com",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/goldenbellsacademy.png",
+    title: "iqiuriqgiurgi",
+    link: "https://tailwindmasterkit.com",
+    thumbnail: "/AboutUsCards/4.png",
   },
   {
-    title: "Invoker Labs",
-    link: "https://invoker.lol",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/invoker.png",
+    title: "iqiuriqgiurgi",
+    link: "https://tailwindmasterkit.com",
+    thumbnail: "/AboutUsCards/5.png",
   },
   {
-    title: "E Free Invoice",
-    link: "https://efreeinvoice.com",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/efreeinvoice.png",
+    title: "Tailwind Master Kit",
+    link: "https://tailwindmasterkit.com",
+    thumbnail: "/AboutUsCards/5.png",
   },
 ];

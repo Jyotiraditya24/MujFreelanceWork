@@ -60,16 +60,17 @@ const Navbar = () => {
   return (
     <nav
       className={cn(
-        "fixed top-5 left-1/2 -translate-x-1/2 bg-white shadow-md py-3 px-10 flex justify-between lg:justify-center gap-x-10 items-center rounded-2xl lg:w-max w-[80%] z-50 border border-black transition-all",
+        "fixed top-0 left-0 w-full bg-white shadow-md py-3 px-6 flex items-center z-50 border-b border-black transition-all",
         isScrolled && "bg-opacity-80 backdrop-blur-md"
       )}
     >
-      <Link href={"/"} className="text-md font-bold">
+      {/* Left Side - Logo */}
+      <Link href="/" className="text-lg font-bold ml-5">
         MUJTOPPER
       </Link>
 
-      {/* Desktop Nav */}
-      <div className="hidden lg:flex gap-x-6">
+      {/* Right Side - Desktop Nav */}
+      <div className="hidden lg:flex gap-x-6 ml-auto mr-5">
         {navItems.map((item) => (
           <Link
             href={item.href}
@@ -83,15 +84,15 @@ const Navbar = () => {
       </div>
 
       {/* Mobile Menu */}
-      <div className="lg:hidden relative">
+      <div className="lg:hidden ml-auto mr-5">
         {!isOpen ? (
           <Menu onClick={() => setIsOpen(true)} className="cursor-pointer" />
         ) : (
-          <div className="fixed inset-0 bg-black/50 z-50 rounded-xl">
+          <div className="fixed inset-0 bg-black/50 z-50">
             {/* Menu Content */}
             <div
               id="mobile-menu"
-              className="absolute top-0 right-0 bg-white min-h-screen w-1/2 shadow-lg p-5 z-50 transition-all"
+              className="absolute top-0 right-0 bg-white min-h-screen w-2/3 shadow-lg p-5 transition-all"
             >
               {/* Close Button */}
               <button

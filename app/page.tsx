@@ -7,6 +7,7 @@ import { useRef } from "react";
 import { InfiniteMovingCardsDemo } from "@/components/InfiniteMovingCardsDemo";
 import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
 import CardGrid from "@/components/CardGrid";
+import { HeroParallaxDemo } from "@/components/HeroParallaxDemo";
 
 export default function Home() {
   const ref = useRef(null);
@@ -15,81 +16,7 @@ export default function Home() {
     // 1. Add `overflow-x-hidden` to clip any content that extends horizontally
     <div className="min-h-screen overflow-x-hidden">
       {/* 🚀 Hero Section */}
-      <motion.div
-        initial={{ opacity: 0, y: -80 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 1, ease: "easeOut" }}
-        className="min-h-screen px-4 py-4 bg-[url('/heroImage.webp')] bg-cover bg-center flex flex-col justify-center items-center relative gap-y-10"
-      >
-        {/* Animated Heading */}
-        <div className="z-10 flex flex-col gap-y-2 text-center">
-          <motion.h1
-            initial={{ opacity: 0, y: -50 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, ease: "easeOut" }}
-            className="font-bold leading-tight tracking-tight text-black 
-                       text-4xl sm:text-6xl md:text-[74px]"
-          >
-            <ColourfulText text="MUJ TOPPERS" />
-          </motion.h1>
-
-          <motion.h1
-            initial={{ opacity: 0, y: -50 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.9, ease: "easeOut", delay: 0.2 }}
-            className="font-bold leading-tight tracking-tight text-black 
-                       text-3xl sm:text-5xl md:text-[60px]"
-          >
-            <TextGenerateEffect
-              words="MORE THAN NOTES, IT’S A LIFESTYLE"
-              className="font-bold leading-tight tracking-tight text-black"
-            />
-          </motion.h1>
-
-          {/* Typewriter Effect */}
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1, ease: "easeOut", delay: 0.5 }}
-            className="font-light leading-tight tracking-tight text-black 
-                       text-2xl sm:text-4xl md:text-5xl"
-          >
-            <Typewriter
-              options={{
-                strings: [
-                  "Welcome to MUJTOPPERS!",
-                  "Notes, It’s a Lifestyle!",
-                  "Updated PYQs",
-                  "Exams",
-                  "Lab Tips",
-                  "Muj Topper has it all",
-                ],
-                autoStart: true,
-                loop: true,
-                delay: 50,
-                deleteSpeed: 30,
-              }}
-            />
-          </motion.div>
-        </div>
-
-        {/* Animated Paragraph */}
-        <motion.div
-          initial={{ opacity: 0, y: 50 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ amount: 0.2 }}
-          transition={{ duration: 1.2, ease: "easeOut", delay: 0.6 }}
-          className="max-w-[900px] text-lg leading-relaxed font-medium text-gray-800 text-center px-4"
-        >
-          <p className="font-medium text-base sm:text-xl md:text-2xl">
-            MUJ toppers is built to make your college life easier—Access, PYQs,
-            toppers’ notes, study tips, food delivery, and cab booking all in
-            one place, powered by a passionate mix who have been through it. We
-            ensure you have everything you need to excel—both inside and outside
-            the classroom.
-          </p>
-        </motion.div>
-      </motion.div>
+      <HeroParallaxDemo />
 
       {/* 🚀 Infinite Moving Cards Section */}
       <motion.div
@@ -261,7 +188,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto flex flex-col gap-8 md:flex-row items-center">
           <div className="md:w-1/2">
             <motion.img
-              src="/About_US.webp"
+              src="/AboutUsCards/5.png"
               alt="About Us"
               className="rounded-lg shadow-lg w-full"
               initial={{ opacity: 0, x: -50 }}
