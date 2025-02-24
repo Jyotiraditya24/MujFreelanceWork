@@ -3,11 +3,11 @@
 import { cn } from "@/lib/util";
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import {  Menu } from "lucide-react";
+import { Menu, X } from "lucide-react"; // Import close icon
 
 const navItems = [
   { label: "Home", href: "/" },
-  { label: "Material", href: "#material" }, // Change href to a hash
+  { label: "Material", href: "#material" },
   { label: "Order", href: "/order" },
   { label: "Exam Tip 69", href: "/examTip" },
   { label: "About Us", href: "/about" },
@@ -16,15 +16,29 @@ const navItems = [
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
 
   useEffect(() => {
-    const handleScroll = () => {
-      setIsScrolled(window.scrollY > 50); // Adjust transparency when scrolled 50px down
-    };
-
+    const handleScroll = () => setIsScrolled(window.scrollY > 50);
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
+
+  // Close menu when clicking outside
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (
+        isOpen &&
+        event.target instanceof HTMLElement &&
+        !event.target.closest("#mobile-menu")
+      ) {
+        setIsOpen(false);
+      }
+    };
+
+    document.addEventListener("click", handleClickOutside);
+    return () => document.removeEventListener("click", handleClickOutside);
+  }, [isOpen]);
 
   const handleSmoothScroll = (
     e: React.MouseEvent<HTMLAnchorElement>,
@@ -32,13 +46,13 @@ const Navbar = () => {
   ) => {
     if (href.startsWith("#")) {
       e.preventDefault();
-      const targetId = href.substring(1);
-      const targetElement = document.getElementById(targetId);
+      const targetElement = document.getElementById(href.substring(1));
       if (targetElement) {
         window.scrollTo({
-          top: targetElement.offsetTop - 50, // Adjust offset if navbar overlaps
+          top: targetElement.offsetTop - 50,
           behavior: "smooth",
         });
+        setIsOpen(false); // Close menu after clicking
       }
     }
   };
@@ -46,27 +60,67 @@ const Navbar = () => {
   return (
     <nav
       className={cn(
-        "fixed top-5 left-1/2 -translate-x-1/2 bg-white shadow-md py-3 px-10 flex justify-between lg:justify-center gap-x-10 items-center rounded-2xl lg:w-max w-[80%] z-50 border border-t border-black transition-all",
+        "fixed top-5 left-1/2 -translate-x-1/2 bg-white shadow-md py-3 px-10 flex justify-between lg:justify-center gap-x-10 items-center rounded-2xl lg:w-max w-[80%] z-50 border border-black transition-all",
         isScrolled && "bg-opacity-80 backdrop-blur-md"
       )}
     >
       <Link href={"/"} className="text-md font-bold">
         MUJTOPPER
       </Link>
+
+      {/* Desktop Nav */}
       <div className="hidden lg:flex gap-x-6">
         {navItems.map((item) => (
           <Link
             href={item.href}
             key={item.label}
-            className={`text-black font-bold px-4 py-2 rounded-2xl hover:bg-black hover:text-white transition-all`}
+            className="text-black font-bold px-4 py-2 rounded-2xl hover:bg-black hover:text-white transition-all"
             onClick={(e) => handleSmoothScroll(e, item.href)}
           >
             {item.label}
           </Link>
         ))}
       </div>
-      <div className="lg:hidden">
-        <Menu />
+
+      {/* Mobile Menu */}
+      <div className="lg:hidden relative">
+        {!isOpen ? (
+          <Menu onClick={() => setIsOpen(true)} className="cursor-pointer" />
+        ) : (
+          <div className="fixed inset-0 bg-black/50 z-50 rounded-xl">
+            {/* Menu Content */}
+            <div
+              id="mobile-menu"
+              className="absolute top-0 right-0 bg-white min-h-screen w-1/2 shadow-lg p-5 z-50 transition-all"
+            >
+              {/* Close Button */}
+              <button
+                className="absolute top-5 right-5 text-black"
+                onClick={() => setIsOpen(false)}
+              >
+                <X />
+              </button>
+
+              {/* Menu Items */}
+              <ul className="flex flex-col gap-6 mt-12 p-5">
+                {navItems.map((item) => (
+                  <li key={item.label}>
+                    <Link
+                      href={item.href}
+                      className="block text-lg text-black font-semibold hover:bg-gray-200 p-3 rounded-md"
+                      onClick={(e) => {
+                        handleSmoothScroll(e, item.href);
+                        setIsOpen(false);
+                      }}
+                    >
+                      {item.label}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
+        )}
       </div>
     </nav>
   );
