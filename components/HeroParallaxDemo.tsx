@@ -73,7 +73,7 @@ export const products = [
       "https://aceternity.com/images/products/thumbnails/new/cremedigital.png",
   },
   {
-    title: "iqiuriqgiurgi",
+    title: "iqiuriqgiurgi412412",
     link: "https://tailwindmasterkit.com",
     thumbnail: "/AboutUsCards/4.png",
   },
