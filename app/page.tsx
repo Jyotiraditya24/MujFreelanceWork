@@ -28,8 +28,8 @@ export default function Home() {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: false }}
-          className="font-bold tracking-tight text-transparent bg-clip-text 
-                     bg-gradient-to-r from-[#ffbd59] via-[#ff914d] to-[#ff6a00]
+          className="font-bold tracking-tight 
+                     bg-gradient-to-r text-black
                      text-2xl sm:text-4xl md:text-5xl flex flex-wrap justify-center"
         >
           {Array.from("More Than Just Notes – MUJ Life, Sorted!").map(
@@ -48,7 +48,7 @@ export default function Home() {
                     y: [20, -10, 0],
                     rotate: [0, 5, -5, 0],
                     filter: ["blur(5px)", "blur(0px)"],
-                    color: ["#ffbd59", "#ff914d", "#ff6a00"],
+
                     textShadow: [
                       "0px 0px 10px rgba(255, 189, 89, 0.8)",
                       "0px 0px 5px rgba(255, 189, 89, 0.5)",
@@ -81,8 +81,8 @@ export default function Home() {
             viewport={{ once: false }}
             transition={{ duration: 0.8, ease: "easeOut" }}
             className="text-center font-bold leading-tight tracking-tight 
-                       text-transparent bg-clip-text bg-gradient-to-r
-                       from-[#ffbd59] via-[#ff914d] to-[#ff6a00]
+                      text-black
+          
                        text-2xl sm:text-4xl md:text-5xl"
           >
             Your College Journey, Simplified: Study, Eat & Chill
@@ -101,7 +101,7 @@ export default function Home() {
               initial={{ filter: "blur(8px)", opacity: 0 }}
               whileInView={{ filter: "blur(0px)", opacity: 1 }}
               transition={{ duration: 1.5, ease: "easeOut" }}
-              className="bg-gradient-to-r from-[#ffbd59] via-[#ff914d] to-[#ff6a00] bg-clip-text text-transparent font-extrabold"
+              className="text-blackfont-extrabold"
             >
               College life is hectic,
             </motion.span>{" "}
@@ -110,7 +110,7 @@ export default function Home() {
               initial={{ scale: 0.9, opacity: 0 }}
               whileInView={{ scale: 1, opacity: 1 }}
               transition={{ duration: 1, ease: "easeOut", delay: 0.5 }}
-              className="text-[#ff6a00] font-semibold"
+              className="text-black font-semibold"
             >
               {" "}
               Whether you need toppers’ notes, PYQs, food delivery, or cab
@@ -121,7 +121,7 @@ export default function Home() {
               initial={{ scale: 0.95, opacity: 0 }}
               whileInView={{ scale: 1, opacity: 1 }}
               transition={{ duration: 0.8, ease: "easeInOut", delay: 0.6 }}
-              className="text-[#ff914d] font-bold italic"
+              className="text-black font-bold italic"
             >
               {" "}
               Just study, relax, and enjoy your college life.
@@ -138,38 +138,6 @@ export default function Home() {
         >
           <CardGrid />
         </motion.div>
-      </motion.div>
-      {/* ADDITIONAL SECTION 1 - Get In Touch */}
-      <motion.div
-        className="py-16 px-4"
-        initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1 }}
-        viewport={{ once: true }}
-        transition={{ duration: 1 }}
-      >
-        <div className="max-w-6xl mx-auto text-center">
-          <motion.h2
-            className="text-3xl md:text-4xl font-bold text-gray-800 mb-8"
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8 }}
-          >
-            Get In Touch
-          </motion.h2>
-          <p className="text-base md:text-xl text-gray-700 mb-8">
-            Have questions or need assistance? Reach out to us and we’ll be
-            happy to help!
-          </p>
-          <motion.a
-            href="mailto:contact@mujtoppers.com"
-            className="inline-block px-6 py-3 bg-[#ff6a00] text-white font-bold rounded-lg shadow-lg hover:bg-[#ff914d] transition-all"
-            initial={{ opacity: 0, scale: 0.9 }}
-            whileInView={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.8 }}
-          >
-            Contact Us
-          </motion.a>
-        </div>
       </motion.div>
       {/* ADDITIONAL SECTION 2 - About Us */}
       <motion.div
@@ -279,6 +247,39 @@ export default function Home() {
               </p>
             </div>
           </div>
+        </div>
+      </motion.div>
+
+      {/* ADDITIONAL SECTION 1 - Get In Touch */}
+      <motion.div
+        className="py-16 px-4"
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        viewport={{ once: true }}
+        transition={{ duration: 1 }}
+      >
+        <div className="max-w-6xl mx-auto text-center">
+          <motion.h2
+            className="text-3xl md:text-4xl font-bold text-gray-800 mb-8"
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+          >
+            Get In Touch
+          </motion.h2>
+          <p className="text-base md:text-xl text-gray-700 mb-8">
+            Have questions or need assistance? Reach out to us and we’ll be
+            happy to help!
+          </p>
+          <motion.a
+            href="mailto:contact@mujtoppers.com"
+            className="inline-block px-6 py-3 bg-[#ff6a00] text-white font-bold rounded-lg shadow-lg hover:bg-[#ff914d] transition-all"
+            initial={{ opacity: 0, scale: 0.9 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.8 }}
+          >
+            Contact Us
+          </motion.a>
         </div>
       </motion.div>
     </div>
