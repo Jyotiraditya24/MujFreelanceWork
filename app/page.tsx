@@ -6,6 +6,7 @@ import { InfiniteMovingCardsDemo } from "@/components/InfiniteMovingCardsDemo";
 import CardGrid from "@/components/CardGrid";
 import { HeroParallaxDemo } from "@/components/HeroParallaxDemo";
 import { HeroScrollDemo } from "@/components/HeroScrollDemo";
+import { CarouselDemo } from "@/components/CardDemo";
 
 export default function Home() {
   const ref = useRef(null);
@@ -72,6 +73,8 @@ export default function Home() {
       <div className="px-4">
         <InfiniteMovingCardsDemo />
       </div>
+
+   
       {/* Additional sections below */}
       <motion.div ref={ref} className="flex flex-col justify-center px-4">
         <div className="max-w-6xl mx-auto flex flex-col gap-y-16">
@@ -128,7 +131,8 @@ export default function Home() {
             </motion.span>
           </motion.p>
         </div>
-        <motion.div
+        <CarouselDemo />
+        {/* <motion.div
           initial={{ opacity: 0, scale: 0.9 }}
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: false }}
@@ -137,7 +141,7 @@ export default function Home() {
           id="material"
         >
           <CardGrid />
-        </motion.div>
+        </motion.div> */}
       </motion.div>
       {/* ADDITIONAL SECTION 2 - About Us */}
       <motion.div
