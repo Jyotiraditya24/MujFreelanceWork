@@ -1,13 +1,11 @@
 "use client";
 
-// import Typewriter from "typewriter-effect";
-// import { ColourfulText } from "@/components/ui/colorful-text";
 import { motion } from "framer-motion";
 import { useRef } from "react";
 import { InfiniteMovingCardsDemo } from "@/components/InfiniteMovingCardsDemo";
-// import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
 import CardGrid from "@/components/CardGrid";
 import { HeroParallaxDemo } from "@/components/HeroParallaxDemo";
+import { HeroScrollDemo } from "@/components/HeroScrollDemo";
 
 export default function Home() {
   const ref = useRef(null);
@@ -17,7 +15,7 @@ export default function Home() {
     <div className="min-h-screen overflow-x-hidden">
       {/* 🚀 Hero Section */}
       <HeroParallaxDemo />
-
+      <HeroScrollDemo />
       {/* 🚀 Infinite Moving Cards Section */}
       <motion.div
         initial={{ opacity: 0, y: 100 }}
@@ -71,11 +69,9 @@ export default function Home() {
           )}
         </motion.h1>
       </motion.div>
-
       <div className="px-4">
         <InfiniteMovingCardsDemo />
       </div>
-
       {/* Additional sections below */}
       <motion.div ref={ref} className="flex flex-col justify-center px-4">
         <div className="max-w-6xl mx-auto flex flex-col gap-y-16">
@@ -143,7 +139,6 @@ export default function Home() {
           <CardGrid />
         </motion.div>
       </motion.div>
-
       {/* ADDITIONAL SECTION 1 - Get In Touch */}
       <motion.div
         className="py-16 px-4"
@@ -176,7 +171,6 @@ export default function Home() {
           </motion.a>
         </div>
       </motion.div>
-
       {/* ADDITIONAL SECTION 2 - About Us */}
       <motion.div
         className="py-16 px-4"
@@ -213,7 +207,6 @@ export default function Home() {
           </div>
         </div>
       </motion.div>
-
       {/* ADDITIONAL SECTION 3 - Testimonials */}
       <motion.div
         className="py-16 px-4"
@@ -249,7 +242,6 @@ export default function Home() {
           </div>
         </div>
       </motion.div>
-
       {/* ADDITIONAL SECTION 4 - Our Services */}
       <motion.div
         className="py-16 px-4"
