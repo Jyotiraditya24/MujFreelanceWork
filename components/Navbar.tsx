@@ -3,6 +3,7 @@
 import { cn } from "@/lib/util";
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import {  Menu } from "lucide-react";
 
 const navItems = [
   { label: "Home", href: "/" },
@@ -45,14 +46,14 @@ const Navbar = () => {
   return (
     <nav
       className={cn(
-        "fixed top-5 left-1/2 -translate-x-1/2 bg-white shadow-md py-3 px-10 flex justify-center gap-x-10 items-center rounded-2xl w-max z-50 border border-t border-black transition-all",
+        "fixed top-5 left-1/2 -translate-x-1/2 bg-white shadow-md py-3 px-10 flex justify-between lg:justify-center gap-x-10 items-center rounded-2xl lg:w-max w-[80%] z-50 border border-t border-black transition-all",
         isScrolled && "bg-opacity-80 backdrop-blur-md"
       )}
     >
       <Link href={"/"} className="text-md font-bold">
         MUJTOPPER
       </Link>
-      <div className="flex gap-x-6">
+      <div className="hidden lg:flex gap-x-6">
         {navItems.map((item) => (
           <Link
             href={item.href}
@@ -63,6 +64,9 @@ const Navbar = () => {
             {item.label}
           </Link>
         ))}
+      </div>
+      <div className="lg:hidden">
+        <Menu />
       </div>
     </nav>
   );
