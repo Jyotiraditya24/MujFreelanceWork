@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import { useRef } from "react";
 import { InfiniteMovingCardsDemo } from "@/components/InfiniteMovingCardsDemo";
-import CardGrid from "@/components/CardGrid";
+// import CardGrid from "@/components/CardGrid";
 import { HeroParallaxDemo } from "@/components/HeroParallaxDemo";
 import { HeroScrollDemo } from "@/components/HeroScrollDemo";
 import { CarouselDemo } from "@/components/CardDemo";
