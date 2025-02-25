@@ -211,8 +211,8 @@ export default function Home() {
                 className="w-16 h-16 rounded-full mb-4 border-2 border-gray-300"
               />
               <p className="text-gray-700 italic text-lg mb-4">
-                "This platform revolutionized my study routine and made exam
-                prep so much easier!"
+            {`    "This platform revolutionized my study routine and made exam
+                prep so much easier!"`}
               </p>
               <h4 className="text-xl font-bold text-gray-900">- Ananya</h4>
             </motion.div>
@@ -230,10 +230,10 @@ export default function Home() {
                 className="w-16 h-16 rounded-full mb-4 border-2 border-gray-300"
               />
               <p className="text-gray-700 italic text-lg mb-4">
-                "I found everything I needed in one place. Highly recommended
-                for every student!"
+              {`  "I found everything I needed in one place. Highly recommended
+                for every student!"`}
               </p>
-              <h4 className="text-xl font-bold text-gray-900">- Rohit</h4>
+              <h4 className="text-xl font-bold text-gray-900"> Rohit</h4>
             </motion.div>
           </div>
         </div>

@@ -34,7 +34,7 @@ export default function OrderFood() {
         </h1>
 
         <p className="text-xl md:text-2xl text-gray-200 mb-8 max-w-2xl">
-          Eat at Divine - it's awesome and it's our sponsor
+          Eat at Divine - {`it's`} awesome and {`it's `}our sponsor
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4">
