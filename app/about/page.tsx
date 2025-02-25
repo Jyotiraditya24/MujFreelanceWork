@@ -1,9 +1,10 @@
-import { HeroParallaxDemo } from "@/components/HeroParallaxDemo";
+import { TimelineDemo } from "@/components/TimeLineDemo";
+
 
 export default function About() {
   return (
     <div>
-      <HeroParallaxDemo />
+      <TimelineDemo />
     </div>
   );
 }

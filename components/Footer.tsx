@@ -3,11 +3,11 @@ import { Facebook, Twitter, Instagram, Linkedin } from "lucide-react"; // Import
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-900 text-white py-10">
+    <footer className="bg-black text-white py-10">
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-10">
         {/* Brand Section */}
         <div>
-          <h2 className="text-2xl font-bold text-yellow-400">MUJTOPPER</h2>
+          <h2 className="text-2xl font-bold">MUJTOPPER</h2>
           <p className="mt-2 text-gray-400">
             Your College Journey, Simplified: Study, Eat & Chill
           </p>
@@ -61,13 +61,13 @@ const Footer = () => {
               <Twitter size={24} />
             </a>
             <a
-              href="#"
+              href="https://www.instagram.com/mujtoppers"
               className="text-gray-400 hover:text-pink-500 transition"
             >
               <Instagram size={24} />
             </a>
             <a
-              href="#"
+              href="https://www.linkedin.com/in/muj-toppers-824170352/"
               className="text-gray-400 hover:text-blue-700 transition"
             >
               <Linkedin size={24} />
