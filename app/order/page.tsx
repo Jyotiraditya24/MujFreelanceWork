@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Phone } from "lucide-react";
+import Link from "next/link";
 
 export default function OrderFood() {
   const [phoneNumber] = useState("9905604251");
@@ -13,15 +14,16 @@ export default function OrderFood() {
 
   return (
     <div className="relative w-full min-h-screen flex flex-col">
-      {/* Video Background */}
-      <div className="absolute inset-0 w-full h-full z-0">
+      {/* Video Background - with pointer-events-none to fix the clicking issue */}
+      <div className="absolute inset-0 w-full h-full z-0 pointer-events-none">
         <div className="absolute inset-0 bg-black/40 z-10" />
-        {/* Overlay for better text visibility */}
+        {/* Added playsInline for better mobile behavior */}
         <video
           src="/video.mp4"
           autoPlay
           loop
           muted
+          playsInline
           className="w-full h-full object-cover"
         />
       </div>
@@ -38,9 +40,11 @@ export default function OrderFood() {
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4">
-          <Button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-6 text-lg">
-            View Menu <ArrowRight className="ml-2 h-5 w-5" />
-          </Button>
+          <Link href="/menu">
+            <Button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-6 text-lg">
+              View Menu <ArrowRight className="ml-2 h-5 w-5" />
+            </Button>
+          </Link>
           <Button
             variant="outline"
             className="text-black border-white hover:bg-white hover:text-black px-8 py-6 text-lg"
@@ -56,9 +60,11 @@ export default function OrderFood() {
         <h2 className="text-3xl font-bold text-white mb-6">
           Ready to elevate your dining experience?
         </h2>
-        <Button className="bg-white text-blue-900 hover:bg-gray-200 px-8 py-6 text-lg">
-          Explore Menu
-        </Button>
+        <Link href="/menu">
+          <Button className="bg-white text-blue-900 hover:bg-gray-200 px-8 py-6 text-lg">
+            Explore Menu
+          </Button>
+        </Link>
       </div>
     </div>
   );
