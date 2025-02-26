@@ -9,7 +9,6 @@ import {
   useInView,
 } from "framer-motion";
 import {
-  Check,
   Brain,
   Clock,
   Coffee,
@@ -238,10 +237,10 @@ export default function ExamTipsPage() {
             Transform Your Study Habits
           </h2>
           <p className="text-lg text-gray-700 mb-6">
-            Studying effectively isn't about working harder—it's about working
+        {`    Studying effectively isn't about working harder—it's about working
             smarter. These science-backed techniques will help you retain more
             information in less time, reduce pre-exam anxiety, and boost your
-            confidence when it matters most.
+            confidence when it matters most.`}
           </p>
         </motion.div>
 
@@ -363,7 +362,7 @@ export default function ExamTipsPage() {
                 <Card className="bg-transparent border-0 relative h-full">
                   <CardContent className="p-6 text-white h-full flex flex-col">
                     <div className="mb-4 text-yellow-300">{"★★★★★"}</div>
-                    <p className="italic mb-6 flex-1">"{testimonial.quote}"</p>
+                    <p className="italic mb-6 flex-1">{testimonial.quote}</p>
                     <div>
                       <p className="font-bold">{testimonial.name}</p>
                       <p className="text-sm opacity-80">{testimonial.course}</p>
