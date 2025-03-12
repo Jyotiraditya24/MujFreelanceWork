@@ -7,84 +7,81 @@ export function HeroParallaxDemo() {
 }
 export const products = [
   {
-    title: "Moonbeam",
-    link: "/AboutUsCards/1.png",
-    thumbnail: "/AboutUsCards/1.png",
+    title: "Diksha Dwivedi",
+    link: "/LandingPageTopper/1.png",
+    thumbnail: "/LandingPageTopper/1.png",
   },
   {
-    title: "Cursor",
+    title: "Bhoomika Gupta",
     link: "https://cursor.so",
-    thumbnail: "/AboutUsCards/2.png",
+    thumbnail: "/LandingPageTopper/2.png",
   },
   {
-    title: "Rogue",
+    title: "Chandra T.Pandey",
     link: "https://userogue.com",
-    thumbnail: "/AboutUsCards/3.png",
+    thumbnail: "/LandingPageTopper/3.png",
   },
 
   {
-    title: "Editorially",
+    title: "Chetanya Jolly",
     link: "https://editorially.org",
-    thumbnail: "/AboutUsCards/4.png",
+    thumbnail: "/LandingPageTopper/4.png",
   },
   {
-    title: "Editrix AI",
+    title: "Chanchal Agarwal",
     link: "https://editrix.ai",
-    thumbnail: "/AboutUsCards/5.png",
+    thumbnail: "/LandingPageTopper/5.png",
   },
   {
-    title: "Pixel Perfect",
+    title: "Maldev Singh Chouhan",
     link: "https://app.pixelperfect.quest",
-    thumbnail: "/AboutUsCards/6.png",
+    thumbnail: "/LandingPageTopper/6.png",
   },
 
   {
-    title: "Algochurn",
+    title: "Anish Deep Gulde",
     link: "https://algochurn.com",
-    thumbnail: "/AboutUsCards/7.png",
+    thumbnail: "/LandingPageTopper/7.png",
   },
   {
-    title: "Aceternity UI",
+    title: "Harsh Shishodia",
     link: "https://ui.aceternity.com",
-    thumbnail: "/AboutUsCards/8.png",
+    thumbnail: "/LandingPageTopper/8.png",
   },
   {
-    title: "Tailwind Master Kit",
+    title: "Swatantra choudhary",
     link: "https://tailwindmasterkit.com",
-    thumbnail: "/AboutUsCards/9.png",
+    thumbnail: "/LandingPageTopper/9.png",
   },
   {
-    title: "SmartBridge",
-    link: "https://smartbridgetech.com",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/smartbridge.png",
+    title: "Jyotiraditya",
+    link: "https://cremedigital.com",
+    thumbnail: "/LandingPageTopper/12.png",
   },
   {
     title: "Renderwork Studio",
     link: "https://renderwork.studio",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/renderwork.png",
+    thumbnail: "/LandingPageTopper/11.png",
   },
 
   {
     title: "Creme Digital",
     link: "https://cremedigital.com",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/cremedigital.png",
+    thumbnail: "/LandingPageTopper/12.png",
   },
   {
-    title: "iqiuriqgiurgi412412",
-    link: "https://tailwindmasterkit.com",
-    thumbnail: "/AboutUsCards/4.png",
+    title: "Sanya Dureja",
+    link: "/LandingPageTopper/10.png",
+    thumbnail: "/LandingPageTopper/10.png",
   },
   {
-    title: "iqiuriqgiurgi",
-    link: "https://tailwindmasterkit.com",
-    thumbnail: "/AboutUsCards/5.png",
+    title: "Chetanya Jolly",
+    link: "https://editorially.org",
+    thumbnail: "/LandingPageTopper/4.png",
   },
   {
-    title: "Tailwind Master Kit",
-    link: "https://tailwindmasterkit.com",
-    thumbnail: "/AboutUsCards/5.png",
+    title: "Diksha Dwivedi",
+    link: "/LandingPageTopper/1.png",
+    thumbnail: "/LandingPageTopper/1.png",
   },
 ];

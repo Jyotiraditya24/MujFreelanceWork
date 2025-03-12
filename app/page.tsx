@@ -12,7 +12,7 @@ export default function Home() {
 
   return (
     // 1. Add `overflow-x-hidden` to clip any content that extends horizontally
-    <div className="min-h-screen overflow-x-hidden">
+    <div className="min-h-screen overflow-x-hidden bg-gradient-to-b from-gray-50 to-white">
       {/* 🚀 Hero Section */}
       <HeroParallaxDemo />
       <HeroScrollDemo />
@@ -22,7 +22,7 @@ export default function Home() {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: false, amount: 0.2 }}
         transition={{ duration: 1, ease: "easeOut" }}
-        className="flex flex-col gap-y-8 items-center justify-center my-10 px-4"
+        className="flex flex-col gap-y-8 items-center justify-center my-10 px-4 bg-gradient-to-b from-gray-50 to-white"
       >
         <motion.h1
           initial="hidden"
@@ -74,7 +74,7 @@ export default function Home() {
       </div>
 
       {/* Additional sections below */}
-      <motion.div ref={ref} className="flex flex-col justify-center px-4">
+      <motion.div ref={ref} className="flex flex-col justify-center px-4 bg-gradient-to-b from-gray-50 to-white">
         <div className="max-w-6xl mx-auto flex flex-col gap-y-16">
           <motion.h1
             initial={{ opacity: 0, y: 30 }}
@@ -141,9 +141,10 @@ export default function Home() {
           <CardGrid />
         </motion.div>
       </motion.div>
+
       {/* ADDITIONAL SECTION 1 - About Us */}
       <motion.div
-        className="py-16 px-4"
+        className="py-16 px-4 bg-gradient-to-b from-gray-50 to-white"
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         viewport={{ once: true }}
@@ -179,77 +180,172 @@ export default function Home() {
       </motion.div>
 
       {/* ADDITIONAL SECTION 2 - Our Services */}
-      <motion.div
-        className="py-16 px-4"
+      <motion.section
+        className="py-20 px-4 bg-gradient-to-b from-gray-50 to-white"
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         viewport={{ once: true }}
-        transition={{ duration: 1 }}
+        transition={{ duration: 0.6, ease: "easeOut" }}
       >
         <div className="max-w-6xl mx-auto text-center">
           <motion.h2
-            className="text-3xl md:text-4xl font-bold text-gray-800 mb-8"
-            initial={{ opacity: 0, y: 20 }}
+            className="text-3xl md:text-5xl font-bold text-gray-800 mb-4"
+            initial={{ opacity: 0, y: 10 }}
             whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.4, ease: "easeOut" }}
           >
             Our Services
           </motion.h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="bg-white p-6 rounded-lg shadow-lg">
-              <h3 className="text-2xl font-semibold mb-2">PYQs</h3>
-              <p className="text-gray-600">
-                Access previous years’ question papers quickly and easily.
-              </p>
-            </div>
-            <div className="bg-white p-6 rounded-lg shadow-lg">
-              <h3 className="text-2xl font-semibold mb-2">Toppers’ Notes</h3>
-              <p className="text-gray-600">
-                Quality notes curated by toppers to help you excel.
-              </p>
-            </div>
-            <div className="bg-white p-6 rounded-lg shadow-lg">
-              <h3 className="text-2xl font-semibold mb-2">Study Tips</h3>
-              <p className="text-gray-600">
-                Effective strategies and tips for successful studying.
-              </p>
-            </div>
-          </div>
-        </div>
-      </motion.div>
 
+          <motion.p
+            className="text-gray-600 max-w-2xl mx-auto mb-12 text-lg"
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.4, delay: 0.1 }}
+          >
+            Comprehensive resources designed to help you excel in your academic journey at MUJ
+          </motion.p>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {/* Service 1 */}
+            <motion.div
+              className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-200 border border-gray-100 flex flex-col items-center"
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.3 }}
+              whileHover={{ y: -5 }}
+            >
+              <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-4">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                </svg>
+              </div>
+              <h3 className="text-2xl font-semibold mb-3 text-gray-800">Previous Year Papers</h3>
+              <p className="text-gray-600 mb-4 text-center">
+                Access a comprehensive collection of previous years' question papers to understand exam patterns and prepare effectively.
+              </p>
+              <button className="mt-auto py-2 px-4 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors duration-200 flex items-center space-x-1">
+                <span>View Papers</span>
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                </svg>
+              </button>
+            </motion.div>
+
+            {/* Service 2 */}
+            <motion.div
+              className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-200 border border-gray-100 flex flex-col items-center"
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.3, delay: 0.1 }}
+              whileHover={{ y: -5 }}
+            >
+              <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mb-4">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z" />
+                </svg>
+              </div>
+              <h3 className="text-2xl font-semibold mb-3 text-gray-800">Toppers' Notes</h3>
+              <p className="text-gray-600 mb-4 text-center">
+                Study from meticulously curated notes by top-ranking students across all departments, organized by subject and topic.
+              </p>
+              <button className="mt-auto py-2 px-4 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors duration-200 flex items-center space-x-1">
+                <span>Access Notes</span>
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                </svg>
+              </button>
+            </motion.div>
+
+            {/* Service 3 */}
+            <motion.div
+              className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-200 border border-gray-100 flex flex-col items-center"
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.3, delay: 0.2 }}
+              whileHover={{ y: -5 }}
+            >
+              <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mb-4">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-purple-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+                </svg>
+              </div>
+              <h3 className="text-2xl font-semibold mb-3 text-gray-800">Study Strategies</h3>
+              <p className="text-gray-600 mb-4 text-center">
+                Learn proven study techniques, time management skills, and exam strategies from students who've consistently achieved top results.
+              </p>
+              <button className="mt-auto py-2 px-4 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition-colors duration-200 flex items-center space-x-1">
+                <span>Get Tips</span>
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                </svg>
+              </button>
+            </motion.div>
+          </div>
+
+          <motion.div
+            className="mt-16"
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.4, delay: 0.3 }}
+          >
+            <a href="#all-services" className="inline-flex items-center space-x-2 text-blue-600 hover:text-blue-800 font-medium">
+              <span>View all our academic resources</span>
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                <path fillRule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd" />
+              </svg>
+            </a>
+          </motion.div>
+        </div>
+      </motion.section>
+     
       {/* ADDITIONAL SECTION 3 - Get In Touch */}
       <motion.div
-        className="py-16 px-4"
+        className="py-20 px-6 bg-gradient-to-b from-gray-50 to-white"
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         viewport={{ once: true }}
         transition={{ duration: 1 }}
       >
-        <div className="max-w-6xl mx-auto text-center">
+        <div className="max-w-5xl mx-auto text-center">
+          {/* Heading */}
           <motion.h2
-            className="text-3xl md:text-4xl font-bold text-gray-800 mb-8"
+            className="text-3xl md:text-4xl font-extrabold text-gray-900 mb-6 tracking-tight"
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8 }}
+            transition={{ duration: 0.8, ease: "easeOut" }}
           >
-            Get In Touch
+            Let’s Connect! 
           </motion.h2>
-          <p className="text-base md:text-xl text-gray-700 mb-8">
-            Have questions or need assistance? Reach out to us and we’ll be
-            happy to help!
+
+          {/* Subtext */}
+          <p className="text-lg md:text-xl text-gray-700 max-w-3xl mx-auto leading-relaxed mb-8">
+            Have questions or need assistance? We’d love to hear from you.
+            Drop us a message, and we’ll get back to you as soon as possible!
           </p>
+
+          {/* Contact Button */}
           <motion.a
             href="mailto:mujtoppers@gmail.com"
-            className="inline-block px-6 py-3 bg-[#ff6a00] text-white font-bold rounded-lg shadow-lg hover:bg-[#ff914d] transition-all"
-            initial={{ opacity: 0, scale: 0.9 }}
-            whileInView={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.8 }}
+            className="relative inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-[#ff6a00] to-[#ff914d] text-white font-semibold text-lg rounded-lg shadow-lg hover:scale-105 hover:shadow-2xl transition-all duration-300"
+            initial={{ opacity: 0, y: 10 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, ease: "easeOut" }}
+            aria-label="Contact Us via Email"
           >
-            Contact Us
+            📧 Contact Us
+            <span className="absolute inset-x-0 bottom-0 h-1 bg-white opacity-0 transition-opacity group-hover:opacity-100"></span>
           </motion.a>
         </div>
       </motion.div>
+
+
     </div>
   );
 }
