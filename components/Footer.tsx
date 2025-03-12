@@ -1,5 +1,6 @@
 import React from "react";
 import { Facebook, Twitter, Instagram, Linkedin } from "lucide-react"; // Importing Lucide icons
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -16,12 +17,12 @@ const Footer = () => {
         {/* Navigation Links */}
         <div className="flex flex-col space-y-3">
           <h3 className="text-lg font-semibold text-gray-300">Quick Links</h3>
-          <a
+          <Link
             href="/material"
             className="text-gray-400 hover:text-yellow-400 transition"
           >
             Study Materials
-          </a>
+          </Link>
           <a
             href="/order"
             className="text-gray-400 hover:text-yellow-400 transition"
@@ -60,18 +61,18 @@ const Footer = () => {
             >
               <Twitter size={24} />
             </a>
-            <a
+            <Link
               href="https://www.instagram.com/mujtoppers"
               className="text-gray-400 hover:text-pink-500 transition"
             >
               <Instagram size={24} />
-            </a>
-            <a
+            </Link>
+            <Link
               href="https://www.linkedin.com/company/muj-toppers/about/?viewAsMember=true"
               className="text-gray-400 hover:text-blue-700 transition"
             >
               <Linkedin size={24} />
-            </a>
+            </Link>
           </div>
         </div>
       </div>
