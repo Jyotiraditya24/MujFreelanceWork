@@ -91,17 +91,17 @@ export function TimelineDemo() {
       title: "Contact Us",
       content: (
         <div>
-          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-lg font-normal mb-4">
+          <div className="text-neutral-800 dark:text-neutral-200 text-xs md:text-lg font-normal mb-4">
             We’d love to hear from you! Whether you want to contribute notes, share feedback, or report an issue, feel free to reach out.
             <p className="flex gap-x-5">
-              <a href="https://www.linkedin.com/in/muj-toppers-824170352/" className="text-blue-600 hover:text-blue-800 underline flex items-center" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/company/muj-toppers/about/?viewAsMember=true" className="text-blue-600 hover:text-blue-800 underline flex items-center" target="_blank" rel="noopener noreferrer">
                 <span>Connect with us on LinkedIn</span>
               </a>
               <a href="mailto:mujtoppers@gmail.com" className="text-blue-600 hover:text-blue-800 underline">
                 <span>Contact us via Gmail</span>
               </a>
             </p>
-          </p>
+          </div>
 
           <div className="grid grid-cols-2 gap-4">
             <Image

@@ -96,15 +96,7 @@ export const HeroParallax = ({
             />
           ))}
         </motion.div>
-        <motion.div className="flex flex-row-reverse space-x-reverse space-x-20">
-          {thirdRow.map((product, index) => (
-            <ProductCard
-              product={product}
-              translate={translateX}
-              key={index}
-            />
-          ))}
-        </motion.div>
+
       </motion.div>
     </div>
   );
