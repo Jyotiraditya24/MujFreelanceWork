@@ -225,7 +225,7 @@ export default function Home() {
               </div>
               <h3 className="text-2xl font-semibold mb-3 text-gray-800">Previous Year Papers</h3>
               <p className="text-gray-600 mb-4 text-center">
-                Access a comprehensive collection of previous years' question papers to understand exam patterns and prepare effectively.
+                Access a comprehensive collection of previous years question papers to understand exam patterns and prepare effectively.
               </p>
               <button className="mt-auto py-2 px-4 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors duration-200 flex items-center space-x-1">
                 <span>View Papers</span>
@@ -249,7 +249,7 @@ export default function Home() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z" />
                 </svg>
               </div>
-              <h3 className="text-2xl font-semibold mb-3 text-gray-800">Toppers' Notes</h3>
+              <h3 className="text-2xl font-semibold mb-3 text-gray-800">Toppers Notes</h3>
               <p className="text-gray-600 mb-4 text-center">
                 Study from meticulously curated notes by top-ranking students across all departments, organized by subject and topic.
               </p>
@@ -277,7 +277,7 @@ export default function Home() {
               </div>
               <h3 className="text-2xl font-semibold mb-3 text-gray-800">Study Strategies</h3>
               <p className="text-gray-600 mb-4 text-center">
-                Learn proven study techniques, time management skills, and exam strategies from students who've consistently achieved top results.
+                Learn proven study techniques, time management skills, and exam strategies from students who&apos;ve consistently achieved top results.
               </p>
               <button className="mt-auto py-2 px-4 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition-colors duration-200 flex items-center space-x-1">
                 <span>Get Tips</span>
