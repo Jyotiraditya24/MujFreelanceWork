@@ -8,8 +8,8 @@ export function TimelineDemo() {
       title: "Mission",
       content: (
         <div>
-          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
-            Built and launched Aceternity UI and Aceternity UI Pro from scratch
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-lg font-normal mb-8">
+            We saw a gap—students struggled to find past year papers and quality notes. MUJ Toppers was created to make exam prep easier by providing well-organized, reliable resources. Our mission is to empower MUJ students with the right tools to excel academically.
           </p>
           <div className="grid grid-cols-2 gap-4">
             <Image
@@ -48,13 +48,11 @@ export function TimelineDemo() {
       title: "The Team",
       content: (
         <div>
-          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
-            I usually run out of copy, but when I see content this big, I try to
-            integrate lorem ipsum.
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-lg font-normal mb-8">
+            We are a group of passionate students who believe in collaborative learning.
           </p>
-          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
-            Lorem ipsum is for people who are too lazy to write copy. But we are
-            not. Here are some more example of beautiful designs I built.
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-lg font-normal mb-8">
+            Our team consists of developers, content curators, and contributors who work together to ensure you get the best academic resources.
           </p>
           <div className="grid grid-cols-2 gap-4">
             <Image
@@ -93,26 +91,18 @@ export function TimelineDemo() {
       title: "Contact Us",
       content: (
         <div>
-          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-4">
-            Deployed 5 new components on Aceternity today
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-lg font-normal mb-4">
+            We’d love to hear from you! Whether you want to contribute notes, share feedback, or report an issue, feel free to reach out.
+            <p className="flex gap-x-5">
+              <a href="https://www.linkedin.com/in/muj-toppers-824170352/" className="text-blue-600 hover:text-blue-800 underline flex items-center" target="_blank" rel="noopener noreferrer">
+                <span>Connect with us on LinkedIn</span>
+              </a>
+              <a href="mailto:mujtoppers@gmail.com" className="text-blue-600 hover:text-blue-800 underline">
+                <span>Contact us via Gmail</span>
+              </a>
+            </p>
           </p>
-          <div className="mb-8">
-            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
-              ✅ Card grid component
-            </div>
-            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
-              ✅ Startup template Aceternity
-            </div>
-            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
-              ✅ Random file upload lol
-            </div>
-            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
-              ✅ Himesh Reshammiya Music CD
-            </div>
-            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
-              ✅ Salman Bhai Fan Club registrations open
-            </div>
-          </div>
+
           <div className="grid grid-cols-2 gap-4">
             <Image
               src="/AboutUsCards/9.png"

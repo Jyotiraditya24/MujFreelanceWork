@@ -57,7 +57,7 @@ export const HeroParallax = ({
   return (
     <div
       ref={ref}
-      className="h-[300vh] py-40 overflow-hidden  antialiased relative flex flex-col self-auto [perspective:1000px] [transform-style:preserve-3d]"
+      className="h-[320vh] py-40 overflow-hidden  antialiased relative flex flex-col self-auto [perspective:1000px] [transform-style:preserve-3d]"
     >
       <Header />
       <motion.div
@@ -107,10 +107,8 @@ export const Header = () => {
       <h1 className="text-2xl md:text-7xl font-bold light:text-white">
         MUJ Toppers
       </h1>
-      <p className="max-w-2xl text-base md:text-xl mt-8 light:text-neutral-200">
-        We build beautiful products with the latest technologies and frameworks.
-        We are a team of passionate developers and designers that love to build
-        amazing products.
+      <p className="max-w-2xl text-md md:text-xl mt-8 light:text-neutral-200">
+        Struggling to find the right study materials? MUJ Toppers has got you covered! Access past year question papers, topper-approved notes, and expert study tips—all in one place. Study smart, score high, and stay ahead with resources made just for MUJ students!
       </p>
     </div>
   );

@@ -3,11 +3,9 @@
 import { motion } from "framer-motion";
 import { useRef } from "react";
 import { InfiniteMovingCardsDemo } from "@/components/InfiniteMovingCardsDemo";
-// import CardGrid from "@/components/CardGrid";
 import { HeroParallaxDemo } from "@/components/HeroParallaxDemo";
 import { HeroScrollDemo } from "@/components/HeroScrollDemo";
-import { CarouselDemo } from "@/components/CardDemo";
-import Testimonials from "@/components/Testimonial";
+import CardGrid from "@/components/CardGrid";
 
 export default function Home() {
   const ref = useRef(null);
@@ -131,8 +129,8 @@ export default function Home() {
             </motion.span>
           </motion.p>
         </div>
-        <CarouselDemo />
-        {/* <motion.div
+
+        <motion.div
           initial={{ opacity: 0, scale: 0.9 }}
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: false }}
@@ -141,9 +139,9 @@ export default function Home() {
           id="material"
         >
           <CardGrid />
-        </motion.div> */}
+        </motion.div>
       </motion.div>
-      {/* ADDITIONAL SECTION 2 - About Us */}
+      {/* ADDITIONAL SECTION 1 - About Us */}
       <motion.div
         className="py-16 px-4"
         initial={{ opacity: 0 }}
@@ -179,69 +177,8 @@ export default function Home() {
           </div>
         </div>
       </motion.div>
-  
-      {/* ADDITIONAL SECTION 3 - Testimonials */}
-      <motion.div
-        className="py-16 px-4"
-        initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1 }}
-        viewport={{ once: true }}
-        transition={{ duration: 1 }}
-      >
-        <div className="max-w-6xl mx-auto text-center">
-          <motion.h2
-            className="text-4xl md:text-5xl font-bold text-gray-900 mb-12 tracking-wide"
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8 }}
-          >
-            What People Say
-          </motion.h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {/* Testimonial 1 */}
-            <motion.div
-              className="relative bg-gray-100 p-8 rounded-2xl shadow-md flex flex-col items-center"
-              initial={{ opacity: 0, scale: 0.9 }}
-              whileInView={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 0.6 }}
-            >
-              <img
-                src="/AboutUsCards/2.png" // Replace with actual image path
-                alt="Ananya"
-                className="w-16 h-16 rounded-full mb-4 border-2 border-gray-300"
-              />
-              <p className="text-gray-700 italic text-lg mb-4">
-            {`    "This platform revolutionized my study routine and made exam
-                prep so much easier!"`}
-              </p>
-              <h4 className="text-xl font-bold text-gray-900">- Ananya</h4>
-            </motion.div>
 
-            {/* Testimonial 2 */}
-            <motion.div
-              className="relative bg-gray-100 p-8 rounded-2xl shadow-md flex flex-col items-center"
-              initial={{ opacity: 0, scale: 0.9 }}
-              whileInView={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 0.6, delay: 0.2 }}
-            >
-              <img
-                src="/AboutUsCards/1.png" // Replace with actual image path
-                alt="Rohit"
-                className="w-16 h-16 rounded-full mb-4 border-2 border-gray-300"
-              />
-              <p className="text-gray-700 italic text-lg mb-4">
-              {`  "I found everything I needed in one place. Highly recommended
-                for every student!"`}
-              </p>
-              <h4 className="text-xl font-bold text-gray-900"> Rohit</h4>
-            </motion.div>
-          </div>
-        </div>
-      </motion.div>
-
-      <Testimonials/>
-
-      {/* ADDITIONAL SECTION 4 - Our Services */}
+      {/* ADDITIONAL SECTION 2 - Our Services */}
       <motion.div
         className="py-16 px-4"
         initial={{ opacity: 0 }}
@@ -281,7 +218,7 @@ export default function Home() {
         </div>
       </motion.div>
 
-      {/* ADDITIONAL SECTION 1 - Get In Touch */}
+      {/* ADDITIONAL SECTION 3 - Get In Touch */}
       <motion.div
         className="py-16 px-4"
         initial={{ opacity: 0 }}
@@ -303,7 +240,7 @@ export default function Home() {
             happy to help!
           </p>
           <motion.a
-            href="mailto:contact@mujtoppers.com"
+            href="mailto:mujtoppers@gmail.com"
             className="inline-block px-6 py-3 bg-[#ff6a00] text-white font-bold rounded-lg shadow-lg hover:bg-[#ff914d] transition-all"
             initial={{ opacity: 0, scale: 0.9 }}
             whileInView={{ opacity: 1, scale: 1 }}
