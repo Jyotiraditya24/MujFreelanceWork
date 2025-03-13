@@ -27,9 +27,9 @@ export default async function SubjectPage({
           name: "Engineering Materials & Mechanics",
           image: "/EMM.png",
           pyqLink:
-            "https://drive.google.com/drive/folders/1w54A2Vd87DQtFwEoUuy8m0nX9rANb4RA?usp=drive_link",
+            "https://drive.google.com/drive/u/0/folders/1w54A2Vd87DQtFwEoUuy8m0nX9rANb4RA",
           notesLink:
-            "https://drive.google.com/drive/folders/1nxBvjZVxG2QL4W_B8skkg4z-VYibmF7n?usp=drive_link",
+            "https://drive.google.com/drive/u/0/folders/1nxBvjZVxG2QL4W_B8skkg4z-VYibmF7n",
           playlistLink: "",
           roadmap: "",
         },
@@ -37,9 +37,9 @@ export default async function SubjectPage({
           name: "Biology For Engineers",
           image: "/Biology.png",
           pyqLink:
-            "https://drive.google.com/drive/folders/1kNkblB1RDznXNJmehDohPTvMGckCHAfY?usp=drive_link",
+            "https://drive.google.com/drive/u/0/folders/1kNkblB1RDznXNJmehDohPTvMGckCHAfY",
           notesLink:
-            "https://drive.google.com/drive/folders/178MPsfJrZA6TSfvdAbdpcjww1KFAeXiL?usp=drive_link",
+            "https://drive.google.com/drive/u/0/folders/178MPsfJrZA6TSfvdAbdpcjww1KFAeXiL",
           playlistLink: "",
           roadmap: "",
         },
@@ -47,9 +47,9 @@ export default async function SubjectPage({
           name: "Engineering Physics",
           image: "/Physics.png",
           pyqLink:
-            "https://drive.google.com/drive/folders/1cdiHPynlmRHmneEPs7P6EV1DB7wzQGsh?usp=drive_link",
+            "https://drive.google.com/drive/u/0/folders/1cdiHPynlmRHmneEPs7P6EV1DB7wzQGsh",
           notesLink:
-            "https://drive.google.com/drive/folders/17txyc5ZmKvQepWdVK1TCnJQgxaoou6Ke?usp=drive_link",
+            "https://drive.google.com/drive/u/0/folders/17txyc5ZmKvQepWdVK1TCnJQgxaoou6Ke",
           playlistLink: "",
           roadmap: "",
         },
@@ -57,9 +57,9 @@ export default async function SubjectPage({
           name: "Computational Mathematics",
           image: "/C&M.png",
           pyqLink:
-            "https://drive.google.com/drive/folders/1wE3l2pM-frCwyFS8DaRIW13-XCbmnAmv?usp=drive_link",
+            "https://drive.google.com/drive/u/0/folders/1wE3l2pM-frCwyFS8DaRIW13-XCbmnAmv",
           notesLink:
-            "https://drive.google.com/drive/folders/17PMTzl-T1TOhnpWUxlVwIkY7OGhDM7TO?usp=drive_link",
+            "https://drive.google.com/drive/u/0/folders/17PMTzl-T1TOhnpWUxlVwIkY7OGhDM7TO",
           playlistLink: "",
           roadmap: "",
         },
@@ -67,9 +67,9 @@ export default async function SubjectPage({
           name: "MATLAB",
           image: "/MATLAB.png",
           pyqLink:
-            "https://drive.google.com/drive/folders/1d75bxh_L7JvAKNheNZ3c6YOeqikO1CTB?usp=drive_link",
+            "https://drive.google.com/drive/u/0/folders/1d75bxh_L7JvAKNheNZ3c6YOeqikO1CTB",
           notesLink:
-            "https://drive.google.com/drive/folders/1VVt2FfnbjhGTebrL7ditH--K_BfWMJZa?usp=drive_link",
+            "https://drive.google.com/drive/u/0/folders/1VVt2FfnbjhGTebrL7ditH--K_BfWMJZa",
           playlistLink: "",
           roadmap: "",
         },
