@@ -1,13 +1,22 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Phone, X } from "lucide-react";
 import Image from "next/image";
 
-export default function OrderFood({ outlet }: { outlet: string }) {
+export default function Outlet({ params }: { params: Promise<{ outlet: string }> }) {
   const [phoneNumber] = useState("9257458723");
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [outlet,setOutlet] = useState("")
+
+  useEffect(() => {
+    async function fetchParams() {
+      const { outlet } = await params;
+      setOutlet(outlet);
+    }
+    fetchParams();
+  }, [params]);
 
   const handleCallClick = () => {
     window.location.href = `tel:${phoneNumber}`;
