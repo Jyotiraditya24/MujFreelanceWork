@@ -6,6 +6,7 @@ import { InfiniteMovingCardsDemo } from "@/components/InfiniteMovingCardsDemo";
 import { HeroParallaxDemo } from "@/components/HeroParallaxDemo";
 import { HeroScrollDemo } from "@/components/HeroScrollDemo";
 import CardGrid from "@/components/CardGrid";
+import Link from "next/link";
 
 export default function Home() {
   const ref = useRef(null);
@@ -74,7 +75,10 @@ export default function Home() {
       </div>
 
       {/* Additional sections below */}
-      <motion.div ref={ref} className="flex flex-col justify-center px-4 bg-gradient-to-b from-gray-50 to-white">
+      <motion.div
+        ref={ref}
+        className="flex flex-col justify-center px-4 bg-gradient-to-b from-gray-50 to-white"
+      >
         <div className="max-w-6xl mx-auto flex flex-col gap-y-16">
           <motion.h1
             initial={{ opacity: 0, y: 30 }}
@@ -205,7 +209,8 @@ export default function Home() {
             viewport={{ once: true }}
             transition={{ duration: 0.4, delay: 0.1 }}
           >
-            Comprehensive resources designed to help you excel in your academic journey at MUJ
+            Comprehensive resources designed to help you excel in your academic
+            journey at MUJ
           </motion.p>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -219,18 +224,43 @@ export default function Home() {
               whileHover={{ y: -5 }}
             >
               <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-4">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-8 w-8 text-blue-600"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
+                  />
                 </svg>
               </div>
-              <h3 className="text-2xl font-semibold mb-3 text-gray-800">Previous Year Papers</h3>
+              <h3 className="text-2xl font-semibold mb-3 text-gray-800">
+                Exam Tips
+              </h3>
               <p className="text-gray-600 mb-4 text-center">
-                Access a comprehensive collection of previous years question papers to understand exam patterns and prepare effectively.
+                Access a comprehensive collection of best exam tips to
+                understand exam patterns and prepare effectively.
               </p>
               <button className="mt-auto py-2 px-4 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors duration-200 flex items-center space-x-1">
-                <span>View Papers</span>
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                <Link href="/examTips">View Tips</Link>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-4 w-4"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M14 5l7 7m0 0l-7 7m7-7H3"
+                  />
                 </svg>
               </button>
             </motion.div>
@@ -245,18 +275,43 @@ export default function Home() {
               whileHover={{ y: -5 }}
             >
               <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mb-4">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z" />
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-8 w-8 text-green-600"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z"
+                  />
                 </svg>
               </div>
-              <h3 className="text-2xl font-semibold mb-3 text-gray-800">Toppers Notes</h3>
+              <h3 className="text-2xl font-semibold mb-3 text-gray-800">
+                Placement Tips
+              </h3>
               <p className="text-gray-600 mb-4 text-center">
-                Study from meticulously curated notes by top-ranking students across all departments, organized by subject and topic.
+                Watch how Manipal University Jaipur students secured placements
+                at top tech companies and learn from their experiences..
               </p>
               <button className="mt-auto py-2 px-4 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors duration-200 flex items-center space-x-1">
-                <span>Access Notes</span>
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                <Link href="/placementTips">View Placement Stories</Link>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-4 w-4"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M14 5l7 7m0 0l-7 7m7-7H3"
+                  />
                 </svg>
               </button>
             </motion.div>
@@ -271,40 +326,50 @@ export default function Home() {
               whileHover={{ y: -5 }}
             >
               <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mb-4">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-purple-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-8 w-8 text-purple-600"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"
+                  />
                 </svg>
               </div>
-              <h3 className="text-2xl font-semibold mb-3 text-gray-800">Study Strategies</h3>
+              <h3 className="text-2xl font-semibold mb-3 text-gray-800">
+                Startup Culture
+              </h3>
               <p className="text-gray-600 mb-4 text-center">
-                Learn proven study techniques, time management skills, and exam strategies from students who&apos;ve consistently achieved top results.
+                Gain insights into fast-paced, innovative work environments
+                where adaptability and problem-solving are key.
               </p>
               <button className="mt-auto py-2 px-4 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition-colors duration-200 flex items-center space-x-1">
-                <span>Get Tips</span>
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                <span>Have a Look</span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-4 w-4"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M14 5l7 7m0 0l-7 7m7-7H3"
+                  />
                 </svg>
               </button>
             </motion.div>
           </div>
-
-          <motion.div
-            className="mt-16"
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.4, delay: 0.3 }}
-          >
-            <a href="#all-services" className="inline-flex items-center space-x-2 text-blue-600 hover:text-blue-800 font-medium">
-              <span>View all our academic resources</span>
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-                <path fillRule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd" />
-              </svg>
-            </a>
-          </motion.div>
         </div>
       </motion.section>
-     
+
       {/* ADDITIONAL SECTION 3 - Get In Touch */}
       <motion.div
         className="py-20 px-6 bg-gradient-to-b from-gray-50 to-white"
@@ -321,13 +386,13 @@ export default function Home() {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
           >
-            Let’s Connect! 
+            Let’s Connect!
           </motion.h2>
 
           {/* Subtext */}
           <p className="text-lg md:text-xl text-gray-700 max-w-3xl mx-auto leading-relaxed mb-8">
-            Have questions or need assistance? We’d love to hear from you.
-            Drop us a message, and we’ll get back to you as soon as possible!
+            Have questions or need assistance? We’d love to hear from you. Drop
+            us a message, and we’ll get back to you as soon as possible!
           </p>
 
           {/* Contact Button */}
@@ -344,8 +409,6 @@ export default function Home() {
           </motion.a>
         </div>
       </motion.div>
-
-
     </div>
   );
 }

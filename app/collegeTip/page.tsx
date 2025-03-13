@@ -1,6 +1,6 @@
 "use client";
 
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import {
   motion,
   useScroll,
@@ -17,8 +17,9 @@ import {
   User,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { Card, CardContent } from "@/components/ui/card";
 import { useRouter } from "next/navigation";
+import Image from "next/image";
+import { LampDemo } from "@/components/LampDemo";
 
 export default function ExamTipsPage() {
   // References for scroll animations
@@ -26,6 +27,10 @@ export default function ExamTipsPage() {
   const heroRef = useRef(null);
   const isHeroInView = useInView(heroRef, { once: false, amount: 0.5 });
   const router = useRouter();
+
+  // State for popup
+  const [showPopup, setShowPopup] = useState(false);
+  const [currentTip, setCurrentTip] = useState<Tip | null>(null);
 
   // Parallax scroll effect for hero section
   const { scrollYProgress } = useScroll({
@@ -49,62 +54,87 @@ export default function ExamTipsPage() {
     link?: string;
   }
   // Tips data
- const examTips = [
-   {
-     icon: <Brain className="w-12 h-12 text-indigo-600" />, // ✅ Correct
-     title: "Exam Tips",
-     description:
-       "Boost retention by actively testing yourself instead of passive re-reading. Use flashcards, practice quizzes, and recall techniques.",
-     color: "bg-indigo-50 border-indigo-200",
-     iconBg: "bg-indigo-100",
-   },
-   {
-     icon: <Target className="w-12 h-12 text-emerald-600" />, // 🎯 Represents placement goals
-     title: "Placement Tips",
-     description:
-       "Study material over increasing intervals rather than cramming. This technique optimizes long-term retention.",
-     color: "bg-emerald-50 border-emerald-200",
-     iconBg: "bg-emerald-100",
-     link: "/placementTips",
-   },
-   {
-     icon: <Coffee className="w-12 h-12 text-amber-600" />, // ☕ Represents staying alert during internships
-     title: "Internships",
-     description:
-       "Use the Pomodoro technique: study for 25 minutes, then take a 5-minute break to maintain focus and prevent burnout.",
-     color: "bg-amber-50 border-amber-200",
-     iconBg: "bg-amber-100",
-   },
-   {
-     icon: <User className="w-12 h-12 text-rose-600" />, // 👥 BookOpen fits networking and learning
-     title: "Connect With Seniors",
-     description:
-       "Condense your notes into one-page summaries with key concepts, formulas, and facts for quick revision.",
-     color: "bg-rose-50 border-rose-200",
-     iconBg: "bg-rose-100",
-   },
-   {
-     icon: <Lightbulb className="w-12 h-12 text-blue-600" />, // 💡 Represents collaboration and new ideas
-     title: "Project Collaboration",
-     description:
-       "Explain concepts to others or pretend to teach them. This reveals gaps in your understanding and strengthens knowledge.",
-     color: "bg-blue-50 border-blue-200",
-     iconBg: "bg-blue-100",
-   },
-   {
-     icon: <BookOpen className="w-12 h-12 text-purple-600" />, // 🛠 Consider using Code2 or Git-related icon
-     title: "Open Source",
-     description:
-       "Familiarize yourself with the exam format and common question types by working through previous exam papers.",
-     color: "bg-purple-50 border-purple-200",
-     iconBg: "bg-purple-100",
-   },
- ];
+  const examTips = [
+    {
+      icon: <Brain className="w-12 h-12 text-indigo-600" />, // ✅ Correct
+      title: "Exam Tips",
+      description:
+        "Boost retention by actively testing yourself instead of passive re-reading. Use flashcards, practice quizzes, and recall techniques.",
+      color: "bg-indigo-50 border-indigo-200",
+      iconBg: "bg-indigo-100",
+      link: "/examTips",
+    },
+    {
+      icon: <Target className="w-12 h-12 text-emerald-600" />, // 🎯 Represents placement goals
+      title: "Placement Tips",
+      description:
+        "Study material over increasing intervals rather than cramming. This technique optimizes long-term retention.",
+      color: "bg-emerald-50 border-emerald-200",
+      iconBg: "bg-emerald-100",
+      link: "/placementTips",
+    },
+    {
+      icon: <Coffee className="w-12 h-12 text-amber-600" />, // ☕ Represents staying alert during internships
+      title: "Internships",
+      description:
+        "Use the Pomodoro technique: study for 25 minutes, then take a 5-minute break to maintain focus and prevent burnout.",
+      color: "bg-amber-50 border-amber-200",
+      iconBg: "bg-amber-100",
+    },
+    {
+      icon: <User className="w-12 h-12 text-rose-600" />, // 👥 BookOpen fits networking and learning
+      title: "Connect With Seniors",
+      description:
+        "Condense your notes into one-page summaries with key concepts, formulas, and facts for quick revision.",
+      color: "bg-rose-50 border-rose-200",
+      iconBg: "bg-rose-100",
+    },
+    {
+      icon: <Lightbulb className="w-12 h-12 text-blue-600" />, // 💡 Represents collaboration and new ideas
+      title: "Project Collaboration",
+      description:
+        "Explain concepts to others or pretend to teach them. This reveals gaps in your understanding and strengthens knowledge.",
+      color: "bg-blue-50 border-blue-200",
+      iconBg: "bg-blue-100",
+    },
+    {
+      icon: <BookOpen className="w-12 h-12 text-purple-600" />, // 🛠 Consider using Code2 or Git-related icon
+      title: "Startup Culture",
+      description:
+        "Gain insights into fast-paced, innovative work environments where adaptability and problem-solving are key.",
+      color: "bg-purple-50 border-purple-200",
+      iconBg: "bg-purple-100",
+    },
+  ];
 
+  // Custom popup component
+  const TipPopup = ({ tip, onClose }: {tip: Tip; onClose: () => void}) => {
+    return (
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        exit={{ opacity: 0 }}
+        className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/50"
+        onClick={onClose}
+      >
+          <LampDemo />
+      </motion.div>
+    );
+  };
 
-  const TipCard = ({ tip, index }:{tip: Tip, index: number }) => {
+  const TipCard = ({ tip, index }: { tip: Tip; index: number }) => {
     const cardRef = useRef(null);
     const isInView = useInView(cardRef, { once: true, amount: 0.2 });
+
+    const handleCardClick = () => {
+      if (tip.link) {
+        router.push(tip.link);
+      } else {
+        // Open popup for items without link
+        setCurrentTip(tip);
+        setShowPopup(true);
+      }
+    };
 
     return (
       <motion.div
@@ -112,8 +142,8 @@ export default function ExamTipsPage() {
         initial={{ opacity: 0, y: 50 }}
         animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
         transition={{ duration: 0.5, delay: index * 0.1 }}
-        className={`rounded-xl border p-6 shadow-sm ${tip.color} hover:cursor-pointer`}
-        onClick={()=> router.push(tip.link?tip.link:"")}
+        className={`rounded-xl border p-6 shadow-sm ${tip.color} hover:cursor-pointer hover:shadow-md transition-shadow`}
+        onClick={handleCardClick}
       >
         <div className="flex items-start gap-4">
           <div className={`rounded-full p-3 ${tip.iconBg}`}>{tip.icon}</div>
@@ -245,22 +275,24 @@ export default function ExamTipsPage() {
               <h2 className="text-3xl font-bold text-white mb-4">
                 Connect With Our Whole Community
               </h2>
-              <p className="text-indigo-100 mb-6">
-                Our AI-powered tool will analyze your learning style, subject
-                needs, and schedule to create a customized study regimen that
-                works for you.
-              </p>
+
               <div>
-                <Button className="bg-white text-indigo-700 hover:bg-indigo-50 px-6 py-6 rounded-lg text-lg">
-                  Generate My Plan
-                </Button>
+                <a
+                  href="https://chat.whatsapp.com/CIpJdSePM5r9aT1xWjKr8O"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Button className="bg-white text-indigo-700 hover:bg-indigo-50 px-6 py-6 rounded-lg text-lg">
+                    Join Now
+                  </Button>
+                </a>
               </div>
             </div>
             <div className="hidden md:block relative">
               <div className="absolute inset-0 bg-white/10 backdrop-blur-sm"></div>
               <div className="h-full flex items-center justify-center p-12">
                 <motion.div
-                  className="bg-white/95 rounded-xl p-8 shadow-lg max-w-md w-full"
+                  className="bg-white rounded-xl p-8 shadow-lg max-w-md w-full"
                   animate={{
                     y: [0, -10, 0],
                   }}
@@ -271,33 +303,29 @@ export default function ExamTipsPage() {
                     ease: "easeInOut",
                   }}
                 >
-                  <h3 className="font-bold text-lg text-gray-800 mb-4">
-                    Your Study Schedule
-                  </h3>
-                  {[1, 2, 3].map((day) => (
-                    <div
-                      key={day}
-                      className="flex items-center gap-3 mb-3 p-3 bg-gray-50 rounded-lg"
-                    >
-                      <div className="bg-indigo-100 text-indigo-700 w-10 h-10 rounded-lg flex items-center justify-center font-bold">
-                        {day}
-                      </div>
-                      <div className="flex-1">
-                        <div className="h-3 bg-indigo-200 rounded w-3/4"></div>
-                        <div className="h-2 bg-gray-200 rounded w-1/2 mt-2"></div>
-                      </div>
-                    </div>
-                  ))}
+                  <Image
+                    src="https://res.cloudinary.com/dndyofbi8/image/upload/v1741894800/u58davqznjicmy6s24bb.jpg"
+                    alt="Community Image"
+                    width={500}
+                    height={500}
+                  ></Image>
                 </motion.div>
               </div>
             </div>
           </div>
         </motion.div>
-
-     
-
-       
       </div>
+
+      {/* Popup */}
+      {showPopup && currentTip && (
+        <TipPopup
+          tip={currentTip}
+          onClose={() => {
+            setShowPopup(false);
+            setCurrentTip(null);
+          }}
+        />
+      )}
     </div>
   );
 }
