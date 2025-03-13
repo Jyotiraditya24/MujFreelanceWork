@@ -8,33 +8,33 @@ export function HeroParallaxDemo() {
 export const products = [
   {
     title: "Diksha Dwivedi",
-    link: "/LandingPageTopper/1.png",
+    link: "",
     thumbnail: "/LandingPageTopper/1.png",
   },
   {
     title: "Bhoomika Gupta",
-    link: "https://cursor.so",
+    link: "",
     thumbnail: "/LandingPageTopper/2.png",
   },
   {
     title: "Chandra T.Pandey",
-    link: "https://userogue.com",
+    link: "",
     thumbnail: "/LandingPageTopper/3.png",
   },
 
   {
     title: "Chetanya Jolly",
-    link: "https://editorially.org",
+    link: "",
     thumbnail: "/LandingPageTopper/4.png",
   },
   {
     title: "Chanchal Agarwal",
-    link: "https://editrix.ai",
+    link: "",
     thumbnail: "/LandingPageTopper/5.png",
   },
   {
     title: "Maldev Singh Chouhan",
-    link: "https://app.pixelperfect.quest",
+    link: "",
     thumbnail: "/LandingPageTopper/6.png",
   },
 
@@ -45,38 +45,38 @@ export const products = [
   },
   {
     title: "Harsh Shishodia",
-    link: "https://ui.aceternity.com",
+    link: "",
     thumbnail: "/LandingPageTopper/8.png",
   },
   {
     title: "Swatantra choudhary",
-    link: "https://tailwindmasterkit.com",
+    link: "",
     thumbnail: "/LandingPageTopper/9.png",
   },
   {
     title: "Jyotiraditya",
-    link: "https://cremedigital.com",
+    link: "",
     thumbnail: "/LandingPageTopper/12.png",
   },
   {
     title: "Renderwork Studio",
-    link: "https://renderwork.studio",
-    thumbnail: "/LandingPageTopper/11.png",
+    link: "",
+    thumbnail: "/LandingPageTopper/.png",
   },
 
   {
     title: "Creme Digital",
-    link: "https://cremedigital.com",
+    link: "",
     thumbnail: "/LandingPageTopper/12.png",
   },
   {
     title: "Sanya Dureja",
-    link: "/LandingPageTopper/10.png",
+    link: "",
     thumbnail: "/LandingPageTopper/10.png",
   },
   {
     title: "Chetanya Jolly",
-    link: "https://editorially.org",
+    link: "",
     thumbnail: "/LandingPageTopper/4.png",
   },
   {

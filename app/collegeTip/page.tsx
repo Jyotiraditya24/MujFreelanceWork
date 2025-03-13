@@ -10,20 +10,22 @@ import {
 } from "framer-motion";
 import {
   Brain,
-  Clock,
   Coffee,
   BookOpen,
   Lightbulb,
   Target,
+  User,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
+import { useRouter } from "next/navigation";
 
 export default function ExamTipsPage() {
   // References for scroll animations
   const containerRef = useRef(null);
   const heroRef = useRef(null);
   const isHeroInView = useInView(heroRef, { once: false, amount: 0.5 });
+  const router = useRouter();
 
   // Parallax scroll effect for hero section
   const { scrollYProgress } = useScroll({
@@ -44,58 +46,61 @@ export default function ExamTipsPage() {
     description: string;
     color: string;
     iconBg: string;
+    link?: string;
   }
   // Tips data
-  const examTips = [
-    {
-      icon: <Brain className="w-12 h-12 text-indigo-600" />,
-      title: "Active Recall",
-      description:
-        "Test yourself regularly instead of just re-reading. This strengthens memory pathways and improves retention.",
-      color: "bg-indigo-50 border-indigo-200",
-      iconBg: "bg-indigo-100",
-    },
-    {
-      icon: <Clock className="w-12 h-12 text-emerald-600" />,
-      title: "Spaced Repetition",
-      description:
-        "Study material over increasing intervals rather than cramming. This technique optimizes long-term retention.",
-      color: "bg-emerald-50 border-emerald-200",
-      iconBg: "bg-emerald-100",
-    },
-    {
-      icon: <Coffee className="w-12 h-12 text-amber-600" />,
-      title: "Take Strategic Breaks",
-      description:
-        "Use the Pomodoro technique: study for 25 minutes, then take a 5-minute break to maintain focus and prevent burnout.",
-      color: "bg-amber-50 border-amber-200",
-      iconBg: "bg-amber-100",
-    },
-    {
-      icon: <BookOpen className="w-12 h-12 text-rose-600" />,
-      title: "Create Summary Sheets",
-      description:
-        "Condense your notes into one-page summaries with key concepts, formulas, and facts for quick revision.",
-      color: "bg-rose-50 border-rose-200",
-      iconBg: "bg-rose-100",
-    },
-    {
-      icon: <Lightbulb className="w-12 h-12 text-blue-600" />,
-      title: "Teach to Learn",
-      description:
-        "Explain concepts to others or pretend to teach them. This reveals gaps in your understanding and strengthens knowledge.",
-      color: "bg-blue-50 border-blue-200",
-      iconBg: "bg-blue-100",
-    },
-    {
-      icon: <Target className="w-12 h-12 text-purple-600" />,
-      title: "Practice Past Papers",
-      description:
-        "Familiarize yourself with the exam format and common question types by working through previous exam papers.",
-      color: "bg-purple-50 border-purple-200",
-      iconBg: "bg-purple-100",
-    },
-  ];
+ const examTips = [
+   {
+     icon: <Brain className="w-12 h-12 text-indigo-600" />, // ✅ Correct
+     title: "Exam Tips",
+     description:
+       "Boost retention by actively testing yourself instead of passive re-reading. Use flashcards, practice quizzes, and recall techniques.",
+     color: "bg-indigo-50 border-indigo-200",
+     iconBg: "bg-indigo-100",
+   },
+   {
+     icon: <Target className="w-12 h-12 text-emerald-600" />, // 🎯 Represents placement goals
+     title: "Placement Tips",
+     description:
+       "Study material over increasing intervals rather than cramming. This technique optimizes long-term retention.",
+     color: "bg-emerald-50 border-emerald-200",
+     iconBg: "bg-emerald-100",
+     link: "/placementTips",
+   },
+   {
+     icon: <Coffee className="w-12 h-12 text-amber-600" />, // ☕ Represents staying alert during internships
+     title: "Internships",
+     description:
+       "Use the Pomodoro technique: study for 25 minutes, then take a 5-minute break to maintain focus and prevent burnout.",
+     color: "bg-amber-50 border-amber-200",
+     iconBg: "bg-amber-100",
+   },
+   {
+     icon: <User className="w-12 h-12 text-rose-600" />, // 👥 BookOpen fits networking and learning
+     title: "Connect With Seniors",
+     description:
+       "Condense your notes into one-page summaries with key concepts, formulas, and facts for quick revision.",
+     color: "bg-rose-50 border-rose-200",
+     iconBg: "bg-rose-100",
+   },
+   {
+     icon: <Lightbulb className="w-12 h-12 text-blue-600" />, // 💡 Represents collaboration and new ideas
+     title: "Project Collaboration",
+     description:
+       "Explain concepts to others or pretend to teach them. This reveals gaps in your understanding and strengthens knowledge.",
+     color: "bg-blue-50 border-blue-200",
+     iconBg: "bg-blue-100",
+   },
+   {
+     icon: <BookOpen className="w-12 h-12 text-purple-600" />, // 🛠 Consider using Code2 or Git-related icon
+     title: "Open Source",
+     description:
+       "Familiarize yourself with the exam format and common question types by working through previous exam papers.",
+     color: "bg-purple-50 border-purple-200",
+     iconBg: "bg-purple-100",
+   },
+ ];
+
 
   const TipCard = ({ tip, index }:{tip: Tip, index: number }) => {
     const cardRef = useRef(null);
@@ -107,7 +112,8 @@ export default function ExamTipsPage() {
         initial={{ opacity: 0, y: 50 }}
         animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
         transition={{ duration: 0.5, delay: index * 0.1 }}
-        className={`rounded-xl border p-6 shadow-sm ${tip.color}`}
+        className={`rounded-xl border p-6 shadow-sm ${tip.color} hover:cursor-pointer`}
+        onClick={()=> router.push(tip.link?tip.link:"")}
       >
         <div className="flex items-start gap-4">
           <div className={`rounded-full p-3 ${tip.iconBg}`}>{tip.icon}</div>

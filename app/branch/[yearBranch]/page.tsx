@@ -21,7 +21,7 @@ export default function Page({
     fetchParams();
   }, [params]);
 
-  const cards2 = [
+  const cards1 = [
     {
       title: "Physics Cycle",
       src: "/Physics_Cycle.png",
@@ -36,7 +36,7 @@ export default function Page({
     },
   ];
 
-   const cards1 = [
+   const cards2 = [
      {
        title: "Information Technology",
        src: "/IT_Branch.png",
@@ -79,7 +79,7 @@ export default function Page({
     <div className="min-h-screen px-4 py-4 bg-[url('/heroImage.webp')] bg-cover bg-center">
       <div className="flex flex-col gap-y-6 mt-20 p-10">
         <AnimatedHeader title={yearBranch} />
-        <FocusCards cards={yearBranch === "first"? cards2 : cards1} />
+        <FocusCards cards={yearBranch === "first"? cards1 : cards2} />
       </div>
     </div>
   );
