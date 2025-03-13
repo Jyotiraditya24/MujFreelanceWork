@@ -178,7 +178,7 @@ const PlacementVideosPage: React.FC = () => {
                 Want to share your success story?
               </h3>
               <p className="text-gray-600 mb-6">
-                If you're a MUJ student who recently got placed, we'd love to
+                If you&apos;re a MUJ student who recently got placed, we&apos;d love to
                 feature your journey! Inspire juniors and help them prepare for
                 their placements.
               </p>
