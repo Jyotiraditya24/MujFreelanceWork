@@ -89,7 +89,7 @@ export default async function SubjectPage({
         },
         {
           name: "Electrical & Electronics System",
-          image: "/EMM.png",
+          image: "/Electrical&ElectronicsSystem.png",
           pyqLink:
             "https://drive.google.com/drive/folders/1T2KhOCchylff1UyLZ2jyipmGmHtDx1Sd?usp=drive_link",
           notesLink:
