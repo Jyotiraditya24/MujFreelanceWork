@@ -285,7 +285,7 @@ const ExamTipsPage: React.FC = () => {
                     Ditch Passive Learning
                   </h3>
                   <p className="text-gray-700">
-                    Simply reading notes isn't enough. Engage your brain with
+                    Simply reading notes isn&apos;t enough. Engage your brain with
                     Mind Maps to connect key ideas visually, Flashcards using
                     apps like Anki or Quizlet, and teaching someone (if you can
                     explain it, you understand it). Find the method that suits
@@ -298,7 +298,7 @@ const ExamTipsPage: React.FC = () => {
                   variants={itemVariants}
                 >
                   <h3 className="text-lg font-semibold mb-3 text-blue-600">
-                    Practice Like It's Game Day
+                    Practice Like It&apos;s Game Day
                   </h3>
                   <p className="text-gray-700">
                     Past year questions are your best resource. Solve them under
@@ -476,7 +476,7 @@ const ExamTipsPage: React.FC = () => {
                     </svg>
                   </div>
                   <p className="text-lg">
-                    Get a good night's sleep before the exam
+                    Get a good night&aspos;s sleep before the exam
                   </p>
                 </div>
                 <div className="flex items-start space-x-3">
@@ -515,7 +515,7 @@ const ExamTipsPage: React.FC = () => {
             Ready to Ace Your Exams?
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto mb-6">
-            With these strategies and tips, you're well-equipped to excel in
+            With these strategies and tips, you&apos;re well-equipped to excel in
             your exams. Remember, success comes from consistent preparation and
             a positive mindset.
           </p>

@@ -66,7 +66,7 @@ const Navbar = () => {
     >
       {/* Left Side - Logo */}
       <Link href="/" className="text-lg font-bold ml-5">
-        MUJTOPPER
+        MUJTOPPERS
       </Link>
 
       {/* Right Side - Desktop Nav */}
