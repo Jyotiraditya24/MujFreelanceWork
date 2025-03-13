@@ -23,24 +23,24 @@ const Footer = () => {
           >
             Study Materials
           </Link>
-          <a
+          <Link
             href="/order"
             className="text-gray-400 hover:text-yellow-400 transition"
           >
             Order Notes
-          </a>
-          <a
+          </Link>
+          <Link
             href="/exam-tips"
             className="text-gray-400 hover:text-yellow-400 transition"
           >
             Exam Tips
-          </a>
-          <a
+          </Link>
+          <Link
             href="/about-us"
             className="text-gray-400 hover:text-yellow-400 transition"
           >
             About Us
-          </a>
+          </Link>
         </div>
 
         {/* Contact & Social Links */}
@@ -49,18 +49,18 @@ const Footer = () => {
             Stay Connected
           </h3>
           <div className="flex space-x-4 mt-3">
-            <a
+            <Link
               href="#"
               className="text-gray-400 hover:text-blue-500 transition"
             >
               <Facebook size={24} />
-            </a>
-            <a
+            </Link>
+            <Link
               href="#"
               className="text-gray-400 hover:text-blue-400 transition"
             >
               <Twitter size={24} />
-            </a>
+            </Link>
             <Link
               href="https://www.instagram.com/mujtoppers"
               className="text-gray-400 hover:text-pink-500 transition"

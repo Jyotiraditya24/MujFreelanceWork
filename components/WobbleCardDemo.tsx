@@ -2,13 +2,16 @@
 import Image from "next/image";
 import React from "react";
 import { WobbleCard } from "./ui/wobble-card";
+import { useRouter } from "next/router";
 
 export function WobbleCardDemo() {
+  const router = useRouter()
   return (
     <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 max-w-7xl mx-auto w-full">
       <WobbleCard
         containerClassName="col-span-1 lg:col-span-2 h-full bg-pink-800 min-h-[500px] lg:min-h-[300px]"
         className=""
+        onClick={() => router.push("/order/devine")}
       >
         <div className="max-w-xs">
           <h2 className="text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
