@@ -25,12 +25,14 @@ export default function CardWithSelect({
   pyqLink,
   notesLink,
   playlistLink,
+  roadmap
 }: {
   subjectName: string;
   subjectImage: string;
   pyqLink: string;
   notesLink: string;
   playlistLink: string;
+  roadmap: string;
 }) {
   const [selectedValue, setSelectedValue] = React.useState<string | null>(null);
 
@@ -39,6 +41,7 @@ export default function CardWithSelect({
       pyq: pyqLink,
       notes: notesLink,
       playlist: playlistLink,
+      roadmap: roadmap
     };
     if (links[value]) {
       window.open(links[value], "_blank");
@@ -81,10 +84,11 @@ export default function CardWithSelect({
           <SelectValue placeholder="📚 Select a Resource" />
         </SelectTrigger>
         <SelectContent className="bg-white border border-gray-200 rounded-md shadow-lg">
-          <SelectGroup>
-            <SelectItem value="pyq">📜 PYQ (Past Year Papers)</SelectItem>
-            <SelectItem value="notes">📖 Toppers Notes</SelectItem>
-            <SelectItem value="playlist">🎥 Video Playlist</SelectItem>
+          <SelectGroup className="hover:cursor-pointer">
+            <SelectItem value="pyq" className="hover:cursor-pointer">📜 PYQ (Past Year Papers)</SelectItem>
+            <SelectItem value="notes" className="hover:cursor-pointer">📖 Toppers Notes</SelectItem>
+            <SelectItem value="playlist" className="hover:cursor-pointer">🎥 Video Playlist</SelectItem>
+            <SelectItem value="roadmap" className="hover:cursor-pointer">🛣️ Road Map</SelectItem>
           </SelectGroup>
         </SelectContent>
       </Select>

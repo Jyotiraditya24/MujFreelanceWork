@@ -19,7 +19,7 @@ export function HeroScrollDemo() {
         }
       >
         <Image
-          src={`/gifMain.gif`}
+          src={`/heroImage.webp`}
           unoptimized
           alt="hero"
           height={720}

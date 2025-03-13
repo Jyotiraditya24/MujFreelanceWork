@@ -17,6 +17,7 @@ export default async function SubjectPage({
         pyqLink: string;
         notesLink: string;
         playlistLink: string;
+        roadmap: string;
       }[]
     >
   > = {
@@ -30,6 +31,7 @@ export default async function SubjectPage({
           notesLink:
             "https://drive.google.com/drive/folders/1nxBvjZVxG2QL4W_B8skkg4z-VYibmF7n?usp=drive_link",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "Biology For Engineers",
@@ -39,6 +41,7 @@ export default async function SubjectPage({
           notesLink:
             "https://drive.google.com/drive/folders/178MPsfJrZA6TSfvdAbdpcjww1KFAeXiL?usp=drive_link",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "Engineering Physics",
@@ -48,6 +51,7 @@ export default async function SubjectPage({
           notesLink:
             "https://drive.google.com/drive/folders/17txyc5ZmKvQepWdVK1TCnJQgxaoou6Ke?usp=drive_link",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "Computational Mathematics",
@@ -57,6 +61,7 @@ export default async function SubjectPage({
           notesLink:
             "https://drive.google.com/drive/folders/17PMTzl-T1TOhnpWUxlVwIkY7OGhDM7TO?usp=drive_link",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "MATLAB",
@@ -66,6 +71,7 @@ export default async function SubjectPage({
           notesLink:
             "https://drive.google.com/drive/folders/1VVt2FfnbjhGTebrL7ditH--K_BfWMJZa?usp=drive_link",
           playlistLink: "",
+          roadmap: "",
         },
       ],
     },
@@ -73,12 +79,13 @@ export default async function SubjectPage({
       first: [
         {
           name: "Calculus & Matrices",
-          image: "/C&M.png",
+          image: "/Calculus&Matrices.png",
           pyqLink:
             "https://drive.google.com/drive/folders/1Pr_H4-fb_80Jo6Du96qIIpa6FIVEDTNm?usp=drive_link",
           notesLink:
             "https://drive.google.com/drive/folders/1sC2cCnpEBGosunT4snNZf2Y8pUj5-uqV?usp=drive_link",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "Electrical & Electronics System",
@@ -88,6 +95,7 @@ export default async function SubjectPage({
           notesLink:
             "https://drive.google.com/drive/folders/1JnVhkK5vg93hTzYq11Cr7NE8seneqdU1?usp=drive_link",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "Engineering Chemistry",
@@ -97,6 +105,7 @@ export default async function SubjectPage({
           notesLink:
             "https://drive.google.com/drive/folders/1hER7WzvapxKzG4i3pIayLRU3ICTYwjSF?usp=drive_link",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "Problem Solving using Computers",
@@ -106,6 +115,7 @@ export default async function SubjectPage({
           notesLink:
             "https://drive.google.com/drive/folders/1nj16NcCCIgI3kmmkT-eisrKg_BKN2yKA?usp=drive_link",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "Technical Writing Clinic",
@@ -115,6 +125,7 @@ export default async function SubjectPage({
           notesLink:
             "https://drive.google.com/drive/folders/1y-t8alIoH2J7w_f1vBWYTWKcYkpHAIDV?usp=drive_link",
           playlistLink: "",
+          roadmap: "",
         },
       ],
     },
@@ -126,6 +137,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "Engineering Mathematics - 3",
@@ -133,6 +145,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "Data Communication",
@@ -140,6 +153,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "Computer System Architecture",
@@ -147,6 +161,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "Object-Oriented Programming",
@@ -154,6 +169,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "Engineering Mathematics - 4",
@@ -161,6 +177,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "Operating Systems",
@@ -168,6 +185,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "Relational Database Management Systems",
@@ -175,6 +193,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "Web Technologies",
@@ -182,6 +201,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "Data Structures and Algorithms",
@@ -189,6 +209,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "Management of Technology",
@@ -196,6 +217,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
       ],
       third: [
@@ -205,6 +227,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "Software Engineering",
@@ -212,6 +235,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "Design and Analysis of Algorithms",
@@ -219,6 +243,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "Computer Networks",
@@ -226,6 +251,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "Artificial Intelligence and Machine Learning",
@@ -233,6 +259,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "Automata & Compiler Design",
@@ -240,6 +267,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "CIS",
@@ -247,9 +275,11 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
       ],
     },
+
     CSE: {
       second: [
         {
@@ -258,6 +288,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "EM-3",
@@ -265,6 +296,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "Data Com",
@@ -272,6 +304,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "CSA",
@@ -279,6 +312,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "OOP",
@@ -286,6 +320,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
       ],
       third: [
@@ -295,6 +330,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "Design & Analysis of Algorithms",
@@ -302,6 +338,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "Automata & Compiler Design",
@@ -309,6 +346,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "Computer Networks",
@@ -316,6 +354,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "Software Engineering",
@@ -323,6 +362,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "ISS",
@@ -330,6 +370,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "Data Science & ML",
@@ -337,6 +378,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
       ],
     },
@@ -348,6 +390,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "Engineering Mathematics - 3",
@@ -355,6 +398,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "Data Communication",
@@ -362,6 +406,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "Digital Design and Computer Architecture",
@@ -369,6 +414,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "Object-Oriented Programming",
@@ -376,6 +422,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "Engineering Mathematics - 4",
@@ -383,6 +430,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "Operating Systems",
@@ -390,6 +438,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "Relational Database Management Systems",
@@ -397,6 +446,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "Computer Networks",
@@ -404,6 +454,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "Data Structures and Algorithms",
@@ -411,6 +462,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "Management and Organizational Theory",
@@ -418,6 +470,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
       ],
       third: [
@@ -427,6 +480,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "Software Engineering",
@@ -434,6 +488,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "Design and Analysis of Algorithms",
@@ -441,11 +496,13 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "Automata and Compiler Design",
           image: "/3_CCE/ACD.png",
           pyqLink: "",
+          roadmap: "",
           notesLink: "",
           playlistLink: "",
         },
@@ -455,6 +512,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "Aritificial Intelligence & Machine Learning",
@@ -462,6 +520,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
       ],
     },
@@ -473,6 +532,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "Operating Systems",
@@ -480,6 +540,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "Agile Software Development",
@@ -487,6 +548,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "Cloud Computing",
@@ -494,6 +556,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "Statistics and Probability",
@@ -501,6 +564,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "Data Structures and Algorithms",
@@ -508,6 +572,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "Relational Database Management Systems",
@@ -515,6 +580,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "Object-Oriented Programming",
@@ -522,6 +588,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "Management of Technology",
@@ -529,6 +596,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "Principles of Artificial Intelligence",
@@ -536,6 +604,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "Computer Organization and Architecture",
@@ -543,6 +612,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
       ],
       third: [
@@ -552,6 +622,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "Design and Analysis of Algorithms",
@@ -559,6 +630,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "Computer Networks",
@@ -566,6 +638,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "Foundation of Data Science",
@@ -573,6 +646,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "Game Theory",
@@ -580,6 +654,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "Machine Learning",
@@ -587,6 +662,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "Computer Vision",
@@ -594,6 +670,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "Natural Language Processing",
@@ -601,6 +678,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "Data Mining",
@@ -608,6 +686,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "Fundamentals of Automobile Engineering",
@@ -615,6 +694,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
       ],
     },
@@ -626,6 +706,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "Digital Design and Computer Architecture",
@@ -633,6 +714,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "Data Communication",
@@ -640,6 +722,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "Data Structures and Algorithms",
@@ -647,6 +730,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "Object-Oriented Programming",
@@ -654,6 +738,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "Economics",
@@ -661,6 +746,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "Engineering Mathematics - 4",
@@ -668,6 +754,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "Operating Systems",
@@ -675,6 +762,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "Relational Database Management Systems",
@@ -682,6 +770,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "Web Technologies",
@@ -689,6 +778,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "Management of Technology",
@@ -696,6 +786,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "Automata and Compiler Design",
@@ -703,6 +794,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
       ],
       third: [
@@ -712,6 +804,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "Artificial Intelligence and Machine Learning",
@@ -719,6 +812,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "Sensors and Microcontrollers",
@@ -726,6 +820,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "IoT Architecture & Its Protocols",
@@ -733,6 +828,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "Software Engineering",
@@ -740,6 +836,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "Cyber and Information Security",
@@ -747,6 +844,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "IoT Design",
@@ -754,6 +852,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "Deep Learning",
@@ -761,6 +860,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "Computer Networks",
@@ -768,6 +868,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
       ],
     },
@@ -779,6 +880,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "Finance & Econometrics",
@@ -786,6 +888,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "Introduction to Data Analytics",
@@ -793,6 +896,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "Object-Oriented Programming",
@@ -800,6 +904,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "Data Structures and Algorithms",
@@ -807,6 +912,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "Computer System Architecture",
@@ -814,6 +920,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "MFDS-2",
@@ -821,6 +928,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "Relational Database Management Systems",
@@ -828,6 +936,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "Machine Learning",
@@ -835,6 +944,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "Design and Analysis of Algorithms",
@@ -842,6 +952,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "Management of Technology",
@@ -849,6 +960,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "Data Mining",
@@ -856,6 +968,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "Cloud Computing",
@@ -863,6 +976,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "Data Analytics and Visualization",
@@ -870,6 +984,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "Data Communication and Networking",
@@ -877,6 +992,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "Digital Image Processing",
@@ -884,6 +1000,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "Computer Networks",
@@ -891,6 +1008,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "Statistics and Probability",
@@ -898,6 +1016,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
       ],
       third: [
@@ -907,6 +1026,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "Deep Learning",
@@ -914,6 +1034,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "Operating Systems",
@@ -921,6 +1042,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "Natural Language Processing",
@@ -928,6 +1050,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "Cloud Computing",
@@ -935,6 +1058,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "Operations Research",
@@ -942,6 +1066,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "Artificial Intelligence",
@@ -949,6 +1074,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "Parallel Programming",
@@ -956,6 +1082,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "Big Data Analytics",
@@ -963,6 +1090,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
         {
           name: "Data Privacy and Security",
@@ -970,6 +1098,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
+          roadmap: "",
         },
       ],
     },
@@ -980,12 +1109,13 @@ export default async function SubjectPage({
   const renderSubjects = (
     subjects:
       | {
-          name: string;
-          image: string;
-          pyqLink: string;
-          notesLink: string;
-          playlistLink: string;
-        }[]
+        name: string;
+        image: string;
+        pyqLink: string;
+        notesLink: string;
+        playlistLink: string;
+        roadmap: string;
+      }[]
       | undefined
   ) => {
     if (!subjects) return <div>No subjects found</div>;
@@ -994,9 +1124,9 @@ export default async function SubjectPage({
         <div
           className="p-10 text-black 
                   grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 
-                  gap-6"
+                  gap-8"
         >
-          {subjects.map(({ name, image, pyqLink, notesLink, playlistLink }) => (
+          {subjects.map(({ name, image, pyqLink, notesLink, playlistLink, roadmap }) => (
             <CardWithSelect
               key={name}
               subjectName={name}
@@ -1004,6 +1134,7 @@ export default async function SubjectPage({
               pyqLink={pyqLink}
               notesLink={notesLink}
               playlistLink={playlistLink}
+              roadmap={"HEkki"}
             />
           ))}
         </div>
