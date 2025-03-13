@@ -299,6 +299,14 @@ export default async function SubjectPage({
           roadmap: "",
         },
         {
+          name: "Cryptography",
+          image: "/images/economics.jpg",
+          notesLink: "",
+          playlistLink: "",
+          roadmap: "",
+          pyqLink: "https://drive.google.com/drive/folders/1GhfJBD036iUIJBaFPo6JRdy8_n22d2fx"
+        },
+        {
           name: "Data Com",
           image: "/images/data-com.jpg",
           pyqLink: "",
