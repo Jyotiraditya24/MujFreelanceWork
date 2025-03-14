@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-10">
         {/* Brand Section */}
         <div>
-          <h2 className="text-2xl font-bold">MUJTOPPER</h2>
+          <h2 className="text-2xl font-bold">MUJTOPPERS</h2>
           <p className="mt-2 text-gray-400">
             Your College Journey, Simplified: Study, Eat & Chill
           </p>

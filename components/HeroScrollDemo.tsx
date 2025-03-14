@@ -4,7 +4,7 @@ import { ContainerScroll } from "@/components/ui/container-scroll-animation";
 
 export function HeroScrollDemo() {
   return (
-    <div className="flex flex-col overflow-hidden">
+    <div className="flex flex-col overflow-hidden w-full">
       <ContainerScroll
         titleComponent={
           <>
@@ -17,15 +17,21 @@ export function HeroScrollDemo() {
           </>
         }
       >
-        <video
-          src="https://res.cloudinary.com/dndyofbi8/video/upload/v1741888947/h7dgqeyut8ooxeqwgak7.mp4"
-          className="mx-auto w-full h-auto max-h-[720px] rounded-2xl object-cover"
-          draggable={false}
-          autoPlay
-          loop
-          muted
-          playsInline
-        />
+        <div className="w-full h-full rounded-2xl overflow-hidden">
+          <video
+            src="https://res.cloudinary.com/dndyofbi8/video/upload/v1741888947/h7dgqeyut8ooxeqwgak7.mp4"
+            className="w-full h-full object-cover"
+            style={{
+              minHeight: "100%",
+              minWidth: "100%",
+            }}
+            draggable={false}
+            autoPlay
+            loop
+            muted
+            playsInline
+          />
+        </div>
       </ContainerScroll>
     </div>
   );

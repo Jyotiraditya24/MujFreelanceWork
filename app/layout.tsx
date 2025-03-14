@@ -1,28 +1,21 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Nunito } from "next/font/google";
+import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import { Analytics } from "@vercel/analytics/react";
 import Footer from "@/components/Footer";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+// Choose a single premium font
+const inter = Inter({
   subsets: ["latin"],
-});
-
-const nunito = Nunito({
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-inter",
 });
 
 export const metadata: Metadata = {
   title: "MUJ Toppers",
   description:
-    "MUJ toppers is built to make your college life easier—Access, PYQs, toppers’ notes, study tips, food delivery, and cab booking all in one place, powered by a passionate mix who have been through it. We ensure you have everything you need to excel—both inside and outside the classroom.",
+    "MUJ toppers is built to make your college life easier—Access, PYQs, toppers' notes, study tips, food delivery, and cab booking all in one place, powered by a passionate mix who have been through it. We ensure you have everything you need to excel—both inside and outside the classroom.",
 };
 
 export default function RootLayout({
@@ -33,7 +26,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${nunito.className} antialiased bg-gray-200/50`}
+        className={`${inter.variable} font-sans antialiased bg-gray-200/50`}
       >
         <Navbar />
         {children}
