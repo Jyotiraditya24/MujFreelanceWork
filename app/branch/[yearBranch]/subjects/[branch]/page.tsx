@@ -27,19 +27,19 @@ export default async function SubjectPage({
           name: "Engineering Materials & Mechanics",
           image: "/EMM.png",
           pyqLink:
-            "https://drive.google.com/drive/folders/1w54A2Vd87DQtFwEoUuy8m0nX9rANb4RA?usp=drive_link",
+            "https://drive.google.com/drive/u/0/folders/1w54A2Vd87DQtFwEoUuy8m0nX9rANb4RA",
           notesLink:
-            "https://drive.google.com/drive/folders/1nxBvjZVxG2QL4W_B8skkg4z-VYibmF7n?usp=drive_link",
-          playlistLink: "",
+            "https://drive.google.com/drive/u/0/folders/1nxBvjZVxG2QL4W_B8skkg4z-VYibmF7n",
+          playlistLink: "https://www.youtube.com/watch?v=3-4wNORPjXY&list=PLDN15nk5uLiBwwGZKmNzKJIRh4E0G9cfx",
           roadmap: "",
         },
         {
           name: "Biology For Engineers",
           image: "/Biology.png",
           pyqLink:
-            "https://drive.google.com/drive/folders/1kNkblB1RDznXNJmehDohPTvMGckCHAfY?usp=drive_link",
+            "https://drive.google.com/drive/u/0/folders/1kNkblB1RDznXNJmehDohPTvMGckCHAfY",
           notesLink:
-            "https://drive.google.com/drive/folders/178MPsfJrZA6TSfvdAbdpcjww1KFAeXiL?usp=drive_link",
+            "https://drive.google.com/drive/u/0/folders/178MPsfJrZA6TSfvdAbdpcjww1KFAeXiL",
           playlistLink: "",
           roadmap: "",
         },
@@ -47,30 +47,30 @@ export default async function SubjectPage({
           name: "Engineering Physics",
           image: "/Physics.png",
           pyqLink:
-            "https://drive.google.com/drive/folders/1cdiHPynlmRHmneEPs7P6EV1DB7wzQGsh?usp=drive_link",
+            "https://drive.google.com/drive/u/0/folders/1cdiHPynlmRHmneEPs7P6EV1DB7wzQGsh",
           notesLink:
-            "https://drive.google.com/drive/folders/17txyc5ZmKvQepWdVK1TCnJQgxaoou6Ke?usp=drive_link",
-          playlistLink: "",
+            "https://drive.google.com/drive/u/0/folders/17txyc5ZmKvQepWdVK1TCnJQgxaoou6Ke",
+          playlistLink: "https://www.youtube.com/watch?v=mDh7KWFBPXQ&list=PLnU_6InKwomFPUn1k5np6NtnoU38TW2PT",
           roadmap: "",
         },
         {
           name: "Computational Mathematics",
           image: "/C&M.png",
           pyqLink:
-            "https://drive.google.com/drive/folders/1wE3l2pM-frCwyFS8DaRIW13-XCbmnAmv?usp=drive_link",
+            "https://drive.google.com/drive/u/0/folders/1wE3l2pM-frCwyFS8DaRIW13-XCbmnAmv",
           notesLink:
-            "https://drive.google.com/drive/folders/17PMTzl-T1TOhnpWUxlVwIkY7OGhDM7TO?usp=drive_link",
-          playlistLink: "",
+            "https://drive.google.com/drive/u/0/folders/17PMTzl-T1TOhnpWUxlVwIkY7OGhDM7TO",
+          playlistLink: "https://www.youtube.com/watch?v=rWyTk9eubKM&list=PLU6SqdYcYsfLrTna7UuaVfGZYkNo0cpVC",
           roadmap: "",
         },
         {
           name: "MATLAB",
           image: "/MATLAB.png",
           pyqLink:
-            "https://drive.google.com/drive/folders/1d75bxh_L7JvAKNheNZ3c6YOeqikO1CTB?usp=drive_link",
+            "https://drive.google.com/drive/u/0/folders/1d75bxh_L7JvAKNheNZ3c6YOeqikO1CTB",
           notesLink:
-            "https://drive.google.com/drive/folders/1VVt2FfnbjhGTebrL7ditH--K_BfWMJZa?usp=drive_link",
-          playlistLink: "",
+            "https://drive.google.com/drive/u/0/folders/1VVt2FfnbjhGTebrL7ditH--K_BfWMJZa",
+          playlistLink: "https://www.youtube.com/watch?v=7f50sQYjNRA&pp=ygUPbWF0bGFiIG9uZSBzaG90",
           roadmap: "",
         },
       ],
@@ -81,49 +81,49 @@ export default async function SubjectPage({
           name: "Calculus & Matrices",
           image: "/Calculus&Matrices.png",
           pyqLink:
-            "https://drive.google.com/drive/folders/1Pr_H4-fb_80Jo6Du96qIIpa6FIVEDTNm?usp=drive_link",
+            "https://drive.google.com/drive/folders/1Pr_H4-fb_80Jo6Du96qIIpa6FIVEDTNm",
           notesLink:
-            "https://drive.google.com/drive/folders/1sC2cCnpEBGosunT4snNZf2Y8pUj5-uqV?usp=drive_link",
-          playlistLink: "",
+            "https://drive.google.com/drive/folders/1sC2cCnpEBGosunT4snNZf2Y8pUj5-uqV",
+          playlistLink: "https://www.youtube.com/watch?v=p5rBJj5CKCg&list=PLU6SqdYcYsfLPxjd-k-MaoG7qgRQ-2fKc",
           roadmap: "",
         },
         {
           name: "Electrical & Electronics System",
           image: "/Electrical&ElectronicsSystem.png",
           pyqLink:
-            "https://drive.google.com/drive/folders/1T2KhOCchylff1UyLZ2jyipmGmHtDx1Sd?usp=drive_link",
+            "https://drive.google.com/drive/folders/1T2KhOCchylff1UyLZ2jyipmGmHtDx1Sd",
           notesLink:
-            "https://drive.google.com/drive/folders/1JnVhkK5vg93hTzYq11Cr7NE8seneqdU1?usp=drive_link",
-          playlistLink: "",
+            "https://drive.google.com/drive/folders/1JnVhkK5vg93hTzYq11Cr7NE8seneqdU1",
+          playlistLink: "https://www.youtube.com/watch?v=Vd2UJiIPbag&list=PL9RcWoqXmzaLTYUdnzKhF4bYug3GjGcEc",
           roadmap: "",
         },
         {
           name: "Engineering Chemistry",
           image: "/Chemistry.png",
           pyqLink:
-            "https://drive.google.com/drive/folders/1pP4zpZHNyD9Zp1peFPRYePpMXvwEWZCV?usp=drive_link",
+            "https://drive.google.com/drive/folders/1pP4zpZHNyD9Zp1peFPRYePpMXvwEWZCV",
           notesLink:
-            "https://drive.google.com/drive/folders/1hER7WzvapxKzG4i3pIayLRU3ICTYwjSF?usp=drive_link",
-          playlistLink: "",
+            "https://drive.google.com/drive/folders/1hER7WzvapxKzG4i3pIayLRU3ICTYwjSF",
+          playlistLink: "https://www.youtube.com/watch?v=XCZakSI-M0I&list=PLLf6O8XdGj03gLo6znlqJbMzgIgt8tSU1",
           roadmap: "",
         },
         {
           name: "Problem Solving using Computers",
           image: "/PSUC.png",
           pyqLink:
-            "https://drive.google.com/drive/folders/14E0SRP4X0EbccxY9jMo44E7_zlUEARJb?usp=drive_link",
+            "https://drive.google.com/drive/folders/14E0SRP4X0EbccxY9jMo44E7_zlUEARJb",
           notesLink:
-            "https://drive.google.com/drive/folders/1nj16NcCCIgI3kmmkT-eisrKg_BKN2yKA?usp=drive_link",
-          playlistLink: "",
+            "https://drive.google.com/drive/folders/1nj16NcCCIgI3kmmkT-eisrKg_BKN2yKA",
+          playlistLink: "https://www.youtube.com/watch?v=aZb0iu4uGwA&t=8493s&pp=ygUdYyBsYW5ndWFnZSBmb3IgYnRlY2ggMXN0IHllYXI%3D",
           roadmap: "",
         },
         {
-          name: "Technical Writing Clinic",
+          name: "Technical Writing using Computers",
           image: "/TWC.png",
           pyqLink:
-            "https://drive.google.com/drive/folders/1Ka7AT18HKHu_WjIBSoloGI_9VHm-ar5t?usp=drive_link",
+            "https://drive.google.com/drive/folders/1Ka7AT18HKHu_WjIBSoloGI_9VHm-ar5t",
           notesLink:
-            "https://drive.google.com/drive/folders/1y-t8alIoH2J7w_f1vBWYTWKcYkpHAIDV?usp=drive_link",
+            "https://drive.google.com/drive/folders/1y-t8alIoH2J7w_f1vBWYTWKcYkpHAIDV",
           playlistLink: "",
           roadmap: "",
         },
