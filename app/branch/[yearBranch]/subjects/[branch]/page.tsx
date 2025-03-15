@@ -195,7 +195,8 @@ export default async function SubjectPage({
         },
         {
           name: "Engineering Mathematics - 4",
-          image: "/images/em4.jpg",
+          image:
+            "https://img.freepik.com/free-vector/coming-soon-web-page-template_23-2147493769.jpg?t=st=1742051843~exp=1742055443~hmac=c9550b2a759a6d7a132e416bc84e5bbb966b7a35d9230f365e8fb4cb9dccd809&w=1380",
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
@@ -522,15 +523,8 @@ export default async function SubjectPage({
       second: [
         {
           name: "Economics",
-          image: "/2_CCE/Economics.png",
-          pyqLink: "",
-          notesLink: "",
-          playlistLink: "",
-          roadmap: "",
-        },
-        {
-          name: "Engineering Mathematics - 3",
-          image: "/2_CCE/EM3.png",
+          image:
+            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039728/2ND%20YEAR%20CARDS/2ND%20YEAR%20CCE/wnh7b3bo2ossrbur7e9x.png",
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
@@ -538,7 +532,8 @@ export default async function SubjectPage({
         },
         {
           name: "Data Communication",
-          image: "/2_CCE/DataCom.png",
+          image:
+            "https://img.freepik.com/free-vector/coming-soon-web-page-template_23-2147493769.jpg?t=st=1742051843~exp=1742055443~hmac=c9550b2a759a6d7a132e416bc84e5bbb966b7a35d9230f365e8fb4cb9dccd809&w=1380",
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
@@ -546,7 +541,8 @@ export default async function SubjectPage({
         },
         {
           name: "Digital Design and Computer Architecture",
-          image: "/2_CCE/DDCA.png",
+          image:
+            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039775/2ND%20YEAR%20CARDS/2ND%20YEAR%20CCE/bvxu60kb5iccu8tdnnr7.png",
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
@@ -554,7 +550,17 @@ export default async function SubjectPage({
         },
         {
           name: "Object-Oriented Programming",
-          image: "/2_CCE/OOP.png",
+          image:
+            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039779/2ND%20YEAR%20CARDS/2ND%20YEAR%20CCE/uabfwo3oebrpi9idfksg.png",
+          pyqLink: "",
+          notesLink: "",
+          playlistLink: "",
+          roadmap: "",
+        },
+        {
+          name: "Engineering Mathematics - 3",
+          image:
+            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039739/2ND%20YEAR%20CARDS/2ND%20YEAR%20CCE/jbpi3jtgw51hyfpmbxtk.png",
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
@@ -562,7 +568,8 @@ export default async function SubjectPage({
         },
         {
           name: "Engineering Mathematics - 4",
-          image: "/2_CCE/EM4.png",
+          image:
+            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039738/2ND%20YEAR%20CARDS/2ND%20YEAR%20CCE/rzu0ddzwt8skwvpyujoy.png",
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
@@ -570,7 +577,8 @@ export default async function SubjectPage({
         },
         {
           name: "Operating Systems",
-          image: "/2_CCE/OS.png",
+          image:
+            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039774/2ND%20YEAR%20CARDS/2ND%20YEAR%20CCE/rosjxri90tngcdee0jpe.png",
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
@@ -578,7 +586,8 @@ export default async function SubjectPage({
         },
         {
           name: "Relational Database Management Systems",
-          image: "/2_CCE/RDBMS.png",
+          image:
+            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039728/2ND%20YEAR%20CARDS/2ND%20YEAR%20CCE/w3gfsicgdkblmyqloduk.png",
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
@@ -586,7 +595,8 @@ export default async function SubjectPage({
         },
         {
           name: "Computer Networks",
-          image: "/2_CCE/CN.png",
+          image:
+            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039794/2ND%20YEAR%20CARDS/2ND%20YEAR%20CCE/jexribwpnyop9lum7cx2.png",
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
@@ -594,7 +604,8 @@ export default async function SubjectPage({
         },
         {
           name: "Data Structures and Algorithms",
-          image: "/2_CCE/DSA.png",
+          image:
+            "https://img.freepik.com/free-vector/coming-soon-web-page-template_23-2147493769.jpg?t=st=1742051843~exp=1742055443~hmac=c9550b2a759a6d7a132e416bc84e5bbb966b7a35d9230f365e8fb4cb9dccd809&w=1380",
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
@@ -602,7 +613,8 @@ export default async function SubjectPage({
         },
         {
           name: "Management and Organizational Theory",
-          image: "/2_CCE/MOT.png",
+          image:
+            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039772/2ND%20YEAR%20CARDS/2ND%20YEAR%20CCE/rl5nthjialpgxo0cughr.png",
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
@@ -664,7 +676,8 @@ export default async function SubjectPage({
       second: [
         {
           name: "Design and Analysis of Algorithms",
-          image: "/2_AIML/DAA.png",
+          image:
+            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039723/2ND%20YEAR%20CARDS/AIML%202ND%20YEAR/o9z0vwcaq00l5dsodkr7.png",
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
@@ -672,15 +685,8 @@ export default async function SubjectPage({
         },
         {
           name: "Operating Systems",
-          image: "/2_AIML/OS.png",
-          pyqLink: "",
-          notesLink: "",
-          playlistLink: "",
-          roadmap: "",
-        },
-        {
-          name: "Agile Software Development",
-          image: "/2_AIML/ASD.png",
+          image:
+            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039737/2ND%20YEAR%20CARDS/AIML%202ND%20YEAR/f1kromlzzatcvp6csk1l.png",
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
@@ -688,7 +694,8 @@ export default async function SubjectPage({
         },
         {
           name: "Cloud Computing",
-          image: "/2_AIML/CC.png",
+          image:
+            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039717/2ND%20YEAR%20CARDS/AIML%202ND%20YEAR/xzawuqmy7sx0nr0elzph.png",
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
@@ -696,7 +703,17 @@ export default async function SubjectPage({
         },
         {
           name: "Statistics and Probability",
-          image: "/2_AIML/SP.png",
+          image:
+            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039716/2ND%20YEAR%20CARDS/AIML%202ND%20YEAR/hkpcxfzgns8dwtczmjo8.png",
+          pyqLink: "",
+          notesLink: "",
+          playlistLink: "",
+          roadmap: "",
+        },
+        {
+          name: "Software Engineering & Product Management",
+          image:
+            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039716/2ND%20YEAR%20CARDS/AIML%202ND%20YEAR/lnror4xq5ck9im62spqm.png",
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
@@ -704,7 +721,17 @@ export default async function SubjectPage({
         },
         {
           name: "Data Structures and Algorithms",
-          image: "/2_AIML/DSA.png",
+          image:
+            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039728/2ND%20YEAR%20CARDS/AIML%202ND%20YEAR/pupxms3zn6bc8nuzrlbh.png",
+          pyqLink: "",
+          notesLink: "",
+          playlistLink: "",
+          roadmap: "",
+        },
+        {
+          name: "Agile Software Development",
+          image:
+            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039718/2ND%20YEAR%20CARDS/AIML%202ND%20YEAR/vadsmyfdnseuetpyp2cn.png",
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
@@ -712,7 +739,8 @@ export default async function SubjectPage({
         },
         {
           name: "Relational Database Management Systems",
-          image: "/2_AIML/RDBMS.png",
+          image:
+            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039723/2ND%20YEAR%20CARDS/AIML%202ND%20YEAR/vdtk6bwsaogqcicxz9kf.png",
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
@@ -720,7 +748,8 @@ export default async function SubjectPage({
         },
         {
           name: "Object-Oriented Programming",
-          image: "/2_AIML/OOP.png",
+          image:
+            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039722/2ND%20YEAR%20CARDS/AIML%202ND%20YEAR/rqbthef0hks1fpk8znsp.png",
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
@@ -728,7 +757,8 @@ export default async function SubjectPage({
         },
         {
           name: "Management of Technology",
-          image: "/2_AIML/MOT.png",
+          image:
+            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039718/2ND%20YEAR%20CARDS/AIML%202ND%20YEAR/zcfrqcqsr4jcklux821j.png",
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
@@ -736,7 +766,8 @@ export default async function SubjectPage({
         },
         {
           name: "Principles of Artificial Intelligence",
-          image: "/2_AIML/PAI.png",
+          image:
+            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039719/2ND%20YEAR%20CARDS/AIML%202ND%20YEAR/kq5uvpqg7zpjpokzv0yu.png",
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
@@ -744,7 +775,8 @@ export default async function SubjectPage({
         },
         {
           name: "Computer Organization and Architecture",
-          image: "/2_AIML/COA.png",
+          image:
+            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039720/2ND%20YEAR%20CARDS/AIML%202ND%20YEAR/greszjoas8vswyxcbrzn.png",
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
@@ -838,7 +870,8 @@ export default async function SubjectPage({
       second: [
         {
           name: "Engineering Mathematics - 3",
-          image: "/2_AIML/EM3.png",
+          image:
+            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039801/2ND%20YEAR%20CARDS/IOT%202nd%20year/bmxpm9mx7vy49ucqagrz.png",
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
@@ -846,7 +879,8 @@ export default async function SubjectPage({
         },
         {
           name: "Digital Design and Computer Architecture",
-          image: "/2_AIML/DDCA.png",
+          image:
+            "https://img.freepik.com/free-vector/coming-soon-web-page-template_23-2147493769.jpg?t=st=1742051843~exp=1742055443~hmac=c9550b2a759a6d7a132e416bc84e5bbb966b7a35d9230f365e8fb4cb9dccd809&w=1380",
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
@@ -854,7 +888,8 @@ export default async function SubjectPage({
         },
         {
           name: "Data Communication",
-          image: "/2_AIML/DataCom.png",
+          image:
+            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039772/2ND%20YEAR%20CARDS/IOT%202nd%20year/lz7jymoizrg6gks8fgcl.png",
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
@@ -862,7 +897,8 @@ export default async function SubjectPage({
         },
         {
           name: "Data Structures and Algorithms",
-          image: "/2_AIML/DSA.png",
+          image:
+            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039788/2ND%20YEAR%20CARDS/IOT%202nd%20year/gfets8ef5odufipmrnok.png",
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
@@ -870,7 +906,8 @@ export default async function SubjectPage({
         },
         {
           name: "Object-Oriented Programming",
-          image: "/2_AIML/OOP.png",
+          image:
+            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039766/2ND%20YEAR%20CARDS/IOT%202nd%20year/hcdmotjxn7dkjark630a.png",
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
@@ -878,7 +915,8 @@ export default async function SubjectPage({
         },
         {
           name: "Economics",
-          image: "/2_AIML/Economics.png",
+          image:
+            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039747/2ND%20YEAR%20CARDS/IOT%202nd%20year/q1qgvcvbbgk7pxxau3nd.png",
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
@@ -886,7 +924,8 @@ export default async function SubjectPage({
         },
         {
           name: "Engineering Mathematics - 4",
-          image: "/2_AIML/EM4.png",
+          image:
+            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039801/2ND%20YEAR%20CARDS/IOT%202nd%20year/ta5dnlqd5tzcgavdds1y.png",
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
@@ -894,7 +933,8 @@ export default async function SubjectPage({
         },
         {
           name: "Operating Systems",
-          image: "/2_AIML/OS.png",
+          image:
+            "https://img.freepik.com/free-vector/coming-soon-web-page-template_23-2147493769.jpg?t=st=1742051843~exp=1742055443~hmac=c9550b2a759a6d7a132e416bc84e5bbb966b7a35d9230f365e8fb4cb9dccd809&w=1380",
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
@@ -902,7 +942,8 @@ export default async function SubjectPage({
         },
         {
           name: "Relational Database Management Systems",
-          image: "/2_AIML/RDBMS.png",
+          image:
+            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039763/2ND%20YEAR%20CARDS/IOT%202nd%20year/lagfoenluhkkoatmsuie.png",
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
@@ -910,7 +951,8 @@ export default async function SubjectPage({
         },
         {
           name: "Web Technologies",
-          image: "/2_AIML/WebTech.png",
+          image:
+            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039777/2ND%20YEAR%20CARDS/IOT%202nd%20year/npjp2txfop9v78nnw7rt.png",
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
@@ -918,7 +960,8 @@ export default async function SubjectPage({
         },
         {
           name: "Management of Technology",
-          image: "/2_AIML/MOT.png",
+          image:
+            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039779/2ND%20YEAR%20CARDS/IOT%202nd%20year/fpmat12ullrvzhjju6la.png",
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
@@ -926,7 +969,8 @@ export default async function SubjectPage({
         },
         {
           name: "Automata and Compiler Design",
-          image: "/2_AIML/ACD.png",
+          image:
+            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039794/2ND%20YEAR%20CARDS/IOT%202nd%20year/wqvq1s13xchfb2riwezf.png",
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
@@ -1012,7 +1056,8 @@ export default async function SubjectPage({
       second: [
         {
           name: "MFDS-1",
-          image: "/images/mfds1.jpg",
+          image:
+            "https://img.freepik.com/free-vector/coming-soon-web-page-template_23-2147493769.jpg?t=st=1742051843~exp=1742055443~hmac=c9550b2a759a6d7a132e416bc84e5bbb966b7a35d9230f365e8fb4cb9dccd809&w=1380",
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
@@ -1038,7 +1083,8 @@ export default async function SubjectPage({
         },
         {
           name: "Object-Oriented Programming",
-          image: "/images/oop.jpg",
+          image:
+            "https://img.freepik.com/free-vector/coming-soon-web-page-template_23-2147493769.jpg?t=st=1742051843~exp=1742055443~hmac=c9550b2a759a6d7a132e416bc84e5bbb966b7a35d9230f365e8fb4cb9dccd809&w=1380",
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
@@ -1055,7 +1101,8 @@ export default async function SubjectPage({
         },
         {
           name: "Computer System Architecture",
-          image: "/images/csa.jpg",
+          image:
+            "https://img.freepik.com/free-vector/coming-soon-web-page-template_23-2147493769.jpg?t=st=1742051843~exp=1742055443~hmac=c9550b2a759a6d7a132e416bc84e5bbb966b7a35d9230f365e8fb4cb9dccd809&w=1380",
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
@@ -1063,7 +1110,8 @@ export default async function SubjectPage({
         },
         {
           name: "MFDS-2",
-          image: "/images/mfds2.jpg",
+          image:
+            "https://img.freepik.com/free-vector/coming-soon-web-page-template_23-2147493769.jpg?t=st=1742051843~exp=1742055443~hmac=c9550b2a759a6d7a132e416bc84e5bbb966b7a35d9230f365e8fb4cb9dccd809&w=1380",
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
@@ -1080,7 +1128,8 @@ export default async function SubjectPage({
         },
         {
           name: "Machine Learning",
-          image: "/images/ml.jpg",
+          image:
+            "https://img.freepik.com/free-vector/coming-soon-web-page-template_23-2147493769.jpg?t=st=1742051843~exp=1742055443~hmac=c9550b2a759a6d7a132e416bc84e5bbb966b7a35d9230f365e8fb4cb9dccd809&w=1380",
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
@@ -1088,7 +1137,8 @@ export default async function SubjectPage({
         },
         {
           name: "Design and Analysis of Algorithms",
-          image: "/images/daa.jpg",
+          image:
+            "https://img.freepik.com/free-vector/coming-soon-web-page-template_23-2147493769.jpg?t=st=1742051843~exp=1742055443~hmac=c9550b2a759a6d7a132e416bc84e5bbb966b7a35d9230f365e8fb4cb9dccd809&w=1380",
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
@@ -1096,7 +1146,8 @@ export default async function SubjectPage({
         },
         {
           name: "Management of Technology",
-          image: "/images/mot.jpg",
+          image:
+            "https://img.freepik.com/free-vector/coming-soon-web-page-template_23-2147493769.jpg?t=st=1742051843~exp=1742055443~hmac=c9550b2a759a6d7a132e416bc84e5bbb966b7a35d9230f365e8fb4cb9dccd809&w=1380",
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
@@ -1131,7 +1182,8 @@ export default async function SubjectPage({
         },
         {
           name: "Data Communication and Networking",
-          image: "/images/dcn.jpg",
+          image:
+            "https://img.freepik.com/free-vector/coming-soon-web-page-template_23-2147493769.jpg?t=st=1742051843~exp=1742055443~hmac=c9550b2a759a6d7a132e416bc84e5bbb966b7a35d9230f365e8fb4cb9dccd809&w=1380",
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
