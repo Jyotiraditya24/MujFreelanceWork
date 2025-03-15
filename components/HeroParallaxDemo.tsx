@@ -1,8 +1,9 @@
 "use client";
-import React from "react";
+import React, { useMemo } from "react";
 import { HeroParallax } from "./ui/hero-parallax";
 
 export function HeroParallaxDemo() {
+
   return <HeroParallax products={products} />;
 }
 export const products = [
@@ -97,3 +98,5 @@ export const products = [
       "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742044056/10gpa/bztez12yuzbskczhfghj.png",
   },
 ];
+
+
