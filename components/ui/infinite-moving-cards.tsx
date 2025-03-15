@@ -2,6 +2,7 @@
 
 import { cn } from "@/lib/util";
 import Image from "next/image";
+import Link from "next/link";
 import React, { useEffect, useState } from "react";
 
 export const InfiniteMovingCards = ({
@@ -87,10 +88,10 @@ export const InfiniteMovingCards = ({
           pauseOnHover && "hover:[animation-play-state:paused]"
         )}
       >
-        {items.map((item) => (
+        {items.map((item,i) => (
           <li
             className="w-[550px] max-w-full relative rounded-lg p-1 flex-shrink-0 md:w-[450px]"
-            key={item.name}
+            key={i}
           >
             <blockquote>
               <div
@@ -98,13 +99,18 @@ export const InfiniteMovingCards = ({
                 className="user-select-none -z-1 pointer-events-none absolute -left-0.5 -top-0.5 h-[calc(100%_+_4px)] w-[calc(100%_+_4px)]"
               ></div>
               <div className="relative w-full h-72 rounded-lg overflow-hidden">
-                <Image
-                  src={item.image}
-                  alt=""
-                  width={500}
-                  height={500}
-                  className="object-contain rounded-lg"
-                />
+                <Link
+                  href={item.name}
+                  target="_blank"
+                >
+                  <Image
+                    src={item.image}
+                    alt=""
+                    width={500}
+                    height={500}
+                    className="object-contain rounded-lg"
+                  />
+                </Link>
               </div>
             </blockquote>
           </li>

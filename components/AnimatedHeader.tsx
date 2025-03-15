@@ -89,7 +89,7 @@ export default function AnimatedHeader({
               >
                 {titleWords.join(" ")}
               </motion.span>
-              <span className="inline-block ml-3">Year Branches</span>
+              <span className="inline-block ml-3">Year {title == "first" ? "Cycle" : "Branches"}</span>
             </h1>
           </div>
 

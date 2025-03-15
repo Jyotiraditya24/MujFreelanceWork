@@ -2,7 +2,6 @@
 // import { LampDemo } from "@/components/LampDemo";
 // import { WobbleCard } from "@/components/ui/wobble-card";
 // import Image from "next/image";
-import { useRouter } from "next/navigation";
 import React from "react";
 import MinimalComingSoon from "../comingExp/page";
 

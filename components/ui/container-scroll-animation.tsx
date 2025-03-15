@@ -45,7 +45,7 @@ export const ContainerScroll = ({
           perspective: "1000px",
         }}
       >
-        <Header translate={translate} titleComponent={titleComponent} />
+        <Header translate={translate} titleComponent={titleComponent}/>
         <Card rotate={rotate} translate={translate} scale={scale}>
           {children}
         </Card>

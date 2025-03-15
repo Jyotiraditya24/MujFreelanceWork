@@ -59,7 +59,7 @@ export default function ExamTipsPage() {
       icon: <Brain className="w-12 h-12 text-indigo-600" />, // ✅ Correct
       title: "Exam Tips",
       description:
-        "Boost retention by actively testing yourself instead of passive re-reading. Use flashcards, practice quizzes, and recall techniques.",
+        "Practice past papers and timed mock tests to simulate real exam conditions. Focus on weak areas and use active recall techniques for better retention.",
       color: "bg-indigo-50 border-indigo-200",
       iconBg: "bg-indigo-100",
       link: "/examTips",
@@ -68,7 +68,7 @@ export default function ExamTipsPage() {
       icon: <Target className="w-12 h-12 text-emerald-600" />, // 🎯 Represents placement goals
       title: "Placement Tips",
       description:
-        "Study material over increasing intervals rather than cramming. This technique optimizes long-term retention.",
+        "Get updates on the latest college placements at MUJ. Stay informed about company visits, placement statistics, and interview experiences to prepare effectively.",
       color: "bg-emerald-50 border-emerald-200",
       iconBg: "bg-emerald-100",
       link: "/placementTips",
@@ -77,7 +77,7 @@ export default function ExamTipsPage() {
       icon: <Coffee className="w-12 h-12 text-amber-600" />, // ☕ Represents staying alert during internships
       title: "Internships",
       description:
-        "Use the Pomodoro technique: study for 25 minutes, then take a 5-minute break to maintain focus and prevent burnout.",
+        "Stay updated on upcoming and past internship experiences. Learn from peers and explore opportunities to enhance your skills through real-world projects.",
       color: "bg-amber-50 border-amber-200",
       iconBg: "bg-amber-100",
     },
@@ -85,7 +85,7 @@ export default function ExamTipsPage() {
       icon: <User className="w-12 h-12 text-rose-600" />, // 👥 BookOpen fits networking and learning
       title: "Connect With Seniors",
       description:
-        "Condense your notes into one-page summaries with key concepts, formulas, and facts for quick revision.",
+        "Seek mentorship from seniors who have been through the process. Ask for guidance on coursework, projects, and career opportunities.",
       color: "bg-rose-50 border-rose-200",
       iconBg: "bg-rose-100",
     },
@@ -93,7 +93,7 @@ export default function ExamTipsPage() {
       icon: <Lightbulb className="w-12 h-12 text-blue-600" />, // 💡 Represents collaboration and new ideas
       title: "Project Collaboration",
       description:
-        "Explain concepts to others or pretend to teach them. This reveals gaps in your understanding and strengthens knowledge.",
+        "Connect with college students to build your dream projects. Collaborate on innovative ideas and leverage teamwork for impactful solutions.",
       color: "bg-blue-50 border-blue-200",
       iconBg: "bg-blue-100",
     },
@@ -101,7 +101,7 @@ export default function ExamTipsPage() {
       icon: <BookOpen className="w-12 h-12 text-purple-600" />, // 🛠 Consider using Code2 or Git-related icon
       title: "Startup Culture",
       description:
-        "Gain insights into fast-paced, innovative work environments where adaptability and problem-solving are key.",
+        "Discover past and current startups from college. Learn from entrepreneurial journeys and get inspired to launch your own venture.",
       color: "bg-purple-50 border-purple-200",
       iconBg: "bg-purple-100",
     },
@@ -199,18 +199,19 @@ export default function ExamTipsPage() {
               transition={{ duration: 0.5, delay: 0.2 }}
             >
               <span className="text-indigo-800 font-medium">
-                Exam Success Strategies
+                College Success Strategies
               </span>
             </motion.div>
             <h1 className="text-4xl md:text-6xl font-bold mb-4 bg-gradient-to-r from-indigo-700 to-purple-700 bg-clip-text text-transparent">
-              Ace Your Exams with Proven Techniques
+              Navigate College Life Like a Pro!
             </h1>
             <p className="text-xl text-gray-700 mb-8">
-              Discover research-backed strategies to optimize your study
-              sessions, maximize retention, and perform at your best on exam
-              day.
+              From acing exams to landing your dream placement, we’ve got you
+              covered! Explore expert tips on time management, resume building,
+              interview prep, and exam strategies to make the most of your
+              college journey
             </p>
-            <motion.div
+            {/* <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={
                 isHeroInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }
@@ -227,7 +228,7 @@ export default function ExamTipsPage() {
               >
                 Browse All Tips
               </Button>
-            </motion.div>
+            </motion.div> */}
           </motion.div>
         </div>
 
@@ -273,7 +274,7 @@ export default function ExamTipsPage() {
           <div className="grid md:grid-cols-2">
             <div className="p-10 md:p-12 flex flex-col justify-center">
               <h2 className="text-3xl font-bold text-white mb-4">
-                Connect With Our Whole Community
+                Connect With Our WhatsApp Community
               </h2>
 
               <div>

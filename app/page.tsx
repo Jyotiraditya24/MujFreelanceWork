@@ -7,7 +7,7 @@ import { HeroParallaxDemo } from "@/components/HeroParallaxDemo";
 import { HeroScrollDemo } from "@/components/HeroScrollDemo";
 import CardGrid from "@/components/CardGrid";
 import Link from "next/link";
-
+import { Instagram } from "lucide-react";
 export default function Home() {
   const ref = useRef(null);
 
@@ -157,7 +157,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto flex flex-col gap-8 md:flex-row items-center">
           <div className="md:w-1/2">
             <motion.img
-              src="/AboutUsCards/5.png"
+              src="/AboutUs.png"
               alt="About Us"
               className="rounded-lg shadow-lg w-full"
               initial={{ opacity: 0, x: -50 }}
@@ -349,7 +349,7 @@ export default function Home() {
                 where adaptability and problem-solving are key.
               </p>
               <button className="mt-auto py-2 px-4 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition-colors duration-200 flex items-center space-x-1">
-                <span>Have a Look</span>
+                <Link href={"/collegeTip"}>Have a Look</Link>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   className="h-4 w-4"
@@ -397,14 +397,14 @@ export default function Home() {
 
           {/* Contact Button */}
           <motion.a
-            href="mailto:mujtoppers@gmail.com"
+            href="https://www.instagram.com/mujtoppers/"
             className="relative inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-[#ff6a00] to-[#ff914d] text-white font-semibold text-lg rounded-lg shadow-lg hover:scale-105 hover:shadow-2xl transition-all duration-300"
             initial={{ opacity: 0, y: 10 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
-            aria-label="Contact Us via Email"
+            aria-label="Contact Us via Instagram"
           >
-            📧 Contact Us
+            <Instagram className="w-6 h-6" /> Contact Us
             <span className="absolute inset-x-0 bottom-0 h-1 bg-white opacity-0 transition-opacity group-hover:opacity-100"></span>
           </motion.a>
         </div>

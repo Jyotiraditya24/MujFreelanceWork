@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
+import MinimalComingSoon from "../comingExp/page";
 
 // Type for a place/activity
 type Item = {
@@ -299,46 +300,47 @@ export default function AfterExamsPage() {
   }
 
   return (
-    <div className="py-24 min-h-screen bg-gray-100 px-4 md:px-10">
-      {/* Top Tab Bar */}
-      <div className="max-w-5xl mx-auto mb-6 flex justify-center gap-4 py-8">
-        <TabButton
-          label="Cafés & Restaurants"
-          active={activeTab === "cafes"}
-          onClick={() => setActiveTab("cafes")}
-        />
-        <TabButton
-          label="Tourist Spots"
-          active={activeTab === "spots"}
-          onClick={() => setActiveTab("spots")}
-        />
-        <TabButton
-          label="Activities"
-          active={activeTab === "activities"}
-          onClick={() => setActiveTab("activities")}
-        />
-      </div>
+        <MinimalComingSoon/>
+    // <div className="py-24 min-h-screen bg-gray-100 px-4 md:px-10">
+    //   {/* Top Tab Bar */}
+    //   <div className="max-w-5xl mx-auto mb-6 flex justify-center gap-4 py-8">
+    //     <TabButton
+    //       label="Cafés & Restaurants"
+    //       active={activeTab === "cafes"}
+    //       onClick={() => setActiveTab("cafes")}
+    //     />
+    //     <TabButton
+    //       label="Tourist Spots"
+    //       active={activeTab === "spots"}
+    //       onClick={() => setActiveTab("spots")}
+    //     />
+    //     <TabButton
+    //       label="Activities"
+    //       active={activeTab === "activities"}
+    //       onClick={() => setActiveTab("activities")}
+    //     />
+    //   </div>
 
-      {/* Title */}
-      <h1 className="text-3xl font-bold text-center mb-8">
-        {activeTab === "cafes"
-          ? "Top 20 Cafés in Jaipur"
-          : activeTab === "spots"
-          ? "Top 20 Tourist Spots in Jaipur"
-          : "Best Activities in Jaipur"}
-      </h1>
+    //   {/* Title */}
+    //   <h1 className="text-3xl font-bold text-center mb-8">
+    //     {activeTab === "cafes"
+    //       ? "Top 20 Cafés in Jaipur"
+    //       : activeTab === "spots"
+    //       ? "Top 20 Tourist Spots in Jaipur"
+    //       : "Best Activities in Jaipur"}
+    //   </h1>
 
-      {/* Card Grid */}
-      <motion.div
-        className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8"
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 0.5 }}
-      >
-        {displayedData.map((item) => (
-          <Card key={item.name} item={item} clickable={isClickable} />
-        ))}
-      </motion.div>
-    </div>
+    //   {/* Card Grid */}
+    //   <motion.div
+    //     className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8"
+    //     initial={{ opacity: 0 }}
+    //     animate={{ opacity: 1 }}
+    //     transition={{ duration: 0.5 }}
+    //   >
+    //     {displayedData.map((item) => (
+    //       <Card key={item.name} item={item} clickable={isClickable} />
+    //     ))}
+    //   </motion.div>
+    // </div>
   );
 }
