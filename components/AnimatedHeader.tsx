@@ -47,7 +47,7 @@ export default function AnimatedHeader({
       {/* Decorative elements */}
       <div className="absolute inset-0 overflow-hidden opacity-10 pointer-events-none">
         <motion.div
-          className="absolute -right-16 -top-16 w-64 h-64 rounded-full bg-gradient-to-r from-amber-300 to-orange-500 blur-3xl"
+          className="absolute -right-16 -top-16 w-64 h-64 rounded-full blur-3xl"
           animate={{
             x: mounted ? [0, 10, -10, 0] : 0,
             y: mounted ? [0, -15, 5, 0] : 0,
@@ -59,7 +59,7 @@ export default function AnimatedHeader({
           }}
         />
         <motion.div
-          className="absolute -left-16 bottom-0 w-72 h-72 rounded-full bg-gradient-to-r from-orange-400 to-red-500 blur-3xl"
+          className="absolute -left-16 bottom-0 w-72 h-72 rounded-full blur-3xl"
           animate={{
             x: mounted ? [0, -15, 15, 0] : 0,
             y: mounted ? [0, 10, -5, 0] : 0,

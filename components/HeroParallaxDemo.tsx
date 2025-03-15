@@ -9,76 +9,91 @@ export const products = [
   {
     title: "Diksha Dwivedi",
     link: "",
-    thumbnail: "/LandingPageTopper/1.png",
+    thumbnail:
+      "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742044056/10gpa/bztez12yuzbskczhfghj.png",
   },
   {
     title: "Chetanya Jolly",
     link: "",
-    thumbnail: "/LandingPageTopper/2.png",
+    thumbnail:
+      "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742044057/10gpa/dzxvsvcgqd5diymorlke.png",
   },
   {
     title: "Chandra T.Pandey",
     link: "",
-    thumbnail: "/LandingPageTopper/12.png",
+    thumbnail:
+      "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742044059/10gpa/gcossxpzsu4gguokyd9r.png",
   },
   {
     title: "Sanya Dureja",
     link: "",
-    thumbnail: "/LandingPageTopper/4.png",
+    thumbnail:
+      "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742044057/10gpa/pzzrnps4kwpppcjg7yt0.png",
   },
   {
     title: "Chanchal Agarwal",
     link: "",
-    thumbnail: "/LandingPageTopper/5.png",
+    thumbnail:
+      "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742044057/10gpa/hbigvf1dhaz08ewvlxdo.png",
   },
   {
     title: "Bhoomika Gupta",
     link: "",
-    thumbnail: "/LandingPageTopper/6.png",
+    thumbnail:
+      "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742044057/10gpa/uvlsx8thddpn3mqaa4l8.png",
   },
   {
     title: "Maldev Singh Chouhan",
     link: "",
-    thumbnail: "/LandingPageTopper/7.png",
+    thumbnail:
+      "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742044057/10gpa/kc8agi42mi4clc1mi9ao.png",
   },
   {
     title: "Shivam Kumar",
     link: "",
-    thumbnail: "/LandingPageTopper/8.png",
+    thumbnail:
+      "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742044058/10gpa/jawliv1tuifhjkxnpjpq.png",
   },
   {
     title: "Harsh Shishodia",
     link: "",
-    thumbnail: "/LandingPageTopper/9.png",
+    thumbnail:
+      "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742044057/10gpa/g88bmzwyjuibx9b1dsu3.png",
   },
   {
     title: "Jyotiraditya",
     link: "",
-    thumbnail: "/LandingPageTopper/10.png",
+    thumbnail:
+      "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742044058/10gpa/bexetscn1cmlrxhrrix4.png",
   },
   {
     title: "Swatantra choudhary",
     link: "",
-    thumbnail: "/LandingPageTopper/11.png",
+    thumbnail:
+      "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742044058/10gpa/rrztnf50oj1illajrh2q.png",
   },
   {
     title: "Anish Deep Gulde",
     link: "https://algochurn.com",
-    thumbnail: "/LandingPageTopper/3.png",
+    thumbnail:
+      "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742044057/10gpa/dkeep8gd35szdxni34ld.png",
   },
   {
     title: "Swatantra choudhary",
     link: "",
-    thumbnail: "/LandingPageTopper/11.png",
+    thumbnail:
+      "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742044058/10gpa/rrztnf50oj1illajrh2q.png",
   },
   {
     title: "Chanchal Agarwal",
     link: "",
-    thumbnail: "/LandingPageTopper/5.png",
+    thumbnail:
+      "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742044057/10gpa/hbigvf1dhaz08ewvlxdo.png",
   },
   {
     title: "Diksha Dwivedi",
     link: "",
-    thumbnail: "/LandingPageTopper/1.png",
+    thumbnail:
+      "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742044056/10gpa/bztez12yuzbskczhfghj.png",
   },
 ];

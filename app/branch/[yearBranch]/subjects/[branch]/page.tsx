@@ -150,7 +150,8 @@ export default async function SubjectPage({
       second: [
         {
           name: "Economics",
-          image: "/images/economics.jpg",
+          image:
+            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039767/2ND%20YEAR%20CARDS/2ND%20YEAR%20IT/x7ijseiknycapscpzmwq.png",
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
@@ -158,7 +159,8 @@ export default async function SubjectPage({
         },
         {
           name: "Engineering Mathematics - 3",
-          image: "/images/em3.jpg",
+          image:
+            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039748/2ND%20YEAR%20CARDS/2ND%20YEAR%20IT/omujuk0muekripl81adq.png",
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
@@ -166,7 +168,8 @@ export default async function SubjectPage({
         },
         {
           name: "Data Communication",
-          image: "/images/data-com.jpg",
+          image:
+            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039724/2ND%20YEAR%20CARDS/2ND%20YEAR%20IT/cntatzd61bbbprpnjo2i.png",
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
@@ -174,7 +177,8 @@ export default async function SubjectPage({
         },
         {
           name: "Computer System Architecture",
-          image: "/images/csa.jpg",
+          image:
+            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039766/2ND%20YEAR%20CARDS/2ND%20YEAR%20IT/xpw00zvxlrsrycejb5lf.png",
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
@@ -182,7 +186,8 @@ export default async function SubjectPage({
         },
         {
           name: "Object-Oriented Programming",
-          image: "/images/oop.jpg",
+          image:
+            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039727/2ND%20YEAR%20CARDS/2ND%20YEAR%20IT/xpyv5k3rkdquvcgndiji.png",
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
@@ -198,7 +203,8 @@ export default async function SubjectPage({
         },
         {
           name: "Operating Systems",
-          image: "/images/os.jpg",
+          image:
+            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039751/2ND%20YEAR%20CARDS/2ND%20YEAR%20IT/depxhktcm1esvldgiuku.png",
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
@@ -206,7 +212,8 @@ export default async function SubjectPage({
         },
         {
           name: "Relational Database Management Systems",
-          image: "/images/rdbms.jpg",
+          image:
+            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039746/2ND%20YEAR%20CARDS/2ND%20YEAR%20IT/uvjgordotytevbbtsrkl.png",
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
@@ -214,7 +221,8 @@ export default async function SubjectPage({
         },
         {
           name: "Web Technologies",
-          image: "/images/web-tech.jpg",
+          image:
+            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039730/2ND%20YEAR%20CARDS/2ND%20YEAR%20IT/ylox2auvkxyf4fhi0dhc.png",
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
@@ -222,7 +230,8 @@ export default async function SubjectPage({
         },
         {
           name: "Data Structures and Algorithms",
-          image: "/images/dsa.jpg",
+          image:
+            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039734/2ND%20YEAR%20CARDS/2ND%20YEAR%20IT/id59niw9ubyaknj1qk2e.png",
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
@@ -230,7 +239,8 @@ export default async function SubjectPage({
         },
         {
           name: "Management of Technology",
-          image: "/images/mot.jpg",
+          image:
+            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039744/2ND%20YEAR%20CARDS/2ND%20YEAR%20IT/awbeyc7hpnuikemr8ti2.png",
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
