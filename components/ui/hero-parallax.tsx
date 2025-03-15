@@ -70,20 +70,23 @@ export const HeroParallax = ({
         className=""
       >
         <motion.div className="flex flex-row-reverse space-x-reverse space-x-20 mb-20">
-          {firstRow.map((product) => (
+          {firstRow.map((product,index) => (
             <ProductCard
               product={product}
               translate={translateX}
               key={product.title}
+              index={index}
+
             />
           ))}
         </motion.div>
         <motion.div className="flex flex-row  mb-20 space-x-20 ">
-          {secondRow.map((product) => (
+          {secondRow.map((product,index) => (
             <ProductCard
               product={product}
               translate={translateXReverse}
               key={product.title}
+              index={index}
             />
           ))}
         </motion.div>
@@ -92,6 +95,7 @@ export const HeroParallax = ({
             <ProductCard
               product={product}
               translate={translateX}
+              index={index}
               key={index}
             />
           ))}
@@ -118,6 +122,7 @@ export const Header = () => {
 export const ProductCard = ({
   product,
   translate,
+  index
 }: {
   product: {
     title: string;
@@ -125,6 +130,7 @@ export const ProductCard = ({
     thumbnail: string;
   };
   translate: MotionValue<number>;
+  index: number;
 }) => {
   return (
     <motion.div
@@ -145,9 +151,11 @@ export const ProductCard = ({
           src={product.thumbnail}
           height="600"
           width="600"
+          sizes="(max-width: 768px) 100vw, 600px"
           className="object-cover object-left-top absolute h-full w-full inset-0"
           alt={product.title}
-          priority={false}
+          priority={index < 2} // Priority for first couple images only
+          loading={index < 5 ? "eager" : "lazy"} // Eager loading for first few images
         />
       </Link>
       <div className="absolute inset-0 h-full w-full opacity-0 group-hover/product:opacity-80 bg-black pointer-events-none"></div>

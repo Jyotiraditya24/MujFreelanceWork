@@ -157,7 +157,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto flex flex-col gap-8 md:flex-row items-center">
           <div className="md:w-1/2">
             <motion.img
-              src="/AboutUs.png"
+              src="https://res.cloudinary.com/ddjnudeq0/image/upload/v1742045607/ubhknwmmh0bfpctftway.png"
               alt="About Us"
               className="rounded-lg shadow-lg w-full"
               initial={{ opacity: 0, x: -50 }}
