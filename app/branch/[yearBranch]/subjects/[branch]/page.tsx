@@ -311,7 +311,8 @@ export default async function SubjectPage({
       second: [
         {
           name: "Economics",
-          image: "/images/economics.jpg",
+          image:
+            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039779/2ND%20YEAR%20CARDS/2nd%20Year%20cse%20core/bq9naanalq37vlkdlmdu.png",
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
@@ -319,32 +320,27 @@ export default async function SubjectPage({
         },
         {
           name: "EM-3",
-          image: "/images/em3.jpg",
+          image:
+            "https://img.freepik.com/free-vector/coming-soon-web-page-template_23-2147493769.jpg?t=st=1742051843~exp=1742055443~hmac=c9550b2a759a6d7a132e416bc84e5bbb966b7a35d9230f365e8fb4cb9dccd809&w=1380",
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
           roadmap: "",
-        },
-        {
-          name: "Cryptography",
-          image: "/images/economics.jpg",
-          notesLink: "",
-          playlistLink: "",
-          roadmap: "",
-          pyqLink:
-            "https://drive.google.com/drive/folders/1GhfJBD036iUIJBaFPo6JRdy8_n22d2fx",
         },
         {
           name: "Data Com",
-          image: "/images/data-com.jpg",
+          image:
+            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039802/2ND%20YEAR%20CARDS/2nd%20Year%20cse%20core/n0ylpdfmykzp7nekhaxy.png",
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
           roadmap: "",
         },
+
         {
           name: "CSA",
-          image: "/images/csa.jpg",
+          image:
+            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039799/2ND%20YEAR%20CARDS/2nd%20Year%20cse%20core/kdotpzcxdr8d7aubv7ge.png",
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
@@ -352,7 +348,110 @@ export default async function SubjectPage({
         },
         {
           name: "OOP",
-          image: "/images/oop.jpg",
+          image:
+            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039796/2ND%20YEAR%20CARDS/2nd%20Year%20cse%20core/otcdhtcspvr3yhwtidno.png",
+          pyqLink: "",
+          notesLink: "",
+          playlistLink: "",
+          roadmap: "",
+        },
+        {
+          name: "EM-4",
+          image:
+            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039795/2ND%20YEAR%20CARDS/2nd%20Year%20cse%20core/wgkqhxund994lsg93yar.png",
+          pyqLink: "",
+          notesLink: "",
+          playlistLink: "",
+          roadmap: "",
+        },
+        {
+          name: "OS",
+          image:
+            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039794/2ND%20YEAR%20CARDS/2nd%20Year%20cse%20core/zctkquc2opxuhgjuetzw.png",
+          pyqLink: "",
+          notesLink: "",
+          playlistLink: "",
+          roadmap: "",
+        },
+        {
+          name: "RDBMS",
+          image:
+            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039778/2ND%20YEAR%20CARDS/2nd%20Year%20cse%20core/uw8unrxurnz5re5xfzgl.png",
+          pyqLink: "",
+          notesLink: "",
+          playlistLink: "",
+          roadmap: "",
+        },
+        {
+          name: "DSA",
+          image:
+            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039796/2ND%20YEAR%20CARDS/2nd%20Year%20cse%20core/otcdhtcspvr3yhwtidno.png",
+          pyqLink: "",
+          notesLink: "",
+          playlistLink: "",
+          roadmap: "",
+        },
+        {
+          name: "MOT",
+          image:
+            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039783/2ND%20YEAR%20CARDS/2nd%20Year%20cse%20core/njdo3aajt5cqo1s84taf.png",
+          pyqLink: "",
+          notesLink: "",
+          playlistLink: "",
+          roadmap: "",
+        },
+        {
+          name: "COA",
+          image:
+            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039777/2ND%20YEAR%20CARDS/2nd%20Year%20cse%20core/pmwtmj8ms9zundvnxepc.png",
+          pyqLink: "",
+          notesLink: "",
+          playlistLink: "",
+          roadmap: "",
+        },
+        {
+          name: "DAA",
+          image:
+            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039799/2ND%20YEAR%20CARDS/2nd%20Year%20cse%20core/iu4ddpiavujdusormqno.png",
+          pyqLink: "",
+          notesLink: "",
+          playlistLink: "",
+          roadmap: "",
+        },
+
+        {
+          name: "High Performance Computing",
+          image:
+            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039723/2ND%20YEAR%20CARDS/2nd%20Year%20cse%20core/nazelt7rnwajvm4wivi1.png",
+
+          pyqLink: "",
+          notesLink: "",
+          playlistLink: "",
+          roadmap: "",
+        },
+        {
+          name: "Cryptography",
+          image:
+            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039768/2ND%20YEAR%20CARDS/2nd%20Year%20cse%20core/qxuloxzlryhyqt44ggt4.png",
+          notesLink: "",
+          playlistLink: "",
+          roadmap: "",
+          pyqLink:
+            "https://drive.google.com/drive/folders/1GhfJBD036iUIJBaFPo6JRdy8_n22d2fx",
+        },
+        {
+          name: "Data Visualization",
+          image:
+            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039732/2ND%20YEAR%20CARDS/2nd%20Year%20cse%20core/h4yd1kwyacjgfzrljmsw.png",
+          pyqLink: "",
+          notesLink: "",
+          playlistLink: "",
+          roadmap: "",
+        },
+        {
+          name: "Automata & Compiler Design",
+          image:
+            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039784/2ND%20YEAR%20CARDS/2nd%20Year%20cse%20core/yfarxnnni9s976n7zi8x.png",
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
@@ -370,7 +469,8 @@ export default async function SubjectPage({
         },
         {
           name: "Design & Analysis of Algorithms",
-          image: "/3_CSE/DAA.png",
+          image:
+            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039799/2ND%20YEAR%20CARDS/2nd%20Year%20cse%20core/iu4ddpiavujdusormqno.png",
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
@@ -920,7 +1020,8 @@ export default async function SubjectPage({
         },
         {
           name: "Finance & Econometrics",
-          image: "/images/finance-econometrics.jpg",
+          image:
+            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039721/2ND%20YEAR%20CARDS/2nd%20year%20Data%20Science/ievspwctstqf6s6hcaol.png",
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
@@ -928,7 +1029,8 @@ export default async function SubjectPage({
         },
         {
           name: "Introduction to Data Analytics",
-          image: "/images/intro-data-analytics.jpg",
+          image:
+            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039721/2ND%20YEAR%20CARDS/2nd%20year%20Data%20Science/ix4l2hhhydjglowq4ngh.png",
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
@@ -944,7 +1046,8 @@ export default async function SubjectPage({
         },
         {
           name: "Data Structures and Algorithms",
-          image: "/images/dsa.jpg",
+          image:
+            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039745/2ND%20YEAR%20CARDS/2nd%20year%20Data%20Science/bi8kei1fjtagptcgd0rk.png",
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
@@ -968,7 +1071,8 @@ export default async function SubjectPage({
         },
         {
           name: "Relational Database Management Systems",
-          image: "/images/rdbms.jpg",
+          image:
+            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039737/2ND%20YEAR%20CARDS/2nd%20year%20Data%20Science/ersz2hykjy1eletyrtz3.png",
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
@@ -1000,7 +1104,8 @@ export default async function SubjectPage({
         },
         {
           name: "Data Mining",
-          image: "/images/data-mining.jpg",
+          image:
+            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039734/2ND%20YEAR%20CARDS/2nd%20year%20Data%20Science/xyctdaxnify6lgxu0ogw.png",
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
@@ -1008,7 +1113,8 @@ export default async function SubjectPage({
         },
         {
           name: "Cloud Computing",
-          image: "/images/cloud-computing.jpg",
+          image:
+            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039732/2ND%20YEAR%20CARDS/2nd%20year%20Data%20Science/edehoo8p5bugsedgbonf.png",
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
@@ -1016,7 +1122,8 @@ export default async function SubjectPage({
         },
         {
           name: "Data Analytics and Visualization",
-          image: "/images/data-analytics-visualization.jpg",
+          image:
+            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039720/2ND%20YEAR%20CARDS/2nd%20year%20Data%20Science/hpinbpexpnhsufixadti.png",
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
@@ -1032,7 +1139,8 @@ export default async function SubjectPage({
         },
         {
           name: "Digital Image Processing",
-          image: "/images/dip.jpg",
+          image:
+            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039724/2ND%20YEAR%20CARDS/2nd%20year%20Data%20Science/efajffcnhaqu20dcmgdn.png",
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
@@ -1040,7 +1148,8 @@ export default async function SubjectPage({
         },
         {
           name: "Computer Networks",
-          image: "/images/cn.jpg",
+          image:
+            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039728/2ND%20YEAR%20CARDS/2nd%20year%20Data%20Science/zt0hsllmhon5xgpgibzp.png",
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
@@ -1048,7 +1157,8 @@ export default async function SubjectPage({
         },
         {
           name: "Statistics and Probability",
-          image: "/images/stats-probability.jpg",
+          image:
+            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039727/2ND%20YEAR%20CARDS/2nd%20year%20Data%20Science/y74xxbavtpxi2fmplafm.png",
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
@@ -1158,21 +1268,24 @@ export default async function SubjectPage({
     return (
       <div className="min-h-screen px-4 py-4  bg-cover bg-center mt-12">
         <div
-          className="p-10 text-black 
-                  grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 
-                  gap-8"
+          className="p-6 sm:p-8 md:p-10 text-black 
+             grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 
+             gap-6 justify-items-center"
         >
-          {subjects.map(({ name, image, pyqLink, notesLink, playlistLink, roadmap }) => (
-            <CardWithSelect
-              key={name}
-              subjectName={name}
-              subjectImage={image}
-              pyqLink={pyqLink}
-              notesLink={notesLink}
-              playlistLink={playlistLink}
-              roadmap={roadmap}
-            />
-          ))}
+          {subjects.map(
+            ({ name, image, pyqLink, notesLink, playlistLink, roadmap }) => (
+              <div key={name} className="w-full flex justify-center">
+                <CardWithSelect
+                  subjectName={name}
+                  subjectImage={image}
+                  pyqLink={pyqLink}
+                  notesLink={notesLink}
+                  playlistLink={playlistLink}
+                  roadmap={roadmap}
+                />
+              </div>
+            )
+          )}
         </div>
       </div>
     );

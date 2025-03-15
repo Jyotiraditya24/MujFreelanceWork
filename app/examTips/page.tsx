@@ -285,11 +285,11 @@ const ExamTipsPage: React.FC = () => {
                     Ditch Passive Learning
                   </h3>
                   <p className="text-gray-700">
-                    Simply reading notes isn&apos;t enough. Engage your brain with
-                    Mind Maps to connect key ideas visually, Flashcards using
-                    apps like Anki or Quizlet, and teaching someone (if you can
-                    explain it, you understand it). Find the method that suits
-                    you and move beyond rote memorization.
+                    Simply reading notes isn&apos;t enough. Engage your brain
+                    with Mind Maps to connect key ideas visually, Flashcards
+                    using apps like Anki or Quizlet, and teaching someone (if
+                    you can explain it, you understand it). Find the method that
+                    suits you and move beyond rote memorization.
                   </p>
                 </motion.div>
 
@@ -476,7 +476,7 @@ const ExamTipsPage: React.FC = () => {
                     </svg>
                   </div>
                   <p className="text-lg">
-                    Get a good night&aspos;s sleep before the exam
+                    Get a good night&apos;s sleep before the exam
                   </p>
                 </div>
                 <div className="flex items-start space-x-3">
@@ -515,9 +515,9 @@ const ExamTipsPage: React.FC = () => {
             Ready to Ace Your Exams?
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto mb-6">
-            With these strategies and tips, you&apos;re well-equipped to excel in
-            your exams. Remember, success comes from consistent preparation and
-            a positive mindset.
+            With these strategies and tips, you&apos;re well-equipped to excel
+            in your exams. Remember, success comes from consistent preparation
+            and a positive mindset.
           </p>
           <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
             <Link
