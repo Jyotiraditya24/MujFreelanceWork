@@ -279,7 +279,7 @@ export default function ExamTipsPage() {
 
               <div>
                 <a
-                  href="https://chat.whatsapp.com/CIpJdSePM5r9aT1xWjKr8O"
+                  href="https://chat.whatsapp.com/EU9X6uJp8skIqRE1loeSDq"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

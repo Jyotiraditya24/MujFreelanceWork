@@ -64,7 +64,7 @@ const Footer = () => {
               <Linkedin size={24} />
             </Link>
             <Link
-              href="https://chat.whatsapp.com/CIpJdSePM5r9aT1xWjKr8O"
+              href="https://chat.whatsapp.com/EU9X6uJp8skIqRE1loeSDq"
               target="_blank"
               className="text-gray-400 hover:text-green-500 transition"
             >

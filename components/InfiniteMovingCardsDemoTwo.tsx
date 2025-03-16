@@ -27,7 +27,7 @@ const testimonials = [
   {
     quote:
       "To be, or not to be, that is the question: Whether 'tis nobler in the mind to suffer The slings and arrows of outrageous fortune, Or to take Arms against a Sea of troubles, And by opposing end them: to die, to sleep.",
-    name: "https://chat.whatsapp.com/CIpJdSePM5r9aT1xWjKr8O",
+    name: "https://chat.whatsapp.com/EU9X6uJp8skIqRE1loeSDq",
     title: "Hamlet",
     image:
       "https://res.cloudinary.com/dndyofbi8/image/upload/v1742033117/SocialHandles/z3kevsvqg5ot9i6twf2x.png",

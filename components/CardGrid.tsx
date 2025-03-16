@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 const cards = [
   {
     link: "/branch/first",
-    title: "Freshman",
+    title: "First Year",
     description: "Foundation courses and core fundamentals",
     gradient: "bg-gradient-to-br from-blue-500 via-indigo-500 to-purple-600",
     icon: "📚",
@@ -13,7 +13,7 @@ const cards = [
   },
   {
     link: "/branch/second",
-    title: "Sophomore",
+    title: "Second Year",
     description: "Advanced topics and specialized skills",
     gradient: "bg-gradient-to-br from-emerald-500 via-teal-500 to-cyan-600",
     icon: "🔬",
@@ -21,7 +21,7 @@ const cards = [
   },
   {
     link: "/branch/third",
-    title: "Junior",
+    title: "Third Year",
     description: "Practical applications and projects",
     gradient: "bg-gradient-to-br from-amber-500 via-orange-500 to-rose-600",
     icon: "⚙️",
@@ -29,7 +29,7 @@ const cards = [
   },
   {
     link: "/branch/fourth",
-    title: "Senior",
+    title: "Fourth Year",
     description: "Specialization and career preparation",
     gradient: "bg-gradient-to-br from-fuchsia-500 via-pink-500 to-rose-600",
     icon: "🎓",
