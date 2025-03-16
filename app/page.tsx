@@ -8,6 +8,7 @@ import { HeroScrollDemo } from "@/components/HeroScrollDemo";
 import CardGrid from "@/components/CardGrid";
 import Link from "next/link";
 import { Instagram } from "lucide-react";
+import AnimatedHeadingLandingPage from "@/components/AnimatedHeadingLandingPage";
 export default function Home() {
   const ref = useRef(null);
 
@@ -23,56 +24,13 @@ export default function Home() {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: false, amount: 0.2 }}
         transition={{ duration: 1, ease: "easeOut" }}
-        className="flex flex-col gap-y-8 items-center justify-center my-10 px-4 bg-gradient-to-b from-gray-50 to-white"
+        className="flex flex-col md:gap-y-8 items-center justify-center my-10 px-4"
       >
-        <motion.h1
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: false }}
-          className="font-bold tracking-tight 
-                     bg-gradient-to-r text-black
-                     text-2xl sm:text-4xl md:text-5xl flex flex-wrap justify-center"
-        >
-          {Array.from("More Than Just Notes – MUJ Life, Sorted!").map(
-            (letter, index) => (
-              <motion.span
-                key={index}
-                variants={{
-                  hidden: {
-                    opacity: 0,
-                    y: 20,
-                    rotate: -10,
-                    filter: "blur(5px)",
-                  },
-                  visible: {
-                    opacity: 1,
-                    y: [20, -10, 0],
-                    rotate: [0, 5, -5, 0],
-                    filter: ["blur(5px)", "blur(0px)"],
-
-                    textShadow: [
-                      "0px 0px 10px rgba(255, 189, 89, 0.8)",
-                      "0px 0px 5px rgba(255, 189, 89, 0.5)",
-                      "none",
-                    ],
-                    transition: {
-                      duration: 0.8,
-                      ease: "easeOut",
-                      delay: index * 0.05,
-                    },
-                  },
-                }}
-                className="whitespace-pre"
-              >
-                {letter === " " ? "\u00A0" : letter}
-              </motion.span>
-            )
-          )}
-        </motion.h1>
-      </motion.div>
+        <AnimatedHeadingLandingPage/>
       <div className="px-4">
         <InfiniteMovingCardsDemo />
       </div>
+      </motion.div>
 
       {/* Additional sections below */}
       <motion.div
