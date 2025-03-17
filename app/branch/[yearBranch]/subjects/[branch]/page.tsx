@@ -42,7 +42,8 @@ export default async function SubjectPage({
             "https://drive.google.com/drive/u/0/folders/1kNkblB1RDznXNJmehDohPTvMGckCHAfY",
           notesLink:
             "https://drive.google.com/drive/u/0/folders/178MPsfJrZA6TSfvdAbdpcjww1KFAeXiL",
-          playlistLink: "https://youtube.com/playlist?list=PLB_MQaW6RcuukNazriXq2TZYTyq8D_5uR&si=miKXCJcM_Ao8uesi",
+          playlistLink:
+            "https://youtube.com/playlist?list=PLB_MQaW6RcuukNazriXq2TZYTyq8D_5uR&si=miKXCJcM_Ao8uesi",
           roadmap:
             "https://res.cloudinary.com/dndyofbi8/image/upload/v1741887269/RoadMaps/o4vwis57ft48pox5if44.png",
         },
@@ -150,17 +151,17 @@ export default async function SubjectPage({
       second: [
         {
           name: "Economics",
-          image:
-            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039767/2ND%20YEAR%20CARDS/2ND%20YEAR%20IT/x7ijseiknycapscpzmwq.png",
-          pyqLink: "",
-          notesLink: "",
+          image: "/images/economics.jpg",
+          pyqLink:
+            "https://drive.google.com/drive/folders/1NTLC89Ma4eU6yJSyD9dGymJSoXDYuobo",
+          notesLink:
+            "https://drive.google.com/drive/folders/1MIviTRv8LkpB0WLz-XmBeLchMY3XxBtE",
           playlistLink: "",
           roadmap: "",
         },
         {
           name: "Engineering Mathematics - 3",
-          image:
-            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039748/2ND%20YEAR%20CARDS/2ND%20YEAR%20IT/omujuk0muekripl81adq.png",
+          image: "/images/em3.jpg",
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
@@ -168,35 +169,36 @@ export default async function SubjectPage({
         },
         {
           name: "Data Communication",
-          image:
-            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039724/2ND%20YEAR%20CARDS/2ND%20YEAR%20IT/cntatzd61bbbprpnjo2i.png",
+          image: "/images/data-com.jpg",
           pyqLink: "",
-          notesLink: "",
+          notesLink:
+            "https://drive.google.com/drive/folders/1zN95UHvxH31eqNOguKs_x90uvkpf8SX4",
           playlistLink: "",
           roadmap: "",
         },
         {
           name: "Computer System Architecture",
-          image:
-            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039766/2ND%20YEAR%20CARDS/2ND%20YEAR%20IT/xpw00zvxlrsrycejb5lf.png",
-          pyqLink: "",
-          notesLink: "",
+          image: "/images/csa.jpg",
+          pyqLink:
+            "https://drive.google.com/drive/folders/11NekAzIeiLGry2Am0m5qfuEUtEYgtCRR",
+          notesLink:
+            "https://drive.google.com/drive/folders/10wjhn9aGixqaIa2BQGGZ-yOAEqcTZKHq",
           playlistLink: "",
           roadmap: "",
         },
         {
           name: "Object-Oriented Programming",
-          image:
-            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039727/2ND%20YEAR%20CARDS/2ND%20YEAR%20IT/xpyv5k3rkdquvcgndiji.png",
-          pyqLink: "",
-          notesLink: "",
+          image: "/images/oop.jpg",
+          pyqLink:
+            "https://drive.google.com/drive/folders/16MvJzoUA1CyivRESx9_4sMbREdIq1WXt",
+          notesLink:
+            "https://drive.google.com/drive/folders/1RwavgM2xKSw0sD_d-kn8IOOODB1UpKuX",
           playlistLink: "",
           roadmap: "",
         },
         {
           name: "Engineering Mathematics - 4",
-          image:
-            "https://img.freepik.com/free-vector/coming-soon-web-page-template_23-2147493769.jpg?t=st=1742051843~exp=1742055443~hmac=c9550b2a759a6d7a132e416bc84e5bbb966b7a35d9230f365e8fb4cb9dccd809&w=1380",
+          image: "/images/em4.jpg",
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
@@ -204,45 +206,47 @@ export default async function SubjectPage({
         },
         {
           name: "Operating Systems",
-          image:
-            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039751/2ND%20YEAR%20CARDS/2ND%20YEAR%20IT/depxhktcm1esvldgiuku.png",
+          image: "/images/os.jpg",
           pyqLink: "",
-          notesLink: "",
+          notesLink:
+            "https://drive.google.com/drive/folders/1Uvg_5I8O_qEy8a9viTl-mXXRLxE9RkEB",
           playlistLink: "",
           roadmap: "",
         },
         {
           name: "Relational Database Management Systems",
-          image:
-            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039746/2ND%20YEAR%20CARDS/2ND%20YEAR%20IT/uvjgordotytevbbtsrkl.png",
-          pyqLink: "",
-          notesLink: "",
+          image: "/images/rdbms.jpg",
+          pyqLink:
+            "https://drive.google.com/drive/folders/1LDmfiAajgHOsTUq8_xKqDAqGDcJY-0ov",
+          notesLink:
+            "https://drive.google.com/drive/folders/1jk_FY3TwT63OUbNOI1tmucZvp4CvQtDZ",
           playlistLink: "",
           roadmap: "",
         },
         {
           name: "Web Technologies",
-          image:
-            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039730/2ND%20YEAR%20CARDS/2ND%20YEAR%20IT/ylox2auvkxyf4fhi0dhc.png",
+          image: "/images/web-tech.jpg",
           pyqLink: "",
-          notesLink: "",
+          notesLink:
+            "https://drive.google.com/drive/folders/1fz3nzYRiFbXVceq-8GUrfP2hHL9vm_dI",
           playlistLink: "",
           roadmap: "",
         },
         {
           name: "Data Structures and Algorithms",
-          image:
-            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039734/2ND%20YEAR%20CARDS/2ND%20YEAR%20IT/id59niw9ubyaknj1qk2e.png",
-          pyqLink: "",
-          notesLink: "",
+          image: "/images/dsa.jpg",
+          pyqLink:
+            "https://drive.google.com/drive/folders/1fTlbkE4JHBuJniK8GK0npv5AYaEtRvK3",
+          notesLink:
+            "https://drive.google.com/drive/folders/1XlZbicmJD80dPDwCGnINvMDlsnxNUcrA",
           playlistLink: "",
           roadmap: "",
         },
         {
           name: "Management of Technology",
-          image:
-            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039744/2ND%20YEAR%20CARDS/2ND%20YEAR%20IT/awbeyc7hpnuikemr8ti2.png",
-          pyqLink: "",
+          image: "/images/mot.jpg",
+          pyqLink:
+            "https://drive.google.com/drive/folders/1cTALhsY_zFL883HTrRJBOhx671LO2jmb",
           notesLink: "",
           playlistLink: "",
           roadmap: "",
@@ -312,119 +316,17 @@ export default async function SubjectPage({
       second: [
         {
           name: "Economics",
-          image:
-            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039779/2ND%20YEAR%20CARDS/2nd%20Year%20cse%20core/bq9naanalq37vlkdlmdu.png",
-          pyqLink: "",
-          notesLink: "",
+          image: "/images/economics.jpg",
+          pyqLink:
+            "https://drive.google.com/drive/folders/1kKgdwQ89xpnIqFrbByKshn8Vip_go4eP",
+          notesLink:
+            "https://drive.google.com/drive/folders/1MIviTRv8LkpB0WLz-XmBeLchMY3XxBtE",
           playlistLink: "",
           roadmap: "",
         },
         {
           name: "EM-3",
-          image:
-            "https://img.freepik.com/free-vector/coming-soon-web-page-template_23-2147493769.jpg?t=st=1742051843~exp=1742055443~hmac=c9550b2a759a6d7a132e416bc84e5bbb966b7a35d9230f365e8fb4cb9dccd809&w=1380",
-          pyqLink: "",
-          notesLink: "",
-          playlistLink: "",
-          roadmap: "",
-        },
-        {
-          name: "Data Com",
-          image:
-            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039802/2ND%20YEAR%20CARDS/2nd%20Year%20cse%20core/n0ylpdfmykzp7nekhaxy.png",
-          pyqLink: "",
-          notesLink: "",
-          playlistLink: "",
-          roadmap: "",
-        },
-
-        {
-          name: "CSA",
-          image:
-            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039799/2ND%20YEAR%20CARDS/2nd%20Year%20cse%20core/kdotpzcxdr8d7aubv7ge.png",
-          pyqLink: "",
-          notesLink: "",
-          playlistLink: "",
-          roadmap: "",
-        },
-        {
-          name: "OOP",
-          image:
-            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039796/2ND%20YEAR%20CARDS/2nd%20Year%20cse%20core/otcdhtcspvr3yhwtidno.png",
-          pyqLink: "",
-          notesLink: "",
-          playlistLink: "",
-          roadmap: "",
-        },
-        {
-          name: "EM-4",
-          image:
-            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039795/2ND%20YEAR%20CARDS/2nd%20Year%20cse%20core/wgkqhxund994lsg93yar.png",
-          pyqLink: "",
-          notesLink: "",
-          playlistLink: "",
-          roadmap: "",
-        },
-        {
-          name: "OS",
-          image:
-            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039794/2ND%20YEAR%20CARDS/2nd%20Year%20cse%20core/zctkquc2opxuhgjuetzw.png",
-          pyqLink: "",
-          notesLink: "",
-          playlistLink: "",
-          roadmap: "",
-        },
-        {
-          name: "RDBMS",
-          image:
-            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039778/2ND%20YEAR%20CARDS/2nd%20Year%20cse%20core/uw8unrxurnz5re5xfzgl.png",
-          pyqLink: "",
-          notesLink: "",
-          playlistLink: "",
-          roadmap: "",
-        },
-        {
-          name: "DSA",
-          image:
-            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039796/2ND%20YEAR%20CARDS/2nd%20Year%20cse%20core/otcdhtcspvr3yhwtidno.png",
-          pyqLink: "",
-          notesLink: "",
-          playlistLink: "",
-          roadmap: "",
-        },
-        {
-          name: "MOT",
-          image:
-            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039783/2ND%20YEAR%20CARDS/2nd%20Year%20cse%20core/njdo3aajt5cqo1s84taf.png",
-          pyqLink: "",
-          notesLink: "",
-          playlistLink: "",
-          roadmap: "",
-        },
-        {
-          name: "COA",
-          image:
-            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039777/2ND%20YEAR%20CARDS/2nd%20Year%20cse%20core/pmwtmj8ms9zundvnxepc.png",
-          pyqLink: "",
-          notesLink: "",
-          playlistLink: "",
-          roadmap: "",
-        },
-        {
-          name: "DAA",
-          image:
-            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039799/2ND%20YEAR%20CARDS/2nd%20Year%20cse%20core/iu4ddpiavujdusormqno.png",
-          pyqLink: "",
-          notesLink: "",
-          playlistLink: "",
-          roadmap: "",
-        },
-
-        {
-          name: "High Performance Computing",
-          image:
-            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039723/2ND%20YEAR%20CARDS/2nd%20Year%20cse%20core/nazelt7rnwajvm4wivi1.png",
-
+          image: "/images/em3.jpg",
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
@@ -432,29 +334,39 @@ export default async function SubjectPage({
         },
         {
           name: "Cryptography",
-          image:
-            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039768/2ND%20YEAR%20CARDS/2nd%20Year%20cse%20core/qxuloxzlryhyqt44ggt4.png",
-          notesLink: "",
+          image: "/images/economics.jpg",
+          notesLink:
+            "https://drive.google.com/drive/folders/1HBeISehoI9nR6HTIu5YHuJe0cueRUCh0",
           playlistLink: "",
           roadmap: "",
           pyqLink:
             "https://drive.google.com/drive/folders/1GhfJBD036iUIJBaFPo6JRdy8_n22d2fx",
         },
         {
-          name: "Data Visualization",
-          image:
-            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039732/2ND%20YEAR%20CARDS/2nd%20Year%20cse%20core/h4yd1kwyacjgfzrljmsw.png",
+          name: "Data Com",
+          image: "/images/data-com.jpg",
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
           roadmap: "",
         },
         {
-          name: "Automata & Compiler Design",
-          image:
-            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039784/2ND%20YEAR%20CARDS/2nd%20Year%20cse%20core/yfarxnnni9s976n7zi8x.png",
-          pyqLink: "",
-          notesLink: "",
+          name: "CSA",
+          image: "/images/csa.jpg",
+          pyqLink:
+            "https://drive.google.com/drive/folders/1Rz9fB5QEbMz2_jCbapalm8AKAMvYjvx5",
+          notesLink:
+            "https://drive.google.com/drive/folders/1EV_QwyogySTsELn9FY2M3VUzSzTy7eK6",
+          playlistLink: "",
+          roadmap: "",
+        },
+        {
+          name: "OOP",
+          image: "/images/oop.jpg",
+          pyqLink:
+            "https://drive.google.com/drive/folders/1b_e32HdEpIxHPFv26rHVzfbHZZNSSAD-",
+          notesLink:
+            "https://drive.google.com/drive/folders/1BrbJkAWIKlss0Azby6z3W7QKVMMI-D3R",
           playlistLink: "",
           roadmap: "",
         },
@@ -470,8 +382,7 @@ export default async function SubjectPage({
         },
         {
           name: "Design & Analysis of Algorithms",
-          image:
-            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039799/2ND%20YEAR%20CARDS/2nd%20Year%20cse%20core/iu4ddpiavujdusormqno.png",
+          image: "/3_CSE/DAA.png",
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
@@ -480,8 +391,10 @@ export default async function SubjectPage({
         {
           name: "Automata & Compiler Design",
           image: "/3_CSE/ACD.png",
-          pyqLink: "",
-          notesLink: "",
+          pyqLink:
+            "https://drive.google.com/drive/folders/1Sxocdt8c71BfwJeDJbnz2ABt5FOHLQg2",
+          notesLink:
+            "https://drive.google.com/drive/folders/1w9HQdLofig_rM3zWnCgY9xlFZtQofucC",
           playlistLink: "",
           roadmap: "",
         },
@@ -523,8 +436,16 @@ export default async function SubjectPage({
       second: [
         {
           name: "Economics",
-          image:
-            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039728/2ND%20YEAR%20CARDS/2ND%20YEAR%20CCE/wnh7b3bo2ossrbur7e9x.png",
+          image: "/2_CCE/Economics.png",
+          pyqLink: "",
+          notesLink:
+            "https://drive.google.com/drive/folders/1MIviTRv8LkpB0WLz-XmBeLchMY3XxBtE",
+          playlistLink: "",
+          roadmap: "",
+        },
+        {
+          name: "Engineering Mathematics - 3",
+          image: "/2_CCE/EM3.png",
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
@@ -532,17 +453,16 @@ export default async function SubjectPage({
         },
         {
           name: "Data Communication",
-          image:
-            "https://img.freepik.com/free-vector/coming-soon-web-page-template_23-2147493769.jpg?t=st=1742051843~exp=1742055443~hmac=c9550b2a759a6d7a132e416bc84e5bbb966b7a35d9230f365e8fb4cb9dccd809&w=1380",
+          image: "/2_CCE/DataCom.png",
           pyqLink: "",
-          notesLink: "",
+          notesLink:
+            "https://drive.google.com/drive/folders/1zN95UHvxH31eqNOguKs_x90uvkpf8SX4",
           playlistLink: "",
           roadmap: "",
         },
         {
           name: "Digital Design and Computer Architecture",
-          image:
-            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039775/2ND%20YEAR%20CARDS/2ND%20YEAR%20CCE/bvxu60kb5iccu8tdnnr7.png",
+          image: "/2_CCE/DDCA.png",
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
@@ -550,26 +470,16 @@ export default async function SubjectPage({
         },
         {
           name: "Object-Oriented Programming",
-          image:
-            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039779/2ND%20YEAR%20CARDS/2ND%20YEAR%20CCE/uabfwo3oebrpi9idfksg.png",
+          image: "/2_CCE/OOP.png",
           pyqLink: "",
-          notesLink: "",
-          playlistLink: "",
-          roadmap: "",
-        },
-        {
-          name: "Engineering Mathematics - 3",
-          image:
-            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039739/2ND%20YEAR%20CARDS/2ND%20YEAR%20CCE/jbpi3jtgw51hyfpmbxtk.png",
-          pyqLink: "",
-          notesLink: "",
+          notesLink:
+            "https://drive.google.com/drive/folders/1b_e32HdEpIxHPFv26rHVzfbHZZNSSAD-",
           playlistLink: "",
           roadmap: "",
         },
         {
           name: "Engineering Mathematics - 4",
-          image:
-            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039738/2ND%20YEAR%20CARDS/2ND%20YEAR%20CCE/rzu0ddzwt8skwvpyujoy.png",
+          image: "/2_CCE/EM4.png",
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
@@ -577,26 +487,25 @@ export default async function SubjectPage({
         },
         {
           name: "Operating Systems",
-          image:
-            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039774/2ND%20YEAR%20CARDS/2ND%20YEAR%20CCE/rosjxri90tngcdee0jpe.png",
+          image: "/2_CCE/OS.png",
           pyqLink: "",
-          notesLink: "",
+          notesLink:
+            "https://drive.google.com/drive/folders/1Uvg_5I8O_qEy8a9viTl-mXXRLxE9RkEB",
           playlistLink: "",
           roadmap: "",
         },
         {
           name: "Relational Database Management Systems",
-          image:
-            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039728/2ND%20YEAR%20CARDS/2ND%20YEAR%20CCE/w3gfsicgdkblmyqloduk.png",
+          image: "/2_CCE/RDBMS.png",
           pyqLink: "",
-          notesLink: "",
+          notesLink:
+            "https://drive.google.com/drive/folders/1jk_FY3TwT63OUbNOI1tmucZvp4CvQtDZ",
           playlistLink: "",
           roadmap: "",
         },
         {
           name: "Computer Networks",
-          image:
-            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039794/2ND%20YEAR%20CARDS/2ND%20YEAR%20CCE/jexribwpnyop9lum7cx2.png",
+          image: "/2_CCE/CN.png",
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
@@ -604,8 +513,7 @@ export default async function SubjectPage({
         },
         {
           name: "Data Structures and Algorithms",
-          image:
-            "https://img.freepik.com/free-vector/coming-soon-web-page-template_23-2147493769.jpg?t=st=1742051843~exp=1742055443~hmac=c9550b2a759a6d7a132e416bc84e5bbb966b7a35d9230f365e8fb4cb9dccd809&w=1380",
+          image: "/2_CCE/DSA.png",
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
@@ -613,10 +521,10 @@ export default async function SubjectPage({
         },
         {
           name: "Management and Organizational Theory",
-          image:
-            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039772/2ND%20YEAR%20CARDS/2ND%20YEAR%20CCE/rl5nthjialpgxo0cughr.png",
+          image: "/2_CCE/MOT.png",
           pyqLink: "",
-          notesLink: "",
+          notesLink:
+            "https://drive.google.com/drive/folders/1UJblblj9dCg6GMKO5-CZh7rpupZ4xyrt",
           playlistLink: "",
           roadmap: "",
         },
@@ -676,98 +584,96 @@ export default async function SubjectPage({
       second: [
         {
           name: "Design and Analysis of Algorithms",
-          image:
-            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039723/2ND%20YEAR%20CARDS/AIML%202ND%20YEAR/o9z0vwcaq00l5dsodkr7.png",
-          pyqLink: "",
-          notesLink: "",
+          image: "/2_AIML/DAA.png",
+          pyqLink:
+            "https://drive.google.com/drive/folders/12XTPn-zlRQTVsm1qr_Ldouzz8K-7etkX",
+          notesLink:
+            "https://drive.google.com/drive/folders/187KV-bondddfwbTRSSFItzWwV0kpZJuf",
           playlistLink: "",
           roadmap: "",
         },
         {
           name: "Operating Systems",
-          image:
-            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039737/2ND%20YEAR%20CARDS/AIML%202ND%20YEAR/f1kromlzzatcvp6csk1l.png",
-          pyqLink: "",
-          notesLink: "",
-          playlistLink: "",
-          roadmap: "",
-        },
-        {
-          name: "Cloud Computing",
-          image:
-            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039717/2ND%20YEAR%20CARDS/AIML%202ND%20YEAR/xzawuqmy7sx0nr0elzph.png",
-          pyqLink: "",
-          notesLink: "",
-          playlistLink: "",
-          roadmap: "",
-        },
-        {
-          name: "Statistics and Probability",
-          image:
-            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039716/2ND%20YEAR%20CARDS/AIML%202ND%20YEAR/hkpcxfzgns8dwtczmjo8.png",
-          pyqLink: "",
-          notesLink: "",
-          playlistLink: "",
-          roadmap: "",
-        },
-        {
-          name: "Software Engineering & Product Management",
-          image:
-            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039716/2ND%20YEAR%20CARDS/AIML%202ND%20YEAR/lnror4xq5ck9im62spqm.png",
-          pyqLink: "",
-          notesLink: "",
-          playlistLink: "",
-          roadmap: "",
-        },
-        {
-          name: "Data Structures and Algorithms",
-          image:
-            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039728/2ND%20YEAR%20CARDS/AIML%202ND%20YEAR/pupxms3zn6bc8nuzrlbh.png",
-          pyqLink: "",
-          notesLink: "",
+          image: "/2_AIML/OS.png",
+          pyqLink:
+            "https://drive.google.com/drive/folders/1do4sEQSQj6J1-7u41mfcR2fpgV3TaGCf",
+          notesLink:
+            "https://drive.google.com/drive/folders/1Uvg_5I8O_qEy8a9viTl-mXXRLxE9RkEB",
           playlistLink: "",
           roadmap: "",
         },
         {
           name: "Agile Software Development",
-          image:
-            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039718/2ND%20YEAR%20CARDS/AIML%202ND%20YEAR/vadsmyfdnseuetpyp2cn.png",
-          pyqLink: "",
-          notesLink: "",
+          image: "/2_AIML/ASD.png",
+          pyqLink:
+            "https://drive.google.com/drive/folders/1f8RLDUOrvM_UvJXxB3OBFKv1cRTI8g-G",
+          notesLink:
+            "https://drive.google.com/drive/folders/1I8iTLlUGsFOHupmEG0wYw2f_aN_KQy1J",
+          playlistLink: "",
+          roadmap: "",
+        },
+        {
+          name: "Cloud Computing",
+          image: "/2_AIML/CC.png",
+          pyqLink:
+            "https://drive.google.com/drive/folders/1NNK82Zs2_FJtDTP0OLVzuFMhuGWiRIQX",
+          notesLink:
+            "https://drive.google.com/drive/folders/1TdrgiDukGedsPSjYRxMSwQsZOsamh9dC",
+          playlistLink: "",
+          roadmap: "",
+        },
+        {
+          name: "Statistics and Probability",
+          image: "/2_AIML/SP.png",
+          pyqLink:
+            "https://drive.google.com/drive/folders/1x1swB_m4TRA8caHbYFyMaiO05s4588nD",
+          notesLink:
+            "https://drive.google.com/drive/folders/1jMrTLdLlR_UPfjZBKBllpo6fajmAFjr9",
+          playlistLink: "",
+          roadmap: "",
+        },
+        {
+          name: "Data Structures and Algorithms",
+          image: "/2_AIML/DSA.png",
+          pyqLink:
+            "https://drive.google.com/drive/folders/1dor9PUWEgRIHD7PRqOJT3m1o4JFhFpiW",
+          notesLink:
+            "https://drive.google.com/drive/folders/1XlZbicmJD80dPDwCGnINvMDlsnxNUcrA",
           playlistLink: "",
           roadmap: "",
         },
         {
           name: "Relational Database Management Systems",
-          image:
-            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039723/2ND%20YEAR%20CARDS/AIML%202ND%20YEAR/vdtk6bwsaogqcicxz9kf.png",
-          pyqLink: "",
-          notesLink: "",
+          image: "/2_AIML/RDBMS.png",
+          pyqLink:
+            "https://drive.google.com/drive/folders/1eW0n3LgA4_uMULhJD-bUFj8dXI7d8Wis",
+          notesLink:
+            "https://drive.google.com/drive/folders/1jk_FY3TwT63OUbNOI1tmucZvp4CvQtDZ",
           playlistLink: "",
           roadmap: "",
         },
         {
           name: "Object-Oriented Programming",
-          image:
-            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039722/2ND%20YEAR%20CARDS/AIML%202ND%20YEAR/rqbthef0hks1fpk8znsp.png",
-          pyqLink: "",
-          notesLink: "",
+          image: "/2_AIML/OOP.png",
+          pyqLink:
+            "https://drive.google.com/drive/folders/1kG0km0W1nqwj2TUTW8_BNLUJrBKxYdZY",
+          notesLink:
+            "https://drive.google.com/drive/folders/1b_e32HdEpIxHPFv26rHVzfbHZZNSSAD-",
           playlistLink: "",
           roadmap: "",
         },
         {
           name: "Management of Technology",
-          image:
-            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039718/2ND%20YEAR%20CARDS/AIML%202ND%20YEAR/zcfrqcqsr4jcklux821j.png",
-          pyqLink: "",
+          image: "/2_AIML/MOT.png",
+          pyqLink:
+            "https://drive.google.com/drive/folders/1A-cszL6CulRBg_a5iam_hTKvfDGY0zc6",
           notesLink: "",
           playlistLink: "",
           roadmap: "",
         },
         {
           name: "Principles of Artificial Intelligence",
-          image:
-            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039719/2ND%20YEAR%20CARDS/AIML%202ND%20YEAR/kq5uvpqg7zpjpokzv0yu.png",
+          image: "/2_AIML/PAI.png",
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
@@ -775,8 +681,7 @@ export default async function SubjectPage({
         },
         {
           name: "Computer Organization and Architecture",
-          image:
-            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039720/2ND%20YEAR%20CARDS/AIML%202ND%20YEAR/greszjoas8vswyxcbrzn.png",
+          image: "/2_AIML/COA.png",
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
