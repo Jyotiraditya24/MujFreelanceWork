@@ -153,9 +153,9 @@ export default async function SubjectPage({
           name: "Economics",
           image: "/images/economics.jpg",
           pyqLink:
-            "https://drive.google.com/drive/folders/1NTLC89Ma4eU6yJSyD9dGymJSoXDYuobo",
+            "",
           notesLink:
-            "https://drive.google.com/drive/folders/1MIviTRv8LkpB0WLz-XmBeLchMY3XxBtE",
+            "",
           playlistLink: "",
           roadmap: "",
         },
@@ -172,7 +172,7 @@ export default async function SubjectPage({
           image: "/images/data-com.jpg",
           pyqLink: "",
           notesLink:
-            "https://drive.google.com/drive/folders/1zN95UHvxH31eqNOguKs_x90uvkpf8SX4",
+            "",
           playlistLink: "",
           roadmap: "",
         },
@@ -180,9 +180,9 @@ export default async function SubjectPage({
           name: "Computer System Architecture",
           image: "/images/csa.jpg",
           pyqLink:
-            "https://drive.google.com/drive/folders/11NekAzIeiLGry2Am0m5qfuEUtEYgtCRR",
+            "",
           notesLink:
-            "https://drive.google.com/drive/folders/10wjhn9aGixqaIa2BQGGZ-yOAEqcTZKHq",
+            "",
           playlistLink: "",
           roadmap: "",
         },
@@ -190,9 +190,9 @@ export default async function SubjectPage({
           name: "Object-Oriented Programming",
           image: "/images/oop.jpg",
           pyqLink:
-            "https://drive.google.com/drive/folders/16MvJzoUA1CyivRESx9_4sMbREdIq1WXt",
+            "",
           notesLink:
-            "https://drive.google.com/drive/folders/1RwavgM2xKSw0sD_d-kn8IOOODB1UpKuX",
+            "",
           playlistLink: "",
           roadmap: "",
         },
@@ -209,7 +209,7 @@ export default async function SubjectPage({
           image: "/images/os.jpg",
           pyqLink: "",
           notesLink:
-            "https://drive.google.com/drive/folders/1Uvg_5I8O_qEy8a9viTl-mXXRLxE9RkEB",
+            "",
           playlistLink: "",
           roadmap: "",
         },
@@ -217,9 +217,9 @@ export default async function SubjectPage({
           name: "Relational Database Management Systems",
           image: "/images/rdbms.jpg",
           pyqLink:
-            "https://drive.google.com/drive/folders/1LDmfiAajgHOsTUq8_xKqDAqGDcJY-0ov",
+            "",
           notesLink:
-            "https://drive.google.com/drive/folders/1jk_FY3TwT63OUbNOI1tmucZvp4CvQtDZ",
+            "",
           playlistLink: "",
           roadmap: "",
         },
@@ -228,7 +228,7 @@ export default async function SubjectPage({
           image: "/images/web-tech.jpg",
           pyqLink: "",
           notesLink:
-            "https://drive.google.com/drive/folders/1fz3nzYRiFbXVceq-8GUrfP2hHL9vm_dI",
+            "",
           playlistLink: "",
           roadmap: "",
         },
@@ -236,9 +236,9 @@ export default async function SubjectPage({
           name: "Data Structures and Algorithms",
           image: "/images/dsa.jpg",
           pyqLink:
-            "https://drive.google.com/drive/folders/1fTlbkE4JHBuJniK8GK0npv5AYaEtRvK3",
+            "",
           notesLink:
-            "https://drive.google.com/drive/folders/1XlZbicmJD80dPDwCGnINvMDlsnxNUcrA",
+            "",
           playlistLink: "",
           roadmap: "",
         },
@@ -246,7 +246,7 @@ export default async function SubjectPage({
           name: "Management of Technology",
           image: "/images/mot.jpg",
           pyqLink:
-            "https://drive.google.com/drive/folders/1cTALhsY_zFL883HTrRJBOhx671LO2jmb",
+            "",
           notesLink: "",
           playlistLink: "",
           roadmap: "",
@@ -318,9 +318,9 @@ export default async function SubjectPage({
           name: "Economics",
           image: "/images/economics.jpg",
           pyqLink:
-            "https://drive.google.com/drive/folders/1kKgdwQ89xpnIqFrbByKshn8Vip_go4eP",
+            "",
           notesLink:
-            "https://drive.google.com/drive/folders/1MIviTRv8LkpB0WLz-XmBeLchMY3XxBtE",
+            "",
           playlistLink: "",
           roadmap: "",
         },
@@ -336,11 +336,11 @@ export default async function SubjectPage({
           name: "Cryptography",
           image: "/images/economics.jpg",
           notesLink:
-            "https://drive.google.com/drive/folders/1HBeISehoI9nR6HTIu5YHuJe0cueRUCh0",
+            "",
           playlistLink: "",
           roadmap: "",
           pyqLink:
-            "https://drive.google.com/drive/folders/1GhfJBD036iUIJBaFPo6JRdy8_n22d2fx",
+            "",
         },
         {
           name: "Data Com",
@@ -354,9 +354,9 @@ export default async function SubjectPage({
           name: "CSA",
           image: "/images/csa.jpg",
           pyqLink:
-            "https://drive.google.com/drive/folders/1Rz9fB5QEbMz2_jCbapalm8AKAMvYjvx5",
+            "",
           notesLink:
-            "https://drive.google.com/drive/folders/1EV_QwyogySTsELn9FY2M3VUzSzTy7eK6",
+            "",
           playlistLink: "",
           roadmap: "",
         },
@@ -364,9 +364,9 @@ export default async function SubjectPage({
           name: "OOP",
           image: "/images/oop.jpg",
           pyqLink:
-            "https://drive.google.com/drive/folders/1b_e32HdEpIxHPFv26rHVzfbHZZNSSAD-",
+            "",
           notesLink:
-            "https://drive.google.com/drive/folders/1BrbJkAWIKlss0Azby6z3W7QKVMMI-D3R",
+            "",
           playlistLink: "",
           roadmap: "",
         },
@@ -392,9 +392,9 @@ export default async function SubjectPage({
           name: "Automata & Compiler Design",
           image: "/3_CSE/ACD.png",
           pyqLink:
-            "https://drive.google.com/drive/folders/1Sxocdt8c71BfwJeDJbnz2ABt5FOHLQg2",
+            "",
           notesLink:
-            "https://drive.google.com/drive/folders/1w9HQdLofig_rM3zWnCgY9xlFZtQofucC",
+            "",
           playlistLink: "",
           roadmap: "",
         },
@@ -439,7 +439,7 @@ export default async function SubjectPage({
           image: "/2_CCE/Economics.png",
           pyqLink: "",
           notesLink:
-            "https://drive.google.com/drive/folders/1MIviTRv8LkpB0WLz-XmBeLchMY3XxBtE",
+            "",
           playlistLink: "",
           roadmap: "",
         },
@@ -456,7 +456,7 @@ export default async function SubjectPage({
           image: "/2_CCE/DataCom.png",
           pyqLink: "",
           notesLink:
-            "https://drive.google.com/drive/folders/1zN95UHvxH31eqNOguKs_x90uvkpf8SX4",
+            "",
           playlistLink: "",
           roadmap: "",
         },
@@ -473,7 +473,7 @@ export default async function SubjectPage({
           image: "/2_CCE/OOP.png",
           pyqLink: "",
           notesLink:
-            "https://drive.google.com/drive/folders/1b_e32HdEpIxHPFv26rHVzfbHZZNSSAD-",
+            "",
           playlistLink: "",
           roadmap: "",
         },
@@ -490,7 +490,7 @@ export default async function SubjectPage({
           image: "/2_CCE/OS.png",
           pyqLink: "",
           notesLink:
-            "https://drive.google.com/drive/folders/1Uvg_5I8O_qEy8a9viTl-mXXRLxE9RkEB",
+            "",
           playlistLink: "",
           roadmap: "",
         },
@@ -499,7 +499,7 @@ export default async function SubjectPage({
           image: "/2_CCE/RDBMS.png",
           pyqLink: "",
           notesLink:
-            "https://drive.google.com/drive/folders/1jk_FY3TwT63OUbNOI1tmucZvp4CvQtDZ",
+            "",
           playlistLink: "",
           roadmap: "",
         },
@@ -524,7 +524,7 @@ export default async function SubjectPage({
           image: "/2_CCE/MOT.png",
           pyqLink: "",
           notesLink:
-            "https://drive.google.com/drive/folders/1UJblblj9dCg6GMKO5-CZh7rpupZ4xyrt",
+            "",
           playlistLink: "",
           roadmap: "",
         },
@@ -586,9 +586,9 @@ export default async function SubjectPage({
           name: "Design and Analysis of Algorithms",
           image: "/2_AIML/DAA.png",
           pyqLink:
-            "https://drive.google.com/drive/folders/12XTPn-zlRQTVsm1qr_Ldouzz8K-7etkX",
+            "",
           notesLink:
-            "https://drive.google.com/drive/folders/187KV-bondddfwbTRSSFItzWwV0kpZJuf",
+            "",
           playlistLink: "",
           roadmap: "",
         },
@@ -596,9 +596,9 @@ export default async function SubjectPage({
           name: "Operating Systems",
           image: "/2_AIML/OS.png",
           pyqLink:
-            "https://drive.google.com/drive/folders/1do4sEQSQj6J1-7u41mfcR2fpgV3TaGCf",
+            "",
           notesLink:
-            "https://drive.google.com/drive/folders/1Uvg_5I8O_qEy8a9viTl-mXXRLxE9RkEB",
+            "",
           playlistLink: "",
           roadmap: "",
         },
@@ -606,9 +606,9 @@ export default async function SubjectPage({
           name: "Agile Software Development",
           image: "/2_AIML/ASD.png",
           pyqLink:
-            "https://drive.google.com/drive/folders/1f8RLDUOrvM_UvJXxB3OBFKv1cRTI8g-G",
+            "",
           notesLink:
-            "https://drive.google.com/drive/folders/1I8iTLlUGsFOHupmEG0wYw2f_aN_KQy1J",
+            "",
           playlistLink: "",
           roadmap: "",
         },
@@ -616,9 +616,9 @@ export default async function SubjectPage({
           name: "Cloud Computing",
           image: "/2_AIML/CC.png",
           pyqLink:
-            "https://drive.google.com/drive/folders/1NNK82Zs2_FJtDTP0OLVzuFMhuGWiRIQX",
+            "",
           notesLink:
-            "https://drive.google.com/drive/folders/1TdrgiDukGedsPSjYRxMSwQsZOsamh9dC",
+            "",
           playlistLink: "",
           roadmap: "",
         },
@@ -626,9 +626,9 @@ export default async function SubjectPage({
           name: "Statistics and Probability",
           image: "/2_AIML/SP.png",
           pyqLink:
-            "https://drive.google.com/drive/folders/1x1swB_m4TRA8caHbYFyMaiO05s4588nD",
+            "",
           notesLink:
-            "https://drive.google.com/drive/folders/1jMrTLdLlR_UPfjZBKBllpo6fajmAFjr9",
+            "",
           playlistLink: "",
           roadmap: "",
         },
@@ -636,9 +636,9 @@ export default async function SubjectPage({
           name: "Data Structures and Algorithms",
           image: "/2_AIML/DSA.png",
           pyqLink:
-            "https://drive.google.com/drive/folders/1dor9PUWEgRIHD7PRqOJT3m1o4JFhFpiW",
+            "",
           notesLink:
-            "https://drive.google.com/drive/folders/1XlZbicmJD80dPDwCGnINvMDlsnxNUcrA",
+            "",
           playlistLink: "",
           roadmap: "",
         },
@@ -646,9 +646,9 @@ export default async function SubjectPage({
           name: "Relational Database Management Systems",
           image: "/2_AIML/RDBMS.png",
           pyqLink:
-            "https://drive.google.com/drive/folders/1eW0n3LgA4_uMULhJD-bUFj8dXI7d8Wis",
+            "",
           notesLink:
-            "https://drive.google.com/drive/folders/1jk_FY3TwT63OUbNOI1tmucZvp4CvQtDZ",
+            "",
           playlistLink: "",
           roadmap: "",
         },
@@ -656,9 +656,9 @@ export default async function SubjectPage({
           name: "Object-Oriented Programming",
           image: "/2_AIML/OOP.png",
           pyqLink:
-            "https://drive.google.com/drive/folders/1kG0km0W1nqwj2TUTW8_BNLUJrBKxYdZY",
+            "",
           notesLink:
-            "https://drive.google.com/drive/folders/1b_e32HdEpIxHPFv26rHVzfbHZZNSSAD-",
+            "",
           playlistLink: "",
           roadmap: "",
         },
@@ -666,7 +666,7 @@ export default async function SubjectPage({
           name: "Management of Technology",
           image: "/2_AIML/MOT.png",
           pyqLink:
-            "https://drive.google.com/drive/folders/1A-cszL6CulRBg_a5iam_hTKvfDGY0zc6",
+            "",
           notesLink: "",
           playlistLink: "",
           roadmap: "",
@@ -796,7 +796,7 @@ export default async function SubjectPage({
           image:
             "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039772/2ND%20YEAR%20CARDS/IOT%202nd%20year/lz7jymoizrg6gks8fgcl.png",
           pyqLink: "",
-          notesLink: "https://drive.google.com/drive/folders/1zN95UHvxH31eqNOguKs_x90uvkpf8SX4",
+          notesLink: "",
           playlistLink: "",
           roadmap: "",
         },
@@ -805,7 +805,7 @@ export default async function SubjectPage({
           image:
             "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039788/2ND%20YEAR%20CARDS/IOT%202nd%20year/gfets8ef5odufipmrnok.png",
           pyqLink: "",
-          notesLink: "https://drive.google.com/drive/folders/1XlZbicmJD80dPDwCGnINvMDlsnxNUcrA",
+          notesLink: "",
           playlistLink: "",
           roadmap: "",
         },
@@ -814,7 +814,7 @@ export default async function SubjectPage({
           image:
             "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039766/2ND%20YEAR%20CARDS/IOT%202nd%20year/hcdmotjxn7dkjark630a.png",
           pyqLink: "",
-          notesLink: "https://drive.google.com/drive/folders/1RwavgM2xKSw0sD_d-kn8IOOODB1UpKuX",
+          notesLink: "",
           playlistLink: "",
           roadmap: "",
         },
@@ -823,7 +823,7 @@ export default async function SubjectPage({
           image:
             "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039747/2ND%20YEAR%20CARDS/IOT%202nd%20year/q1qgvcvbbgk7pxxau3nd.png",
           pyqLink: "",
-          notesLink: "https://drive.google.com/drive/folders/1MIviTRv8LkpB0WLz-XmBeLchMY3XxBtE",
+          notesLink: "",
           playlistLink: "",
           roadmap: "",
         },
@@ -840,8 +840,8 @@ export default async function SubjectPage({
           name: "Operating Systems",
           image:
             "https://img.freepik.com/free-vector/coming-soon-web-page-template_23-2147493769.jpg?t=st=1742051843~exp=1742055443~hmac=c9550b2a759a6d7a132e416bc84e5bbb966b7a35d9230f365e8fb4cb9dccd809&w=1380",
-          pyqLink: "https://drive.google.com/drive/folders/12O05c2VgSa1L3McyaXehJeH1CRZtyLz7",
-          notesLink: "https://drive.google.com/drive/folders/1Uvg_5I8O_qEy8a9viTl-mXXRLxE9RkEB",
+          pyqLink: "",
+          notesLink: "",
           playlistLink: "",
           roadmap: "",
         },
@@ -849,8 +849,8 @@ export default async function SubjectPage({
           name: "Relational Database Management Systems",
           image:
             "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039763/2ND%20YEAR%20CARDS/IOT%202nd%20year/lagfoenluhkkoatmsuie.png",
-          pyqLink: "https://drive.google.com/drive/folders/1o2gQl1gakSQ_K49tY-Q5fhxo2ISUjKpq",
-          notesLink: "https://drive.google.com/drive/folders/1jk_FY3TwT63OUbNOI1tmucZvp4CvQtDZ",
+          pyqLink: "",
+          notesLink: "",
           playlistLink: "",
           roadmap: "",
         },
