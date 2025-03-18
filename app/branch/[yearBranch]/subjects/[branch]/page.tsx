@@ -151,7 +151,8 @@ export default async function SubjectPage({
       second: [
         {
           name: "Economics",
-          image: "/images/economics.jpg",
+          image:
+            "https://drive.google.com/uc?export=view&id=11fMEY_QpY3yZfm3yEaS2I_R0FCN04wKF",
           pyqLink:
             "https://drive.google.com/drive/folders/1NTLC89Ma4eU6yJSyD9dGymJSoXDYuobo",
           notesLink:
@@ -453,7 +454,8 @@ export default async function SubjectPage({
         },
         {
           name: "Data Communication",
-          image: "/2_CCE/DataCom.png",
+          image:
+            "https://drive.google.com/uc?export=view&id=1IGsTrJhAdS71YM0E1Qx3tXBAss_H58gc",
           pyqLink: "",
           notesLink:
             "https://drive.google.com/drive/folders/1zN95UHvxH31eqNOguKs_x90uvkpf8SX4",
