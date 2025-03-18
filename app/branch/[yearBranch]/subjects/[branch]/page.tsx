@@ -226,9 +226,9 @@ export default async function SubjectPage({
         {
           name: "Web Technologies",
           image: "/images/web-tech.jpg",
-          pyqLink: "https://drive.google.com/drive/folders/1fz3nzYRiFbXVceq-8GUrfP2hHL9vm_dI",
+          pyqLink: "https://drive.google.com/drive/folders/1tviFmvyke62MyBjrlhcH2IGP1GTbEXp8",
           notesLink:
-            "https://drive.google.com/drive/folders/1tviFmvyke62MyBjrlhcH2IGP1GTbEXp8",
+            "https://drive.google.com/drive/folders/1fz3nzYRiFbXVceq-8GUrfP2hHL9vm_dI",
           playlistLink: "",
           roadmap: "",
         },
@@ -453,7 +453,7 @@ export default async function SubjectPage({
         },
         {
           name: "Data Communication",
-          image: "/2_CCE/DataCom.png",
+          image: "https://drive.google.com/uc?export=view&id=1IGsTrJhAdS71YM0E1Qx3tXBAss_H58gc",
           pyqLink: "",
           notesLink:
             "https://drive.google.com/drive/folders/1zN95UHvxH31eqNOguKs_x90uvkpf8SX4",
