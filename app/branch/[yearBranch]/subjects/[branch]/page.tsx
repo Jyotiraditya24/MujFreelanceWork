@@ -226,9 +226,9 @@ export default async function SubjectPage({
         {
           name: "Web Technologies",
           image: "/images/web-tech.jpg",
-          pyqLink: "https://drive.google.com/drive/folders/1fz3nzYRiFbXVceq-8GUrfP2hHL9vm_dI",
+          pyqLink: "https://drive.google.com/drive/folders/1tviFmvyke62MyBjrlhcH2IGP1GTbEXp8",
           notesLink:
-            "https://drive.google.com/drive/folders/1tviFmvyke62MyBjrlhcH2IGP1GTbEXp8",
+            "https://drive.google.com/drive/folders/1fz3nzYRiFbXVceq-8GUrfP2hHL9vm_dI",
           playlistLink: "",
           roadmap: "",
         },
