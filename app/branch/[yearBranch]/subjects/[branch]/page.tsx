@@ -318,10 +318,10 @@ export default async function SubjectPage({
           name: "Economics",
           image: "/images/economics.jpg",
           pyqLink:
-            "",
+            "https://drive.google.com/drive/folders/1kKgdwQ89xpnIqFrbByKshn8Vip_go4eP",
           notesLink:
-            "",
-          playlistLink: "",
+            "https://drive.google.com/drive/folders/1MIviTRv8LkpB0WLz-XmBeLchMY3XxBtE",
+          playlistLink: "https://youtube.com/playlist?list=PLXLVheoMxU22KHAUmDwQ_qWCSPav_G14Z&si=9YwhhHh88ZC_ayN9",
           roadmap: "",
         },
         {
@@ -336,11 +336,11 @@ export default async function SubjectPage({
           name: "Cryptography",
           image: "/images/economics.jpg",
           notesLink:
-            "",
-          playlistLink: "",
+            "https://drive.google.com/drive/folders/1HBeISehoI9nR6HTIu5YHuJe0cueRUCh0",
+          playlistLink: "https://www.youtube.com/playlist?list=PL9FuOtXibFjV77w2eyil4Xzp8eooqsPp8",
           roadmap: "",
           pyqLink:
-            "",
+            "https://drive.google.com/drive/folders/1GhfJBD036iUIJBaFPo6JRdy8_n22d2fx",
         },
         {
           name: "Data Com",
@@ -354,20 +354,20 @@ export default async function SubjectPage({
           name: "CSA",
           image: "/images/csa.jpg",
           pyqLink:
-            "",
+            "https://drive.google.com/drive/folders/1Rz9fB5QEbMz2_jCbapalm8AKAMvYjvx5",
           notesLink:
-            "",
-          playlistLink: "",
+            "https://drive.google.com/drive/folders/1EV_QwyogySTsELn9FY2M3VUzSzTy7eK6",
+          playlistLink: "https://www.youtube.com/playlist?list=PLgwJf8NK-2e7XZXcFujMw--IDZ2nnsXNT",
           roadmap: "",
         },
         {
           name: "OOP",
           image: "/images/oop.jpg",
           pyqLink:
-            "",
+            "https://drive.google.com/drive/folders/1BrbJkAWIKlss0Azby6z3W7QKVMMI-D3R",
           notesLink:
-            "",
-          playlistLink: "",
+            "https://drive.google.com/drive/folders/1b_e32HdEpIxHPFv26rHVzfbHZZNSSAD-",
+          playlistLink: "https://www.youtube.com/playlist?list=PLGjplNEQ1it8-0CmoljS5yeV-GlKSUEt0",
           roadmap: "",
         },
       ],
@@ -383,9 +383,9 @@ export default async function SubjectPage({
         {
           name: "Design & Analysis of Algorithms",
           image: "/3_CSE/DAA.png",
-          pyqLink: "",
-          notesLink: "",
-          playlistLink: "",
+          pyqLink: "https://drive.google.com/drive/folders/1ffgA8RffUbY8VmSa4TMkcVtXMhwqU9VU",
+          notesLink: "http://drive.google.com/drive/folders/187KV-bondddfwbTRSSFItzWwV0kpZJuf",
+          playlistLink: "https://youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O&feature=shared",
           roadmap: "",
         },
         {
