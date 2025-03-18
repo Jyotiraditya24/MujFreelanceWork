@@ -586,9 +586,9 @@ export default async function SubjectPage({
           name: "Design and Analysis of Algorithms",
           image: "/2_AIML/DAA.png",
           pyqLink:
-            "",
+            "https://drive.google.com/drive/folders/12XTPn-zlRQTVsm1qr_Ldouzz8K-7etkX",
           notesLink:
-            "",
+            "https://drive.google.com/drive/folders/187KV-bondddfwbTRSSFItzWwV0kpZJuf",
           playlistLink: "",
           roadmap: "",
         },
@@ -596,9 +596,9 @@ export default async function SubjectPage({
           name: "Operating Systems",
           image: "/2_AIML/OS.png",
           pyqLink:
-            "",
+            "http://drive.google.com/drive/folders/1do4sEQSQj6J1-7u41mfcR2fpgV3TaGCf",
           notesLink:
-            "",
+            "https://drive.google.com/drive/folders/1Uvg_5I8O_qEy8a9viTl-mXXRLxE9RkEB",
           playlistLink: "",
           roadmap: "",
         },
@@ -606,9 +606,9 @@ export default async function SubjectPage({
           name: "Agile Software Development",
           image: "/2_AIML/ASD.png",
           pyqLink:
-            "",
+            "https://drive.google.com/drive/folders/1f8RLDUOrvM_UvJXxB3OBFKv1cRTI8g-G",
           notesLink:
-            "",
+            "https://drive.google.com/drive/folders/1I8iTLlUGsFOHupmEG0wYw2f_aN_KQy1J",
           playlistLink: "",
           roadmap: "",
         },
@@ -616,9 +616,9 @@ export default async function SubjectPage({
           name: "Cloud Computing",
           image: "/2_AIML/CC.png",
           pyqLink:
-            "",
+            "https://drive.google.com/drive/folders/1NNK82Zs2_FJtDTP0OLVzuFMhuGWiRIQX",
           notesLink:
-            "",
+            "https://drive.google.com/drive/folders/1TdrgiDukGedsPSjYRxMSwQsZOsamh9dC",
           playlistLink: "",
           roadmap: "",
         },
@@ -626,9 +626,9 @@ export default async function SubjectPage({
           name: "Statistics and Probability",
           image: "/2_AIML/SP.png",
           pyqLink:
-            "",
+            "https://drive.google.com/drive/folders/1x1swB_m4TRA8caHbYFyMaiO05s4588nD",
           notesLink:
-            "",
+            "https://drive.google.com/drive/folders/1jMrTLdLlR_UPfjZBKBllpo6fajmAFjr9",
           playlistLink: "",
           roadmap: "",
         },
@@ -636,9 +636,9 @@ export default async function SubjectPage({
           name: "Data Structures and Algorithms",
           image: "/2_AIML/DSA.png",
           pyqLink:
-            "",
+            "https://drive.google.com/drive/folders/1dor9PUWEgRIHD7PRqOJT3m1o4JFhFpiW",
           notesLink:
-            "",
+            "https://drive.google.com/drive/folders/1XlZbicmJD80dPDwCGnINvMDlsnxNUcrA",
           playlistLink: "",
           roadmap: "",
         },
@@ -646,9 +646,9 @@ export default async function SubjectPage({
           name: "Relational Database Management Systems",
           image: "/2_AIML/RDBMS.png",
           pyqLink:
-            "",
+            "https://drive.google.com/drive/folders/1eW0n3LgA4_uMULhJD-bUFj8dXI7d8Wis",
           notesLink:
-            "",
+            "https://drive.google.com/drive/folders/1jk_FY3TwT63OUbNOI1tmucZvp4CvQtDZ",
           playlistLink: "",
           roadmap: "",
         },
@@ -656,9 +656,9 @@ export default async function SubjectPage({
           name: "Object-Oriented Programming",
           image: "/2_AIML/OOP.png",
           pyqLink:
-            "",
+            "https://drive.google.com/drive/folders/1kG0km0W1nqwj2TUTW8_BNLUJrBKxYdZY",
           notesLink:
-            "",
+            "https://drive.google.com/drive/folders/1b_e32HdEpIxHPFv26rHVzfbHZZNSSAD-",
           playlistLink: "",
           roadmap: "",
         },
@@ -666,7 +666,7 @@ export default async function SubjectPage({
           name: "Management of Technology",
           image: "/2_AIML/MOT.png",
           pyqLink:
-            "",
+            "https://drive.google.com/drive/folders/1A-cszL6CulRBg_a5iam_hTKvfDGY0zc6",
           notesLink: "",
           playlistLink: "",
           roadmap: "",
@@ -682,8 +682,8 @@ export default async function SubjectPage({
         {
           name: "Computer Organization and Architecture",
           image: "/2_AIML/COA.png",
-          pyqLink: "",
-          notesLink: "",
+          pyqLink: "https://drive.google.com/drive/folders/1lPY54VJlApc2udMfh0ELJI5ol2wTQjfp",
+          notesLink: "https://drive.google.com/drive/folders/1EV_QwyogySTsELn9FY2M3VUzSzTy7eK6",
           playlistLink: "",
           roadmap: "",
         },
