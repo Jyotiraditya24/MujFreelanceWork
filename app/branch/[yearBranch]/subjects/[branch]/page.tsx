@@ -453,7 +453,8 @@ export default async function SubjectPage({
         },
         {
           name: "Data Communication",
-          image: "/2_CCE/DataCom.png",
+          image: "https://drive.google.com/uc?export=view&id=1IGsTrJhAdS71YM0E1Qx3tXBAss_H58gc
+",
           pyqLink: "",
           notesLink:
             "https://drive.google.com/drive/folders/1zN95UHvxH31eqNOguKs_x90uvkpf8SX4",
