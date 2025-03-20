@@ -41,7 +41,7 @@ export default async function SubjectPage({
           pyqLink:
             "https://drive.google.com/drive/u/0/folders/1kNkblB1RDznXNJmehDohPTvMGckCHAfY",
           notesLink:
-            "https://drive.google.com/drive/u/0/folders/178MPsfJrZA6TSfvdAbdpcjww1KFAeXiL",
+            "https://drive.google.com/drive/folders/178MPsfJrZA6TSfvdAbdpcjww1KFAeXiL",
           playlistLink:
             "https://youtube.com/playlist?list=PLB_MQaW6RcuukNazriXq2TZYTyq8D_5uR&si=miKXCJcM_Ao8uesi",
           roadmap:
@@ -326,7 +326,47 @@ export default async function SubjectPage({
           roadmap: "",
         },
         {
-          name: "EM-3",
+          name: "Statistics & Probability",
+          image: "/images/em3.jpg",
+          pyqLink: "",
+          notesLink: "",
+          playlistLink: "",
+          roadmap: "",
+        },
+        {
+          name: "Design & Analysis of Algorithms",
+          image: "/images/em3.jpg",
+          pyqLink: "",
+          notesLink: "",
+          playlistLink: "",
+          roadmap: "",
+        },
+        {
+          name: "Data Structures and Algorithms",
+          image: "/images/em3.jpg",
+          pyqLink: "",
+          notesLink: "",
+          playlistLink: "",
+          roadmap: "",
+        },
+        {
+          name: "Operating Systems",
+          image: "/images/em3.jpg",
+          pyqLink: "",
+          notesLink: "",
+          playlistLink: "",
+          roadmap: "",
+        },
+        {
+          name: "RDBMS",
+          image: "/images/em3.jpg",
+          pyqLink: "",
+          notesLink: "",
+          playlistLink: "",
+          roadmap: "",
+        },
+        {
+          name: "Computer Organization and Architecture",
           image: "/images/em3.jpg",
           pyqLink: "",
           notesLink: "",
@@ -344,7 +384,15 @@ export default async function SubjectPage({
             "https://drive.google.com/drive/folders/1GhfJBD036iUIJBaFPo6JRdy8_n22d2fx",
         },
         {
-          name: "Data Com",
+          name: "ACD",
+          image: "/images/data-com.jpg",
+          pyqLink: "",
+          notesLink: "",
+          playlistLink: "",
+          roadmap: "",
+        },
+        {
+          name: "Management of Technology",
           image: "/images/data-com.jpg",
           pyqLink: "",
           notesLink: "",
