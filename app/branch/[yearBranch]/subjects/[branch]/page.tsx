@@ -631,7 +631,7 @@ export default async function SubjectPage({
             "https://drive.google.com/drive/folders/12XTPn-zlRQTVsm1qr_Ldouzz8K-7etkX",
           notesLink:
             "https://drive.google.com/drive/folders/187KV-bondddfwbTRSSFItzWwV0kpZJuf",
-          playlistLink: "",
+          playlistLink: "https://youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O&feature=shared",
           roadmap: "",
         },
         {
@@ -641,7 +641,7 @@ export default async function SubjectPage({
             "https://drive.google.com/drive/folders/1do4sEQSQj6J1-7u41mfcR2fpgV3TaGCf",
           notesLink:
             "https://drive.google.com/drive/folders/1Uvg_5I8O_qEy8a9viTl-mXXRLxE9RkEB",
-          playlistLink: "",
+          playlistLink: "https://youtube.com/playlist?list=PLxCzCOWd7aiGz9donHRrE9I3Mwn6XdP8p&feature=shared",
           roadmap: "",
         },
         {
@@ -681,7 +681,7 @@ export default async function SubjectPage({
             "https://drive.google.com/drive/folders/1dor9PUWEgRIHD7PRqOJT3m1o4JFhFpiW",
           notesLink:
             "https://drive.google.com/drive/folders/1XlZbicmJD80dPDwCGnINvMDlsnxNUcrA",
-          playlistLink: "",
+          playlistLink: "https://youtube.com/playlist?list=PLdo5W4Nhv31bbKJzrsKfMpo_grxuLl8LU&feature=shared",
           roadmap: "",
         },
         {
@@ -691,7 +691,7 @@ export default async function SubjectPage({
             "https://drive.google.com/drive/folders/1eW0n3LgA4_uMULhJD-bUFj8dXI7d8Wis",
           notesLink:
             "https://drive.google.com/drive/folders/1jk_FY3TwT63OUbNOI1tmucZvp4CvQtDZ",
-          playlistLink: "",
+          playlistLink: "https://youtube.com/playlist?list=PLmXKhU9FNesR1rSES7oLdJaNFgmuj0SYV&si=V8GTDj7xybd_D5b2",
           roadmap: "",
         },
         {
@@ -701,7 +701,7 @@ export default async function SubjectPage({
             "https://drive.google.com/drive/folders/1kG0km0W1nqwj2TUTW8_BNLUJrBKxYdZY",
           notesLink:
             "https://drive.google.com/drive/folders/1b_e32HdEpIxHPFv26rHVzfbHZZNSSAD-",
-          playlistLink: "",
+          playlistLink: "https://youtube.com/playlist?list=PLGjplNEQ1it8-0CmoljS5yeV-GlKSUEt0&feature=shared",
           roadmap: "",
         },
         {
@@ -718,30 +718,30 @@ export default async function SubjectPage({
           image: "/2_AIML/PAI.png",
           pyqLink: "",
           notesLink: "",
-          playlistLink: "",
+          playlistLink: "https://youtube.com/playlist?list=PLDh_nHdEw3KOFxIcKyzynJHOp_6bjCYLs&feature=shared",
           roadmap: "",
         },
         {
           name: "Economics",
           image: "/images/em3.jpg",
-          pyqLink: "",
-          notesLink: "",
+          pyqLink: "https://drive.google.com/drive/folders/1HQ7PvlCVg8xPPh5osHzmBDs-CmU1JvVn",
+          notesLink: "https://drive.google.com/drive/folders/1MIviTRv8LkpB0WLz-XmBeLchMY3XxBtE",
           playlistLink: "",
           roadmap: "",
         },
         {
           name: "Software Engineering & Product Management",
           image: "/images/em3.jpg",
-          pyqLink: "",
-          notesLink: "",
-          playlistLink: "",
+          pyqLink: "https://drive.google.com/drive/folders/1FczsoM7e9epwuIJUa5-x_smhiwz750rn",
+          notesLink: "https://drive.google.com/drive/folders/1IxtYO4TgClezalvYz_C3JmFOI56BoNa4",
+          playlistLink: "https://youtube.com/playlist?list=PLxCzCOWd7aiEed7SKZBnC6ypFDWYLRvB2&feature=shared",
           roadmap: "",
         },
         {
           name: "Computer Organization and Architecture",
           image: "/2_AIML/COA.png",
-          pyqLink: "",
-          notesLink: "",
+          pyqLink: "https://drive.google.com/drive/folders/1lPY54VJlApc2udMfh0ELJI5ol2wTQjfp",
+          notesLink: "https://drive.google.com/drive/folders/1EV_QwyogySTsELn9FY2M3VUzSzTy7eK6",
           playlistLink: "",
           roadmap: "",
         },
