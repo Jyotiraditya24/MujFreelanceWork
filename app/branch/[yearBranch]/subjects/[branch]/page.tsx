@@ -832,7 +832,7 @@ export default async function SubjectPage({
     IOT: {
       second: [
         {
-          name: "Engineering Mathematics - 3",
+          name: "Wireless Communication",
           image:
             "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039801/2ND%20YEAR%20CARDS/IOT%202nd%20year/bmxpm9mx7vy49ucqagrz.png",
           pyqLink: "",
@@ -841,7 +841,16 @@ export default async function SubjectPage({
           roadmap: "",
         },
         {
-          name: "Digital Design and Computer Architecture",
+          name: "Cryptography and Network Security",
+          image:
+            "https://img.freepik.com/free-vector/coming-soon-web-page-template_23-2147493769.jpg?t=st=1742051843~exp=1742055443~hmac=c9550b2a759a6d7a132e416bc84e5bbb966b7a35d9230f365e8fb4cb9dccd809&w=1380",
+          pyqLink: "",
+          notesLink: "",
+          playlistLink: "",
+          roadmap: "",
+        },
+        {
+          name: "Statistics & Probability",
           image:
             "https://img.freepik.com/free-vector/coming-soon-web-page-template_23-2147493769.jpg?t=st=1742051843~exp=1742055443~hmac=c9550b2a759a6d7a132e416bc84e5bbb966b7a35d9230f365e8fb4cb9dccd809&w=1380",
           pyqLink: "",
@@ -886,7 +895,16 @@ export default async function SubjectPage({
           roadmap: "",
         },
         {
-          name: "Engineering Mathematics - 4",
+          name: "Data Communications and Computer Networks",
+          image:
+            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039747/2ND%20YEAR%20CARDS/IOT%202nd%20year/q1qgvcvbbgk7pxxau3nd.png",
+          pyqLink: "",
+          notesLink: "",
+          playlistLink: "",
+          roadmap: "",
+        },
+        {
+          name: "Foundation of Data Science",
           image:
             "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039801/2ND%20YEAR%20CARDS/IOT%202nd%20year/ta5dnlqd5tzcgavdds1y.png",
           pyqLink: "",
@@ -922,9 +940,26 @@ export default async function SubjectPage({
           roadmap: "",
         },
         {
+          name: "Web Programming",
+          image:
+            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039777/2ND%20YEAR%20CARDS/IOT%202nd%20year/npjp2txfop9v78nnw7rt.png",
+          pyqLink: "",
+          notesLink: "",
+          playlistLink: "",
+          roadmap: "",
+        },
+        {
           name: "Management of Technology",
           image:
             "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039779/2ND%20YEAR%20CARDS/IOT%202nd%20year/fpmat12ullrvzhjju6la.png",
+          pyqLink: "",
+          notesLink: "",
+          playlistLink: "",
+          roadmap: "",
+        },
+        {
+          name: "Artificial Intelligence and Machine Learning",
+          image: "/3_IOT/AI_ML.png",
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
