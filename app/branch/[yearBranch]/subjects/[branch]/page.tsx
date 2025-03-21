@@ -486,17 +486,17 @@ export default async function SubjectPage({
         {
           name: "Economics",
           image: "/2_CCE/Economics.png",
-          pyqLink: "",
+          pyqLink: "https://drive.google.com/drive/folders/1Toe49CDQBseML7mU0F-p64b8cZoBOKpY",
           notesLink:
             "https://drive.google.com/drive/folders/1MIviTRv8LkpB0WLz-XmBeLchMY3XxBtE",
-          playlistLink: "",
+          playlistLink: "https://youtube.com/playlist?list=PLXLVheoMxU22KHAUmDwQ_qWCSPav_G14Z&si=9YwhhHh88ZC_ayN9",
           roadmap: "",
         },
         {
           name: "Statistics & Probability",
           image: "/2_CCE/EM3.png",
-          pyqLink: "",
-          notesLink: "",
+          pyqLink: "https://drive.google.com/drive/folders/1a9BhYz5xvqqjBv_gataPm3tae025uT3f",
+          notesLink: "https://drive.google.com/drive/folders/1jMrTLdLlR_UPfjZBKBllpo6fajmAFjr9",
           playlistLink: "",
           roadmap: "",
         },
@@ -521,36 +521,36 @@ export default async function SubjectPage({
         {
           name: "Object-Oriented Programming",
           image: "/2_CCE/OOP.png",
-          pyqLink: "",
+          pyqLink: "https://drive.google.com/drive/folders/15igdh33pd0Ii7ZBAl1V_yT6wERNCTn-d",
           notesLink:
             "https://drive.google.com/drive/folders/1b_e32HdEpIxHPFv26rHVzfbHZZNSSAD-",
-          playlistLink: "",
+          playlistLink: "https://www.youtube.com/playlist?list=PLGjplNEQ1it8-0CmoljS5yeV-GlKSUEt0",
           roadmap: "",
         },
         {
           name: "Operating Systems",
           image: "/2_CCE/OS.png",
-          pyqLink: "",
+          pyqLink: "https://drive.google.com/drive/folders/1ziHBNfrJ1155bG6k5PdK9RSaQJ1BEZXh",
           notesLink:
             "https://drive.google.com/drive/folders/1Uvg_5I8O_qEy8a9viTl-mXXRLxE9RkEB",
-          playlistLink: "",
+          playlistLink: "https://www.youtube.com/watch?v=3obEP8eLsCw&t=35487s",
           roadmap: "",
         },
         {
           name: "Relational Database Management Systems",
           image: "/2_CCE/RDBMS.png",
-          pyqLink: "",
+          pyqLink: "https://drive.google.com/drive/folders/1-j_wC0Yr-iuAGISOuDslMOYUrWlqiZPa",
           notesLink:
             "https://drive.google.com/drive/folders/1jk_FY3TwT63OUbNOI1tmucZvp4CvQtDZ",
-          playlistLink: "",
+          playlistLink: "https://youtube.com/playlist?list=PLmXKhU9FNesR1rSES7oLdJaNFgmuj0SYV&si=V8GTDj7xybd_D5b2",
           roadmap: "",
         },
         {
           name: "Computer Networks",
           image: "/2_CCE/CN.png",
-          pyqLink: "",
-          notesLink: "",
-          playlistLink: "",
+          pyqLink: "https://drive.google.com/drive/folders/1_YUkRcdWCclDdg4vJFMe9Pm_Zb1zCkag",
+          notesLink: "https://drive.google.com/drive/folders/1nMZ3yYzp9rYiGDb0f3lqL0jqqz-dNtg0",
+          playlistLink: "https://youtube.com/playlist?list=PLBlnK6fEyqRgMCUAG0XRw78UA8qnv6jEx&si=e3p8n480ABME9G8d",
           roadmap: "",
         },
         {
@@ -564,9 +564,9 @@ export default async function SubjectPage({
         {
           name: "Management and Organizational Theory",
           image: "/2_CCE/MOT.png",
-          pyqLink: "",
+          pyqLink: "https://drive.google.com/drive/folders/1UJblblj9dCg6GMKO5-CZh7rpupZ4xyrt",
           notesLink:
-            "https://drive.google.com/drive/folders/1UJblblj9dCg6GMKO5-CZh7rpupZ4xyrt",
+            "",
           playlistLink: "",
           roadmap: "",
         },
