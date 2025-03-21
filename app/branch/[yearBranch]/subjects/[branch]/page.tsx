@@ -1056,15 +1056,6 @@ export default async function SubjectPage({
           roadmap: "",
         },
         {
-          name: "Design and Analysis of Algorithms",
-          image:
-            "https://img.freepik.com/free-vector/coming-soon-web-page-template_23-2147493769.jpg?t=st=1742051843~exp=1742055443~hmac=c9550b2a759a6d7a132e416bc84e5bbb966b7a35d9230f365e8fb4cb9dccd809&w=1380",
-          pyqLink: "",
-          notesLink: "",
-          playlistLink: "",
-          roadmap: "",
-        },
-        {
           name: "Management of Technology",
           image:
             "https://img.freepik.com/free-vector/coming-soon-web-page-template_23-2147493769.jpg?t=st=1742051843~exp=1742055443~hmac=c9550b2a759a6d7a132e416bc84e5bbb966b7a35d9230f365e8fb4cb9dccd809&w=1380",
