@@ -493,7 +493,7 @@ export default async function SubjectPage({
           roadmap: "",
         },
         {
-          name: "Engineering Mathematics - 3",
+          name: "Statistics & Probability",
           image: "/2_CCE/EM3.png",
           pyqLink: "",
           notesLink: "",
@@ -524,14 +524,6 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink:
             "https://drive.google.com/drive/folders/1b_e32HdEpIxHPFv26rHVzfbHZZNSSAD-",
-          playlistLink: "",
-          roadmap: "",
-        },
-        {
-          name: "Engineering Mathematics - 4",
-          image: "/2_CCE/EM4.png",
-          pyqLink: "",
-          notesLink: "",
           playlistLink: "",
           roadmap: "",
         },
