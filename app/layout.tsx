@@ -4,6 +4,7 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import { Analytics } from "@vercel/analytics/react";
 import Footer from "@/components/Footer";
+import PlausibleProvider from "next-plausible";
 
 // Choose a single premium font
 const inter = Inter({
@@ -28,10 +29,12 @@ export default function RootLayout({
       <body
         className={`${inter.variable} font-sans antialiased bg-gray-200/50`}
       >
-        <Navbar />
-        {children}
-        <Footer />
-        <Analytics />
+        <PlausibleProvider domain="mujtoppers.in">
+          <Navbar />
+          {children}
+          <Footer />
+          <Analytics />
+        </PlausibleProvider>
       </body>
     </html>
   );
