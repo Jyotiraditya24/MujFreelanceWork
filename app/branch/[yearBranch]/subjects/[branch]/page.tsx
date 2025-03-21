@@ -1002,27 +1002,9 @@ export default async function SubjectPage({
     DSE: {
       second: [
         {
-          name: "MFDS-1",
-          image:
-            "https://img.freepik.com/free-vector/coming-soon-web-page-template_23-2147493769.jpg?t=st=1742051843~exp=1742055443~hmac=c9550b2a759a6d7a132e416bc84e5bbb966b7a35d9230f365e8fb4cb9dccd809&w=1380",
-          pyqLink: "",
-          notesLink: "",
-          playlistLink: "",
-          roadmap: "",
-        },
-        {
           name: "Finance & Econometrics",
           image:
             "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039721/2ND%20YEAR%20CARDS/2nd%20year%20Data%20Science/ievspwctstqf6s6hcaol.png",
-          pyqLink: "",
-          notesLink: "",
-          playlistLink: "",
-          roadmap: "",
-        },
-        {
-          name: "Introduction to Data Analytics",
-          image:
-            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039721/2ND%20YEAR%20CARDS/2nd%20year%20Data%20Science/ix4l2hhhydjglowq4ngh.png",
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
@@ -1048,15 +1030,6 @@ export default async function SubjectPage({
         },
         {
           name: "Computer System Architecture",
-          image:
-            "https://img.freepik.com/free-vector/coming-soon-web-page-template_23-2147493769.jpg?t=st=1742051843~exp=1742055443~hmac=c9550b2a759a6d7a132e416bc84e5bbb966b7a35d9230f365e8fb4cb9dccd809&w=1380",
-          pyqLink: "",
-          notesLink: "",
-          playlistLink: "",
-          roadmap: "",
-        },
-        {
-          name: "MFDS-2",
           image:
             "https://img.freepik.com/free-vector/coming-soon-web-page-template_23-2147493769.jpg?t=st=1742051843~exp=1742055443~hmac=c9550b2a759a6d7a132e416bc84e5bbb966b7a35d9230f365e8fb4cb9dccd809&w=1380",
           pyqLink: "",
@@ -1113,33 +1086,6 @@ export default async function SubjectPage({
           name: "Cloud Computing",
           image:
             "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039732/2ND%20YEAR%20CARDS/2nd%20year%20Data%20Science/edehoo8p5bugsedgbonf.png",
-          pyqLink: "",
-          notesLink: "",
-          playlistLink: "",
-          roadmap: "",
-        },
-        {
-          name: "Data Analytics and Visualization",
-          image:
-            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039720/2ND%20YEAR%20CARDS/2nd%20year%20Data%20Science/hpinbpexpnhsufixadti.png",
-          pyqLink: "",
-          notesLink: "",
-          playlistLink: "",
-          roadmap: "",
-        },
-        {
-          name: "Data Communication and Networking",
-          image:
-            "https://img.freepik.com/free-vector/coming-soon-web-page-template_23-2147493769.jpg?t=st=1742051843~exp=1742055443~hmac=c9550b2a759a6d7a132e416bc84e5bbb966b7a35d9230f365e8fb4cb9dccd809&w=1380",
-          pyqLink: "",
-          notesLink: "",
-          playlistLink: "",
-          roadmap: "",
-        },
-        {
-          name: "Digital Image Processing",
-          image:
-            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039724/2ND%20YEAR%20CARDS/2nd%20year%20Data%20Science/efajffcnhaqu20dcmgdn.png",
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
