@@ -157,14 +157,14 @@ export default async function SubjectPage({
             "https://drive.google.com/drive/folders/1NTLC89Ma4eU6yJSyD9dGymJSoXDYuobo",
           notesLink:
             "https://drive.google.com/drive/folders/1MIviTRv8LkpB0WLz-XmBeLchMY3XxBtE",
-          playlistLink: "",
+          playlistLink: "https://youtube.com/playlist?list=PLXLVheoMxU22KHAUmDwQ_qWCSPav_G14Z&si=9YwhhHh88ZC_ayN9",
           roadmap: "",
         },
         {
           name: "Statistics & Probability",
           image: "/images/em3.jpg",
-          pyqLink: "",
-          notesLink: "",
+          pyqLink: "https://drive.google.com/drive/folders/1vZPXAJwd7K2ApdvADnwA_lhsV43OyptC",
+          notesLink: "https://drive.google.com/drive/folders/1jMrTLdLlR_UPfjZBKBllpo6fajmAFjr9",
           playlistLink: "",
           roadmap: "",
         },
@@ -184,7 +184,7 @@ export default async function SubjectPage({
             "https://drive.google.com/drive/folders/11NekAzIeiLGry2Am0m5qfuEUtEYgtCRR",
           notesLink:
             "https://drive.google.com/drive/folders/10wjhn9aGixqaIa2BQGGZ-yOAEqcTZKHq",
-          playlistLink: "",
+          playlistLink: "https://youtu.be/DsK35f8wyUw?si=aEQyCkYhVlPywhka",
           roadmap: "",
         },
         {
@@ -194,13 +194,13 @@ export default async function SubjectPage({
             "https://drive.google.com/drive/folders/16MvJzoUA1CyivRESx9_4sMbREdIq1WXt",
           notesLink:
             "https://drive.google.com/drive/folders/1RwavgM2xKSw0sD_d-kn8IOOODB1UpKuX",
-          playlistLink: "",
+          playlistLink: "https://youtube.com/playlist?list=PLQEaRBV9gAFujcBWJhBT2XXsuMlIfETBy&si=F-0hNBoIf8qkYMPA",
           roadmap: "",
         },
         {
           name: "Python Programming Fundamentals",
           image: "/images/em4.jpg",
-          pyqLink: "",
+          pyqLink: "https://drive.google.com/drive/folders/1FvpViDiDzYpMOXFjndtWl4H8JsitzkZn",
           notesLink: "",
           playlistLink: "",
           roadmap: "",
@@ -208,10 +208,10 @@ export default async function SubjectPage({
         {
           name: "Operating Systems",
           image: "/images/os.jpg",
-          pyqLink: "",
+          pyqLink: "https://drive.google.com/drive/folders/14hlQxQdNilqy6K3TXzXq1uz7Mud9jT2g",
           notesLink:
             "https://drive.google.com/drive/folders/1Uvg_5I8O_qEy8a9viTl-mXXRLxE9RkEB",
-          playlistLink: "",
+          playlistLink: "https://www.youtube.com/watch?v=3obEP8eLsCw&t=35487s",
           roadmap: "",
         },
         {
@@ -221,13 +221,13 @@ export default async function SubjectPage({
             "https://drive.google.com/drive/folders/1LDmfiAajgHOsTUq8_xKqDAqGDcJY-0ov",
           notesLink:
             "https://drive.google.com/drive/folders/1jk_FY3TwT63OUbNOI1tmucZvp4CvQtDZ",
-          playlistLink: "",
+          playlistLink: "https://youtube.com/playlist?list=PLmXKhU9FNesR1rSES7oLdJaNFgmuj0SYV&si=V8GTDj7xybd_D5b2",
           roadmap: "",
         },
         {
           name: "Web Technologies",
           image: "/images/web-tech.jpg",
-          pyqLink: "",
+          pyqLink: "https://drive.google.com/drive/folders/1tviFmvyke62MyBjrlhcH2IGP1GTbEXp8",
           notesLink:
             "https://drive.google.com/drive/folders/1fz3nzYRiFbXVceq-8GUrfP2hHL9vm_dI",
           playlistLink: "",
@@ -240,7 +240,7 @@ export default async function SubjectPage({
             "https://drive.google.com/drive/folders/1fTlbkE4JHBuJniK8GK0npv5AYaEtRvK3",
           notesLink:
             "https://drive.google.com/drive/folders/1XlZbicmJD80dPDwCGnINvMDlsnxNUcrA",
-          playlistLink: "",
+          playlistLink: "https://youtube.com/playlist?list=PLdo5W4Nhv31bbKJzrsKfMpo_grxuLl8LU&feature=shared",
           roadmap: "",
         },
         {
@@ -248,7 +248,7 @@ export default async function SubjectPage({
           image: "/images/mot.jpg",
           pyqLink:
             "https://drive.google.com/drive/folders/1cTALhsY_zFL883HTrRJBOhx671LO2jmb",
-          notesLink: "",
+          notesLink: "https://drive.google.com/drive/folders/1MIviTRv8LkpB0WLz-XmBeLchMY3XxBtE",
           playlistLink: "",
           roadmap: "",
         },
