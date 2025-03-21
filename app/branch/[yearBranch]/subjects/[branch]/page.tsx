@@ -835,7 +835,7 @@ export default async function SubjectPage({
           name: "Wireless Communication",
           image:
             "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039801/2ND%20YEAR%20CARDS/IOT%202nd%20year/bmxpm9mx7vy49ucqagrz.png",
-          pyqLink: "",
+          pyqLink: "https://drive.google.com/drive/folders/1_C5exQDvj0CC79dQY1kxAZKwMzRKvmdk",
           notesLink: "",
           playlistLink: "",
           roadmap: "",
@@ -844,18 +844,18 @@ export default async function SubjectPage({
           name: "Cryptography and Network Security",
           image:
             "https://img.freepik.com/free-vector/coming-soon-web-page-template_23-2147493769.jpg?t=st=1742051843~exp=1742055443~hmac=c9550b2a759a6d7a132e416bc84e5bbb966b7a35d9230f365e8fb4cb9dccd809&w=1380",
-          pyqLink: "",
-          notesLink: "",
-          playlistLink: "",
+          pyqLink: "https://drive.google.com/drive/folders/1WEo2jkNHVuhPUFhYG_xc1hLz4EvubB5w",
+          notesLink: "https://drive.google.com/drive/folders/1HBeISehoI9nR6HTIu5YHuJe0cueRUCh0",
+          playlistLink: "https://www.youtube.com/playlist?list=PL9FuOtXibFjV77w2eyil4Xzp8eooqsPp8",
           roadmap: "",
         },
         {
           name: "Statistics & Probability",
           image:
             "https://img.freepik.com/free-vector/coming-soon-web-page-template_23-2147493769.jpg?t=st=1742051843~exp=1742055443~hmac=c9550b2a759a6d7a132e416bc84e5bbb966b7a35d9230f365e8fb4cb9dccd809&w=1380",
-          pyqLink: "",
-          notesLink: "",
-          playlistLink: "",
+          pyqLink: "https://drive.google.com/drive/folders/19aSCkXjm-WtmKocDxD9ggS7ievPTEXN3",
+          notesLink: "https://drive.google.com/drive/folders/1jMrTLdLlR_UPfjZBKBllpo6fajmAFjr9",
+          playlistLink: "https://youtube.com/playlist?list=PLXLVheoMxU20mH6OYmZ4DU0wtH8z8nKFa&si=dM9Toupt80RBsDOP",
           roadmap: "",
         },
         {
@@ -863,7 +863,7 @@ export default async function SubjectPage({
           image:
             "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039772/2ND%20YEAR%20CARDS/IOT%202nd%20year/lz7jymoizrg6gks8fgcl.png",
           pyqLink: "",
-          notesLink: "",
+          notesLink: "https://drive.google.com/drive/folders/1zN95UHvxH31eqNOguKs_x90uvkpf8SX4",
           playlistLink: "",
           roadmap: "",
         },
@@ -871,27 +871,27 @@ export default async function SubjectPage({
           name: "Data Structures and Algorithms",
           image:
             "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039788/2ND%20YEAR%20CARDS/IOT%202nd%20year/gfets8ef5odufipmrnok.png",
-          pyqLink: "",
-          notesLink: "",
-          playlistLink: "",
+          pyqLink: "https://drive.google.com/drive/folders/1j7kDOuheIXygQgzLsgc3lYddE1kEEpuF",
+          notesLink: "https://drive.google.com/drive/folders/1XlZbicmJD80dPDwCGnINvMDlsnxNUcrA",
+          playlistLink: "https://youtube.com/playlist?list=PLdo5W4Nhv31bbKJzrsKfMpo_grxuLl8LU&feature=shared",
           roadmap: "",
         },
         {
           name: "Object-Oriented Programming",
           image:
             "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039766/2ND%20YEAR%20CARDS/IOT%202nd%20year/hcdmotjxn7dkjark630a.png",
-          pyqLink: "",
-          notesLink: "",
-          playlistLink: "",
+          pyqLink: "https://drive.google.com/drive/folders/13fG6fVa7S3GF0U37LGaolb_rPPi5z6Iz",
+          notesLink: "https://drive.google.com/drive/folders/1RwavgM2xKSw0sD_d-kn8IOOODB1UpKuX",
+          playlistLink: "https://youtube.com/playlist?list=PLQEaRBV9gAFujcBWJhBT2XXsuMlIfETBy&si=F-0hNBoIf8qkYMPA",
           roadmap: "",
         },
         {
           name: "Economics",
           image:
             "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039747/2ND%20YEAR%20CARDS/IOT%202nd%20year/q1qgvcvbbgk7pxxau3nd.png",
-          pyqLink: "",
-          notesLink: "",
-          playlistLink: "",
+          pyqLink: "https://drive.google.com/drive/folders/1oFPfDat-fIjSweamjiJQmnYcdrGfdMMx",
+          notesLink: "https://drive.google.com/drive/folders/1MIviTRv8LkpB0WLz-XmBeLchMY3XxBtE",
+          playlistLink: "https://youtube.com/playlist?list=PLXLVheoMxU22KHAUmDwQ_qWCSPav_G14Z&si=9YwhhHh88ZC_ayN9",
           roadmap: "",
         },
         {
@@ -907,7 +907,7 @@ export default async function SubjectPage({
           name: "Foundation of Data Science",
           image:
             "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039801/2ND%20YEAR%20CARDS/IOT%202nd%20year/ta5dnlqd5tzcgavdds1y.png",
-          pyqLink: "",
+          pyqLink: "https://drive.google.com/drive/folders/1oLISuYWCpLi6o42eVWNuXvvQp5zU32ys",
           notesLink: "",
           playlistLink: "",
           roadmap: "",
@@ -916,18 +916,18 @@ export default async function SubjectPage({
           name: "Operating Systems",
           image:
             "https://img.freepik.com/free-vector/coming-soon-web-page-template_23-2147493769.jpg?t=st=1742051843~exp=1742055443~hmac=c9550b2a759a6d7a132e416bc84e5bbb966b7a35d9230f365e8fb4cb9dccd809&w=1380",
-          pyqLink: "",
-          notesLink: "",
-          playlistLink: "",
+          pyqLink: "https://drive.google.com/drive/folders/12O05c2VgSa1L3McyaXehJeH1CRZtyLz7",
+          notesLink: "https://drive.google.com/drive/folders/1Uvg_5I8O_qEy8a9viTl-mXXRLxE9RkEB",
+          playlistLink: "https://www.youtube.com/watch?v=3obEP8eLsCw&t=35487s",
           roadmap: "",
         },
         {
           name: "Relational Database Management Systems",
           image:
             "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039763/2ND%20YEAR%20CARDS/IOT%202nd%20year/lagfoenluhkkoatmsuie.png",
-          pyqLink: "",
-          notesLink: "",
-          playlistLink: "",
+          pyqLink: "https://drive.google.com/drive/folders/1o2gQl1gakSQ_K49tY-Q5fhxo2ISUjKpq",
+          notesLink: "https://drive.google.com/drive/folders/1jk_FY3TwT63OUbNOI1tmucZvp4CvQtDZ",
+          playlistLink: "https://youtube.com/playlist?list=PLmXKhU9FNesR1rSES7oLdJaNFgmuj0SYV&si=V8GTDj7xybd_D5b2",
           roadmap: "",
         },
         {
@@ -935,7 +935,7 @@ export default async function SubjectPage({
           image:
             "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039777/2ND%20YEAR%20CARDS/IOT%202nd%20year/npjp2txfop9v78nnw7rt.png",
           pyqLink: "",
-          notesLink: "",
+          notesLink: "https://drive.google.com/drive/folders/1fz3nzYRiFbXVceq-8GUrfP2hHL9vm_dI",
           playlistLink: "",
           roadmap: "",
         },
@@ -952,7 +952,7 @@ export default async function SubjectPage({
           name: "Management of Technology",
           image:
             "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039779/2ND%20YEAR%20CARDS/IOT%202nd%20year/fpmat12ullrvzhjju6la.png",
-          pyqLink: "",
+          pyqLink: "https://drive.google.com/drive/folders/1mV0AmSDn16G6UJLutkEpoxTKBNurEAt3",
           notesLink: "",
           playlistLink: "",
           roadmap: "",
@@ -960,8 +960,8 @@ export default async function SubjectPage({
         {
           name: "Artificial Intelligence and Machine Learning",
           image: "/3_IOT/AI_ML.png",
-          pyqLink: "",
-          notesLink: "",
+          pyqLink: "https://drive.google.com/drive/folders/1jZ15d1FbGUK4MedHkGs9lFSzFdzCw_T3",
+          notesLink: "https://drive.google.com/drive/folders/1_87ctDdlSxHR5BHQEByY09qxDh7fFgTj",
           playlistLink: "",
           roadmap: "",
         },
@@ -969,9 +969,9 @@ export default async function SubjectPage({
           name: "Automata and Compiler Design",
           image:
             "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039794/2ND%20YEAR%20CARDS/IOT%202nd%20year/wqvq1s13xchfb2riwezf.png",
-          pyqLink: "",
-          notesLink: "",
-          playlistLink: "",
+          pyqLink: "https://drive.google.com/drive/folders/1DOEzK9xCoDVV6rAOQMJ3BFS8zZEfEeiz",
+          notesLink: "https://drive.google.com/drive/folders/1w9HQdLofig_rM3zWnCgY9xlFZtQofucC",
+          playlistLink: "https://www.youtube.com/playlist?list=PLmXKhU9FNesSdCsn6YQqu9DmXRMsYdZ2T",
           roadmap: "",
         },
       ],
