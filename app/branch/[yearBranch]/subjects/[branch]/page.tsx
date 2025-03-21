@@ -161,7 +161,7 @@ export default async function SubjectPage({
           roadmap: "",
         },
         {
-          name: "Engineering Mathematics - 3",
+          name: "Statistics & Probability",
           image: "/images/em3.jpg",
           pyqLink: "",
           notesLink: "",
@@ -198,7 +198,7 @@ export default async function SubjectPage({
           roadmap: "",
         },
         {
-          name: "Engineering Mathematics - 4",
+          name: "Python Programming Fundamentals",
           image: "/images/em4.jpg",
           pyqLink: "",
           notesLink: "",
