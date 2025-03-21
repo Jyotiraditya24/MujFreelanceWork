@@ -722,6 +722,22 @@ export default async function SubjectPage({
           roadmap: "",
         },
         {
+          name: "Economics",
+          image: "/images/em3.jpg",
+          pyqLink: "",
+          notesLink: "",
+          playlistLink: "",
+          roadmap: "",
+        },
+        {
+          name: "Software Engineering & Product Management",
+          image: "/images/em3.jpg",
+          pyqLink: "",
+          notesLink: "",
+          playlistLink: "",
+          roadmap: "",
+        },
+        {
           name: "Computer Organization and Architecture",
           image: "/2_AIML/COA.png",
           pyqLink: "",
