@@ -485,7 +485,7 @@ export default async function SubjectPage({
       second: [
         {
           name: "Economics",
-          image: "/2_CCE/Economics.png",
+          image: "https://drive.google.com/uc?export=view&id=1JEmwtAb4rs_4wUv8dkZWay0WmHPLtDRw",
           pyqLink: "https://drive.google.com/drive/folders/1Toe49CDQBseML7mU0F-p64b8cZoBOKpY",
           notesLink:
             "https://drive.google.com/drive/folders/1MIviTRv8LkpB0WLz-XmBeLchMY3XxBtE",
@@ -494,7 +494,7 @@ export default async function SubjectPage({
         },
         {
           name: "Statistics & Probability",
-          image: "/2_CCE/EM3.png",
+          image: "https://drive.google.com/uc?export=view&id=1GfaaHfQckN-VwJr1LPFCyKzgah9T-BVQ",
           pyqLink: "https://drive.google.com/drive/folders/1a9BhYz5xvqqjBv_gataPm3tae025uT3f",
           notesLink: "https://drive.google.com/drive/folders/1jMrTLdLlR_UPfjZBKBllpo6fajmAFjr9",
           playlistLink: "https://youtube.com/playlist?list=PLXLVheoMxU20mH6OYmZ4DU0wtH8z8nKFa&si=dM9Toupt80RBsDOP",
@@ -503,7 +503,7 @@ export default async function SubjectPage({
         {
           name: "Data Communication",
           image:
-            "https://drive.google.com/uc?export=view&id=1IGsTrJhAdS71YM0E1Qx3tXBAss_H58gc",
+            "https://drive.google.com/uc?export=view&id=1hRgn8Xxk1IFIjULySimcNPV7vCRS29RQ",
           pyqLink: "",
           notesLink:
             "https://drive.google.com/drive/folders/1zN95UHvxH31eqNOguKs_x90uvkpf8SX4",
@@ -512,7 +512,7 @@ export default async function SubjectPage({
         },
         {
           name: "Digital Design and Computer Architecture",
-          image: "/2_CCE/DDCA.png",
+          image: "https://drive.google.com/uc?export=view&id=19SJqK70KSNErfSgX0ACjL5DG7KGNav3q",
           pyqLink: "",
           notesLink: "",
           playlistLink: "",
@@ -520,7 +520,7 @@ export default async function SubjectPage({
         },
         {
           name: "Object-Oriented Programming",
-          image: "/2_CCE/OOP.png",
+          image: "https://drive.google.com/uc?export=view&id=1yMhFJ89A8zgYw0d8UjOfjfC0APLI9uj0",
           pyqLink: "https://drive.google.com/drive/folders/15igdh33pd0Ii7ZBAl1V_yT6wERNCTn-d",
           notesLink:
             "https://drive.google.com/drive/folders/1b_e32HdEpIxHPFv26rHVzfbHZZNSSAD-",
@@ -529,7 +529,7 @@ export default async function SubjectPage({
         },
         {
           name: "Operating Systems",
-          image: "/2_CCE/OS.png",
+          image: "https://drive.google.com/uc?export=view&id=11R_xYDTm_hSxR39NA7huSwZYF1gJvJ_9",
           pyqLink: "https://drive.google.com/drive/folders/1ziHBNfrJ1155bG6k5PdK9RSaQJ1BEZXh",
           notesLink:
             "https://drive.google.com/drive/folders/1Uvg_5I8O_qEy8a9viTl-mXXRLxE9RkEB",
@@ -538,7 +538,7 @@ export default async function SubjectPage({
         },
         {
           name: "Relational Database Management Systems",
-          image: "/2_CCE/RDBMS.png",
+          image: "https://drive.google.com/uc?export=view&id=107WzF5EAgm68hSr_HycHB2XctuaPpFhW",
           pyqLink: "https://drive.google.com/drive/folders/1-j_wC0Yr-iuAGISOuDslMOYUrWlqiZPa",
           notesLink:
             "https://drive.google.com/drive/folders/1jk_FY3TwT63OUbNOI1tmucZvp4CvQtDZ",
@@ -547,7 +547,7 @@ export default async function SubjectPage({
         },
         {
           name: "Computer Networks",
-          image: "/2_CCE/CN.png",
+          image: "https://drive.google.com/uc?export=view&id=18kippQ9qVzI61j6CuDMySmL3GFneFWZ9",
           pyqLink: "https://drive.google.com/drive/folders/1_YUkRcdWCclDdg4vJFMe9Pm_Zb1zCkag",
           notesLink: "https://drive.google.com/drive/folders/1nMZ3yYzp9rYiGDb0f3lqL0jqqz-dNtg0",
           playlistLink: "https://youtube.com/playlist?list=PLBlnK6fEyqRgMCUAG0XRw78UA8qnv6jEx&si=e3p8n480ABME9G8d",
@@ -555,7 +555,7 @@ export default async function SubjectPage({
         },
         {
           name: "Data Structures and Algorithms",
-          image: "/2_CCE/DSA.png",
+          image: "https://drive.google.com/uc?export=view&id=19a7qJ30A0WYJW1-tla7nknMNkzOTh5fO",
           pyqLink: "https://drive.google.com/drive/folders/1h9xstZEW8k-6My9DyKVE05D49xkm__X9",
           notesLink: "https://drive.google.com/drive/folders/1XlZbicmJD80dPDwCGnINvMDlsnxNUcrA",
           playlistLink: "https://youtube.com/playlist?list=PLdo5W4Nhv31bbKJzrsKfMpo_grxuLl8LU&feature=shared",
@@ -563,7 +563,7 @@ export default async function SubjectPage({
         },
         {
           name: "Management and Organizational Theory",
-          image: "/2_CCE/MOT.png",
+          image: "https://drive.google.com/uc?export=view&id=1syTHiSXLp-L5CkfgHMiTQPi02tAO7cdF",
           pyqLink: "https://drive.google.com/drive/folders/1UJblblj9dCg6GMKO5-CZh7rpupZ4xyrt",
           notesLink:
             "",
@@ -626,7 +626,7 @@ export default async function SubjectPage({
       second: [
         {
           name: "Design and Analysis of Algorithms",
-          image: "/2_AIML/DAA.png",
+          image: "https://drive.google.com/uc?export=view&id=1_zFuTffVpiHR3e4e9E2HLA1Xj2P3kWaE",
           pyqLink:
             "https://drive.google.com/drive/folders/12XTPn-zlRQTVsm1qr_Ldouzz8K-7etkX",
           notesLink:
@@ -636,7 +636,7 @@ export default async function SubjectPage({
         },
         {
           name: "Operating Systems",
-          image: "/2_AIML/OS.png",
+          image: "https://drive.google.com/uc?export=view&id=11R_xYDTm_hSxR39NA7huSwZYF1gJvJ_9",
           pyqLink:
             "https://drive.google.com/drive/folders/1do4sEQSQj6J1-7u41mfcR2fpgV3TaGCf",
           notesLink:
@@ -646,7 +646,7 @@ export default async function SubjectPage({
         },
         {
           name: "Agile Software Development",
-          image: "/2_AIML/ASD.png",
+          image: "https://drive.google.com/uc?export=view&id=1cAgk_G_Yvx3nb5gzgswSOgQM3P_gN-HU",
           pyqLink:
             "https://drive.google.com/drive/folders/1f8RLDUOrvM_UvJXxB3OBFKv1cRTI8g-G",
           notesLink:
@@ -656,7 +656,7 @@ export default async function SubjectPage({
         },
         {
           name: "Cloud Computing",
-          image: "/2_AIML/CC.png",
+          image: "https://drive.google.com/uc?export=view&id=1GqsOXOnDFcz0-H4_EjUiPthZx8ApIRM0",
           pyqLink:
             "https://drive.google.com/drive/folders/1NNK82Zs2_FJtDTP0OLVzuFMhuGWiRIQX",
           notesLink:
@@ -666,7 +666,7 @@ export default async function SubjectPage({
         },
         {
           name: "Statistics and Probability",
-          image: "/2_AIML/SP.png",
+          image: "https://drive.google.com/uc?export=view&id=1GfaaHfQckN-VwJr1LPFCyKzgah9T-BVQ",
           pyqLink:
             "https://drive.google.com/drive/folders/1x1swB_m4TRA8caHbYFyMaiO05s4588nD",
           notesLink:
@@ -676,7 +676,7 @@ export default async function SubjectPage({
         },
         {
           name: "Data Structures and Algorithms",
-          image: "/2_AIML/DSA.png",
+          image: "https://drive.google.com/uc?export=view&id=19a7qJ30A0WYJW1-tla7nknMNkzOTh5fO",
           pyqLink:
             "https://drive.google.com/drive/folders/1dor9PUWEgRIHD7PRqOJT3m1o4JFhFpiW",
           notesLink:
@@ -686,7 +686,7 @@ export default async function SubjectPage({
         },
         {
           name: "Relational Database Management Systems",
-          image: "/2_AIML/RDBMS.png",
+          image: "https://drive.google.com/uc?export=view&id=107WzF5EAgm68hSr_HycHB2XctuaPpFhW",
           pyqLink:
             "https://drive.google.com/drive/folders/1eW0n3LgA4_uMULhJD-bUFj8dXI7d8Wis",
           notesLink:
@@ -696,7 +696,7 @@ export default async function SubjectPage({
         },
         {
           name: "Object-Oriented Programming",
-          image: "/2_AIML/OOP.png",
+          image: "https://drive.google.com/uc?export=view&id=1yMhFJ89A8zgYw0d8UjOfjfC0APLI9uj0",
           pyqLink:
             "https://drive.google.com/drive/folders/1kG0km0W1nqwj2TUTW8_BNLUJrBKxYdZY",
           notesLink:
@@ -706,7 +706,7 @@ export default async function SubjectPage({
         },
         {
           name: "Management of Technology",
-          image: "/2_AIML/MOT.png",
+          image: "https://drive.google.com/uc?export=view&id=1syTHiSXLp-L5CkfgHMiTQPi02tAO7cdF",
           pyqLink:
             "https://drive.google.com/drive/folders/1A-cszL6CulRBg_a5iam_hTKvfDGY0zc6",
           notesLink: "",
@@ -715,7 +715,7 @@ export default async function SubjectPage({
         },
         {
           name: "Principles of Artificial Intelligence",
-          image: "/2_AIML/PAI.png",
+          image: "https://drive.google.com/uc?export=view&id=1vLlhr9l8R5k9eIR5K1RfedhyNovoBLsh",
           pyqLink: "https://drive.google.com/drive/folders/1mBDWiUGOuVsTtU61f6u_9sBlN1CDhqzV",
           notesLink: "https://drive.google.com/drive/folders/1_oHSfPFD4LhROOjC_bLDSkdlwCKv-sd8",
           playlistLink: "https://youtube.com/playlist?list=PLDh_nHdEw3KOFxIcKyzynJHOp_6bjCYLs&feature=shared",
@@ -723,7 +723,7 @@ export default async function SubjectPage({
         },
         {
           name: "Economics",
-          image: "/images/em3.jpg",
+          image: "https://drive.google.com/uc?export=view&id=1JEmwtAb4rs_4wUv8dkZWay0WmHPLtDRw",
           pyqLink: "https://drive.google.com/drive/folders/1HQ7PvlCVg8xPPh5osHzmBDs-CmU1JvVn",
           notesLink: "https://drive.google.com/drive/folders/1MIviTRv8LkpB0WLz-XmBeLchMY3XxBtE",
           playlistLink: "https://youtube.com/playlist?list=PLXLVheoMxU22KHAUmDwQ_qWCSPav_G14Z&si=9YwhhHh88ZC_ayN9",
@@ -731,7 +731,7 @@ export default async function SubjectPage({
         },
         {
           name: "Software Engineering & Product Management",
-          image: "/images/em3.jpg",
+          image: "https://drive.google.com/uc?export=view&id=1Oxhz6bwMHYgvhMonK_1OKCIGdunRTfoF",
           pyqLink: "https://drive.google.com/drive/folders/1FczsoM7e9epwuIJUa5-x_smhiwz750rn",
           notesLink: "https://drive.google.com/drive/folders/1IxtYO4TgClezalvYz_C3JmFOI56BoNa4",
           playlistLink: "https://youtube.com/playlist?list=PLxCzCOWd7aiEed7SKZBnC6ypFDWYLRvB2&feature=shared",
@@ -739,7 +739,7 @@ export default async function SubjectPage({
         },
         {
           name: "Computer Organization and Architecture",
-          image: "/2_AIML/COA.png",
+          image: "https://drive.google.com/uc?export=view&id=1NDmq2few7tqIjZQP9bpwYTJeD-a_BDve",
           pyqLink: "https://drive.google.com/drive/folders/1lPY54VJlApc2udMfh0ELJI5ol2wTQjfp",
           notesLink: "https://drive.google.com/drive/folders/1EV_QwyogySTsELn9FY2M3VUzSzTy7eK6",
           playlistLink: "https://www.youtube.com/playlist?list=PLgwJf8NK-2e7XZXcFujMw--IDZ2nnsXNT",
