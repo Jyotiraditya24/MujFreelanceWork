@@ -834,7 +834,7 @@ export default async function SubjectPage({
         {
           name: "Wireless Communication",
           image:
-            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039801/2ND%20YEAR%20CARDS/IOT%202nd%20year/bmxpm9mx7vy49ucqagrz.png",
+            "https://drive.google.com/uc?export=view&id=1MMusmcvQmCMVUCWU8c8yAklpjZbzDfT_",
           pyqLink: "https://drive.google.com/drive/folders/1_C5exQDvj0CC79dQY1kxAZKwMzRKvmdk",
           notesLink: "",
           playlistLink: "https://youtube.com/playlist?list=PLCyR4nKNLRkFTER9ohRBnbRFK0pWe0Qtf&si=8OjFKkqbFPDSGPnP",
@@ -843,7 +843,7 @@ export default async function SubjectPage({
         {
           name: "Cryptography and Network Security",
           image:
-            "https://img.freepik.com/free-vector/coming-soon-web-page-template_23-2147493769.jpg?t=st=1742051843~exp=1742055443~hmac=c9550b2a759a6d7a132e416bc84e5bbb966b7a35d9230f365e8fb4cb9dccd809&w=1380",
+            "https://drive.google.com/uc?export=view&id=1V9W_5lx2iPOxng09xKbqjIXj_uGEfx2k",
           pyqLink: "https://drive.google.com/drive/folders/1WEo2jkNHVuhPUFhYG_xc1hLz4EvubB5w",
           notesLink: "https://drive.google.com/drive/folders/1HBeISehoI9nR6HTIu5YHuJe0cueRUCh0",
           playlistLink: "https://www.youtube.com/playlist?list=PL9FuOtXibFjV77w2eyil4Xzp8eooqsPp8",
@@ -852,7 +852,7 @@ export default async function SubjectPage({
         {
           name: "Statistics & Probability",
           image:
-            "https://img.freepik.com/free-vector/coming-soon-web-page-template_23-2147493769.jpg?t=st=1742051843~exp=1742055443~hmac=c9550b2a759a6d7a132e416bc84e5bbb966b7a35d9230f365e8fb4cb9dccd809&w=1380",
+            "https://drive.google.com/uc?export=view&id=1GfaaHfQckN-VwJr1LPFCyKzgah9T-BVQ",
           pyqLink: "https://drive.google.com/drive/folders/19aSCkXjm-WtmKocDxD9ggS7ievPTEXN3",
           notesLink: "https://drive.google.com/drive/folders/1jMrTLdLlR_UPfjZBKBllpo6fajmAFjr9",
           playlistLink: "https://youtube.com/playlist?list=PLXLVheoMxU20mH6OYmZ4DU0wtH8z8nKFa&si=dM9Toupt80RBsDOP",
@@ -861,7 +861,7 @@ export default async function SubjectPage({
         {
           name: "Data Communication",
           image:
-            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039772/2ND%20YEAR%20CARDS/IOT%202nd%20year/lz7jymoizrg6gks8fgcl.png",
+            "https://drive.google.com/uc?export=view&id=1hRgn8Xxk1IFIjULySimcNPV7vCRS29RQ",
           pyqLink: "",
           notesLink: "https://drive.google.com/drive/folders/1zN95UHvxH31eqNOguKs_x90uvkpf8SX4",
           playlistLink: "https://youtube.com/playlist?list=PLrjkTql3jnm9xaVXzOGH5Z_xvvBguUSat&si=ViHHBjtAZUf7hYSR",
@@ -870,7 +870,7 @@ export default async function SubjectPage({
         {
           name: "Data Structures and Algorithms",
           image:
-            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039788/2ND%20YEAR%20CARDS/IOT%202nd%20year/gfets8ef5odufipmrnok.png",
+            "https://drive.google.com/uc?export=view&id=19a7qJ30A0WYJW1-tla7nknMNkzOTh5fO",
           pyqLink: "https://drive.google.com/drive/folders/1j7kDOuheIXygQgzLsgc3lYddE1kEEpuF",
           notesLink: "https://drive.google.com/drive/folders/1XlZbicmJD80dPDwCGnINvMDlsnxNUcrA",
           playlistLink: "https://youtube.com/playlist?list=PLdo5W4Nhv31bbKJzrsKfMpo_grxuLl8LU&feature=shared",
@@ -879,7 +879,7 @@ export default async function SubjectPage({
         {
           name: "Object-Oriented Programming",
           image:
-            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039766/2ND%20YEAR%20CARDS/IOT%202nd%20year/hcdmotjxn7dkjark630a.png",
+            "https://drive.google.com/uc?export=view&id=1yMhFJ89A8zgYw0d8UjOfjfC0APLI9uj0",
           pyqLink: "https://drive.google.com/drive/folders/13fG6fVa7S3GF0U37LGaolb_rPPi5z6Iz",
           notesLink: "https://drive.google.com/drive/folders/1RwavgM2xKSw0sD_d-kn8IOOODB1UpKuX",
           playlistLink: "https://youtube.com/playlist?list=PLQEaRBV9gAFujcBWJhBT2XXsuMlIfETBy&si=F-0hNBoIf8qkYMPA",
@@ -888,7 +888,7 @@ export default async function SubjectPage({
         {
           name: "Economics",
           image:
-            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039747/2ND%20YEAR%20CARDS/IOT%202nd%20year/q1qgvcvbbgk7pxxau3nd.png",
+            "https://drive.google.com/uc?export=view&id=1JEmwtAb4rs_4wUv8dkZWay0WmHPLtDRw",
           pyqLink: "https://drive.google.com/drive/folders/1oFPfDat-fIjSweamjiJQmnYcdrGfdMMx",
           notesLink: "https://drive.google.com/drive/folders/1MIviTRv8LkpB0WLz-XmBeLchMY3XxBtE",
           playlistLink: "https://youtube.com/playlist?list=PLXLVheoMxU22KHAUmDwQ_qWCSPav_G14Z&si=9YwhhHh88ZC_ayN9",
@@ -897,7 +897,7 @@ export default async function SubjectPage({
         {
           name: "Data Communications and Computer Networks",
           image:
-            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039747/2ND%20YEAR%20CARDS/IOT%202nd%20year/q1qgvcvbbgk7pxxau3nd.png",
+            "https://drive.google.com/uc?export=view&id=1OTAshwV0rp2pqXPD8YlZ3S6NL_ylNFnE",
           pyqLink: "",
           notesLink: "",
           playlistLink: "https://youtube.com/playlist?list=PLZQgf2pQtimlhO3UY6UJzIC7JVBzSbXXQ&si=LGbz4TviSIGpqFxI",
@@ -906,7 +906,7 @@ export default async function SubjectPage({
         {
           name: "Foundation of Data Science",
           image:
-            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039801/2ND%20YEAR%20CARDS/IOT%202nd%20year/ta5dnlqd5tzcgavdds1y.png",
+            "https://drive.google.com/uc?export=view&id=1h3QNFa-LVRigJJocOsAkidWcbErCPNxT",
           pyqLink: "https://drive.google.com/drive/folders/1oLISuYWCpLi6o42eVWNuXvvQp5zU32ys",
           notesLink: "",
           playlistLink: "https://youtu.be/ua-CiDNNj30?si=_bOi7foMkcoYAVqe",
@@ -915,7 +915,7 @@ export default async function SubjectPage({
         {
           name: "Operating Systems",
           image:
-            "https://img.freepik.com/free-vector/coming-soon-web-page-template_23-2147493769.jpg?t=st=1742051843~exp=1742055443~hmac=c9550b2a759a6d7a132e416bc84e5bbb966b7a35d9230f365e8fb4cb9dccd809&w=1380",
+            "https://drive.google.com/uc?export=view&id=11R_xYDTm_hSxR39NA7huSwZYF1gJvJ_9",
           pyqLink: "https://drive.google.com/drive/folders/12O05c2VgSa1L3McyaXehJeH1CRZtyLz7",
           notesLink: "https://drive.google.com/drive/folders/1Uvg_5I8O_qEy8a9viTl-mXXRLxE9RkEB",
           playlistLink: "https://www.youtube.com/watch?v=3obEP8eLsCw&t=35487s",
@@ -924,7 +924,7 @@ export default async function SubjectPage({
         {
           name: "Relational Database Management Systems",
           image:
-            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039763/2ND%20YEAR%20CARDS/IOT%202nd%20year/lagfoenluhkkoatmsuie.png",
+            "https://drive.google.com/uc?export=view&id=107WzF5EAgm68hSr_HycHB2XctuaPpFhW",
           pyqLink: "https://drive.google.com/drive/folders/1o2gQl1gakSQ_K49tY-Q5fhxo2ISUjKpq",
           notesLink: "https://drive.google.com/drive/folders/1jk_FY3TwT63OUbNOI1tmucZvp4CvQtDZ",
           playlistLink: "https://youtube.com/playlist?list=PLmXKhU9FNesR1rSES7oLdJaNFgmuj0SYV&si=V8GTDj7xybd_D5b2",
@@ -933,7 +933,7 @@ export default async function SubjectPage({
         {
           name: "Web Technologies",
           image:
-            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039777/2ND%20YEAR%20CARDS/IOT%202nd%20year/npjp2txfop9v78nnw7rt.png",
+            "https://drive.google.com/uc?export=view&id=14XpYyVFh79y8OWG2KC0ziBu5XUGLgJce",
           pyqLink: "",
           notesLink: "https://drive.google.com/drive/folders/1fz3nzYRiFbXVceq-8GUrfP2hHL9vm_dI",
           playlistLink: "https://youtube.com/playlist?list=PLfqMhTWNBTe3H6c9OGXb5_6wcc1Mca52n&si=DdiAPPaTivOx16SM",
@@ -942,7 +942,7 @@ export default async function SubjectPage({
         {
           name: "Web Programming",
           image:
-            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039777/2ND%20YEAR%20CARDS/IOT%202nd%20year/npjp2txfop9v78nnw7rt.png",
+            "https://drive.google.com/uc?export=view&id=17Ub1xspHJuvGplgfW-y7Pj_UKGVYto7q",
           pyqLink: "",
           notesLink: "https://drive.google.com/drive/folders/1-alSRoq5Y_Tv_NA2WJkQGlkPErE4ZlyS",
           playlistLink: "https://youtube.com/playlist?list=PLfqMhTWNBTe3H6c9OGXb5_6wcc1Mca52n&si=DdiAPPaTivOx16SM",
@@ -951,7 +951,7 @@ export default async function SubjectPage({
         {
           name: "Management of Technology",
           image:
-            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039779/2ND%20YEAR%20CARDS/IOT%202nd%20year/fpmat12ullrvzhjju6la.png",
+            "https://drive.google.com/uc?export=view&id=1syTHiSXLp-L5CkfgHMiTQPi02tAO7cdF",
           pyqLink: "https://drive.google.com/drive/folders/1mV0AmSDn16G6UJLutkEpoxTKBNurEAt3",
           notesLink: "",
           playlistLink: "",
@@ -959,7 +959,7 @@ export default async function SubjectPage({
         },
         {
           name: "Artificial Intelligence and Machine Learning",
-          image: "/3_IOT/AI_ML.png",
+          image: "https://drive.google.com/uc?export=view&id=1o8M_v5Q1AS8J0rNMwTPzJ7BFVcezwYkZ",
           pyqLink: "https://drive.google.com/drive/folders/1jZ15d1FbGUK4MedHkGs9lFSzFdzCw_T3",
           notesLink: "https://drive.google.com/drive/folders/1_87ctDdlSxHR5BHQEByY09qxDh7fFgTj",
           playlistLink: "https://youtube.com/playlist?list=PLEiEAq2VkUULyr_ftxpHB6DumOq1Zz2hq&si=YJ1TCE331tf6nVHk",
@@ -968,7 +968,7 @@ export default async function SubjectPage({
         {
           name: "Automata and Compiler Design",
           image:
-            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039794/2ND%20YEAR%20CARDS/IOT%202nd%20year/wqvq1s13xchfb2riwezf.png",
+            "https://drive.google.com/uc?export=view&id=10jatMHYKtSGdlKcM7FjULzcSytg0oElj",
           pyqLink: "https://drive.google.com/drive/folders/1DOEzK9xCoDVV6rAOQMJ3BFS8zZEfEeiz",
           notesLink: "https://drive.google.com/drive/folders/1w9HQdLofig_rM3zWnCgY9xlFZtQofucC",
           playlistLink: "https://www.youtube.com/playlist?list=PLmXKhU9FNesSdCsn6YQqu9DmXRMsYdZ2T",
@@ -1055,7 +1055,7 @@ export default async function SubjectPage({
         {
           name: "Finance & Econometrics",
           image:
-            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039721/2ND%20YEAR%20CARDS/2nd%20year%20Data%20Science/ievspwctstqf6s6hcaol.png",
+            "https://drive.google.com/uc?export=view&id=1JEmwtAb4rs_4wUv8dkZWay0WmHPLtDRw",
           pyqLink: "https://drive.google.com/drive/folders/1dD3PkXiVbJys8UiDPM4PppnjVirFlmdV",
           notesLink: "https://drive.google.com/drive/folders/1MIviTRv8LkpB0WLz-XmBeLchMY3XxBtE",
           playlistLink: "https://youtube.com/playlist?list=PLXLVheoMxU22KHAUmDwQ_qWCSPav_G14Z&si=9YwhhHh88ZC_ayN9",
@@ -1064,7 +1064,7 @@ export default async function SubjectPage({
         {
           name: "Object-Oriented Programming",
           image:
-            "https://img.freepik.com/free-vector/coming-soon-web-page-template_23-2147493769.jpg?t=st=1742051843~exp=1742055443~hmac=c9550b2a759a6d7a132e416bc84e5bbb966b7a35d9230f365e8fb4cb9dccd809&w=1380",
+            "https://drive.google.com/uc?export=view&id=1yMhFJ89A8zgYw0d8UjOfjfC0APLI9uj0",
           pyqLink: "https://drive.google.com/drive/folders/1fSsR_bYR7uTHgeKLXW3szgfTQRamhHCh",
           notesLink: "https://drive.google.com/drive/folders/1dDwjgCXib5prviOhnfvg__E625750iZb",
           playlistLink: "https://youtube.com/playlist?list=PLsyeobzWxl7oa1WO9n4cP3OY9nOtUcZIg&si=B4TquaHpOkdOaRZQ",
@@ -1073,7 +1073,7 @@ export default async function SubjectPage({
         {
           name: "Data Structures and Algorithms",
           image:
-            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039745/2ND%20YEAR%20CARDS/2nd%20year%20Data%20Science/bi8kei1fjtagptcgd0rk.png",
+            "https://drive.google.com/uc?export=view&id=19a7qJ30A0WYJW1-tla7nknMNkzOTh5fO",
           pyqLink: "https://drive.google.com/drive/folders/1GzvVOLPFHyyf9F9QSSm_fyAc0fnw2NNi",
           notesLink: "https://drive.google.com/drive/folders/1XlZbicmJD80dPDwCGnINvMDlsnxNUcrA",
           playlistLink: "https://youtube.com/playlist?list=PLdo5W4Nhv31bbKJzrsKfMpo_grxuLl8LU&feature=shared",
@@ -1082,7 +1082,7 @@ export default async function SubjectPage({
         {
           name: "Computer System Architecture",
           image:
-            "https://img.freepik.com/free-vector/coming-soon-web-page-template_23-2147493769.jpg?t=st=1742051843~exp=1742055443~hmac=c9550b2a759a6d7a132e416bc84e5bbb966b7a35d9230f365e8fb4cb9dccd809&w=1380",
+            "https://drive.google.com/uc?export=view&id=1e76rXlmOE_IKHwDV09ByVxl98pk0ti0q",
           pyqLink: "https://drive.google.com/drive/folders/1QgzcuxcdBobmtUH8WiXrTpvPLJm6ZPnB",
           notesLink: "https://drive.google.com/drive/folders/10wjhn9aGixqaIa2BQGGZ-yOAEqcTZKHq",
           playlistLink: "https://youtu.be/DsK35f8wyUw?si=aEQyCkYhVlPywhka",
@@ -1091,7 +1091,7 @@ export default async function SubjectPage({
         {
           name: "Relational Database Management Systems",
           image:
-            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039737/2ND%20YEAR%20CARDS/2nd%20year%20Data%20Science/ersz2hykjy1eletyrtz3.png",
+            "https://drive.google.com/uc?export=view&id=107WzF5EAgm68hSr_HycHB2XctuaPpFhW",
           pyqLink: "https://drive.google.com/drive/folders/1mQFPW-VmQ2dU62D88Au74QjFPzI4qLs-",
           notesLink: "https://drive.google.com/drive/folders/1jk_FY3TwT63OUbNOI1tmucZvp4CvQtDZ",
           playlistLink: "https://youtube.com/playlist?list=PLmXKhU9FNesR1rSES7oLdJaNFgmuj0SYV&si=V8GTDj7xybd_D5b2",
@@ -1100,7 +1100,7 @@ export default async function SubjectPage({
         {
           name: "Machine Learning",
           image:
-            "https://img.freepik.com/free-vector/coming-soon-web-page-template_23-2147493769.jpg?t=st=1742051843~exp=1742055443~hmac=c9550b2a759a6d7a132e416bc84e5bbb966b7a35d9230f365e8fb4cb9dccd809&w=1380",
+            "https://drive.google.com/uc?export=view&id=137697YbBXPXvGpyGnjeMn0KvcA9xx41q",
           pyqLink: "https://drive.google.com/drive/folders/1znUZwOclqeAqbQtfCEH7xXYK9cdj7TOc",
           notesLink: "https://drive.google.com/drive/folders/1_87ctDdlSxHR5BHQEByY09qxDh7fFgTj",
           playlistLink: "https://youtube.com/playlist?list=PLTDARY42LDV7WGmlzZtY-w9pemyPrKNUZ&si=1NcBPhGTXB8JSJDJ",
@@ -1109,7 +1109,7 @@ export default async function SubjectPage({
         {
           name: "Management of Technology",
           image:
-            "https://img.freepik.com/free-vector/coming-soon-web-page-template_23-2147493769.jpg?t=st=1742051843~exp=1742055443~hmac=c9550b2a759a6d7a132e416bc84e5bbb966b7a35d9230f365e8fb4cb9dccd809&w=1380",
+            "https://drive.google.com/uc?export=view&id=1syTHiSXLp-L5CkfgHMiTQPi02tAO7cdF",
           pyqLink: "https://drive.google.com/drive/folders/1dtNb_TINiJWITIGQzb1E0_CPxNyQMhF1",
           notesLink: "",
           playlistLink: "",
@@ -1118,7 +1118,7 @@ export default async function SubjectPage({
         {
           name: "Data Mining",
           image:
-            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039734/2ND%20YEAR%20CARDS/2nd%20year%20Data%20Science/xyctdaxnify6lgxu0ogw.png",
+            "https://drive.google.com/uc?export=view&id=1HYvGRUHa8gX5MLqqtDsV-D4ceAs9aMAE",
           pyqLink: "https://drive.google.com/drive/folders/1AlSkKYEhw4RTMBHntYtdMHYhC40oBv7h",
           notesLink: "https://drive.google.com/drive/folders/1mRX4TG5ChKT6NtPt5jNp0TVEDy7IMWMm",
           playlistLink: "https://youtube.com/playlist?list=PLYwpaL_SFmcChP0xiW3KK9elNuhfCLVVi&si=yJX07Jz2Wb06aR6b",
@@ -1127,7 +1127,7 @@ export default async function SubjectPage({
         {
           name: "Cloud Computing",
           image:
-            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039732/2ND%20YEAR%20CARDS/2nd%20year%20Data%20Science/edehoo8p5bugsedgbonf.png",
+            "https://drive.google.com/uc?export=view&id=1GqsOXOnDFcz0-H4_EjUiPthZx8ApIRM0",
           pyqLink: "https://drive.google.com/drive/folders/1HlGiv6cUPJFBHqoJ20cAyQj97IzH9aAT",
           notesLink: "https://drive.google.com/drive/folders/1TdrgiDukGedsPSjYRxMSwQsZOsamh9dC",
           playlistLink: "",
@@ -1136,7 +1136,7 @@ export default async function SubjectPage({
         {
           name: "Computer Networks",
           image:
-            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039728/2ND%20YEAR%20CARDS/2nd%20year%20Data%20Science/zt0hsllmhon5xgpgibzp.png",
+            "https://drive.google.com/uc?export=view&id=18kippQ9qVzI61j6CuDMySmL3GFneFWZ9",
           pyqLink: "https://drive.google.com/drive/folders/1Hz1SjFLmiVUzp52DIIIDrwlANzsn7hPo",
           notesLink: "https://drive.google.com/drive/folders/1nMZ3yYzp9rYiGDb0f3lqL0jqqz-dNtg0",
           playlistLink: "https://youtube.com/playlist?list=PLBlnK6fEyqRgMCUAG0XRw78UA8qnv6jEx&si=e3p8n480ABME9G8d",
@@ -1145,7 +1145,7 @@ export default async function SubjectPage({
         {
           name: "Statistics and Probability",
           image:
-            "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039727/2ND%20YEAR%20CARDS/2nd%20year%20Data%20Science/y74xxbavtpxi2fmplafm.png",
+            "https://drive.google.com/uc?export=view&id=1GfaaHfQckN-VwJr1LPFCyKzgah9T-BVQ",
           pyqLink: "https://drive.google.com/drive/folders/18L9Ch_ji_IFe3h99WxIUjmxErQ0knxUM",
           notesLink: "https://drive.google.com/drive/folders/1jMrTLdLlR_UPfjZBKBllpo6fajmAFjr9",
           playlistLink: "https://youtube.com/playlist?list=PLXLVheoMxU20mH6OYmZ4DU0wtH8z8nKFa&si=dM9Toupt80RBsDOP",
