@@ -165,7 +165,7 @@ export default async function SubjectPage({
           image: "/images/em3.jpg",
           pyqLink: "https://drive.google.com/drive/folders/1vZPXAJwd7K2ApdvADnwA_lhsV43OyptC",
           notesLink: "https://drive.google.com/drive/folders/1jMrTLdLlR_UPfjZBKBllpo6fajmAFjr9",
-          playlistLink: "",
+          playlistLink: "https://youtube.com/playlist?list=PLXLVheoMxU20mH6OYmZ4DU0wtH8z8nKFa&si=dM9Toupt80RBsDOP",
           roadmap: "",
         },
         {
@@ -174,7 +174,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink:
             "https://drive.google.com/drive/folders/1zN95UHvxH31eqNOguKs_x90uvkpf8SX4",
-          playlistLink: "",
+          playlistLink: "https://youtube.com/playlist?list=PLrjkTql3jnm9xaVXzOGH5Z_xvvBguUSat&si=ViHHBjtAZUf7hYSR",
           roadmap: "",
         },
         {
@@ -201,8 +201,8 @@ export default async function SubjectPage({
           name: "Python Programming Fundamentals",
           image: "/images/em4.jpg",
           pyqLink: "https://drive.google.com/drive/folders/1FvpViDiDzYpMOXFjndtWl4H8JsitzkZn",
-          notesLink: "",
-          playlistLink: "",
+          notesLink: "https://drive.google.com/drive/folders/15fxrBDM0CuvMzPa__-Csln-quVsxUvLh",
+          playlistLink: "https://youtube.com/playlist?list=PLu0W_9lII9agwh1XjRt242xIpHhPT2llg&si=WAD-IymtA0OJpgIJ",
           roadmap: "",
         },
         {
@@ -230,7 +230,7 @@ export default async function SubjectPage({
           pyqLink: "https://drive.google.com/drive/folders/1tviFmvyke62MyBjrlhcH2IGP1GTbEXp8",
           notesLink:
             "https://drive.google.com/drive/folders/1fz3nzYRiFbXVceq-8GUrfP2hHL9vm_dI",
-          playlistLink: "",
+          playlistLink: "https://youtube.com/playlist?list=PLfqMhTWNBTe3H6c9OGXb5_6wcc1Mca52n&si=DdiAPPaTivOx16SM",
           roadmap: "",
         },
         {
@@ -378,10 +378,10 @@ export default async function SubjectPage({
           image: "/images/economics.jpg",
           notesLink:
             "https://drive.google.com/drive/folders/1HBeISehoI9nR6HTIu5YHuJe0cueRUCh0",
-          playlistLink: "https://drive.google.com/drive/folders/1GhfJBD036iUIJBaFPo6JRdy8_n22d2fx",
+          playlistLink: "https://www.youtube.com/playlist?list=PL9FuOtXibFjV77w2eyil4Xzp8eooqsPp8",
           roadmap: "",
           pyqLink:
-            "https://www.youtube.com/playlist?list=PL9FuOtXibFjV77w2eyil4Xzp8eooqsPp8",
+            "https://drive.google.com/drive/folders/1GhfJBD036iUIJBaFPo6JRdy8_n22d2fx",
         },
         {
           name: "ACD",
@@ -406,16 +406,16 @@ export default async function SubjectPage({
             "https://drive.google.com/drive/folders/1Rz9fB5QEbMz2_jCbapalm8AKAMvYjvx5",
           notesLink:
             "https://drive.google.com/drive/folders/1EV_QwyogySTsELn9FY2M3VUzSzTy7eK6",
-          playlistLink: "",
+          playlistLink: "https://youtu.be/DsK35f8wyUw?si=aEQyCkYhVlPywhka",
           roadmap: "",
         },
         {
           name: "OOP",
           image: "/images/oop.jpg",
           pyqLink:
-            "https://drive.google.com/drive/folders/1b_e32HdEpIxHPFv26rHVzfbHZZNSSAD-",
-          notesLink:
             "https://drive.google.com/drive/folders/1BrbJkAWIKlss0Azby6z3W7QKVMMI-D3R",
+          notesLink:
+            "https://drive.google.com/drive/folders/1b_e32HdEpIxHPFv26rHVzfbHZZNSSAD-",
           playlistLink: "https://www.youtube.com/playlist?list=PLGjplNEQ1it8-0CmoljS5yeV-GlKSUEt0",
           roadmap: "",
         },
@@ -497,7 +497,7 @@ export default async function SubjectPage({
           image: "/2_CCE/EM3.png",
           pyqLink: "https://drive.google.com/drive/folders/1a9BhYz5xvqqjBv_gataPm3tae025uT3f",
           notesLink: "https://drive.google.com/drive/folders/1jMrTLdLlR_UPfjZBKBllpo6fajmAFjr9",
-          playlistLink: "",
+          playlistLink: "https://youtube.com/playlist?list=PLXLVheoMxU20mH6OYmZ4DU0wtH8z8nKFa&si=dM9Toupt80RBsDOP",
           roadmap: "",
         },
         {
@@ -507,7 +507,7 @@ export default async function SubjectPage({
           pyqLink: "",
           notesLink:
             "https://drive.google.com/drive/folders/1zN95UHvxH31eqNOguKs_x90uvkpf8SX4",
-          playlistLink: "",
+          playlistLink: "https://youtube.com/playlist?list=PLrjkTql3jnm9xaVXzOGH5Z_xvvBguUSat&si=ViHHBjtAZUf7hYSR",
           roadmap: "",
         },
         {
@@ -556,9 +556,9 @@ export default async function SubjectPage({
         {
           name: "Data Structures and Algorithms",
           image: "/2_CCE/DSA.png",
-          pyqLink: "",
-          notesLink: "",
-          playlistLink: "",
+          pyqLink: "https://drive.google.com/drive/folders/1h9xstZEW8k-6My9DyKVE05D49xkm__X9",
+          notesLink: "https://drive.google.com/drive/folders/1XlZbicmJD80dPDwCGnINvMDlsnxNUcrA",
+          playlistLink: "https://youtube.com/playlist?list=PLdo5W4Nhv31bbKJzrsKfMpo_grxuLl8LU&feature=shared",
           roadmap: "",
         },
         {
@@ -671,7 +671,7 @@ export default async function SubjectPage({
             "https://drive.google.com/drive/folders/1x1swB_m4TRA8caHbYFyMaiO05s4588nD",
           notesLink:
             "https://drive.google.com/drive/folders/1jMrTLdLlR_UPfjZBKBllpo6fajmAFjr9",
-          playlistLink: "",
+          playlistLink: "https://youtube.com/playlist?list=PLXLVheoMxU20mH6OYmZ4DU0wtH8z8nKFa&si=dM9Toupt80RBsDOP",
           roadmap: "",
         },
         {
@@ -716,8 +716,8 @@ export default async function SubjectPage({
         {
           name: "Principles of Artificial Intelligence",
           image: "/2_AIML/PAI.png",
-          pyqLink: "",
-          notesLink: "",
+          pyqLink: "https://drive.google.com/drive/folders/1mBDWiUGOuVsTtU61f6u_9sBlN1CDhqzV",
+          notesLink: "https://drive.google.com/drive/folders/1_oHSfPFD4LhROOjC_bLDSkdlwCKv-sd8",
           playlistLink: "https://youtube.com/playlist?list=PLDh_nHdEw3KOFxIcKyzynJHOp_6bjCYLs&feature=shared",
           roadmap: "",
         },
@@ -726,7 +726,7 @@ export default async function SubjectPage({
           image: "/images/em3.jpg",
           pyqLink: "https://drive.google.com/drive/folders/1HQ7PvlCVg8xPPh5osHzmBDs-CmU1JvVn",
           notesLink: "https://drive.google.com/drive/folders/1MIviTRv8LkpB0WLz-XmBeLchMY3XxBtE",
-          playlistLink: "",
+          playlistLink: "https://youtube.com/playlist?list=PLXLVheoMxU22KHAUmDwQ_qWCSPav_G14Z&si=9YwhhHh88ZC_ayN9",
           roadmap: "",
         },
         {
@@ -742,7 +742,7 @@ export default async function SubjectPage({
           image: "/2_AIML/COA.png",
           pyqLink: "https://drive.google.com/drive/folders/1lPY54VJlApc2udMfh0ELJI5ol2wTQjfp",
           notesLink: "https://drive.google.com/drive/folders/1EV_QwyogySTsELn9FY2M3VUzSzTy7eK6",
-          playlistLink: "",
+          playlistLink: "https://www.youtube.com/playlist?list=PLgwJf8NK-2e7XZXcFujMw--IDZ2nnsXNT",
           roadmap: "",
         },
       ],
@@ -837,7 +837,7 @@ export default async function SubjectPage({
             "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039801/2ND%20YEAR%20CARDS/IOT%202nd%20year/bmxpm9mx7vy49ucqagrz.png",
           pyqLink: "https://drive.google.com/drive/folders/1_C5exQDvj0CC79dQY1kxAZKwMzRKvmdk",
           notesLink: "",
-          playlistLink: "",
+          playlistLink: "https://youtube.com/playlist?list=PLCyR4nKNLRkFTER9ohRBnbRFK0pWe0Qtf&si=8OjFKkqbFPDSGPnP",
           roadmap: "",
         },
         {
@@ -864,7 +864,7 @@ export default async function SubjectPage({
             "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039772/2ND%20YEAR%20CARDS/IOT%202nd%20year/lz7jymoizrg6gks8fgcl.png",
           pyqLink: "",
           notesLink: "https://drive.google.com/drive/folders/1zN95UHvxH31eqNOguKs_x90uvkpf8SX4",
-          playlistLink: "",
+          playlistLink: "https://youtube.com/playlist?list=PLrjkTql3jnm9xaVXzOGH5Z_xvvBguUSat&si=ViHHBjtAZUf7hYSR",
           roadmap: "",
         },
         {
@@ -900,7 +900,7 @@ export default async function SubjectPage({
             "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039747/2ND%20YEAR%20CARDS/IOT%202nd%20year/q1qgvcvbbgk7pxxau3nd.png",
           pyqLink: "",
           notesLink: "",
-          playlistLink: "",
+          playlistLink: "https://youtube.com/playlist?list=PLZQgf2pQtimlhO3UY6UJzIC7JVBzSbXXQ&si=LGbz4TviSIGpqFxI",
           roadmap: "",
         },
         {
@@ -909,7 +909,7 @@ export default async function SubjectPage({
             "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039801/2ND%20YEAR%20CARDS/IOT%202nd%20year/ta5dnlqd5tzcgavdds1y.png",
           pyqLink: "https://drive.google.com/drive/folders/1oLISuYWCpLi6o42eVWNuXvvQp5zU32ys",
           notesLink: "",
-          playlistLink: "",
+          playlistLink: "https://youtu.be/ua-CiDNNj30?si=_bOi7foMkcoYAVqe",
           roadmap: "",
         },
         {
@@ -936,7 +936,7 @@ export default async function SubjectPage({
             "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039777/2ND%20YEAR%20CARDS/IOT%202nd%20year/npjp2txfop9v78nnw7rt.png",
           pyqLink: "",
           notesLink: "https://drive.google.com/drive/folders/1fz3nzYRiFbXVceq-8GUrfP2hHL9vm_dI",
-          playlistLink: "",
+          playlistLink: "https://youtube.com/playlist?list=PLfqMhTWNBTe3H6c9OGXb5_6wcc1Mca52n&si=DdiAPPaTivOx16SM",
           roadmap: "",
         },
         {
@@ -944,8 +944,8 @@ export default async function SubjectPage({
           image:
             "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039777/2ND%20YEAR%20CARDS/IOT%202nd%20year/npjp2txfop9v78nnw7rt.png",
           pyqLink: "",
-          notesLink: "",
-          playlistLink: "",
+          notesLink: "https://drive.google.com/drive/folders/1-alSRoq5Y_Tv_NA2WJkQGlkPErE4ZlyS",
+          playlistLink: "https://youtube.com/playlist?list=PLfqMhTWNBTe3H6c9OGXb5_6wcc1Mca52n&si=DdiAPPaTivOx16SM",
           roadmap: "",
         },
         {
@@ -962,7 +962,7 @@ export default async function SubjectPage({
           image: "/3_IOT/AI_ML.png",
           pyqLink: "https://drive.google.com/drive/folders/1jZ15d1FbGUK4MedHkGs9lFSzFdzCw_T3",
           notesLink: "https://drive.google.com/drive/folders/1_87ctDdlSxHR5BHQEByY09qxDh7fFgTj",
-          playlistLink: "",
+          playlistLink: "https://youtube.com/playlist?list=PLEiEAq2VkUULyr_ftxpHB6DumOq1Zz2hq&si=YJ1TCE331tf6nVHk",
           roadmap: "",
         },
         {
