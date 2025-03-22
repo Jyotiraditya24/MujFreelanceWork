@@ -201,7 +201,7 @@ export default async function SubjectPage({
           name: "Python Programming Fundamentals",
           image: "/images/em4.jpg",
           pyqLink: "https://drive.google.com/drive/folders/1FvpViDiDzYpMOXFjndtWl4H8JsitzkZn",
-          notesLink: "",
+          notesLink: "https://drive.google.com/drive/folders/15fxrBDM0CuvMzPa__-Csln-quVsxUvLh",
           playlistLink: "",
           roadmap: "",
         },
@@ -378,10 +378,10 @@ export default async function SubjectPage({
           image: "/images/economics.jpg",
           notesLink:
             "https://drive.google.com/drive/folders/1HBeISehoI9nR6HTIu5YHuJe0cueRUCh0",
-          playlistLink: "https://drive.google.com/drive/folders/1GhfJBD036iUIJBaFPo6JRdy8_n22d2fx",
+          playlistLink: "https://www.youtube.com/playlist?list=PL9FuOtXibFjV77w2eyil4Xzp8eooqsPp8",
           roadmap: "",
           pyqLink:
-            "https://www.youtube.com/playlist?list=PL9FuOtXibFjV77w2eyil4Xzp8eooqsPp8",
+            "https://drive.google.com/drive/folders/1GhfJBD036iUIJBaFPo6JRdy8_n22d2fx",
         },
         {
           name: "ACD",
@@ -413,9 +413,9 @@ export default async function SubjectPage({
           name: "OOP",
           image: "/images/oop.jpg",
           pyqLink:
-            "https://drive.google.com/drive/folders/1b_e32HdEpIxHPFv26rHVzfbHZZNSSAD-",
-          notesLink:
             "https://drive.google.com/drive/folders/1BrbJkAWIKlss0Azby6z3W7QKVMMI-D3R",
+          notesLink:
+            "https://drive.google.com/drive/folders/1b_e32HdEpIxHPFv26rHVzfbHZZNSSAD-",
           playlistLink: "https://www.youtube.com/playlist?list=PLGjplNEQ1it8-0CmoljS5yeV-GlKSUEt0",
           roadmap: "",
         },
@@ -556,8 +556,8 @@ export default async function SubjectPage({
         {
           name: "Data Structures and Algorithms",
           image: "/2_CCE/DSA.png",
-          pyqLink: "",
-          notesLink: "",
+          pyqLink: "https://drive.google.com/drive/folders/1h9xstZEW8k-6My9DyKVE05D49xkm__X9",
+          notesLink: "https://drive.google.com/drive/folders/1XlZbicmJD80dPDwCGnINvMDlsnxNUcrA",
           playlistLink: "",
           roadmap: "",
         },
@@ -716,8 +716,8 @@ export default async function SubjectPage({
         {
           name: "Principles of Artificial Intelligence",
           image: "/2_AIML/PAI.png",
-          pyqLink: "",
-          notesLink: "",
+          pyqLink: "https://drive.google.com/drive/folders/1mBDWiUGOuVsTtU61f6u_9sBlN1CDhqzV",
+          notesLink: "https://drive.google.com/drive/folders/1_oHSfPFD4LhROOjC_bLDSkdlwCKv-sd8",
           playlistLink: "https://youtube.com/playlist?list=PLDh_nHdEw3KOFxIcKyzynJHOp_6bjCYLs&feature=shared",
           roadmap: "",
         },
@@ -944,7 +944,7 @@ export default async function SubjectPage({
           image:
             "https://res.cloudinary.com/ddjnudeq0/image/upload/v1742039777/2ND%20YEAR%20CARDS/IOT%202nd%20year/npjp2txfop9v78nnw7rt.png",
           pyqLink: "",
-          notesLink: "",
+          notesLink: "https://drive.google.com/drive/folders/1-alSRoq5Y_Tv_NA2WJkQGlkPErE4ZlyS",
           playlistLink: "",
           roadmap: "",
         },
