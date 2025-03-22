@@ -317,7 +317,7 @@ export default async function SubjectPage({
       second: [
         {
           name: "Economics",
-          image: "/images/economics.jpg",
+          image: "https://drive.google.com/uc?export=view&id=1JEmwtAb4rs_4wUv8dkZWay0WmHPLtDRw",
           pyqLink:
             "https://drive.google.com/drive/folders/1kKgdwQ89xpnIqFrbByKshn8Vip_go4eP",
           notesLink:
@@ -327,7 +327,7 @@ export default async function SubjectPage({
         },
         {
           name: "Statistics & Probability",
-          image: "/images/em3.jpg",
+          image: "https://drive.google.com/uc?export=view&id=1GfaaHfQckN-VwJr1LPFCyKzgah9T-BVQ",
           pyqLink: "https://drive.google.com/drive/folders/1nWO2ZZrpitIAZxO3qgfBlrQA3i3Z03FF",
           notesLink: "https://drive.google.com/drive/folders/1jMrTLdLlR_UPfjZBKBllpo6fajmAFjr9",
           playlistLink: "https://youtube.com/playlist?list=PLXLVheoMxU20mH6OYmZ4DU0wtH8z8nKFa&si=dM9Toupt80RBsDOP",
@@ -335,7 +335,7 @@ export default async function SubjectPage({
         },
         {
           name: "Design & Analysis of Algorithms",
-          image: "/images/em3.jpg",
+          image: "https://drive.google.com/uc?export=view&id=1_zFuTffVpiHR3e4e9E2HLA1Xj2P3kWaE",
           pyqLink: "https://drive.google.com/drive/folders/1ffgA8RffUbY8VmSa4TMkcVtXMhwqU9VU",
           notesLink: "http://drive.google.com/drive/folders/187KV-bondddfwbTRSSFItzWwV0kpZJuf",
           playlistLink: "https://youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O&feature=shared",
@@ -343,7 +343,7 @@ export default async function SubjectPage({
         },
         {
           name: "Data Structures and Algorithms",
-          image: "/images/em3.jpg",
+          image: "https://drive.google.com/uc?export=view&id=19a7qJ30A0WYJW1-tla7nknMNkzOTh5fO",
           pyqLink: "https://drive.google.com/drive/folders/1lIiSdvmFYj7D2w-zcQwOI7tB-hHYlCAU",
           notesLink: "https://drive.google.com/drive/folders/1XlZbicmJD80dPDwCGnINvMDlsnxNUcrA",
           playlistLink: "https://youtube.com/playlist?list=PLdo5W4Nhv31bbKJzrsKfMpo_grxuLl8LU&feature=shared",
@@ -351,7 +351,7 @@ export default async function SubjectPage({
         },
         {
           name: "Operating Systems",
-          image: "/images/em3.jpg",
+          image: "https://drive.google.com/uc?export=view&id=11R_xYDTm_hSxR39NA7huSwZYF1gJvJ_9",
           pyqLink: "https://drive.google.com/drive/folders/1gggoJjbAVzQkPW-BNP8NBeCnp00EY-lN",
           notesLink: "https://drive.google.com/drive/folders/1Uvg_5I8O_qEy8a9viTl-mXXRLxE9RkEB",
           playlistLink: "https://www.youtube.com/watch?v=3obEP8eLsCw&t=35487s",
@@ -359,7 +359,7 @@ export default async function SubjectPage({
         },
         {
           name: "RDBMS",
-          image: "/images/em3.jpg",
+          image: "https://drive.google.com/uc?export=view&id=107WzF5EAgm68hSr_HycHB2XctuaPpFhW",
           pyqLink: "https://drive.google.com/drive/folders/1VEZE6kbEXQSTxqFFZ76DljXxZJk78oCf",
           notesLink: "https://drive.google.com/drive/folders/1jk_FY3TwT63OUbNOI1tmucZvp4CvQtDZ",
           playlistLink: "https://www.youtube.com/playlist?list=PLmXKhU9FNesR1rSES7oLdJaNFgmuj0SYV",
@@ -367,7 +367,7 @@ export default async function SubjectPage({
         },
         {
           name: "Computer Organization and Architecture",
-          image: "/images/em3.jpg",
+          image: "https://drive.google.com/uc?export=view&id=1NDmq2few7tqIjZQP9bpwYTJeD-a_BDve",
           pyqLink: "https://drive.google.com/drive/folders/1Rz9fB5QEbMz2_jCbapalm8AKAMvYjvx5",
           notesLink: "https://drive.google.com/drive/folders/1EV_QwyogySTsELn9FY2M3VUzSzTy7eK6",
           playlistLink: "https://www.youtube.com/playlist?list=PLgwJf8NK-2e7XZXcFujMw--IDZ2nnsXNT",
@@ -375,7 +375,7 @@ export default async function SubjectPage({
         },
         {
           name: "Cryptography",
-          image: "/images/economics.jpg",
+          image: "https://drive.google.com/uc?export=view&id=16pCF7QcjMTGWcwAmW8nZwLo4e5eydV7a",
           notesLink:
             "https://drive.google.com/drive/folders/1HBeISehoI9nR6HTIu5YHuJe0cueRUCh0",
           playlistLink: "https://www.youtube.com/playlist?list=PL9FuOtXibFjV77w2eyil4Xzp8eooqsPp8",
@@ -385,7 +385,7 @@ export default async function SubjectPage({
         },
         {
           name: "ACD",
-          image: "/images/data-com.jpg",
+          image: "https://drive.google.com/uc?export=view&id=10jatMHYKtSGdlKcM7FjULzcSytg0oElj",
           pyqLink: "https://drive.google.com/drive/folders/1Sxocdt8c71BfwJeDJbnz2ABt5FOHLQg2",
           notesLink: "https://drive.google.com/drive/folders/1w9HQdLofig_rM3zWnCgY9xlFZtQofucC",
           playlistLink: "https://www.youtube.com/playlist?list=PLmXKhU9FNesSdCsn6YQqu9DmXRMsYdZ2T",
@@ -393,7 +393,7 @@ export default async function SubjectPage({
         },
         {
           name: "Management of Technology",
-          image: "/images/data-com.jpg",
+          image: "https://drive.google.com/uc?export=view&id=1syTHiSXLp-L5CkfgHMiTQPi02tAO7cdF",
           pyqLink: "https://drive.google.com/drive/folders/1o_RQnX3eAGIA14-JiRsiqcnxpBWXI5ee",
           notesLink: "",
           playlistLink: "",
@@ -401,7 +401,7 @@ export default async function SubjectPage({
         },
         {
           name: "CSA",
-          image: "/images/csa.jpg",
+          image: "https://drive.google.com/uc?export=view&id=1e76rXlmOE_IKHwDV09ByVxl98pk0ti0q",
           pyqLink:
             "https://drive.google.com/drive/folders/1Rz9fB5QEbMz2_jCbapalm8AKAMvYjvx5",
           notesLink:
@@ -411,7 +411,7 @@ export default async function SubjectPage({
         },
         {
           name: "OOP",
-          image: "/images/oop.jpg",
+          image: "https://drive.google.com/uc?export=view&id=1yMhFJ89A8zgYw0d8UjOfjfC0APLI9uj0",
           pyqLink:
             "https://drive.google.com/drive/folders/1BrbJkAWIKlss0Azby6z3W7QKVMMI-D3R",
           notesLink:
