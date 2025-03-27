@@ -19,7 +19,7 @@ export function HeroScrollDemo() {
       >
         <div className="w-full h-full rounded-2xl overflow-hidden">
           <video
-            src="https://res.cloudinary.com/dndyofbi8/video/upload/v1741888947/h7dgqeyut8ooxeqwgak7.mp4"
+            src="./LandingVideo.mp4"
             className="w-full h-full object-cover"
             style={{
               minHeight: "100%",
