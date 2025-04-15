@@ -171,7 +171,7 @@ export default async function SubjectPage({
         {
           name: "Data Communication",
           image: "https://drive.google.com/uc?export=view&id=1hRgn8Xxk1IFIjULySimcNPV7vCRS29RQ",
-          pyqLink: "",
+          pyqLink: "https://drive.google.com/drive/folders/1Q1BE5wr50TUNoOwyxVY8219tVtETQV0y",
           notesLink:
             "https://drive.google.com/drive/folders/1zN95UHvxH31eqNOguKs_x90uvkpf8SX4",
           playlistLink: "https://youtube.com/playlist?list=PLrjkTql3jnm9xaVXzOGH5Z_xvvBguUSat&si=ViHHBjtAZUf7hYSR",
@@ -258,7 +258,7 @@ export default async function SubjectPage({
           name: "Foundation of Data Science",
           image: "/3_IT/FDS.png",
           pyqLink: "https://drive.google.com/drive/folders/1PrIucd4gtsNaTNKBdU6J5KcrTgxASCio",
-          notesLink: "",
+          notesLink: "https://drive.google.com/drive/folders/1g8wLoBupfl2KdSSYuAmf1eToQJm5Ukt1",
           playlistLink: "",
           roadmap: "",
         },
@@ -298,7 +298,7 @@ export default async function SubjectPage({
           name: "Automata & Compiler Design",
           image: "/3_IT/ACD.png",
           pyqLink: "",
-          notesLink: "https://drive.google.com/drive/folders/1GVpJPPIJ5Ve65XyHoswgXM6cNoeZNL30",
+          notesLink: "https://drive.google.com/drive/folders/1w9HQdLofig_rM3zWnCgY9xlFZtQofucC",
           playlistLink: "",
           roadmap: "",
         },
@@ -443,7 +443,7 @@ export default async function SubjectPage({
           pyqLink:
             "https://drive.google.com/drive/folders/1nDlLF44yvaJ6_Gf1ZQeSE6sO3k-YBUd3",
           notesLink:
-            "https://drive.google.com/drive/folders/1GVpJPPIJ5Ve65XyHoswgXM6cNoeZNL30",
+            "https://drive.google.com/drive/folders/1w9HQdLofig_rM3zWnCgY9xlFZtQofucC",
           playlistLink: "",
           roadmap: "",
         },
@@ -576,7 +576,7 @@ export default async function SubjectPage({
           name: "Foundation of Data Science",
           image: "/3_CCE/FDS.png",
           pyqLink: "https://drive.google.com/drive/folders/1xddaS8pXxUVaCmRuYfcII2dp8NlexkwRhttps://drive.google.com/drive/folders/1x_5CR-Z12iasyk2InCKzDpq-kkxCroi2",
-          notesLink: "",
+          notesLink: "https://drive.google.com/drive/folders/1g8wLoBupfl2KdSSYuAmf1eToQJm5Ukt1",
           playlistLink: "",
           roadmap: "",
         },
@@ -601,7 +601,7 @@ export default async function SubjectPage({
           image: "/3_CCE/ACD.png",
           pyqLink: "https://drive.google.com/drive/folders/1oKqE8f1UMKN3KpXgDZ2kCXBie2PdH_4o",
           roadmap: "",
-          notesLink: "https://drive.google.com/drive/folders/1GVpJPPIJ5Ve65XyHoswgXM6cNoeZNL30",
+          notesLink: "https://drive.google.com/drive/folders/1w9HQdLofig_rM3zWnCgY9xlFZtQofucC",
           playlistLink: "",
         },
         {
@@ -775,7 +775,7 @@ export default async function SubjectPage({
           name: "Foundation of Data Science",
           image: "/3_AIML/FDS.png",
           pyqLink: "",
-          notesLink: "",
+          notesLink: "https://drive.google.com/drive/folders/1g8wLoBupfl2KdSSYuAmf1eToQJm5Ukt1",
           playlistLink: "",
           roadmap: "",
         },
